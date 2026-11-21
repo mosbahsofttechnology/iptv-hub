@@ -11,7 +11,8 @@
 - دو پروکسی (ایران/خارج) مسیر پخش هر کانال را بر اساس geo و CORS انتخاب می‌کنند
 
 **داشبورد اصلی:** `https://mosbahsofttechnology.github.io/iptv-hub/`
-**داشبورد آینه (روی سرور خارج):** `https://api.polpeisa.arianadevs.com/iptv-dashboard/`
+**داشبورد داخلی (سرور ایران):** `https://stream.cinimo.ir/iptv-dashboard/`
+**داشبورد آینه (سرور خارج):** `https://api.polpeisa.arianadevs.com/iptv-dashboard/`
 
 ```
 iptv-org (ir/af)  +  data/overrides.json
@@ -219,14 +220,17 @@ ORDER BY c.name LIMIT 20;
 
 ### داشبورد آینه و توکن‌ها
 
-روی سرور خارج یک آینه‌ی استاتیک از داشبورد هم سرو می‌شود:
+دو آینه‌ی استاتیک هم سرو می‌شود:
 
 ```
-https://api.polpeisa.arianadevs.com/iptv-dashboard/
+https://stream.cinimo.ir/iptv-dashboard/                  (سرور ایران)
+https://api.polpeisa.arianadevs.com/iptv-dashboard/       (سرور خارج)
 ```
 
-یک cron روی همان سرور (ساعت ۰۳:۱۷ و ۱۵:۱۷ UTC) چک سلامت و توکن‌ها را
+یک cron روی سرور خارج (ساعت ۰۳:۱۷ و ۱۵:۱۷ UTC) چک سلامت و توکن‌ها را
 به‌روز می‌کند و `docs/index.html` و `docs/status.json` را بازمی‌سازد.
+سرور ایران هر ۳۰ دقیقه همان دو فایل را از آینه‌ی خارج می‌گیرد تا کاربران
+داخل ایران یک داشبورد داخلی و سریع داشته باشند.
 GitHub Actions هم اگر `IPTV_PROXY_SECRET` تنظیم نشده باشد، توکن‌ها و
 `reach` را از همین `status.json` عمومی می‌خواند (`IPTV_MIRROR_STATUS_URL`)
 و در نسخه Pages استفاده می‌کند. بنابراین حتی بدون Secret در GitHub هم
