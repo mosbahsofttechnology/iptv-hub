@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IPTV Hub — ایران و افغانستان</title>
+<style>
+  :root {
+    --bg: #0b1020;
+    --bg2: #111830;
+    --card: rgba(255, 255, 255, .045);
+    --border: rgba(255, 255, 255, .09);
+    --text: #e8ecf8;
+    --muted: #8e9ab8;
+    --green: #2bd67b;
+    --amber: #f4b740;
+    --red: #ff5c72;
+    --orange: #ff8a4c;
+    --blue: #6aa8ff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Tahoma, sans-serif;
+    background:
+      radial-gradient(1100px 600px at 82% -10%, rgba(70, 120, 255, .20), transparent 60%),
+      radial-gradient(900px 500px at 10% 0%, rgba(43, 214, 123, .10), transparent 55%),
+      var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  .wrap { max-width: 1280px; margin: 0 auto; padding: 32px 20px 60px; }
+  header { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 26px; }
+  h1 { margin: 0; font-size: clamp(22px, 3vw, 34px); letter-spacing: -.5px; }
+  h1 span { color: var(--blue); }
+  .sub { margin: 8px 0 0; color: var(--muted); font-size: 14px; line-height: 1.8; }
+  .pill {
+    border: 1px solid var(--border); background: var(--card); color: var(--muted);
+    padding: 8px 12px; border-radius: 999px; font-size: 12px; white-space: nowrap;
+  }
+  .stats { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin-bottom: 22px; }
+  .stat {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 16px; padding: 16px; backdrop-filter: blur(8px);
+  }
+  .stat b { display: block; font-size: 26px; line-height: 1.1; margin-bottom: 6px; }
+  .stat span { color: var(--muted); font-size: 12px; }
+  .stat.ok b { color: var(--green); }
+  .stat.geo b { color: var(--amber); }
+  .stat.dead b { color: var(--red); }
+  .controls {
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 10px;
+    margin-bottom: 14px;
+  }
+  input, select {
+    width: 100%; padding: 11px 13px; border-radius: 12px;
+    border: 1px solid var(--border); background: var(--bg2); color: var(--text);
+    font: inherit; font-size: 14px; outline: none;
+  }
+  input:focus, select:focus { border-color: rgba(106, 168, 255, .6); }
+  .table-card {
+    border: 1px solid var(--border); border-radius: 18px; overflow: hidden;
+    background: rgba(9, 14, 30, .55);
+  }
+  .table-scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; min-width: 900px; }
+  thead th {
+    position: sticky; top: 0; z-index: 2; text-align: right;
+    background: #111a33; color: var(--muted); font-size: 12px; font-weight: 600;
+    padding: 13px 14px; border-bottom: 1px solid var(--border); white-space: nowrap;
+  }
+  tbody td { padding: 12px 14px; border-bottom: 1px solid rgba(255,255,255,.055); font-size: 13px; vertical-align: middle; }
+  tbody tr:hover { background: rgba(255, 255, 255, .025); }
+  tbody tr:last-child td { border-bottom: 0; }
+  .channel { display: flex; align-items: center; gap: 10px; min-width: 220px; }
+  .logo {
+    width: 34px; height: 34px; border-radius: 9px; object-fit: contain;
+    background: rgba(255,255,255,.06); padding: 4px; flex: 0 0 auto;
+  }
+  .logo-fallback {
+    width: 34px; height: 34px; border-radius: 9px; display: grid; place-items: center;
+    background: rgba(106,168,255,.13); color: var(--blue); font-weight: 700; flex: 0 0 auto;
+  }
+  .name { font-weight: 600; line-height: 1.5; }
+  .meta { color: var(--muted); font-size: 11px; margin-top: 2px; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 6px; padding: 5px 9px;
+    border-radius: 999px; font-size: 11px; white-space: nowrap;
+    border: 1px solid transparent;
+  }
+  .badge::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+  .badge.ok { color: var(--green); background: rgba(43,214,123,.10); border-color: rgba(43,214,123,.25); }
+  .badge.geo { color: var(--amber); background: rgba(244,183,64,.10); border-color: rgba(244,183,64,.25); }
+  .badge.dead { color: var(--red); background: rgba(255,92,114,.10); border-color: rgba(255,92,114,.25); }
+  .badge.unstable { color: var(--orange); background: rgba(255,138,76,.10); border-color: rgba(255,138,76,.25); }
+  .badge.unknown { color: var(--muted); background: rgba(142,154,184,.10); border-color: rgba(142,154,184,.25); }
+  .actions { display: flex; gap: 6px; align-items: center; }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    padding: 7px 10px; border-radius: 9px; border: 1px solid var(--border);
+    background: rgba(255,255,255,.04); color: var(--text); font-size: 12px;
+    text-decoration: none; cursor: pointer; white-space: nowrap;
+  }
+  .btn:hover { border-color: rgba(106,168,255,.55); color: var(--blue); }
+  .btn.primary { background: rgba(106,168,255,.13); border-color: rgba(106,168,255,.35); color: #bcd6ff; }
+  .empty { padding: 50px 20px; text-align: center; color: var(--muted); }
+  footer { margin-top: 20px; color: var(--muted); font-size: 12px; line-height: 2; }
+  footer code { background: rgba(255,255,255,.06); padding: 2px 6px; border-radius: 6px; direction: ltr; display: inline-block; }
+  .muted { color: var(--muted); }
+  @media (max-width: 900px) {
+    .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .controls { grid-template-columns: 1fr 1fr; }
+    .hide-sm { display: none; }
+  }
+  @media (max-width: 560px) {
+    .stats { grid-template-columns: 1fr 1fr; }
+    .controls { grid-template-columns: 1fr; }
+    .wrap { padding-top: 22px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>📡 IPTV <span>Hub</span></h1>
+      <p class="sub">دیتابیس لینک‌های زنده ایران و افغانستان — به‌روزرسانی خودکار با GitHub Actions</p>
+    </div>
+    <div class="pill" id="generated">—</div>
+  </header>
+
+  <section class="stats">
+    <div class="stat"><b id="s-channels">0</b><span>شبکه</span></div>
+    <div class="stat"><b id="s-playable">0</b><span>شبکه قابل پخش</span></div>
+    <div class="stat ok"><b id="s-ok">0</b><span>لینک سالم</span></div>
+    <div class="stat geo"><b id="s-geo">0</b><span>محدودیت جغرافیایی</span></div>
+    <div class="stat dead"><b id="s-dead">0</b><span>لینک قطع</span></div>
+  </section>
+
+  <section class="controls">
+    <input id="q" type="search" placeholder="جستجوی نام یا شناسه شبکه…" autocomplete="off">
+    <select id="country"><option value="all">همه کشورها</option></select>
+    <select id="category"><option value="all">همه دسته‌ها</option></select>
+    <select id="status">
+      <option value="all">همه وضعیت‌ها</option>
+      <option value="ok">سالم</option>
+      <option value="geo">محدودیت جغرافیایی</option>
+      <option value="unstable">ناپایدار</option>
+      <option value="dead">قطع</option>
+      <option value="unknown">نامشخص</option>
+    </select>
+  </section>
+
+  <section class="table-card">
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>شبکه</th>
+            <th>کشور</th>
+            <th>دسته</th>
+            <th class="hide-sm">کیفیت</th>
+            <th>وضعیت</th>
+            <th class="hide-sm">تاخیر</th>
+            <th class="hide-sm">آخرین بررسی</th>
+            <th>لینک</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <div class="empty" id="empty" style="display:none">شبکه‌ای با این فیلتر پیدا نشد.</div>
+  </section>
+
+  <footer>
+    <div>نمایش <b id="visible">0</b> شبکه از <b id="total">0</b> شبکه — آخرین به‌روزرسانی: <span id="generated2">—</span></div>
+    <div>
+      پلی‌لیست کامل: <code>playlist.m3u</code> — فقط لینک‌های تأییدشده: <code>playlist-verified.m3u</code>
+    </div>
+    <div>
+      وضعیت «محدودیت جغرافیایی» یعنی لینک از سرور GitHub (خارج ایران) جواب 403 داده؛ ممکن است از ایران کار کند.
+      لینک‌های قطع بعد از ۳ خطای پشت‌سرهم غیرفعال می‌شوند و در صورت بازگشت خودکار فعال می‌شوند.
+    </div>
+  </footer>
+</div>
+
+<script>
+const DATA = /*__DATA__*/;
+const STATUS_FA = { ok: "سالم", geo: "محدودیت جغرافیایی", dead: "قطع", unstable: "ناپایدار", unknown: "نامشخص" };
+const state = { q: "", country: "all", category: "all", status: "all" };
+const $ = (id) => document.getElementById(id);
+
+function esc(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (ch) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  })[ch]);
+}
+
+function fmtTime(value) {
+  if (!value) return "—";
+  return String(value).replace("T", " ").replace("Z", "").slice(0, 16);
+}
+
+function fmtLatency(ms) {
+  if (ms === null || ms === undefined) return "—";
+  return ms >= 1000 ? (ms / 1000).toFixed(1) + "s" : ms + "ms";
+}
+
+function logoFallback(image) {
+  if (!image || !image.parentNode) return;
+  const fallback = document.createElement("div");
+  fallback.className = "logo-fallback";
+  fallback.textContent = image.dataset.initials || "?";
+  image.replaceWith(fallback);
+}
+
+function fillFilters() {
+  const countries = new Map();
+  const categories = new Set();
+  for (const channel of DATA.channels) {
+    if (channel.country) countries.set(channel.country, channel.country_fa || channel.country);
+    if (channel.category_fa) categories.add(channel.category_fa);
+  }
+  const countrySelect = $("country");
+  for (const [code, label] of [...countries.entries()].sort((a, b) => a[1].localeCompare(b[1], "fa"))) {
+    const option = document.createElement("option");
+    option.value = code;
+    option.textContent = label;
+    countrySelect.appendChild(option);
+  }
+  const categorySelect = $("category");
+  for (const label of [...categories].sort((a, b) => a.localeCompare(b, "fa"))) {
+    const option = document.createElement("option");
+    option.value = label;
+    option.textContent = label;
+    categorySelect.appendChild(option);
+  }
+}
+
+function render() {
+  const query = state.q.trim().toLowerCase();
+  const rows = DATA.channels.filter((channel) => {
+    if (state.country !== "all" && channel.country !== state.country) return false;
+    if (state.category !== "all" && channel.category_fa !== state.category) return false;
+    if (state.status !== "all" && channel.status !== state.status) return false;
+    if (!query) return true;
+    return (channel.name + " " + channel.id + " " + channel.category_fa).toLowerCase().includes(query);
+  });
+
+  $("visible").textContent = rows.length;
+  $("empty").style.display = rows.length ? "none" : "block";
+
+  $("rows").innerHTML = rows.map((channel) => {
+    const initials = esc((channel.name || "?").slice(0, 2).toUpperCase());
+    const logo = channel.logo
+      ? `<img class="logo" src="${esc(channel.logo)}" alt="" loading="lazy" data-initials="${initials}" onerror="logoFallback(this)">`
+      : `<div class="logo-fallback">${initials}</div>`;
+    const alternatives = channel.streams_total > 1
+      ? `<div class="meta">${channel.streams_total} لینک • ${channel.streams_ok} سالم</div>` : "";
+    const play = channel.url
+      ? `<a class="btn primary" href="${esc(channel.url)}" target="_blank" rel="noopener">پخش</a>
+         <button class="btn" data-copy="${esc(channel.url)}">کپی</button>`
+      : `<span class="muted">—</span>`;
+    return `<tr>
+      <td><div class="channel">${logo}<div><div class="name">${esc(channel.name)}</div><div class="meta">${esc(channel.id)}</div>${alternatives}</div></div></td>
+      <td>${esc(channel.country_fa || channel.country)}</td>
+      <td>${esc(channel.category_fa || channel.category)}</td>
+      <td class="hide-sm">${esc(channel.quality || "—")}</td>
+      <td><span class="badge ${esc(channel.status)}">${esc(STATUS_FA[channel.status] || channel.status)}</span></td>
+      <td class="hide-sm">${fmtLatency(channel.latency_ms)}</td>
+      <td class="hide-sm">${fmtTime(channel.last_checked_at)}</td>
+      <td><div class="actions">${play}</div></td>
+    </tr>`;
+  }).join("");
+}
+
+function init() {
+  $("s-channels").textContent = DATA.counts.channels;
+  $("s-playable").textContent = DATA.counts.playable_channels;
+  $("s-ok").textContent = DATA.counts.ok;
+  $("s-geo").textContent = DATA.counts.geo;
+  $("s-dead").textContent = DATA.counts.dead;
+  $("total").textContent = DATA.counts.channels;
+  $("generated").textContent = "آخرین اجرا: " + fmtTime(DATA.generated_at);
+  $("generated2").textContent = fmtTime(DATA.generated_at);
+  fillFilters();
+  render();
+
+  $("q").addEventListener("input", (event) => { state.q = event.target.value; render(); });
+  $("country").addEventListener("change", (event) => { state.country = event.target.value; render(); });
+  $("category").addEventListener("change", (event) => { state.category = event.target.value; render(); });
+  $("status").addEventListener("change", (event) => { state.status = event.target.value; render(); });
+
+  document.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-copy]");
+    if (!button) return;
+    const url = button.getAttribute("data-copy");
+    const done = () => {
+      const old = button.textContent;
+      button.textContent = "کپی شد";
+      setTimeout(() => { button.textContent = old; }, 1400);
+    };
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(url).then(done).catch(() => {});
+    } else {
+      const area = document.createElement("textarea");
+      area.value = url;
+      document.body.appendChild(area);
+      area.select();
+      try { document.execCommand("copy"); done(); } catch (error) {}
+      area.remove();
+    }
+  });
+}
+
+init();
+</script>
+</body>
+</html>

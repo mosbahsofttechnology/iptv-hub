@@ -1,0 +1,29 @@
+[
+  {
+    "channel_id": "1TV.af",
+    "name": "1TV Afghanistan",
+    "country": "AF",
+    "category": "General",
+    "url": "https://hrt-stream.movie.af/live/smil:1tv.smil/playlist.m3u8",
+    "quality": "1080p",
+    "priority": 100
+  },
+  {
+    "channel_id": "ToloTV.af",
+    "name": "Tolo TV",
+    "country": "AF",
+    "category": "General",
+    "url": "https://hrt-stream.movie.af/live/smil:tolotv.smil/playlist.m3u8",
+    "quality": "1080p",
+    "priority": 80
+  },
+  {
+    "channel_id": "TOLOnews.af",
+    "name": "TOLOnews",
+    "country": "AF",
+    "category": "News",
+    "url": "https://hrt-stream.movie.af/live/smil:tolonewstv.smil/playlist.m3u8",
+    "quality": "720p",
+    "priority": 80
+  }
+]

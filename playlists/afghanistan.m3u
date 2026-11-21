@@ -1,0 +1,45 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Lsy31iZ.jpeg" tvg-id="ShamsTV.af" group-title="افغانستان • آموزش",Shams TV (Afghanistan)
+https://fflive-darya-educationtv.b-cdn.net/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/r8MmFRX.png" tvg-id="AfghanistanInternational.uk" group-title="افغانستان • خبری",Afghanistan International
+https://hls.afintl.com/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KXdvPum.png" tvg-id="AmuTV.us" group-title="افغانستان • خبری",Amu TV
+https://jmc-live.ercdn.net/amutv/amutv.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oxaHaTq.png" tvg-id="TOLOnews.af" group-title="افغانستان • خبری",TOLOnews
+https://hrt-stream.movie.af/live/smil:tolonewstv.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5b/Lemar_logo_2016.png" tvg-id="LemarTV.af" group-title="افغانستان • سرگرمی",Lemar TV
+https://tgn.bozztv.com/eshgtv-dvrfl05/gin-lemar/index.m3u8
+#EXTINF:-1 tvg-id="1TV.af" group-title="افغانستان • عمومی",1TV Afghanistan
+https://hrt-stream.movie.af/live/smil:1tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="4Afghanistan.fr" group-title="افغانستان • عمومی",4 Afghanistan
+https://4afghls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0Mb1ZQC/IMG-20230628-133738.jpg" tvg-id="AfghanNobelTV.ca" group-title="افغانستان • عمومی",Afghan Nobel TV
+https://live.relentlessinnovations.net:1936/afghannobeltv/afghannobeltv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/nQkLgyn/dunya-naw-tv.png" tvg-id="DunyaNawTV.af" group-title="افغانستان • عمومی",Dunya Naw TV
+https://dunyanhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cK2eWUZ.png" tvg-id="HewadTV.af" group-title="افغانستان • عمومی",Hewad TV
+http://51.210.199.58/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/t9wYYY9.png" tvg-id="PayameAfghanTV.us" group-title="افغانستان • عمومی",Payam-e-Afghan TV
+https://g5nl6xx5lpq6-hls-live.5centscdn.com/live1234/2621b29e501b445fabf227b086123b70.sdp/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pJU2KPh.png" tvg-id="RTA.af" group-title="افغانستان • عمومی",RTA
+https://rta-tv.akamaized.net/live/SD/RTA-1/RTA/RTA-1.m3u8
+#EXTINF:-1 tvg-logo="https://rta.af/artmedia/2022/12/rta-logo-final-300x185.png" tvg-id="RTAEducation.af" group-title="افغانستان • عمومی",RTA Education
+https://rta-tv.akamaized.net/live/SD/RTA-4/RTA/RTA-4.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/edGyj5H.png" tvg-id="TamadonTV.af" group-title="افغانستان • عمومی",Tamadon TV
+https://hls.tamadon.live/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/ca/TOLO_TV_logo_2016.png" tvg-id="ToloTV.af" group-title="افغانستان • عمومی",Tolo TV
+https://hrt-stream.movie.af/live/smil:tolotv.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/zfdbVSm/logo-1.png" tvg-id="AfghanNobelMovies.ca" group-title="افغانستان • فیلم",Afghan Nobel Movies
+https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FkyueH6.png" tvg-id="MaahTV.my" group-title="افغانستان • فیلم",Maah TV
+https://hls.maahtv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LI30mAt.png" tvg-id="ABNAfghanistan.us" group-title="افغانستان • مذهبی",ABN Afghanistan
+https://mediaserver.abnvideos.com/streams/abnafghanistan.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/To7VnsA.png" tvg-id="EslahTV.af" group-title="افغانستان • مذهبی",Eslah TV
+https://eslahtvhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Vo6cEYi.png" tvg-id="ImanTV.us" group-title="افغانستان • مذهبی",Iman TV
+https://live.relentlessinnovations.net:1936/imantv/imantv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/yj8RNnG.png" tvg-id="AMC.af" group-title="افغانستان • موسیقی",AMC (Afghanistan)
+https://amchls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2MDjU7x.png" tvg-id="KayhanTV.af" group-title="افغانستان • موسیقی",Kayhan TV
+https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8
