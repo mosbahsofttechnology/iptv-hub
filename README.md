@@ -52,7 +52,7 @@ gh repo create iptv-hub --public --source=. --push
 یا بدون `gh`: ریپو را در GitHub بسازید و:
 
 ```bash
-git remote add origin https://github.com/abbasnazari-0/iptv-hub.git
+git remote add origin https://github.com/mosbahsofttechnology/iptv-hub.git
 git push -u origin main
 ```
 
@@ -62,9 +62,9 @@ git push -u origin main
 6. لینک‌های ثابت شما:
 
 ```
-https://raw.githubusercontent.com/abbasnazari-0/iptv-hub/main/playlist.m3u
-https://raw.githubusercontent.com/abbasnazari-0/iptv-hub/main/playlist-verified.m3u
-https://abbasnazari-0.github.io/iptv-hub/
+https://raw.githubusercontent.com/mosbahsofttechnology/iptv-hub/main/playlist.m3u
+https://raw.githubusercontent.com/mosbahsofttechnology/iptv-hub/main/playlist-verified.m3u
+https://mosbahsofttechnology.github.io/iptv-hub/
 ```
 
 از این به بعد هر ۱۲ ساعت خودکار اجرا می‌شود. با `workflow_dispatch` هم هر وقت خواستید دستی اجرا کنید.
