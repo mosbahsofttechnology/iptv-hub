@@ -24,6 +24,7 @@ playlist.m3u / playlist-verified.m3u / status.json / docs/index.html
 | مسیر | توضیح |
 |---|---|
 | `scripts/update.py` | کل پایپ‌لاین؛ بدون وابستگی خارجی (فقط کتابخانه استاندارد پایتون) |
+| `scripts/update-and-push.sh` | اجرای محلی + commit و push (پشتیبان Actions) |
 | `scripts/dashboard_template.html` | قالب داشبورد |
 | `data/overrides.json` | لینک‌های دستی و اولویت‌دار |
 | `data/state.json` | اسنپ‌شات پایدار وضعیت (کامیت می‌شود) |
@@ -51,7 +52,7 @@ gh repo create iptv-hub --public --source=. --push
 یا بدون `gh`: ریپو را در GitHub بسازید و:
 
 ```bash
-git remote add origin https://github.com/USERNAME/iptv-hub.git
+git remote add origin https://github.com/abbasnazari-0/iptv-hub.git
 git push -u origin main
 ```
 
@@ -61,12 +62,38 @@ git push -u origin main
 6. لینک‌های ثابت شما:
 
 ```
-https://raw.githubusercontent.com/USERNAME/iptv-hub/main/playlist.m3u
-https://raw.githubusercontent.com/USERNAME/iptv-hub/main/playlist-verified.m3u
-https://USERNAME.github.io/iptv-hub/
+https://raw.githubusercontent.com/abbasnazari-0/iptv-hub/main/playlist.m3u
+https://raw.githubusercontent.com/abbasnazari-0/iptv-hub/main/playlist-verified.m3u
+https://abbasnazari-0.github.io/iptv-hub/
 ```
 
 از این به بعد هر ۱۲ ساعت خودکار اجرا می‌شود. با `workflow_dispatch` هم هر وقت خواستید دستی اجرا کنید.
+
+## اگر GitHub Actions اجرا نشد
+
+اگر در تب Actions این خطا را دیدید:
+
+> The job was not started because your account is locked due to a billing issue.
+
+یعنی حساب GitHub از نظر Billing قفل است، نه اینکه کد یا ریپو مشکل داشته باشد. حتی برای ریپوی عمومی رایگان، GitHub تا حل‌شدن وضعیت پرداخت اجازه اجرا نمی‌دهد.
+
+1. به `https://github.com/settings/billing` بروید و وضعیت پرداخت/روش پرداخت را درست کنید.
+2. بعد از رفع قفل، از تب Actions دوباره **Run workflow** بزنید.
+
+تا آن زمان، به‌روزرسانی محلی + push:
+
+```bash
+chmod +x scripts/update-and-push.sh
+./scripts/update-and-push.sh
+```
+
+یا با cron هر روز صبح (مسیر را با مسیر واقعی پروژه عوض کنید):
+
+```cron
+0 4 * * * cd /Users/abbasnazari/Documents/Default\ Project/iptv-hub && ./scripts/update-and-push.sh >> /tmp/iptv-hub.log 2>&1
+```
+
+داشبورد Pages چون فایل استاتیک است حتی بدون اجرای Actions هم از آخرین commit سرو می‌شود.
 
 ## اجرای محلی
 
