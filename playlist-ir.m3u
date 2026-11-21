@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://i.imgur.com/SMtSinK.png" tvg-id="GEMFood.tr" group-title="ایران • آشپزی",GEM Food
 https://stream.cinimo.ir/st/GEMFood.tr
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GYfsHh9.png" tvg-id="PayamJavanTV.us" group-title="ایران • آموزش",Payam Javan TV
+https://stream.cinimo.ir/st/PayamJavanTV.us
 #EXTINF:-1 tvg-id="PersianaMedical.fr" group-title="ایران • آموزش",Persiana Medical
 https://stream.cinimo.ir/st/PersianaMedical.fr
 #EXTINF:-1 tvg-logo="https://i.ibb.co/GW4cMfc/cafe-trade-tv.png" tvg-id="CafeTradeTV.ir" group-title="ایران • اقتصاد",Cafe Trade TV

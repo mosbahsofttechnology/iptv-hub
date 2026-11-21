@@ -2,6 +2,8 @@
 #EXTINF:-1 tvg-logo="https://i.imgur.com/SMtSinK.png" tvg-id="GEMFood.tr" group-title="ایران • آشپزی",GEM Food
 #EXTVLCOPT:http-referrer=https://aparatchii.com/
 https://gg.hls2.xyz/live/IR%20-%20GEM%20FOOD2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GYfsHh9.png" tvg-id="PayamJavanTV.us" group-title="ایران • آموزش",Payam Javan TV
+https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="PersianaMedical.fr" group-title="ایران • آموزش",Persiana Medical
 https://phd2hls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/GW4cMfc/cafe-trade-tv.png" tvg-id="CafeTradeTV.ir" group-title="ایران • اقتصاد",Cafe Trade TV
