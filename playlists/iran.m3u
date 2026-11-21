@@ -266,6 +266,8 @@ http://iran620.com:1935/live/IranJewishTv/playlist.m3u8
 https://kalemeh.tv/live/hls/gate.php?p=/live/ngrp:kalemeh_all/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Ig0SPev.png" tvg-id="MohabatTV.ir" group-title="ایران • مذهبی",Mohabat TV (Iran)
 http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/o2Ww77N.png" tvg-id="PayvandTV.ir" group-title="ایران • مذهبی",Payvand TV (Iran)
+https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fa/d/df/Quarntvlogo.png" tvg-id="QuranTV.ir" group-title="ایران • مذهبی",Quran TV (Iran)
 https://ncdn.telewebion.ir/quran/live/playlist.m3u8
 #EXTINF:-1 tvg-id="EPlanetTV.ir" group-title="ایران • مستند",EPlanet TV

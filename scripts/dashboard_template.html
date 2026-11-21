@@ -38,7 +38,7 @@
     border: 1px solid var(--border); background: var(--card); color: var(--muted);
     padding: 8px 12px; border-radius: 999px; font-size: 12px; white-space: nowrap;
   }
-  .stats { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin-bottom: 22px; }
+  .stats { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; margin-bottom: 22px; }
   .stat {
     background: var(--card); border: 1px solid var(--border);
     border-radius: 16px; padding: 16px; backdrop-filter: blur(8px);
@@ -48,10 +48,28 @@
   .stat.ok b { color: var(--green); }
   .stat.geo b { color: var(--amber); }
   .stat.dead b { color: var(--red); }
+  .stat.browser b { color: var(--blue); }
   .controls {
-    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 10px;
-    margin-bottom: 14px;
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr auto; gap: 10px;
+    margin-bottom: 14px; align-items: center;
   }
+  .toggle {
+    display: flex; align-items: center; gap: 8px; white-space: nowrap;
+    padding: 10px 12px; border-radius: 12px; border: 1px solid var(--border);
+    background: var(--bg2); font-size: 13px; color: var(--text); cursor: pointer;
+  }
+  .toggle input { width: auto; accent-color: var(--blue); }
+  .settings {
+    margin: -4px 0 14px; border: 1px solid var(--border); border-radius: 12px;
+    background: var(--card); padding: 10px 14px; font-size: 13px;
+  }
+  .settings summary { cursor: pointer; color: var(--muted); }
+  .settings-body { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; align-items: center; }
+  .settings-body input { flex: 1 1 320px; direction: ltr; }
+  .settings-note { color: var(--muted); font-size: 12px; line-height: 1.9; margin: 8px 0 0; }
+  .tag { display: inline-flex; padding: 3px 7px; border-radius: 999px; font-size: 10px; border: 1px solid transparent; white-space: nowrap; }
+  .tag.yes { color: var(--green); background: rgba(43,214,123,.09); border-color: rgba(43,214,123,.22); }
+  .tag.no { color: var(--amber); background: rgba(244,183,64,.09); border-color: rgba(244,183,64,.22); }
   input, select {
     width: 100%; padding: 11px 13px; border-radius: 12px;
     border: 1px solid var(--border); background: var(--bg2); color: var(--text);
@@ -107,6 +125,27 @@
   footer { margin-top: 20px; color: var(--muted); font-size: 12px; line-height: 2; }
   footer code { background: rgba(255,255,255,.06); padding: 2px 6px; border-radius: 6px; direction: ltr; display: inline-block; }
   .muted { color: var(--muted); }
+  .modal {
+    display: none; position: fixed; inset: 0; z-index: 50;
+    background: rgba(3, 6, 15, .84); backdrop-filter: blur(7px); padding: 18px;
+  }
+  .modal.open { display: flex; align-items: center; justify-content: center; }
+  .modal-card {
+    width: min(980px, 100%); max-height: 94vh; overflow: auto;
+    background: #0e1528; border: 1px solid var(--border); border-radius: 18px;
+    box-shadow: 0 30px 90px rgba(0, 0, 0, .6);
+  }
+  .modal-head {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    padding: 13px 16px; border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; background: #0e1528; z-index: 2;
+  }
+  .modal-title { font-weight: 700; font-size: 15px; }
+  .modal-body { padding: 14px; }
+  #player-video { width: 100%; max-height: 64vh; background: #000; border-radius: 12px; display: block; }
+  .modal-note { margin-top: 10px; color: var(--muted); font-size: 12px; line-height: 1.9; min-height: 20px; }
+  .modal-note.error { color: var(--red); }
+  .modal-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
   @media (max-width: 900px) {
     .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .controls { grid-template-columns: 1fr 1fr; }
@@ -133,6 +172,7 @@
     <div class="stat"><b id="s-channels">0</b><span>شبکه</span></div>
     <div class="stat"><b id="s-playable">0</b><span>شبکه قابل پخش</span></div>
     <div class="stat ok"><b id="s-ok">0</b><span>لینک سالم</span></div>
+    <div class="stat browser"><b id="s-browser">0</b><span>قابل پخش در مرورگر</span></div>
     <div class="stat geo"><b id="s-geo">0</b><span>محدودیت جغرافیایی</span></div>
     <div class="stat dead"><b id="s-dead">0</b><span>لینک قطع</span></div>
   </section>
@@ -149,7 +189,22 @@
       <option value="dead">قطع</option>
       <option value="unknown">نامشخص</option>
     </select>
+    <label class="toggle"><input type="checkbox" id="browser-only"> فقط پخش در مرورگر</label>
   </section>
+
+  <details class="settings" id="proxy-settings">
+    <summary>پخش شبکه‌هایی که مرورگر مسدود می‌کند (پروکسی اختیاری)</summary>
+    <div class="settings-body">
+      <input id="proxy-url" type="url" placeholder="https://your-worker.workers.dev/" autocomplete="off" spellcheck="false">
+      <button class="btn primary" id="proxy-save" type="button">ذخیره</button>
+      <button class="btn" id="proxy-clear" type="button">حذف</button>
+    </div>
+    <p class="settings-note">
+      بعضی سرورها فقط برای سایت خودشان CORS می‌دهند و مرورگر اجازه پخش نمی‌دهد. با یک پروکسی ساده Cloudflare Worker
+      (کد و راهنمای راه‌اندازی در <code>worker/README.md</code> ریپو) همه لینک‌ها داخل همین صفحه پخش می‌شوند.
+      آدرس پروکسی فقط در همین مرورگر ذخیره می‌شود.
+    </p>
+  </details>
 
   <section class="table-card">
     <div class="table-scroll">
@@ -181,13 +236,35 @@
       وضعیت «محدودیت جغرافیایی» یعنی لینک از سرور GitHub (خارج ایران) جواب 403 داده؛ ممکن است از ایران کار کند.
       لینک‌های قطع بعد از ۳ خطای پشت‌سرهم غیرفعال می‌شوند و در صورت بازگشت خودکار فعال می‌شوند.
     </div>
+    <div>
+      «قابل پخش در مرورگر» یعنی سرور مراحل master/media/segment را با CORS به مرورگر می‌دهد.
+      بقیه لینک‌ها سالماند ولی فقط با VLC/IINA یا از طریق پروکسی اختیاری بالا پخش می‌شوند.
+    </div>
   </footer>
 </div>
 
+<div class="modal" id="player" aria-hidden="true">
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="player-title">
+    <div class="modal-head">
+      <div class="modal-title" id="player-title">پخش</div>
+      <button class="btn" id="player-close" type="button">بستن ✕</button>
+    </div>
+    <div class="modal-body">
+      <video id="player-video" controls autoplay playsinline></video>
+      <div class="modal-note" id="player-note"></div>
+      <div class="modal-actions">
+        <a class="btn" id="player-open" target="_blank" rel="noopener">باز کردن لینک</a>
+        <button class="btn" id="player-copy" type="button" data-copy="">کپی لینک</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="hls.min.js"></script>
 <script>
 const DATA = /*__DATA__*/;
 const STATUS_FA = { ok: "سالم", geo: "محدودیت جغرافیایی", dead: "قطع", unstable: "ناپایدار", unknown: "نامشخص" };
-const state = { q: "", country: "all", category: "all", status: "all" };
+const state = { q: "", country: "all", category: "all", status: "all", browserOnly: false };
 const $ = (id) => document.getElementById(id);
 
 function esc(value) {
@@ -212,6 +289,25 @@ function logoFallback(image) {
   fallback.className = "logo-fallback";
   fallback.textContent = image.dataset.initials || "?";
   image.replaceWith(fallback);
+}
+
+const PROXY_KEY = "iptv-hub-proxy";
+
+function getProxy() {
+  try { return (localStorage.getItem(PROXY_KEY) || "").trim(); } catch (error) { return ""; }
+}
+
+function setProxy(value) {
+  try {
+    if (value) localStorage.setItem(PROXY_KEY, value.trim());
+    else localStorage.removeItem(PROXY_KEY);
+  } catch (error) {}
+}
+
+function proxied(url) {
+  const proxy = getProxy();
+  if (!proxy) return url;
+  return proxy + (proxy.includes("?") ? "&" : "?") + "url=" + encodeURIComponent(url);
 }
 
 function fillFilters() {
@@ -243,6 +339,7 @@ function render() {
     if (state.country !== "all" && channel.country !== state.country) return false;
     if (state.category !== "all" && channel.category_fa !== state.category) return false;
     if (state.status !== "all" && channel.status !== state.status) return false;
+    if (state.browserOnly && !channel.browser_ok) return false;
     if (!query) return true;
     return (channel.name + " " + channel.id + " " + channel.category_fa).toLowerCase().includes(query);
   });
@@ -257,9 +354,14 @@ function render() {
       : `<div class="logo-fallback">${initials}</div>`;
     const alternatives = channel.streams_total > 1
       ? `<div class="meta">${channel.streams_total} لینک • ${channel.streams_ok} سالم</div>` : "";
+    const browserTag = channel.status === "ok"
+      ? (channel.browser_ok
+          ? `<span class="tag yes" title="این لینک با hls.js داخل مرورگر پخش می‌شود">پخش مرورگر</span>`
+          : `<span class="tag no" title="سرور CORS نمی‌دهد؛ با VLC یا پروکسی پخش کنید">فقط VLC/پروکسی</span>`)
+      : "";
     const play = channel.url
-      ? `<a class="btn primary" href="${esc(channel.url)}" target="_blank" rel="noopener">پخش</a>
-         <button class="btn" data-copy="${esc(channel.url)}">کپی</button>`
+      ? `<button class="btn primary" data-play="${esc(channel.url)}" data-name="${esc(channel.name)}" data-browser="${channel.browser_ok ? "1" : "0"}">پخش</button>
+         <button class="btn" data-copy="${esc(channel.url)}">کپی</button>${browserTag}`
       : `<span class="muted">—</span>`;
     return `<tr>
       <td><div class="channel">${logo}<div><div class="name">${esc(channel.name)}</div><div class="meta">${esc(channel.id)}</div>${alternatives}</div></div></td>
@@ -274,10 +376,116 @@ function render() {
   }).join("");
 }
 
+let hlsPlayer = null;
+
+function setNote(text, isError) {
+  const note = $("player-note");
+  note.textContent = text || "";
+  note.classList.toggle("error", Boolean(isError));
+}
+
+function closePlayer() {
+  const video = $("player-video");
+  if (hlsPlayer) {
+    hlsPlayer.destroy();
+    hlsPlayer = null;
+  }
+  video.pause();
+  video.removeAttribute("src");
+  video.load();
+  setNote("");
+  $("player").classList.remove("open");
+  $("player").setAttribute("aria-hidden", "true");
+}
+
+function playbackErrorHint(url, detail) {
+  if (location.protocol === "https:" && /^http:/i.test(url)) {
+    return "این لینک HTTP است و مرورگر اجازه پخش آن را روی صفحه HTTPS نمی‌دهد. لینک را کپی کنید و در VLC باز کنید.";
+  }
+  return (detail ? detail + " — " : "") + "اگر پخش نشد، لینک را کپی کنید و در VLC یا پلیر دیگری باز کنید.";
+}
+
+function startVideo() {
+  const video = $("player-video");
+  const attempt = video.play();
+  if (attempt && attempt.catch) {
+    attempt.catch(() => {
+      video.muted = true;
+      video.play().catch(() => {});
+      setNote("پخش بی‌صدا شروع شد؛ برای شنیدن صدا، روی آیکن بلندگوی ویدیو بزنید.");
+    });
+  }
+}
+
+function playChannel(name, url, browserOk) {
+  const video = $("player-video");
+  const modal = $("player");
+  const source = proxied(url);
+  const proxyOn = source !== url;
+  $("player-title").textContent = name || "پخش";
+  $("player-open").href = url;
+  $("player-copy").setAttribute("data-copy", url);
+  modal.classList.add("open");
+  modal.setAttribute("aria-hidden", "false");
+  video.muted = false;
+  setNote(proxyOn ? "در حال اتصال از طریق پروکسی…" : "در حال اتصال…");
+
+  if (hlsPlayer) {
+    hlsPlayer.destroy();
+    hlsPlayer = null;
+  }
+  video.pause();
+  video.removeAttribute("src");
+  video.load();
+
+  if (!browserOk && !proxyOn) {
+    setNote("این سرور به مرورگر اجازه دسترسی (CORS) نمی‌دهد؛ پخش احتمالاً شکست می‌خورد. لینک را در VLC باز کنید یا در تنظیمات بالا یک پروکسی ذخیره کنید.", true);
+  }
+  if (location.protocol === "https:" && /^http:/i.test(url) && !proxyOn) {
+    setNote(playbackErrorHint(url), true);
+  }
+
+  const isHls = /\.m3u8(\?|#|$)/i.test(url);
+  const nativeHls = video.canPlayType("application/vnd.apple.mpegurl");
+
+  if (isHls && window.Hls && window.Hls.isSupported()) {
+    hlsPlayer = new Hls({
+      maxBufferLength: 30,
+      manifestLoadingTimeOut: 15000,
+      levelLoadingTimeOut: 15000,
+      fragLoadingTimeOut: 25000
+    });
+    hlsPlayer.on(Hls.Events.MANIFEST_PARSED, () => {
+      if (browserOk || proxyOn) setNote("");
+      startVideo();
+    });
+    hlsPlayer.on(Hls.Events.ERROR, (event, data) => {
+      if (!data || !data.fatal) return;
+      const detail = data.type === Hls.ErrorTypes.NETWORK_ERROR
+        ? "شبکه در دسترس نیست یا محدودیت جغرافیایی/CORS مانع شده"
+        : "خطا در پخش جریان";
+      setNote(playbackErrorHint(url, detail), true);
+      if (data.type === Hls.ErrorTypes.MEDIA_ERROR) {
+        hlsPlayer.recoverMediaError();
+      }
+    });
+    hlsPlayer.loadSource(source);
+    hlsPlayer.attachMedia(video);
+  } else if (isHls && nativeHls) {
+    video.src = source;
+    video.addEventListener("loadedmetadata", startVideo, { once: true });
+    video.addEventListener("error", () => setNote(playbackErrorHint(url), true), { once: true });
+  } else {
+    video.src = source;
+    startVideo();
+  }
+}
+
 function init() {
   $("s-channels").textContent = DATA.counts.channels;
   $("s-playable").textContent = DATA.counts.playable_channels;
   $("s-ok").textContent = DATA.counts.ok;
+  $("s-browser").textContent = DATA.counts.browser_playable_channels || 0;
   $("s-geo").textContent = DATA.counts.geo;
   $("s-dead").textContent = DATA.counts.dead;
   $("total").textContent = DATA.counts.channels;
@@ -290,11 +498,30 @@ function init() {
   $("country").addEventListener("change", (event) => { state.country = event.target.value; render(); });
   $("category").addEventListener("change", (event) => { state.category = event.target.value; render(); });
   $("status").addEventListener("change", (event) => { state.status = event.target.value; render(); });
+  $("browser-only").addEventListener("change", (event) => { state.browserOnly = event.target.checked; render(); });
 
   document.addEventListener("click", (event) => {
+    if (event.target.closest("#player-close")) {
+      closePlayer();
+      return;
+    }
+    if (event.target === $("player")) {
+      closePlayer();
+      return;
+    }
+    const playButton = event.target.closest("[data-play]");
+    if (playButton) {
+      playChannel(
+        playButton.getAttribute("data-name"),
+        playButton.getAttribute("data-play"),
+        playButton.getAttribute("data-browser") === "1"
+      );
+      return;
+    }
     const button = event.target.closest("[data-copy]");
     if (!button) return;
     const url = button.getAttribute("data-copy");
+    if (!url) return;
     const done = () => {
       const old = button.textContent;
       button.textContent = "کپی شد";
@@ -310,6 +537,29 @@ function init() {
       try { document.execCommand("copy"); done(); } catch (error) {}
       area.remove();
     }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closePlayer();
+  });
+
+  const proxyInput = $("proxy-url");
+  proxyInput.value = getProxy();
+  $("proxy-save").addEventListener("click", () => {
+    const value = proxyInput.value.trim();
+    if (value && !/^https?:\/\//i.test(value)) {
+      proxyInput.value = "";
+      proxyInput.placeholder = "آدرس باید با https:// شروع شود";
+      return;
+    }
+    setProxy(value);
+    const button = $("proxy-save");
+    button.textContent = value ? "ذخیره شد" : "پاک شد";
+    setTimeout(() => { button.textContent = "ذخیره"; }, 1400);
+  });
+  $("proxy-clear").addEventListener("click", () => {
+    setProxy("");
+    proxyInput.value = "";
   });
 }
 

@@ -20,6 +20,7 @@ import concurrent.futures
 import datetime as dt
 import hashlib
 import json
+import os
 import re
 import socket
 import sqlite3
@@ -64,6 +65,16 @@ BASE_HEADERS = {
     "Accept": "*/*",
     "Accept-Language": "en-US,en;q=0.9,fa;q=0.8",
 }
+
+# Origin used when testing whether a stream may be played inside a browser.
+# hls.js fetches every playlist/segment with XHR, so each response needs a
+# matching Access-Control-Allow-Origin header.
+BROWSER_ORIGIN = os.environ.get(
+    "IPTV_BROWSER_ORIGIN",
+    f"https://{os.environ['GITHUB_REPOSITORY_OWNER'].lower()}.github.io"
+    if os.environ.get("GITHUB_REPOSITORY_OWNER")
+    else "https://mosbahsofttechnology.github.io",
+)
 
 COUNTRY_FA = {"IR": "ایران", "AF": "افغانستان"}
 COUNTRY_ORDER = {"IR": 0, "AF": 1}
@@ -144,6 +155,7 @@ CREATE TABLE IF NOT EXISTS streams (
     last_checked_at TEXT,
     last_ok_at TEXT,
     fail_streak INTEGER DEFAULT 0,
+    browser_ok INTEGER,
     added_at TEXT
 );
 CREATE TABLE IF NOT EXISTS checks (
@@ -257,12 +269,15 @@ def fetch(
     timeout: float = 10.0,
     max_bytes: int = 65_536,
     use_range: bool = True,
+    origin: str | None = None,
 ):
     headers = dict(BASE_HEADERS)
     if use_range:
         headers["Range"] = "bytes=0-65535"
     if referrer:
         headers["Referer"] = referrer
+    if origin:
+        headers["Origin"] = origin
     req = urllib.request.Request(url, headers=headers)
     response = _open(req, timeout)
     try:
@@ -392,6 +407,10 @@ def init_db() -> sqlite3.Connection:
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON")
     conn.executescript(SCHEMA)
+    try:
+        conn.execute("ALTER TABLE streams ADD COLUMN browser_ok INTEGER")
+    except sqlite3.OperationalError:
+        pass
     return conn
 
 
@@ -505,7 +524,8 @@ def import_state(conn: sqlite3.Connection) -> None:
                 latency_ms = ?,
                 last_checked_at = ?,
                 last_ok_at = ?,
-                fail_streak = ?
+                fail_streak = ?,
+                browser_ok = ?
             WHERE url = ?
             """,
             (
@@ -516,6 +536,7 @@ def import_state(conn: sqlite3.Connection) -> None:
                 stream.get("last_checked_at"),
                 stream.get("last_ok_at"),
                 int(stream.get("fail_streak") or 0),
+                stream.get("browser_ok"),
                 url,
             ),
         )
@@ -621,6 +642,65 @@ def apply_overrides(conn: sqlite3.Connection) -> None:
 # health checks
 # --------------------------------------------------------------------------- #
 
+def cors_allowed(value: str | None) -> bool:
+    value = (value or "").strip().rstrip("/")
+    return value == "*" or value == BROWSER_ORIGIN
+
+
+def browser_probe(url: str, referrer: str | None, timeout: float) -> int:
+    """Return 1 when hls.js could play this stream from a browser page.
+
+    It follows the same master -> media -> segment chain as the player and
+    checks Access-Control-Allow-Origin on every response. Any network error
+    means the browser would fail too, so it counts as not playable.
+    """
+    try:
+        code, headers, data, final_url = fetch(
+            url,
+            referrer=referrer,
+            timeout=timeout,
+            max_bytes=200_000,
+            use_range=False,
+            origin=BROWSER_ORIGIN,
+        )
+        text = data.decode("utf-8", "ignore")
+        if "#EXTM3U" not in text:
+            return 0
+        ok = cors_allowed(headers.get("Access-Control-Allow-Origin"))
+        if "#EXT-X-STREAM-INF" in text:
+            variants = parse_variants(text, final_url)
+            if not variants:
+                return 0
+            media_url = variants[0][2]
+            code, headers, data, final_url = fetch(
+                media_url,
+                referrer=referrer,
+                timeout=timeout,
+                max_bytes=200_000,
+                use_range=False,
+                origin=BROWSER_ORIGIN,
+            )
+            text = data.decode("utf-8", "ignore")
+            if "#EXTM3U" not in text:
+                return 0
+            ok = ok and cors_allowed(headers.get("Access-Control-Allow-Origin"))
+
+        segment_url = first_segment(text, final_url)
+        if not segment_url:
+            return 0
+        seg_code, seg_headers, _seg_data, _seg_final = fetch(
+            segment_url,
+            referrer=referrer,
+            timeout=timeout,
+            origin=BROWSER_ORIGIN,
+        )
+        if seg_code not in (200, 206):
+            return 0
+        return 1 if ok and cors_allowed(seg_headers.get("Access-Control-Allow-Origin")) else 0
+    except Exception:  # noqa: BLE001
+        return 0
+
+
 def check_stream(row: sqlite3.Row, timeout: float) -> dict:
     url = row["url"]
     referrer = row["referrer"] or None
@@ -635,7 +715,13 @@ def check_stream(row: sqlite3.Row, timeout: float) -> dict:
             "latency_ms": int((time.monotonic() - started) * 1000),
             "error": error[:300],
             "checked_at": now_iso(),
+            "browser_ok": None,
         }
+
+    def ok_result(code: int | None) -> dict:
+        item = result("ok", code)
+        item["browser_ok"] = browser_probe(url, referrer, timeout)
+        return item
 
     try:
         code, headers, data, final_url = fetch(url, referrer=referrer, timeout=timeout)
@@ -661,11 +747,11 @@ def check_stream(row: sqlite3.Row, timeout: float) -> dict:
                 segment_url, referrer=referrer, timeout=timeout
             )
             if seg_code in (200, 206) and is_media(seg_headers, seg_data):
-                return result("ok", seg_code)
+                return ok_result(seg_code)
             return result("unstable", seg_code, "media segment failed")
 
         if is_media(headers, data):
-            return result("ok", code)
+            return ok_result(code)
         return result("unstable", code, "unknown content (not HLS/TS)")
 
     except urllib.error.HTTPError as exc:
@@ -724,7 +810,8 @@ def apply_results(conn: sqlite3.Connection, results: list[dict]) -> None:
                 last_checked_at = ?,
                 last_ok_at = COALESCE(?, last_ok_at),
                 fail_streak = ?,
-                active = ?
+                active = ?,
+                browser_ok = ?
             WHERE id = ?
             """,
             (
@@ -735,6 +822,7 @@ def apply_results(conn: sqlite3.Connection, results: list[dict]) -> None:
                 last_ok,
                 streak,
                 active,
+                item.get("browser_ok"),
                 item["id"],
             ),
         )
@@ -813,7 +901,8 @@ def export_state(conn: sqlite3.Connection) -> None:
     for row in conn.execute(
         """
         SELECT channel_id, url, quality, referrer, source, priority, active, status,
-               http_code, latency_ms, last_checked_at, last_ok_at, fail_streak, added_at
+               http_code, latency_ms, last_checked_at, last_ok_at, fail_streak,
+               browser_ok, added_at
         FROM streams ORDER BY channel_id, url
         """
     ):
@@ -843,7 +932,8 @@ def load_channels_with_streams(conn: sqlite3.Connection) -> list[dict]:
     for row in conn.execute(
         """
         SELECT id, channel_id, url, quality, referrer, source, priority, active,
-               status, http_code, latency_ms, last_checked_at, last_ok_at, fail_streak
+               status, http_code, latency_ms, last_checked_at, last_ok_at,
+               fail_streak, browser_ok
         FROM streams ORDER BY id
         """
     ):
@@ -924,12 +1014,16 @@ def build_status(conn: sqlite3.Connection, channels: list[dict]) -> dict:
 
     data = []
     playable = 0
+    browser_playable = 0
     for channel in channels:
         streams = channel["streams"]
         best = choose_stream(streams)
         status = best["status"] if best else "dead"
+        browser_ok = bool(best.get("browser_ok")) if best else False
         if best:
             playable += 1
+            if browser_ok:
+                browser_playable += 1
         alternatives = sorted(streams, key=stream_key)
         data.append(
             {
@@ -951,6 +1045,7 @@ def build_status(conn: sqlite3.Connection, channels: list[dict]) -> dict:
                 "last_checked_at": best.get("last_checked_at") if best else None,
                 "streams_total": len(streams),
                 "streams_ok": sum(1 for s in streams if s.get("status") == "ok"),
+                "browser_ok": browser_ok,
                 "alternatives": [
                     {
                         "url": stream["url"],
@@ -982,6 +1077,7 @@ def build_status(conn: sqlite3.Connection, channels: list[dict]) -> dict:
         "counts": {
             "channels": len(data),
             "playable_channels": playable,
+            "browser_playable_channels": browser_playable,
             "streams": sum(stream_counts.values()),
             "ok": stream_counts.get("ok", 0),
             "geo": stream_counts.get("geo", 0),
