@@ -316,6 +316,7 @@ function rememberRoute(url, route) {
 
 function proxySource(channel, route) {
   if (route === "direct") return channel.url || "";
+  if (channel.links && channel.links[route]) return channel.links[route];
   return (channel.proxy && channel.proxy[route]) || "";
 }
 

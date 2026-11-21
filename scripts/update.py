@@ -92,6 +92,23 @@ PROXY_TOKEN_TTL = int(os.environ.get("IPTV_PROXY_TOKEN_TTL", str(48 * 3600)))
 MIRROR_STATUS_URL = os.environ.get("IPTV_MIRROR_STATUS_URL", "").strip()
 MIRROR_CACHE_PATH = DATA_DIR / "mirror-status.json"
 
+
+def _proxy_root(base: str) -> str:
+    if not base:
+        return ""
+    parsed = urllib.parse.urlsplit(base)
+    return f"{parsed.scheme}://{parsed.netloc}" if parsed.scheme and parsed.netloc else ""
+
+
+PROXY_IR_ROOT = _proxy_root(PROXY_IR_URL)
+PROXY_INTL_ROOT = _proxy_root(PROXY_INTL_URL)
+
+
+def clean_link(root: str, channel_id: str) -> str:
+    if not root or not channel_id:
+        return ""
+    return f"{root}/st/{urllib.parse.quote(channel_id, safe='')}"
+
 COUNTRY_FA = {"IR": "ایران", "AF": "افغانستان"}
 COUNTRY_ORDER = {"IR": 0, "AF": 1}
 
@@ -999,7 +1016,11 @@ def sanitize_attr(value: str) -> str:
 
 
 def build_playlist(
-    channels: list[dict], country: str | None = None, verified: bool = False
+    channels: list[dict],
+    country: str | None = None,
+    verified: bool = False,
+    link_kind: str | None = None,
+    links_by_id: dict[str, dict] | None = None,
 ) -> str:
     lines = ["#EXTM3U"]
     ordered = sorted(
@@ -1027,14 +1048,21 @@ def build_playlist(
             extinf = extinf.replace(
                 ' tvg-id=', f' tvg-logo="{sanitize_attr(logo)}" tvg-id=', 1
             )
+        url = best["url"]
+        if link_kind and links_by_id:
+            candidate = (links_by_id.get(channel["id"]) or {}).get(link_kind)
+            if candidate:
+                url = candidate
         lines.append(extinf)
-        if best.get("referrer"):
+        if best.get("referrer") and url == best["url"]:
             lines.append(f'#EXTVLCOPT:http-referrer={best["referrer"]}')
-        lines.append(best["url"])
+        lines.append(url)
     return "\n".join(lines) + "\n"
 
 
-def write_playlists(channels: list[dict]) -> None:
+def write_playlists(
+    channels: list[dict], links_by_id: dict[str, dict] | None = None
+) -> None:
     (ROOT / "playlist.m3u").write_text(
         build_playlist(channels), encoding="utf-8"
     )
@@ -1047,7 +1075,18 @@ def write_playlists(channels: list[dict]) -> None:
     (PLAYLISTS_DIR / "afghanistan.m3u").write_text(
         build_playlist(channels, country="AF"), encoding="utf-8"
     )
-    log("playlists: wrote playlist.m3u, playlist-verified.m3u, iran.m3u, afghanistan.m3u")
+    (ROOT / "playlist-ir.m3u").write_text(
+        build_playlist(channels, link_kind="ir", links_by_id=links_by_id),
+        encoding="utf-8",
+    )
+    (ROOT / "playlist-intl.m3u").write_text(
+        build_playlist(channels, link_kind="intl", links_by_id=links_by_id),
+        encoding="utf-8",
+    )
+    log(
+        "playlists: wrote playlist.m3u, playlist-verified.m3u, "
+        "iran.m3u, afghanistan.m3u, playlist-ir.m3u, playlist-intl.m3u"
+    )
 
 
 def sign_proxy_token(
@@ -1185,6 +1224,7 @@ def build_status(conn: sqlite3.Connection, channels: list[dict]) -> dict:
     mirror = load_mirror_status()
     mirror_proxy: dict[str, dict] = {}
     mirror_reach: dict[str, dict] = {}
+    mirror_links: dict[str, dict] = {}
     for channel in mirror.get("channels", []):
         origin = channel.get("url")
         if not origin:
@@ -1193,10 +1233,12 @@ def build_status(conn: sqlite3.Connection, channels: list[dict]) -> dict:
             mirror_proxy[origin] = channel["proxy"]
         if isinstance(channel.get("reach"), dict):
             mirror_reach[origin] = channel["reach"]
+        if isinstance(channel.get("links"), dict) and channel["links"]:
+            mirror_links[origin] = channel["links"]
     if mirror:
         log(
-            f"mirror: loaded {len(mirror_proxy)} proxy entries and "
-            f"{len(mirror_reach)} reach entries"
+            f"mirror: loaded {len(mirror_proxy)} proxy entries, "
+            f"{len(mirror_reach)} reach entries, {len(mirror_links)} link entries"
         )
     stream_counts = {"ok": 0, "geo": 0, "dead": 0, "unstable": 0, "unknown": 0}
     for row in conn.execute("SELECT status, COUNT(*) AS n FROM streams GROUP BY status"):
@@ -1229,6 +1271,18 @@ def build_status(conn: sqlite3.Connection, channels: list[dict]) -> dict:
                     )
             else:
                 proxy = mirror_proxy.get(best["url"], {})
+        links: dict[str, str] = {}
+        if best:
+            links["direct"] = best["url"]
+            mirrored_links = mirror_links.get(best["url"], {})
+            if PROXY_IR_ROOT:
+                links["ir"] = clean_link(PROXY_IR_ROOT, channel["id"])
+            elif mirrored_links.get("ir"):
+                links["ir"] = mirrored_links["ir"]
+            if PROXY_INTL_ROOT:
+                links["intl"] = clean_link(PROXY_INTL_ROOT, channel["id"])
+            elif mirrored_links.get("intl"):
+                links["intl"] = mirrored_links["intl"]
         if PROXY_SECRET and best and status == "geo":
             ir_flag = best.get("ir_ok") if PROXY_IR_URL else None
             intl_flag = best.get("intl_ok") if PROXY_INTL_URL else None
@@ -1263,6 +1317,8 @@ def build_status(conn: sqlite3.Connection, channels: list[dict]) -> dict:
                 "browser_ok": browser_ok,
                 "reach": reach,
                 "proxy": proxy,
+                "links": links,
+                "referrer": best.get("referrer") if best else None,
                 "alternatives": [
                     {
                         "url": stream["url"],
@@ -1371,8 +1427,11 @@ def main(argv: list[str] | None = None) -> int:
 
     export_state(conn)
     channels = load_channels_with_streams(conn)
-    write_playlists(channels)
     status = build_status(conn, channels)
+    links_by_id = {
+        channel["id"]: channel.get("links", {}) for channel in status["channels"]
+    }
+    write_playlists(channels, links_by_id)
     render_dashboard(status)
 
     counts = status["counts"]

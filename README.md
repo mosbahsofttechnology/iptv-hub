@@ -14,6 +14,8 @@
 **داشبورد داخلی (سرور ایران):** `https://stream.cinimo.ir/iptv-dashboard/`
 **داشبورد آینه (سرور خارج):** `https://api.polpeisa.arianadevs.com/iptv-dashboard/`
 
+**پلی‌لیست مسیر ایران / خارج:** `playlist-ir.m3u` / `playlist-intl.m3u`
+
 ```
 iptv-org (ir/af)  +  data/overrides.json
               ↓
@@ -34,8 +36,10 @@ playlist.m3u / playlist-verified.m3u / status.json / docs/index.html
 | `data/overrides.json` | لینک‌های دستی و اولویت‌دار |
 | `data/state.json` | اسنپ‌شات پایدار وضعیت (کامیت می‌شود) |
 | `data/iptv.db` | دیتابیس محلی SQLite (کامیت نمی‌شود) |
-| `playlist.m3u` | همه لینک‌های فعال (شامل لینک‌های دارای محدودیت جغرافیایی) |
+| `playlist.m3u` | همه لینک‌های فعال (لینک اصلی هر کانال) |
 | `playlist-verified.m3u` | فقط لینک‌هایی که آخرین چک «سالم» بوده‌اند |
+| `playlist-ir.m3u` | لینک‌های تمیز `/st/<id>` از مسیر ایران |
+| `playlist-intl.m3u` | لینک‌های تمیز `/st/<id>` از مسیر خارج |
 | `playlists/iran.m3u` | فقط ایران |
 | `playlists/afghanistan.m3u` | فقط افغانستان |
 | `status.json` | وضعیت کامل همه کانال‌ها و لینک‌ها برای اپ/API |
@@ -239,6 +243,24 @@ ORDER BY c.name LIMIT 20;
 - **Manoto**: کانال در مه ۲۰۲۶ بسته شده و لینک‌های عمومی قدیمی
   (Akamai/CloudFront) دیگر DNS ندارند. لینک زندهٔ عمومی معتبری پیدا نشد.
   اگر لینک تازه‌ای دارید، در `data/overrides.json` اضافه کنید.
+
+### لینک تمیز `/st/<channel-id>`
+
+هر کانال در `status.json` سه لینک دارد:
+
+```json
+"links": {
+  "direct": "https://fflive-darya-educationtv.b-cdn.net/master.m3u8",
+  "ir":     "https://stream.cinimo.ir/st/DatisTV.ir",
+  "intl":   "https://api.polpeisa.arianadevs.com/st/DatisTV.ir"
+}
+```
+
+- `direct` همان آدرس اصلی است.
+- `ir` از سرور ایران و `intl` از سرور خارج رد می‌شود.
+- این پیشوند **خود پروکسی** است؛ سرور فایل را از مبدأ می‌گیرد و به مرورگر می‌دهد. برای استریم geo-بلاک/فیلترشده چاره‌ای جز عبور از یک سرور در منطقهٔ درست نیست.
+- برای امنیت، `st/` آدرس خام را قبول نمی‌کند (پروکسی باز می‌شود)؛ فقط `channel-id`های موجود در نقشهٔ کانال‌ها را می‌پذیرد و زیرلینک‌ها را با توکن کوتاه امضا می‌کند.
+- `playlist-ir.m3u` و `playlist-intl.m3u` همین لینک‌ها را برای VLC/اپ می‌دهند.
 
 ### داشبورد آینه و توکن‌ها
 

@@ -11,6 +11,17 @@
 یک توکن امضاشده می‌سازد و آدرس `/p/<token>` را در `status.json` می‌گذارد. داشبورد
 بر اساس وضعیت کانال و منطقه کاربر یکی از این دو مسیر را انتخاب می‌کند.
 
+از نسخهٔ جدید، لینک تمیز `/st/<channel-id>` هم هست:
+
+```
+https://stream.cinimo.ir/st/DatisTV.ir     (مسیر ایران)
+https://api.polpeisa.arianadevs.com/st/DatisTV.ir  (مسیر خارج)
+```
+
+این مسیر از `CHANNEL_MAP_URL` (پیش‌فرض: `https://api.polpeisa.arianadevs.com/iptv-dashboard/status.json`)
+نقشهٔ کانال‌ها را هر ۵ دقیقه می‌خواند؛ فقط `channel-id`های موجود را می‌پذیرد و
+زیرلینک‌ها را با توکن کوتاه امضا می‌کند. `PLAY_TOKEN_TTL` پیش‌فرض ۴۸ ساعت است.
+
 ```
 کانال داخلی (geo)  ──> پروکسی ایران
 کانال خارجی (ok)   ──> پروکسی خارج (برای کاربر ایران)
@@ -56,6 +67,8 @@ UPSTREAM_TIMEOUT=25
 MAX_CONCURRENT=96
 SUB_TOKEN_TTL=3600
 INSECURE_UPSTREAM=1
+CHANNEL_MAP_URL=https://api.polpeisa.arianadevs.com/iptv-dashboard/status.json
+PLAY_TOKEN_TTL=172800
 ```
 
 روی سرور خارج:

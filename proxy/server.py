@@ -78,6 +78,19 @@ CORS_HEADERS = {
     "Access-Control-Max-Age": "86400",
 }
 
+# Public channel map for the clean /st/<channel-id> links. The mirror's
+# status.json is public and is refreshed twice a day by the updater.
+CHANNEL_MAP_URL = os.environ.get(
+    "CHANNEL_MAP_URL",
+    "https://api.polpeisa.arianadevs.com/iptv-dashboard/status.json",
+).strip()
+CHANNEL_MAP_REFRESH = int(os.environ.get("CHANNEL_MAP_REFRESH", "300"))
+PLAY_TTL = int(os.environ.get("PLAY_TOKEN_TTL", str(48 * 3600)))
+CHANNEL_MAP: dict[str, dict] = {}
+CHANNEL_MAP_AT = 0.0
+CHANNEL_MAP_LOCK = threading.Lock()
+
+
 SEMAPHORE = threading.BoundedSemaphore(max(1, MAX_CONCURRENT))
 DNS_CACHE: dict[str, tuple[float, list[tuple[str, int]]]] = {}
 DNS_LOCK = threading.Lock()
@@ -277,6 +290,45 @@ def looks_like_media(headers, first_bytes: bytes) -> bool:
     return len(first_bytes) > 188
 
 
+def refresh_channel_map() -> bool:
+    if not CHANNEL_MAP_URL:
+        return False
+    try:
+        request = urllib.request.Request(
+            CHANNEL_MAP_URL,
+            headers={"User-Agent": UA, "Accept": "application/json"},
+        )
+        with urllib.request.urlopen(request, timeout=20) as response:
+            payload = json.loads(response.read(4_000_000).decode("utf-8", "ignore"))
+        items: dict[str, dict] = {}
+        for channel in payload.get("channels", []):
+            channel_id = channel.get("id")
+            url = channel.get("url")
+            if not channel_id or not url:
+                continue
+            items[str(channel_id)] = {
+                "url": url,
+                "referrer": channel.get("referrer") or None,
+            }
+        if items:
+            with CHANNEL_MAP_LOCK:
+                CHANNEL_MAP.clear()
+                CHANNEL_MAP.update(items)
+                global CHANNEL_MAP_AT
+                CHANNEL_MAP_AT = time.time()
+        sys.stderr.write(f"channel map: {len(items)} entries\n")
+        return bool(items)
+    except Exception as exc:  # noqa: BLE001
+        sys.stderr.write(f"channel map fetch failed: {type(exc).__name__}: {exc}\n")
+        return False
+
+
+def channel_map_loop() -> None:
+    while True:
+        ok = refresh_channel_map()
+        time.sleep(CHANNEL_MAP_REFRESH if ok else 60)
+
+
 def probe_url(url: str, referrer: str | None = None) -> dict:
     started = time.monotonic()
     result = {"ok": False, "status": "unstable", "http_code": None, "error": ""}
@@ -374,6 +426,9 @@ class Handler(BaseHTTPRequestHandler):
         parsed = urllib.parse.urlparse(self.path)
         path = parsed.path
         if path == "/health":
+            with CHANNEL_MAP_LOCK:
+                map_size = len(CHANNEL_MAP)
+                map_at = CHANNEL_MAP_AT
             self.json_response(
                 {
                     "ok": True,
@@ -381,6 +436,9 @@ class Handler(BaseHTTPRequestHandler):
                     "public_base_url": PUBLIC_BASE_URL,
                     "version": 1,
                     "max_concurrent": MAX_CONCURRENT,
+                    "map_url": CHANNEL_MAP_URL,
+                    "map_size": map_size,
+                    "map_updated_at": map_at,
                 }
             )
             return
@@ -390,6 +448,33 @@ class Handler(BaseHTTPRequestHandler):
                 self.json_response({"ok": False, "error": "invalid_token"}, 403)
                 return
             self.json_response(probe_url(payload["u"], payload.get("ref")))
+            return
+        if path.startswith("/st/"):
+            channel_id = urllib.parse.unquote(path[len("/st/"):]).strip("/")
+            with CHANNEL_MAP_LOCK:
+                entry = CHANNEL_MAP.get(channel_id)
+            if not entry:
+                self.json_response({"ok": False, "error": "unknown_channel"}, 404)
+                return
+            payload = {
+                "v": 1,
+                "k": "play",
+                "u": entry["url"],
+                "x": int(time.time()) + max(60, PLAY_TTL),
+            }
+            if entry.get("referrer"):
+                payload["ref"] = entry["referrer"]
+            if not SEMAPHORE.acquire(blocking=False):
+                self.send_response(503)
+                self.send_header("Retry-After", "2")
+                self.send_header("Content-Length", "0")
+                self.send_cors()
+                self.end_headers()
+                return
+            try:
+                self.stream(payload, head=head)
+            finally:
+                SEMAPHORE.release()
             return
         if not (path.startswith("/p/") or path.startswith("/s/")):
             self.json_response({"ok": False, "error": "not_found"}, 404)
@@ -500,6 +585,7 @@ class Handler(BaseHTTPRequestHandler):
 def main() -> None:
     server = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
     server.daemon_threads = True
+    threading.Thread(target=channel_map_loop, daemon=True).start()
     print(f"IPTV proxy listening on 127.0.0.1:{PORT} region={REGION} base={PUBLIC_BASE_URL}", flush=True)
     server.serve_forever()
 
