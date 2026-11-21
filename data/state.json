@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-21T13:13:40Z",
+ "updated_at": "2026-11-21T20:56:48Z",
  "channels": [
   {
    "id": "1TV.af",
@@ -1470,16 +1470,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 5445,
-   "last_checked_at": "2026-11-21T13:13:04Z",
-   "last_ok_at": "2026-11-21T13:13:04Z",
+   "latency_ms": 3928,
+   "last_checked_at": "2026-11-21T20:56:19Z",
+   "last_ok_at": "2026-11-21T20:56:19Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "247BoxTV.ir",
@@ -1491,16 +1491,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1293,
-   "last_checked_at": "2026-11-21T13:13:00Z",
-   "last_ok_at": "2026-11-21T13:13:00Z",
+   "latency_ms": 953,
+   "last_checked_at": "2026-11-21T20:56:16Z",
+   "last_ok_at": "2026-11-21T20:56:16Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "4Afghanistan.fr",
@@ -1512,16 +1512,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1943,
-   "last_checked_at": "2026-11-21T13:13:01Z",
-   "last_ok_at": "2026-11-21T13:13:01Z",
+   "latency_ms": 1513,
+   "last_checked_at": "2026-11-21T20:56:16Z",
+   "last_ok_at": "2026-11-21T20:56:16Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "4Kurd.fr",
@@ -1533,16 +1533,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1234,
-   "last_checked_at": "2026-11-21T13:13:00Z",
-   "last_ok_at": "2026-11-21T13:13:00Z",
+   "latency_ms": 1110,
+   "last_checked_at": "2026-11-21T20:56:16Z",
+   "last_ok_at": "2026-11-21T20:56:16Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "4Music.fr",
@@ -1554,16 +1554,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1238,
-   "last_checked_at": "2026-11-21T13:13:00Z",
-   "last_ok_at": "2026-11-21T13:13:00Z",
+   "latency_ms": 962,
+   "last_checked_at": "2026-11-21T20:56:16Z",
+   "last_ok_at": "2026-11-21T20:56:16Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "4UTV.tr",
@@ -1575,16 +1575,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1296,
-   "last_checked_at": "2026-11-21T13:13:00Z",
-   "last_ok_at": "2026-11-21T13:13:00Z",
+   "latency_ms": 799,
+   "last_checked_at": "2026-11-21T20:56:16Z",
+   "last_ok_at": "2026-11-21T20:56:16Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ABNAfghanistan.us",
@@ -1596,16 +1596,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 618,
-   "last_checked_at": "2026-11-21T13:12:59Z",
-   "last_ok_at": "2026-11-21T13:12:59Z",
+   "latency_ms": 209,
+   "last_checked_at": "2026-11-21T20:56:15Z",
+   "last_ok_at": "2026-11-21T20:56:15Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AFNTV.ir",
@@ -1617,16 +1617,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 741,
-   "last_checked_at": "2026-11-21T13:12:59Z",
-   "last_ok_at": "2026-11-21T13:12:59Z",
+   "latency_ms": 227,
+   "last_checked_at": "2026-11-21T20:56:15Z",
+   "last_ok_at": "2026-11-21T20:56:15Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AMC.af",
@@ -1638,16 +1638,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1868,
-   "last_checked_at": "2026-11-21T13:13:00Z",
-   "last_ok_at": "2026-11-21T13:13:00Z",
+   "latency_ms": 1689,
+   "last_checked_at": "2026-11-21T20:56:17Z",
+   "last_ok_at": "2026-11-21T20:56:17Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AVASeries.ir",
@@ -1659,16 +1659,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1272,
-   "last_checked_at": "2026-11-21T13:13:00Z",
-   "last_ok_at": "2026-11-21T13:13:00Z",
+   "latency_ms": 1098,
+   "last_checked_at": "2026-11-21T20:56:16Z",
+   "last_ok_at": "2026-11-21T20:56:16Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AbadanTV.ir",
@@ -1680,16 +1680,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 4759,
-   "last_checked_at": "2026-11-21T13:13:03Z",
-   "last_ok_at": "2026-11-21T13:13:03Z",
+   "latency_ms": 3461,
+   "last_checked_at": "2026-11-21T20:56:18Z",
+   "last_ok_at": "2026-11-21T20:56:18Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AfghanNobelMovies.ca",
@@ -1701,8 +1701,8 @@
    "active": 1,
    "status": "unstable",
    "http_code": null,
-   "latency_ms": 10142,
-   "last_checked_at": "2026-11-21T13:13:09Z",
+   "latency_ms": 10111,
+   "last_checked_at": "2026-11-21T20:56:25Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -1710,7 +1710,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AfghanNobelTV.ca",
@@ -1722,8 +1722,8 @@
    "active": 1,
    "status": "unstable",
    "http_code": null,
-   "latency_ms": 10141,
-   "last_checked_at": "2026-11-21T13:13:09Z",
+   "latency_ms": 10111,
+   "last_checked_at": "2026-11-21T20:56:25Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -1731,7 +1731,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AfghanistanInternational.uk",
@@ -1743,16 +1743,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1544,
-   "last_checked_at": "2026-11-21T13:13:00Z",
-   "last_ok_at": "2026-11-21T13:13:00Z",
+   "latency_ms": 1040,
+   "last_checked_at": "2026-11-21T20:56:16Z",
+   "last_ok_at": "2026-11-21T20:56:16Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AflakTV.ir",
@@ -1764,16 +1764,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 4699,
-   "last_checked_at": "2026-11-21T13:13:03Z",
-   "last_ok_at": "2026-11-21T13:13:03Z",
+   "latency_ms": 3458,
+   "last_checked_at": "2026-11-21T20:56:18Z",
+   "last_ok_at": "2026-11-21T20:56:18Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AfraFilm.ir",
@@ -1785,16 +1785,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1560,
-   "last_checked_at": "2026-11-21T13:13:00Z",
-   "last_ok_at": "2026-11-21T13:13:00Z",
+   "latency_ms": 1129,
+   "last_checked_at": "2026-11-21T20:56:16Z",
+   "last_ok_at": "2026-11-21T20:56:16Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AfraSeries.ir",
@@ -1806,16 +1806,16 @@
    "active": 0,
    "status": "dead",
    "http_code": 404,
-   "latency_ms": 1039,
-   "last_checked_at": "2026-11-21T13:13:00Z",
+   "latency_ms": 840,
+   "last_checked_at": "2026-11-21T20:56:16Z",
    "last_ok_at": null,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "browser_ok": null,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AftabTV.ir",
@@ -1827,16 +1827,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 4720,
-   "last_checked_at": "2026-11-21T13:13:03Z",
-   "last_ok_at": "2026-11-21T13:13:03Z",
+   "latency_ms": 3463,
+   "last_checked_at": "2026-11-21T20:56:18Z",
+   "last_ok_at": "2026-11-21T20:56:18Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AlWilayah.ir",
@@ -1848,16 +1848,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1682,
-   "last_checked_at": "2026-11-21T13:13:00Z",
-   "last_ok_at": "2026-11-21T13:13:00Z",
+   "latency_ms": 1120,
+   "last_checked_at": "2026-11-21T20:56:16Z",
+   "last_ok_at": "2026-11-21T20:56:16Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AlborzTV.ir",
@@ -1869,16 +1869,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 4649,
-   "last_checked_at": "2026-11-21T13:13:03Z",
-   "last_ok_at": "2026-11-21T13:13:03Z",
+   "latency_ms": 3643,
+   "last_checked_at": "2026-11-21T20:56:18Z",
+   "last_ok_at": "2026-11-21T20:56:18Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AmouzeshTV.ir",
@@ -1890,16 +1890,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 4539,
-   "last_checked_at": "2026-11-21T13:13:03Z",
-   "last_ok_at": "2026-11-21T13:13:03Z",
+   "latency_ms": 3522,
+   "last_checked_at": "2026-11-21T20:56:18Z",
+   "last_ok_at": "2026-11-21T20:56:18Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AmuTV.us",
@@ -1911,16 +1911,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 3342,
-   "last_checked_at": "2026-11-21T13:13:02Z",
-   "last_ok_at": "2026-11-21T13:13:02Z",
+   "latency_ms": 2773,
+   "last_checked_at": "2026-11-21T20:56:18Z",
+   "last_ok_at": "2026-11-21T20:56:18Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AraTV.ir",
@@ -1932,8 +1932,8 @@
    "active": 1,
    "status": "unstable",
    "http_code": 200,
-   "latency_ms": 3015,
-   "last_checked_at": "2026-11-21T13:13:02Z",
+   "latency_ms": 2015,
+   "last_checked_at": "2026-11-21T20:56:17Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -1941,7 +1941,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AraxTV.ir",
@@ -1953,16 +1953,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1423,
-   "last_checked_at": "2026-11-21T13:13:00Z",
-   "last_ok_at": "2026-11-21T13:13:00Z",
+   "latency_ms": 1070,
+   "last_checked_at": "2026-11-21T20:56:16Z",
+   "last_ok_at": "2026-11-21T20:56:16Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ArkoTV.ir",
@@ -1974,16 +1974,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1239,
-   "last_checked_at": "2026-11-21T13:13:01Z",
-   "last_ok_at": "2026-11-21T13:13:01Z",
+   "latency_ms": 942,
+   "last_checked_at": "2026-11-21T20:56:16Z",
+   "last_ok_at": "2026-11-21T20:56:16Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ArvanTV.ir",
@@ -1995,16 +1995,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1259,
-   "last_checked_at": "2026-11-21T13:13:01Z",
-   "last_ok_at": "2026-11-21T13:13:01Z",
+   "latency_ms": 984,
+   "last_checked_at": "2026-11-21T20:56:16Z",
+   "last_ok_at": "2026-11-21T20:56:16Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AsilTV.ir",
@@ -2016,16 +2016,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 3690,
-   "last_checked_at": "2026-11-21T13:13:04Z",
-   "last_ok_at": "2026-11-21T13:13:04Z",
+   "latency_ms": 1684,
+   "last_checked_at": "2026-11-21T20:56:17Z",
+   "last_ok_at": "2026-11-21T20:56:17Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AtrakTV.ir",
@@ -2037,16 +2037,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3973,
-   "last_checked_at": "2026-11-21T13:13:05Z",
-   "last_ok_at": "2026-11-21T13:13:05Z",
+   "latency_ms": 3289,
+   "last_checked_at": "2026-11-21T20:56:20Z",
+   "last_ok_at": "2026-11-21T20:56:20Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AtrinaTV.ir",
@@ -2058,16 +2058,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1888,
-   "last_checked_at": "2026-11-21T13:13:03Z",
-   "last_ok_at": "2026-11-21T13:13:03Z",
+   "latency_ms": 1186,
+   "last_checked_at": "2026-11-21T20:56:18Z",
+   "last_ok_at": "2026-11-21T20:56:18Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "AvangTV.us",
@@ -2079,16 +2079,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1274,
-   "last_checked_at": "2026-11-21T13:13:02Z",
-   "last_ok_at": "2026-11-21T13:13:02Z",
+   "latency_ms": 861,
+   "last_checked_at": "2026-11-21T20:56:18Z",
+   "last_ok_at": "2026-11-21T20:56:18Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "BaharTV.af",
@@ -2100,16 +2100,16 @@
    "active": 0,
    "status": "dead",
    "http_code": 404,
-   "latency_ms": 336,
-   "last_checked_at": "2026-11-21T13:13:01Z",
+   "latency_ms": 148,
+   "last_checked_at": "2026-11-21T20:56:17Z",
    "last_ok_at": null,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "browser_ok": null,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "BaranTV.ir",
@@ -2121,16 +2121,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3974,
-   "last_checked_at": "2026-11-21T13:13:05Z",
-   "last_ok_at": "2026-11-21T13:13:05Z",
+   "latency_ms": 2949,
+   "last_checked_at": "2026-11-21T20:56:20Z",
+   "last_ok_at": "2026-11-21T20:56:20Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "BoushehrTV.ir",
@@ -2142,16 +2142,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 4422,
-   "last_checked_at": "2026-11-21T13:13:06Z",
-   "last_ok_at": "2026-11-21T13:13:06Z",
+   "latency_ms": 3185,
+   "last_checked_at": "2026-11-21T20:56:20Z",
+   "last_ok_at": "2026-11-21T20:56:20Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "BravoFarsiTV.ir",
@@ -2163,16 +2163,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1894,
-   "last_checked_at": "2026-11-21T13:13:03Z",
-   "last_ok_at": "2026-11-21T13:13:03Z",
+   "latency_ms": 1166,
+   "last_checked_at": "2026-11-21T20:56:18Z",
+   "last_ok_at": "2026-11-21T20:56:18Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "CafeFilm.ir",
@@ -2184,16 +2184,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1293,
-   "last_checked_at": "2026-11-21T13:13:03Z",
-   "last_ok_at": "2026-11-21T13:13:03Z",
+   "latency_ms": 794,
+   "last_checked_at": "2026-11-21T20:56:18Z",
+   "last_ok_at": "2026-11-21T20:56:18Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "CafeTradeTV.ir",
@@ -2205,16 +2205,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1892,
-   "last_checked_at": "2026-11-21T13:13:03Z",
-   "last_ok_at": "2026-11-21T13:13:03Z",
+   "latency_ms": 1301,
+   "last_checked_at": "2026-11-21T20:56:18Z",
+   "last_ok_at": "2026-11-21T20:56:18Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ClassicTV.ir",
@@ -2226,16 +2226,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1248,
-   "last_checked_at": "2026-11-21T13:13:03Z",
-   "last_ok_at": "2026-11-21T13:13:03Z",
+   "latency_ms": 760,
+   "last_checked_at": "2026-11-21T20:56:18Z",
+   "last_ok_at": "2026-11-21T20:56:18Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "DatisTV.ir",
@@ -2247,16 +2247,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1261,
-   "last_checked_at": "2026-11-21T13:13:03Z",
-   "last_ok_at": "2026-11-21T13:13:03Z",
+   "latency_ms": 784,
+   "last_checked_at": "2026-11-21T20:56:18Z",
+   "last_ok_at": "2026-11-21T20:56:18Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "DatisTV.ir",
@@ -2268,16 +2268,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1877,
-   "last_checked_at": "2026-11-21T13:13:04Z",
-   "last_ok_at": "2026-11-21T13:13:04Z",
+   "latency_ms": 1151,
+   "last_checked_at": "2026-11-21T20:56:18Z",
+   "last_ok_at": "2026-11-21T20:56:18Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "DenaTV.ir",
@@ -2289,16 +2289,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 4120,
-   "last_checked_at": "2026-11-21T13:13:06Z",
-   "last_ok_at": "2026-11-21T13:13:06Z",
+   "latency_ms": 3431,
+   "last_checked_at": "2026-11-21T20:56:20Z",
+   "last_ok_at": "2026-11-21T20:56:20Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "DunyaNawTV.af",
@@ -2310,16 +2310,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1282,
-   "last_checked_at": "2026-11-21T13:13:04Z",
-   "last_ok_at": "2026-11-21T13:13:04Z",
+   "latency_ms": 774,
+   "last_checked_at": "2026-11-21T20:56:19Z",
+   "last_ok_at": "2026-11-21T20:56:19Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "EPlanetTV.ir",
@@ -2331,16 +2331,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1878,
-   "last_checked_at": "2026-11-21T13:13:04Z",
-   "last_ok_at": "2026-11-21T13:13:04Z",
+   "latency_ms": 1172,
+   "last_checked_at": "2026-11-21T20:56:19Z",
+   "last_ok_at": "2026-11-21T20:56:19Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "EkranMovies.ir",
@@ -2352,8 +2352,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 266,
-   "last_checked_at": "2026-11-21T13:13:04Z",
+   "latency_ms": 213,
+   "last_checked_at": "2026-11-21T20:56:19Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2361,7 +2361,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "Energy.ir",
@@ -2373,8 +2373,8 @@
    "active": 1,
    "status": "unstable",
    "http_code": 200,
-   "latency_ms": 2281,
-   "last_checked_at": "2026-11-21T13:13:06Z",
+   "latency_ms": 1826,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2382,7 +2382,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ErfanHalghehTV.ca",
@@ -2394,16 +2394,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1248,
-   "last_checked_at": "2026-11-21T13:13:05Z",
-   "last_ok_at": "2026-11-21T13:13:05Z",
+   "latency_ms": 796,
+   "last_checked_at": "2026-11-21T20:56:19Z",
+   "last_ok_at": "2026-11-21T20:56:19Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "EshraghNetwork.ir",
@@ -2415,16 +2415,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3968,
-   "last_checked_at": "2026-11-21T13:13:08Z",
-   "last_ok_at": "2026-11-21T13:13:08Z",
+   "latency_ms": 3012,
+   "last_checked_at": "2026-11-21T20:56:22Z",
+   "last_ok_at": "2026-11-21T20:56:22Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "EslahTV.af",
@@ -2436,16 +2436,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1235,
-   "last_checked_at": "2026-11-21T13:13:05Z",
-   "last_ok_at": "2026-11-21T13:13:05Z",
+   "latency_ms": 778,
+   "last_checked_at": "2026-11-21T20:56:19Z",
+   "last_ok_at": "2026-11-21T20:56:19Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "FX1.ir",
@@ -2457,16 +2457,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1261,
-   "last_checked_at": "2026-11-21T13:13:06Z",
-   "last_ok_at": "2026-11-21T13:13:06Z",
+   "latency_ms": 794,
+   "last_checked_at": "2026-11-21T20:56:20Z",
+   "last_ok_at": "2026-11-21T20:56:20Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "FX2.ir",
@@ -2478,16 +2478,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1267,
-   "last_checked_at": "2026-11-21T13:13:06Z",
-   "last_ok_at": "2026-11-21T13:13:06Z",
+   "latency_ms": 764,
+   "last_checked_at": "2026-11-21T20:56:20Z",
+   "last_ok_at": "2026-11-21T20:56:20Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "FarsTV.ir",
@@ -2499,16 +2499,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3929,
-   "last_checked_at": "2026-11-21T13:13:09Z",
-   "last_ok_at": "2026-11-21T13:13:09Z",
+   "latency_ms": 2990,
+   "last_checked_at": "2026-11-21T20:56:22Z",
+   "last_ok_at": "2026-11-21T20:56:22Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEM24B.tr",
@@ -2520,8 +2520,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 265,
-   "last_checked_at": "2026-11-21T13:13:06Z",
+   "latency_ms": 108,
+   "last_checked_at": "2026-11-21T20:56:19Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2529,7 +2529,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMBollywood.tr",
@@ -2541,8 +2541,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 255,
-   "last_checked_at": "2026-11-21T13:13:06Z",
+   "latency_ms": 129,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2550,7 +2550,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMClassic.tr",
@@ -2562,8 +2562,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 271,
-   "last_checked_at": "2026-11-21T13:13:06Z",
+   "latency_ms": 103,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2571,7 +2571,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMComedy.tr",
@@ -2583,8 +2583,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 257,
-   "last_checked_at": "2026-11-21T13:13:06Z",
+   "latency_ms": 132,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2592,7 +2592,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMDrama.tr",
@@ -2604,8 +2604,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 237,
-   "last_checked_at": "2026-11-21T13:13:06Z",
+   "latency_ms": 107,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2613,7 +2613,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMDramaPlus.tr",
@@ -2625,8 +2625,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 255,
-   "last_checked_at": "2026-11-21T13:13:06Z",
+   "latency_ms": 87,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2634,7 +2634,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMEntertainment.tr",
@@ -2646,8 +2646,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 295,
-   "last_checked_at": "2026-11-21T13:13:06Z",
+   "latency_ms": 91,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2655,7 +2655,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMFilm.tr",
@@ -2667,8 +2667,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 294,
-   "last_checked_at": "2026-11-21T13:13:06Z",
+   "latency_ms": 97,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2676,7 +2676,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMFit.tr",
@@ -2688,8 +2688,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 252,
-   "last_checked_at": "2026-11-21T13:13:06Z",
+   "latency_ms": 91,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2697,7 +2697,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMFood.tr",
@@ -2709,8 +2709,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 227,
-   "last_checked_at": "2026-11-21T13:13:06Z",
+   "latency_ms": 83,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2718,7 +2718,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMFood.tr",
@@ -2730,8 +2730,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 605,
-   "last_checked_at": "2026-11-21T13:13:07Z",
+   "latency_ms": 400,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2739,7 +2739,7 @@
    "ir_status": "geo",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMJunior.tr",
@@ -2751,8 +2751,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 212,
-   "last_checked_at": "2026-11-21T13:13:07Z",
+   "latency_ms": 191,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2760,7 +2760,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMKids.tr",
@@ -2772,8 +2772,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 213,
-   "last_checked_at": "2026-11-21T13:13:07Z",
+   "latency_ms": 178,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2781,7 +2781,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMLife.tr",
@@ -2793,8 +2793,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 213,
-   "last_checked_at": "2026-11-21T13:13:07Z",
+   "latency_ms": 181,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2802,7 +2802,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMMifa.tr",
@@ -2814,8 +2814,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 212,
-   "last_checked_at": "2026-11-21T13:13:07Z",
+   "latency_ms": 75,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2823,7 +2823,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMMifaPlus.tr",
@@ -2835,8 +2835,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 205,
-   "last_checked_at": "2026-11-21T13:13:07Z",
+   "latency_ms": 91,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2844,7 +2844,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMNature.tr",
@@ -2856,8 +2856,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 218,
-   "last_checked_at": "2026-11-21T13:13:07Z",
+   "latency_ms": 79,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2865,7 +2865,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMOnyx.tr",
@@ -2877,8 +2877,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 215,
-   "last_checked_at": "2026-11-21T13:13:07Z",
+   "latency_ms": 129,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2886,7 +2886,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMPixel.tr",
@@ -2898,8 +2898,8 @@
    "active": 1,
    "status": "unstable",
    "http_code": null,
-   "latency_ms": 10118,
-   "last_checked_at": "2026-11-21T13:13:17Z",
+   "latency_ms": 10073,
+   "last_checked_at": "2026-11-21T20:56:30Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2907,7 +2907,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMRiver.tr",
@@ -2919,8 +2919,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 206,
-   "last_checked_at": "2026-11-21T13:13:07Z",
+   "latency_ms": 103,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2928,7 +2928,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMRiverPlus.tr",
@@ -2940,8 +2940,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 287,
-   "last_checked_at": "2026-11-21T13:13:07Z",
+   "latency_ms": 121,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2949,7 +2949,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMRubix.tr",
@@ -2961,8 +2961,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 282,
-   "last_checked_at": "2026-11-21T13:13:07Z",
+   "latency_ms": 176,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2970,7 +2970,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMRubixPlus.tr",
@@ -2982,8 +2982,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 259,
-   "last_checked_at": "2026-11-21T13:13:07Z",
+   "latency_ms": 183,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -2991,7 +2991,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMSeriesPlus.tr",
@@ -3003,8 +3003,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 232,
-   "last_checked_at": "2026-11-21T13:13:07Z",
+   "latency_ms": 179,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -3012,7 +3012,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMSport.tr",
@@ -3024,8 +3024,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 772,
-   "last_checked_at": "2026-11-21T13:13:08Z",
+   "latency_ms": 515,
+   "last_checked_at": "2026-11-21T20:56:21Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -3033,7 +3033,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMTV.tr",
@@ -3045,8 +3045,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 233,
-   "last_checked_at": "2026-11-21T13:13:07Z",
+   "latency_ms": 85,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -3054,7 +3054,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GEMTVPlus.tr",
@@ -3066,8 +3066,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 274,
-   "last_checked_at": "2026-11-21T13:13:07Z",
+   "latency_ms": 90,
+   "last_checked_at": "2026-11-21T20:56:20Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -3075,7 +3075,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GoldStar.ir",
@@ -3087,16 +3087,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1276,
-   "last_checked_at": "2026-11-21T13:13:08Z",
-   "last_ok_at": "2026-11-21T13:13:08Z",
+   "latency_ms": 778,
+   "last_checked_at": "2026-11-21T20:56:21Z",
+   "last_ok_at": "2026-11-21T20:56:21Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GolkhaneTv.ir",
@@ -3108,16 +3108,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3744,
-   "last_checked_at": "2026-11-21T13:13:11Z",
-   "last_ok_at": "2026-11-21T13:13:11Z",
+   "latency_ms": 2711,
+   "last_checked_at": "2026-11-21T20:56:23Z",
+   "last_ok_at": "2026-11-21T20:56:23Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "GrandCinema.tr",
@@ -3129,16 +3129,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1234,
-   "last_checked_at": "2026-11-21T13:13:08Z",
-   "last_ok_at": "2026-11-21T13:13:08Z",
+   "latency_ms": 748,
+   "last_checked_at": "2026-11-21T20:56:21Z",
+   "last_ok_at": "2026-11-21T20:56:21Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "HabibTV.ir",
@@ -3150,16 +3150,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3995,
-   "last_checked_at": "2026-11-21T13:13:11Z",
-   "last_ok_at": "2026-11-21T13:13:11Z",
+   "latency_ms": 2893,
+   "last_checked_at": "2026-11-21T20:56:23Z",
+   "last_ok_at": "2026-11-21T20:56:23Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "HamedanTV.ir",
@@ -3171,16 +3171,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3830,
-   "last_checked_at": "2026-11-21T13:13:11Z",
-   "last_ok_at": "2026-11-21T13:13:11Z",
+   "latency_ms": 2840,
+   "last_checked_at": "2026-11-21T20:56:23Z",
+   "last_ok_at": "2026-11-21T20:56:23Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "HamoonTV.ir",
@@ -3192,16 +3192,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3877,
-   "last_checked_at": "2026-11-21T13:13:11Z",
-   "last_ok_at": "2026-11-21T13:13:11Z",
+   "latency_ms": 2801,
+   "last_checked_at": "2026-11-21T20:56:23Z",
+   "last_ok_at": "2026-11-21T20:56:23Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "HewadTV.af",
@@ -3213,8 +3213,8 @@
    "active": 1,
    "status": "unstable",
    "http_code": null,
-   "latency_ms": 10004,
-   "last_checked_at": "2026-11-21T13:13:17Z",
+   "latency_ms": 10008,
+   "last_checked_at": "2026-11-21T20:56:31Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -3222,7 +3222,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "HighVisionTV.us",
@@ -3234,16 +3234,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 479,
-   "last_checked_at": "2026-11-21T13:13:08Z",
-   "last_ok_at": "2026-11-21T13:13:08Z",
+   "latency_ms": 774,
+   "last_checked_at": "2026-11-21T20:56:21Z",
+   "last_ok_at": "2026-11-21T20:56:21Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "HodHodFarsiTV.ir",
@@ -3255,8 +3255,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 273,
-   "last_checked_at": "2026-11-21T13:13:08Z",
+   "latency_ms": 431,
+   "last_checked_at": "2026-11-21T20:56:21Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -3264,7 +3264,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ICCplus.us",
@@ -3276,16 +3276,16 @@
    "active": 0,
    "status": "dead",
    "http_code": 404,
-   "latency_ms": 490,
-   "last_checked_at": "2026-11-21T13:13:08Z",
+   "latency_ms": 468,
+   "last_checked_at": "2026-11-21T20:56:22Z",
    "last_ok_at": null,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "browser_ok": null,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ICnet2.ca",
@@ -3297,16 +3297,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1232,
-   "last_checked_at": "2026-11-21T13:13:09Z",
-   "last_ok_at": "2026-11-21T13:13:09Z",
+   "latency_ms": 788,
+   "last_checked_at": "2026-11-21T20:56:22Z",
+   "last_ok_at": "2026-11-21T20:56:22Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IRIB1.ir",
@@ -3318,16 +3318,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3893,
-   "last_checked_at": "2026-11-21T13:13:11Z",
-   "last_ok_at": "2026-11-21T13:13:11Z",
+   "latency_ms": 2860,
+   "last_checked_at": "2026-11-21T20:56:24Z",
+   "last_ok_at": "2026-11-21T20:56:24Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IRIB2.ir",
@@ -3339,16 +3339,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 4028,
-   "last_checked_at": "2026-11-21T13:13:12Z",
-   "last_ok_at": "2026-11-21T13:13:12Z",
+   "latency_ms": 2841,
+   "last_checked_at": "2026-11-21T20:56:24Z",
+   "last_ok_at": "2026-11-21T20:56:24Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IRIB3.ir",
@@ -3360,16 +3360,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3743,
-   "last_checked_at": "2026-11-21T13:13:11Z",
-   "last_ok_at": "2026-11-21T13:13:11Z",
+   "latency_ms": 2838,
+   "last_checked_at": "2026-11-21T20:56:24Z",
+   "last_ok_at": "2026-11-21T20:56:24Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IRIB4.ir",
@@ -3381,16 +3381,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 4036,
-   "last_checked_at": "2026-11-21T13:13:12Z",
-   "last_ok_at": "2026-11-21T13:13:12Z",
+   "latency_ms": 2853,
+   "last_checked_at": "2026-11-21T20:56:25Z",
+   "last_ok_at": "2026-11-21T20:56:25Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IRIBMostanad.ir",
@@ -3402,16 +3402,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3862,
-   "last_checked_at": "2026-11-21T13:13:12Z",
-   "last_ok_at": "2026-11-21T13:13:12Z",
+   "latency_ms": 2904,
+   "last_checked_at": "2026-11-21T20:56:25Z",
+   "last_ok_at": "2026-11-21T20:56:25Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IRIBOmid.ir",
@@ -3423,16 +3423,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3878,
-   "last_checked_at": "2026-11-21T13:13:12Z",
-   "last_ok_at": "2026-11-21T13:13:12Z",
+   "latency_ms": 2899,
+   "last_checked_at": "2026-11-21T20:56:25Z",
+   "last_ok_at": "2026-11-21T20:56:25Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IRIBUHD.ir",
@@ -3444,16 +3444,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 4044,
-   "last_checked_at": "2026-11-21T13:13:13Z",
-   "last_ok_at": "2026-11-21T13:13:13Z",
+   "latency_ms": 2901,
+   "last_checked_at": "2026-11-21T20:56:25Z",
+   "last_ok_at": "2026-11-21T20:56:25Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IRINN.ir",
@@ -3465,16 +3465,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1267,
-   "last_checked_at": "2026-11-21T13:13:10Z",
-   "last_ok_at": "2026-11-21T13:13:10Z",
+   "latency_ms": 873,
+   "last_checked_at": "2026-11-21T20:56:23Z",
+   "last_ok_at": "2026-11-21T20:56:23Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IRINN2.ir",
@@ -3486,16 +3486,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3924,
-   "last_checked_at": "2026-11-21T13:13:13Z",
-   "last_ok_at": "2026-11-21T13:13:13Z",
+   "latency_ms": 2915,
+   "last_checked_at": "2026-11-21T20:56:25Z",
+   "last_ok_at": "2026-11-21T20:56:25Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IlamTV.ir",
@@ -3507,16 +3507,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3809,
-   "last_checked_at": "2026-11-21T13:13:13Z",
-   "last_ok_at": "2026-11-21T13:13:13Z",
+   "latency_ms": 2867,
+   "last_checked_at": "2026-11-21T20:56:25Z",
+   "last_ok_at": "2026-11-21T20:56:25Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ImanTV.us",
@@ -3528,16 +3528,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1440,
-   "last_checked_at": "2026-11-21T13:13:11Z",
-   "last_ok_at": "2026-11-21T13:13:11Z",
+   "latency_ms": 1116,
+   "last_checked_at": "2026-11-21T20:56:24Z",
+   "last_ok_at": "2026-11-21T20:56:24Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ImanTV.us",
@@ -3549,8 +3549,8 @@
    "active": 1,
    "status": "unstable",
    "http_code": null,
-   "latency_ms": 10083,
-   "last_checked_at": "2026-11-21T13:13:20Z",
+   "latency_ms": 10115,
+   "last_checked_at": "2026-11-21T20:56:33Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -3558,7 +3558,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IranInternational.uk",
@@ -3570,16 +3570,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 454,
-   "last_checked_at": "2026-11-21T13:13:10Z",
-   "last_ok_at": "2026-11-21T13:13:10Z",
+   "latency_ms": 333,
+   "last_checked_at": "2026-11-21T20:56:24Z",
+   "last_ok_at": "2026-11-21T20:56:24Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IranInternational.uk",
@@ -3591,16 +3591,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 944,
-   "last_checked_at": "2026-11-21T13:13:11Z",
-   "last_ok_at": "2026-11-21T13:13:11Z",
+   "latency_ms": 994,
+   "last_checked_at": "2026-11-21T20:56:24Z",
+   "last_ok_at": "2026-11-21T20:56:24Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IranJewishTV.ir",
@@ -3612,16 +3612,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 2286,
-   "last_checked_at": "2026-11-21T13:13:12Z",
-   "last_ok_at": "2026-11-21T13:13:12Z",
+   "latency_ms": 1338,
+   "last_checked_at": "2026-11-21T20:56:25Z",
+   "last_ok_at": "2026-11-21T20:56:25Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IranNama.fr",
@@ -3633,16 +3633,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1899,
-   "last_checked_at": "2026-11-21T13:13:12Z",
-   "last_ok_at": "2026-11-21T13:13:12Z",
+   "latency_ms": 1144,
+   "last_checked_at": "2026-11-21T20:56:25Z",
+   "last_ok_at": "2026-11-21T20:56:25Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IranNationalRevolutionTV.us",
@@ -3654,16 +3654,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1236,
-   "last_checked_at": "2026-11-21T13:13:12Z",
-   "last_ok_at": "2026-11-21T13:13:12Z",
+   "latency_ms": 1092,
+   "last_checked_at": "2026-11-21T20:56:25Z",
+   "last_ok_at": "2026-11-21T20:56:25Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IranPress.ir",
@@ -3675,16 +3675,16 @@
    "active": 0,
    "status": "dead",
    "http_code": null,
-   "latency_ms": 415,
-   "last_checked_at": "2026-11-21T13:13:11Z",
+   "latency_ms": 3110,
+   "last_checked_at": "2026-11-21T20:56:28Z",
    "last_ok_at": null,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "browser_ok": null,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IraneFardaTV.uk",
@@ -3696,16 +3696,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1227,
-   "last_checked_at": "2026-11-21T13:13:12Z",
-   "last_ok_at": "2026-11-21T13:13:12Z",
+   "latency_ms": 844,
+   "last_checked_at": "2026-11-21T20:56:26Z",
+   "last_ok_at": "2026-11-21T20:56:26Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "IsfahanTV.ir",
@@ -3717,16 +3717,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3824,
-   "last_checked_at": "2026-11-21T13:13:15Z",
-   "last_ok_at": "2026-11-21T13:13:15Z",
+   "latency_ms": 2876,
+   "last_checked_at": "2026-11-21T20:56:28Z",
+   "last_ok_at": "2026-11-21T20:56:28Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "JahanbinTV.ir",
@@ -3738,16 +3738,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3745,
-   "last_checked_at": "2026-11-21T13:13:16Z",
-   "last_ok_at": "2026-11-21T13:13:16Z",
+   "latency_ms": 2810,
+   "last_checked_at": "2026-11-21T20:56:28Z",
+   "last_ok_at": "2026-11-21T20:56:28Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "KalemehTV.uk",
@@ -3759,8 +3759,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 242,
-   "last_checked_at": "2026-11-21T13:13:13Z",
+   "latency_ms": 159,
+   "last_checked_at": "2026-11-21T20:56:25Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -3768,7 +3768,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "KalemehTV.uk",
@@ -3780,16 +3780,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 297,
-   "last_checked_at": "2026-11-21T13:13:13Z",
-   "last_ok_at": "2026-11-21T13:13:13Z",
+   "latency_ms": 84,
+   "last_checked_at": "2026-11-21T20:56:25Z",
+   "last_ok_at": "2026-11-21T20:56:25Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "KanalJadid.uk",
@@ -3801,16 +3801,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1245,
-   "last_checked_at": "2026-11-21T13:13:14Z",
-   "last_ok_at": "2026-11-21T13:13:14Z",
+   "latency_ms": 786,
+   "last_checked_at": "2026-11-21T20:56:27Z",
+   "last_ok_at": "2026-11-21T20:56:27Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "KayhanTV.af",
@@ -3822,16 +3822,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 2075,
-   "last_checked_at": "2026-11-21T13:13:15Z",
-   "last_ok_at": "2026-11-21T13:13:15Z",
+   "latency_ms": 615,
+   "last_checked_at": "2026-11-21T20:56:27Z",
+   "last_ok_at": "2026-11-21T20:56:27Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "KermanTV.ir",
@@ -3843,16 +3843,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3995,
-   "last_checked_at": "2026-11-21T13:13:17Z",
-   "last_ok_at": "2026-11-21T13:13:17Z",
+   "latency_ms": 2817,
+   "last_checked_at": "2026-11-21T20:56:29Z",
+   "last_ok_at": "2026-11-21T20:56:29Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "KhalijeFarsTV.ir",
@@ -3864,16 +3864,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3742,
-   "last_checked_at": "2026-11-21T13:13:17Z",
-   "last_ok_at": "2026-11-21T13:13:17Z",
+   "latency_ms": 2872,
+   "last_checked_at": "2026-11-21T20:56:29Z",
+   "last_ok_at": "2026-11-21T20:56:29Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "KhavaranTV.ir",
@@ -3885,16 +3885,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3841,
-   "last_checked_at": "2026-11-21T13:13:18Z",
-   "last_ok_at": "2026-11-21T13:13:18Z",
+   "latency_ms": 2850,
+   "last_checked_at": "2026-11-21T20:56:29Z",
+   "last_ok_at": "2026-11-21T20:56:29Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "KhorasanRazaviTV.ir",
@@ -3906,16 +3906,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3818,
-   "last_checked_at": "2026-11-21T13:13:18Z",
-   "last_ok_at": "2026-11-21T13:13:18Z",
+   "latency_ms": 2842,
+   "last_checked_at": "2026-11-21T20:56:29Z",
+   "last_ok_at": "2026-11-21T20:56:29Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "KhozestanTV.ir",
@@ -3927,16 +3927,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3828,
-   "last_checked_at": "2026-11-21T13:13:18Z",
-   "last_ok_at": "2026-11-21T13:13:18Z",
+   "latency_ms": 2807,
+   "last_checked_at": "2026-11-21T20:56:29Z",
+   "last_ok_at": "2026-11-21T20:56:29Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "KishTV.ir",
@@ -3948,16 +3948,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3748,
-   "last_checked_at": "2026-11-21T13:13:18Z",
-   "last_ok_at": "2026-11-21T13:13:18Z",
+   "latency_ms": 2860,
+   "last_checked_at": "2026-11-21T20:56:29Z",
+   "last_ok_at": "2026-11-21T20:56:29Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "KordestanTV.ir",
@@ -3969,16 +3969,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3855,
-   "last_checked_at": "2026-11-21T13:13:19Z",
-   "last_ok_at": "2026-11-21T13:13:19Z",
+   "latency_ms": 2856,
+   "last_checked_at": "2026-11-21T20:56:29Z",
+   "last_ok_at": "2026-11-21T20:56:29Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "LabbaykTV.ir",
@@ -3990,16 +3990,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3938,
-   "last_checked_at": "2026-11-21T13:13:19Z",
-   "last_ok_at": "2026-11-21T13:13:19Z",
+   "latency_ms": 2834,
+   "last_checked_at": "2026-11-21T20:56:30Z",
+   "last_ok_at": "2026-11-21T20:56:30Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "LemarTV.af",
@@ -4011,16 +4011,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1188,
-   "last_checked_at": "2026-11-21T13:13:17Z",
-   "last_ok_at": "2026-11-21T13:13:17Z",
+   "latency_ms": 382,
+   "last_checked_at": "2026-11-21T20:56:28Z",
+   "last_ok_at": "2026-11-21T20:56:28Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "MaahTV.my",
@@ -4032,16 +4032,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1293,
-   "last_checked_at": "2026-11-21T13:13:17Z",
-   "last_ok_at": "2026-11-21T13:13:17Z",
+   "latency_ms": 1132,
+   "last_checked_at": "2026-11-21T20:56:28Z",
+   "last_ok_at": "2026-11-21T20:56:28Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "MahabadTV.ir",
@@ -4053,16 +4053,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3906,
-   "last_checked_at": "2026-11-21T13:13:19Z",
-   "last_ok_at": "2026-11-21T13:13:19Z",
+   "latency_ms": 2871,
+   "last_checked_at": "2026-11-21T20:56:30Z",
+   "last_ok_at": "2026-11-21T20:56:30Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "Manoto.uk",
@@ -4074,8 +4074,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 202,
-   "last_checked_at": "2026-11-21T13:13:16Z",
+   "latency_ms": 120,
+   "last_checked_at": "2026-11-21T20:56:28Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -4083,7 +4083,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "MetaFilmTV.ir",
@@ -4095,16 +4095,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1261,
-   "last_checked_at": "2026-11-21T13:13:17Z",
-   "last_ok_at": "2026-11-21T13:13:17Z",
+   "latency_ms": 759,
+   "last_checked_at": "2026-11-21T20:56:28Z",
+   "last_ok_at": "2026-11-21T20:56:28Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "MihanTV.ir",
@@ -4116,16 +4116,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 720,
-   "last_checked_at": "2026-11-21T13:13:17Z",
-   "last_ok_at": "2026-11-21T13:13:17Z",
+   "latency_ms": 785,
+   "last_checked_at": "2026-11-21T20:56:28Z",
+   "last_ok_at": "2026-11-21T20:56:28Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "MohabatTV.ir",
@@ -4137,8 +4137,8 @@
    "active": 1,
    "status": "unstable",
    "http_code": 200,
-   "latency_ms": 215,
-   "last_checked_at": "2026-11-21T13:13:16Z",
+   "latency_ms": 73,
+   "last_checked_at": "2026-11-21T20:56:28Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -4146,7 +4146,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "NamayeshTV.ir",
@@ -4158,16 +4158,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 4055,
-   "last_checked_at": "2026-11-21T13:13:20Z",
-   "last_ok_at": "2026-11-21T13:13:20Z",
+   "latency_ms": 2854,
+   "last_checked_at": "2026-11-21T20:56:31Z",
+   "last_ok_at": "2026-11-21T20:56:31Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "Nasim.ir",
@@ -4179,16 +4179,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3925,
-   "last_checked_at": "2026-11-21T13:13:20Z",
-   "last_ok_at": "2026-11-21T13:13:20Z",
+   "latency_ms": 2938,
+   "last_checked_at": "2026-11-21T20:56:31Z",
+   "last_ok_at": "2026-11-21T20:56:31Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "NationalIranianCongressTV.us",
@@ -4200,16 +4200,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 2237,
-   "last_checked_at": "2026-11-21T13:13:19Z",
-   "last_ok_at": "2026-11-21T13:13:19Z",
+   "latency_ms": 1469,
+   "last_checked_at": "2026-11-21T20:56:29Z",
+   "last_ok_at": "2026-11-21T20:56:29Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "NewFlix.ir",
@@ -4221,16 +4221,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1846,
-   "last_checked_at": "2026-11-21T13:13:19Z",
-   "last_ok_at": "2026-11-21T13:13:19Z",
+   "latency_ms": 1128,
+   "last_checked_at": "2026-11-21T20:56:29Z",
+   "last_ok_at": "2026-11-21T20:56:29Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "NoorTV.ir",
@@ -4242,16 +4242,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3845,
-   "last_checked_at": "2026-11-21T13:13:21Z",
-   "last_ok_at": "2026-11-21T13:13:21Z",
+   "latency_ms": 2784,
+   "last_checked_at": "2026-11-21T20:56:31Z",
+   "last_ok_at": "2026-11-21T20:56:31Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "OXIRTV.ir",
@@ -4263,16 +4263,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1239,
-   "last_checked_at": "2026-11-21T13:13:18Z",
-   "last_ok_at": "2026-11-21T13:13:18Z",
+   "latency_ms": 926,
+   "last_checked_at": "2026-11-21T20:56:29Z",
+   "last_ok_at": "2026-11-21T20:56:29Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "OfoghTV.ir",
@@ -4284,16 +4284,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3713,
-   "last_checked_at": "2026-11-21T13:13:21Z",
-   "last_ok_at": "2026-11-21T13:13:21Z",
+   "latency_ms": 2881,
+   "last_checked_at": "2026-11-21T20:56:31Z",
+   "last_ok_at": "2026-11-21T20:56:31Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "OmideIranTV.us",
@@ -4305,16 +4305,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1252,
-   "last_checked_at": "2026-11-21T13:13:18Z",
-   "last_ok_at": "2026-11-21T13:13:18Z",
+   "latency_ms": 731,
+   "last_checked_at": "2026-11-21T20:56:30Z",
+   "last_ok_at": "2026-11-21T20:56:30Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PBCTapeshTV.us",
@@ -4326,16 +4326,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 654,
-   "last_checked_at": "2026-11-21T13:13:18Z",
-   "last_ok_at": "2026-11-21T13:13:18Z",
+   "latency_ms": 646,
+   "last_checked_at": "2026-11-21T20:56:30Z",
+   "last_ok_at": "2026-11-21T20:56:30Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "Palestinetv.ir",
@@ -4347,16 +4347,16 @@
    "active": 0,
    "status": "dead",
    "http_code": 404,
-   "latency_ms": 8375,
-   "last_checked_at": "2026-11-21T13:13:26Z",
+   "latency_ms": 7535,
+   "last_checked_at": "2026-11-21T20:56:37Z",
    "last_ok_at": null,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "browser_ok": null,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ParsTV.us",
@@ -4368,16 +4368,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1188,
-   "last_checked_at": "2026-11-21T13:13:19Z",
-   "last_ok_at": "2026-11-21T13:13:19Z",
+   "latency_ms": 974,
+   "last_checked_at": "2026-11-21T20:56:31Z",
+   "last_ok_at": "2026-11-21T20:56:31Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ParsTV.us",
@@ -4389,16 +4389,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1231,
-   "last_checked_at": "2026-11-21T13:13:20Z",
-   "last_ok_at": "2026-11-21T13:13:20Z",
+   "latency_ms": 740,
+   "last_checked_at": "2026-11-21T20:56:31Z",
+   "last_ok_at": "2026-11-21T20:56:31Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PayamJavanTV.us",
@@ -4410,16 +4410,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1613,
-   "last_checked_at": "2026-11-21T13:13:20Z",
-   "last_ok_at": "2026-11-21T13:13:20Z",
+   "latency_ms": 569,
+   "last_checked_at": "2026-11-21T20:56:31Z",
+   "last_ok_at": "2026-11-21T20:56:31Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PayameAfghanTV.us",
@@ -4431,16 +4431,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1678,
-   "last_checked_at": "2026-11-21T13:13:21Z",
-   "last_ok_at": "2026-11-21T13:13:21Z",
+   "latency_ms": 405,
+   "last_checked_at": "2026-11-21T20:56:31Z",
+   "last_ok_at": "2026-11-21T20:56:31Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PayameAfghanTV.us",
@@ -4452,16 +4452,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1672,
-   "last_checked_at": "2026-11-21T13:13:21Z",
-   "last_ok_at": "2026-11-21T13:13:21Z",
+   "latency_ms": 387,
+   "last_checked_at": "2026-11-21T20:56:31Z",
+   "last_ok_at": "2026-11-21T20:56:31Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PayvandTV.ir",
@@ -4473,16 +4473,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1404,
-   "last_checked_at": "2026-11-21T13:13:21Z",
-   "last_ok_at": "2026-11-21T13:13:21Z",
+   "latency_ms": 423,
+   "last_checked_at": "2026-11-21T20:56:31Z",
+   "last_ok_at": "2026-11-21T20:56:31Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaCinema.fr",
@@ -4494,16 +4494,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1240,
-   "last_checked_at": "2026-11-21T13:13:21Z",
-   "last_ok_at": "2026-11-21T13:13:21Z",
+   "latency_ms": 922,
+   "last_checked_at": "2026-11-21T20:56:32Z",
+   "last_ok_at": "2026-11-21T20:56:32Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaComedy.fr",
@@ -4515,16 +4515,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1238,
-   "last_checked_at": "2026-11-21T13:13:21Z",
-   "last_ok_at": "2026-11-21T13:13:21Z",
+   "latency_ms": 791,
+   "last_checked_at": "2026-11-21T20:56:31Z",
+   "last_ok_at": "2026-11-21T20:56:31Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaDocs.fr",
@@ -4536,16 +4536,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1291,
-   "last_checked_at": "2026-11-21T13:13:21Z",
-   "last_ok_at": "2026-11-21T13:13:21Z",
+   "latency_ms": 789,
+   "last_checked_at": "2026-11-21T20:56:32Z",
+   "last_ok_at": "2026-11-21T20:56:32Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaFamily.fr",
@@ -4557,16 +4557,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1284,
-   "last_checked_at": "2026-11-21T13:13:22Z",
-   "last_ok_at": "2026-11-21T13:13:22Z",
+   "latency_ms": 1074,
+   "last_checked_at": "2026-11-21T20:56:32Z",
+   "last_ok_at": "2026-11-21T20:56:32Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaFight.fr",
@@ -4578,16 +4578,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1249,
-   "last_checked_at": "2026-11-21T13:13:22Z",
-   "last_ok_at": "2026-11-21T13:13:22Z",
+   "latency_ms": 793,
+   "last_checked_at": "2026-11-21T20:56:32Z",
+   "last_ok_at": "2026-11-21T20:56:32Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaFolk.fr",
@@ -4599,16 +4599,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1236,
-   "last_checked_at": "2026-11-21T13:13:22Z",
-   "last_ok_at": "2026-11-21T13:13:22Z",
+   "latency_ms": 962,
+   "last_checked_at": "2026-11-21T20:56:32Z",
+   "last_ok_at": "2026-11-21T20:56:32Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaIranian.fr",
@@ -4620,16 +4620,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1283,
-   "last_checked_at": "2026-11-21T13:13:22Z",
-   "last_ok_at": "2026-11-21T13:13:22Z",
+   "latency_ms": 790,
+   "last_checked_at": "2026-11-21T20:56:32Z",
+   "last_ok_at": "2026-11-21T20:56:32Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaJunior.fr",
@@ -4641,16 +4641,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1261,
-   "last_checked_at": "2026-11-21T13:13:23Z",
-   "last_ok_at": "2026-11-21T13:13:23Z",
+   "latency_ms": 977,
+   "last_checked_at": "2026-11-21T20:56:32Z",
+   "last_ok_at": "2026-11-21T20:56:32Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaKorea.fr",
@@ -4662,16 +4662,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1250,
-   "last_checked_at": "2026-11-21T13:13:23Z",
-   "last_ok_at": "2026-11-21T13:13:23Z",
+   "latency_ms": 790,
+   "last_checked_at": "2026-11-21T20:56:32Z",
+   "last_ok_at": "2026-11-21T20:56:32Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaLatino.fr",
@@ -4683,16 +4683,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1860,
-   "last_checked_at": "2026-11-21T13:13:23Z",
-   "last_ok_at": "2026-11-21T13:13:23Z",
+   "latency_ms": 1159,
+   "last_checked_at": "2026-11-21T20:56:33Z",
+   "last_ok_at": "2026-11-21T20:56:33Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaMedical.fr",
@@ -4704,16 +4704,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1285,
-   "last_checked_at": "2026-11-21T13:13:23Z",
-   "last_ok_at": "2026-11-21T13:13:23Z",
+   "latency_ms": 793,
+   "last_checked_at": "2026-11-21T20:56:33Z",
+   "last_ok_at": "2026-11-21T20:56:33Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaNostalgia.fr",
@@ -4725,16 +4725,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1258,
-   "last_checked_at": "2026-11-21T13:13:23Z",
-   "last_ok_at": "2026-11-21T13:13:23Z",
+   "latency_ms": 792,
+   "last_checked_at": "2026-11-21T20:56:33Z",
+   "last_ok_at": "2026-11-21T20:56:33Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaPlus.fr",
@@ -4746,16 +4746,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1254,
-   "last_checked_at": "2026-11-21T13:13:23Z",
-   "last_ok_at": "2026-11-21T13:13:23Z",
+   "latency_ms": 778,
+   "last_checked_at": "2026-11-21T20:56:33Z",
+   "last_ok_at": "2026-11-21T20:56:33Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaReality.fr",
@@ -4767,16 +4767,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1222,
-   "last_checked_at": "2026-11-21T13:13:23Z",
-   "last_ok_at": "2026-11-21T13:13:23Z",
+   "latency_ms": 788,
+   "last_checked_at": "2026-11-21T20:56:33Z",
+   "last_ok_at": "2026-11-21T20:56:33Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaReality.fr",
@@ -4788,16 +4788,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1931,
-   "last_checked_at": "2026-11-21T13:13:24Z",
-   "last_ok_at": "2026-11-21T13:13:24Z",
+   "latency_ms": 1152,
+   "last_checked_at": "2026-11-21T20:56:33Z",
+   "last_ok_at": "2026-11-21T20:56:33Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaSeries.fr",
@@ -4809,16 +4809,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1243,
-   "last_checked_at": "2026-11-21T13:13:23Z",
-   "last_ok_at": "2026-11-21T13:13:23Z",
+   "latency_ms": 778,
+   "last_checked_at": "2026-11-21T20:56:33Z",
+   "last_ok_at": "2026-11-21T20:56:33Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaTeen.fr",
@@ -4830,8 +4830,8 @@
    "active": 1,
    "status": "unstable",
    "http_code": null,
-   "latency_ms": 10024,
-   "last_checked_at": "2026-11-21T13:13:32Z",
+   "latency_ms": 10017,
+   "last_checked_at": "2026-11-21T20:56:42Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -4839,7 +4839,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaTravel.fr",
@@ -4851,16 +4851,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1273,
-   "last_checked_at": "2026-11-21T13:13:23Z",
-   "last_ok_at": "2026-11-21T13:13:23Z",
+   "latency_ms": 765,
+   "last_checked_at": "2026-11-21T20:56:33Z",
+   "last_ok_at": "2026-11-21T20:56:33Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaTurkiye.fr",
@@ -4872,16 +4872,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1227,
-   "last_checked_at": "2026-11-21T13:13:24Z",
-   "last_ok_at": "2026-11-21T13:13:24Z",
+   "latency_ms": 785,
+   "last_checked_at": "2026-11-21T20:56:33Z",
+   "last_ok_at": "2026-11-21T20:56:33Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PersianaVibe.fr",
@@ -4893,16 +4893,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1308,
-   "last_checked_at": "2026-11-21T13:13:24Z",
-   "last_ok_at": "2026-11-21T13:13:24Z",
+   "latency_ms": 777,
+   "last_checked_at": "2026-11-21T20:56:34Z",
+   "last_ok_at": "2026-11-21T20:56:34Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PooyaTV.ir",
@@ -4914,16 +4914,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 817,
-   "last_checked_at": "2026-11-21T13:13:24Z",
-   "last_ok_at": "2026-11-21T13:13:24Z",
+   "latency_ms": 225,
+   "last_checked_at": "2026-11-21T20:56:33Z",
+   "last_ok_at": "2026-11-21T20:56:33Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PooyaTVPlus.ir",
@@ -4935,8 +4935,8 @@
    "active": 1,
    "status": "unstable",
    "http_code": 200,
-   "latency_ms": 2223,
-   "last_checked_at": "2026-11-21T13:13:25Z",
+   "latency_ms": 1608,
+   "last_checked_at": "2026-11-21T20:56:35Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -4944,7 +4944,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PressTV.ir",
@@ -4956,16 +4956,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 314,
-   "last_checked_at": "2026-11-21T13:13:24Z",
-   "last_ok_at": "2026-11-21T13:13:24Z",
+   "latency_ms": 333,
+   "last_checked_at": "2026-11-21T20:56:33Z",
+   "last_ok_at": "2026-11-21T20:56:33Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PressTV.ir",
@@ -4977,16 +4977,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 911,
-   "last_checked_at": "2026-11-21T13:13:24Z",
-   "last_ok_at": "2026-11-21T13:13:24Z",
+   "latency_ms": 896,
+   "last_checked_at": "2026-11-21T20:56:34Z",
+   "last_ok_at": "2026-11-21T20:56:34Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "PressTVFrench.ir",
@@ -4998,16 +4998,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3911,
-   "last_checked_at": "2026-11-21T13:13:27Z",
-   "last_ok_at": "2026-11-21T13:13:27Z",
+   "latency_ms": 1142,
+   "last_checked_at": "2026-11-21T20:56:34Z",
+   "last_ok_at": "2026-11-21T20:56:34Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "QazvinTV.ir",
@@ -5019,16 +5019,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3836,
-   "last_checked_at": "2026-11-21T13:13:28Z",
-   "last_ok_at": "2026-11-21T13:13:28Z",
+   "latency_ms": 2835,
+   "last_checked_at": "2026-11-21T20:56:36Z",
+   "last_ok_at": "2026-11-21T20:56:36Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "QuranTV.ir",
@@ -5040,16 +5040,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3661,
-   "last_checked_at": "2026-11-21T13:13:27Z",
-   "last_ok_at": "2026-11-21T13:13:27Z",
+   "latency_ms": 2960,
+   "last_checked_at": "2026-11-21T20:56:36Z",
+   "last_ok_at": "2026-11-21T20:56:36Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "RJTV.us",
@@ -5061,16 +5061,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1245,
-   "last_checked_at": "2026-11-21T13:13:25Z",
-   "last_ok_at": "2026-11-21T13:13:25Z",
+   "latency_ms": 746,
+   "last_checked_at": "2026-11-21T20:56:34Z",
+   "last_ok_at": "2026-11-21T20:56:34Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "RTA.af",
@@ -5082,16 +5082,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 2838,
-   "last_checked_at": "2026-11-21T13:13:27Z",
-   "last_ok_at": "2026-11-21T13:13:27Z",
+   "latency_ms": 1689,
+   "last_checked_at": "2026-11-21T20:56:35Z",
+   "last_ok_at": "2026-11-21T20:56:35Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "RTAEducation.af",
@@ -5103,16 +5103,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 2826,
-   "last_checked_at": "2026-11-21T13:13:27Z",
-   "last_ok_at": "2026-11-21T13:13:27Z",
+   "latency_ms": 1655,
+   "last_checked_at": "2026-11-21T20:56:35Z",
+   "last_ok_at": "2026-11-21T20:56:35Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "RasoulallahTv.ir",
@@ -5121,19 +5121,19 @@
    "referrer": "",
    "source": "iptv-org-ir",
    "priority": 0,
-   "active": 0,
-   "status": "dead",
-   "http_code": 404,
-   "latency_ms": 426,
-   "last_checked_at": "2026-11-21T13:13:25Z",
-   "last_ok_at": null,
-   "fail_streak": 9,
-   "browser_ok": null,
+   "active": 1,
+   "status": "ok",
+   "http_code": 206,
+   "latency_ms": 304,
+   "last_checked_at": "2026-11-21T20:56:34Z",
+   "last_ok_at": "2026-11-21T20:56:34Z",
+   "fail_streak": 0,
+   "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "RazaviTV.ir",
@@ -5145,16 +5145,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3783,
-   "last_checked_at": "2026-11-21T13:13:28Z",
-   "last_ok_at": "2026-11-21T13:13:28Z",
+   "latency_ms": 2923,
+   "last_checked_at": "2026-11-21T20:56:36Z",
+   "last_ok_at": "2026-11-21T20:56:36Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "RoyaTV.ir",
@@ -5166,16 +5166,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3564,
-   "last_checked_at": "2026-11-21T13:13:28Z",
-   "last_ok_at": "2026-11-21T13:13:28Z",
+   "latency_ms": 2692,
+   "last_checked_at": "2026-11-21T20:56:36Z",
+   "last_ok_at": "2026-11-21T20:56:36Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "SL1.ir",
@@ -5187,16 +5187,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1227,
-   "last_checked_at": "2026-11-21T13:13:26Z",
-   "last_ok_at": "2026-11-21T13:13:26Z",
+   "latency_ms": 788,
+   "last_checked_at": "2026-11-21T20:56:34Z",
+   "last_ok_at": "2026-11-21T20:56:34Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "SL2.ir",
@@ -5208,16 +5208,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1250,
-   "last_checked_at": "2026-11-21T13:13:26Z",
-   "last_ok_at": "2026-11-21T13:13:26Z",
+   "latency_ms": 790,
+   "last_checked_at": "2026-11-21T20:56:34Z",
+   "last_ok_at": "2026-11-21T20:56:34Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "SNNTV.ir",
@@ -5229,16 +5229,16 @@
    "active": 0,
    "status": "dead",
    "http_code": 404,
-   "latency_ms": 1333,
-   "last_checked_at": "2026-11-21T13:13:26Z",
+   "latency_ms": 1252,
+   "last_checked_at": "2026-11-21T20:56:35Z",
    "last_ok_at": null,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "browser_ok": null,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "SabalanTV.ir",
@@ -5250,16 +5250,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3779,
-   "last_checked_at": "2026-11-21T13:13:28Z",
-   "last_ok_at": "2026-11-21T13:13:28Z",
+   "latency_ms": 2888,
+   "last_checked_at": "2026-11-21T20:56:37Z",
+   "last_ok_at": "2026-11-21T20:56:37Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "SabzTV.ir",
@@ -5271,16 +5271,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3799,
-   "last_checked_at": "2026-11-21T13:13:28Z",
-   "last_ok_at": "2026-11-21T13:13:28Z",
+   "latency_ms": 2826,
+   "last_checked_at": "2026-11-21T20:56:37Z",
+   "last_ok_at": "2026-11-21T20:56:37Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "SahandTV.ir",
@@ -5292,16 +5292,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3818,
-   "last_checked_at": "2026-11-21T13:13:28Z",
-   "last_ok_at": "2026-11-21T13:13:28Z",
+   "latency_ms": 2854,
+   "last_checked_at": "2026-11-21T20:56:37Z",
+   "last_ok_at": "2026-11-21T20:56:37Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "SalamatTV.ir",
@@ -5313,16 +5313,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3877,
-   "last_checked_at": "2026-11-21T13:13:29Z",
-   "last_ok_at": "2026-11-21T13:13:29Z",
+   "latency_ms": 2911,
+   "last_checked_at": "2026-11-21T20:56:37Z",
+   "last_ok_at": "2026-11-21T20:56:37Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "SarbedaranTV.ir",
@@ -5334,8 +5334,8 @@
    "active": 1,
    "status": "unstable",
    "http_code": 200,
-   "latency_ms": 2109,
-   "last_checked_at": "2026-11-21T13:13:27Z",
+   "latency_ms": 1596,
+   "last_checked_at": "2026-11-21T20:56:36Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -5343,7 +5343,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "SemnanTV.ir",
@@ -5355,16 +5355,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3793,
-   "last_checked_at": "2026-11-21T13:13:29Z",
-   "last_ok_at": "2026-11-21T13:13:29Z",
+   "latency_ms": 2801,
+   "last_checked_at": "2026-11-21T20:56:37Z",
+   "last_ok_at": "2026-11-21T20:56:37Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "SepehrTV.ir",
@@ -5376,8 +5376,8 @@
    "active": 1,
    "status": "unstable",
    "http_code": 200,
-   "latency_ms": 2114,
-   "last_checked_at": "2026-11-21T13:13:27Z",
+   "latency_ms": 1593,
+   "last_checked_at": "2026-11-21T20:56:36Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -5385,7 +5385,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ShamsTV.af",
@@ -5397,16 +5397,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 2221,
-   "last_checked_at": "2026-11-21T13:13:27Z",
-   "last_ok_at": "2026-11-21T13:13:27Z",
+   "latency_ms": 2425,
+   "last_checked_at": "2026-11-21T20:56:37Z",
+   "last_ok_at": "2026-11-21T20:56:37Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ShamshadTV.af",
@@ -5418,16 +5418,16 @@
    "active": 0,
    "status": "dead",
    "http_code": 404,
-   "latency_ms": 868,
-   "last_checked_at": "2026-11-21T13:13:26Z",
+   "latency_ms": 555,
+   "last_checked_at": "2026-11-21T20:56:35Z",
    "last_ok_at": null,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "browser_ok": null,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "SharqRadioTV.af",
@@ -5439,16 +5439,16 @@
    "active": 0,
    "status": "dead",
    "http_code": 404,
-   "latency_ms": 1166,
-   "last_checked_at": "2026-11-21T13:13:27Z",
+   "latency_ms": 376,
+   "last_checked_at": "2026-11-21T20:56:35Z",
    "last_ok_at": null,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "browser_ok": null,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "SimayeAzadi.uk",
@@ -5460,8 +5460,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 899,
-   "last_checked_at": "2026-11-21T13:13:27Z",
+   "latency_ms": 273,
+   "last_checked_at": "2026-11-21T20:56:35Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -5469,7 +5469,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "SohailTV.ca",
@@ -5478,19 +5478,19 @@
    "referrer": "",
    "source": "iptv-org-af",
    "priority": 0,
-   "active": 0,
-   "status": "dead",
-   "http_code": 404,
-   "latency_ms": 498,
-   "last_checked_at": "2026-11-21T13:13:26Z",
-   "last_ok_at": null,
-   "fail_streak": 9,
-   "browser_ok": null,
+   "active": 1,
+   "status": "ok",
+   "http_code": 206,
+   "latency_ms": 964,
+   "last_checked_at": "2026-11-21T20:56:36Z",
+   "last_ok_at": "2026-11-21T20:56:36Z",
+   "fail_streak": 0,
+   "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "T2Movies.ir",
@@ -5502,8 +5502,8 @@
    "active": 1,
    "status": "geo",
    "http_code": 403,
-   "latency_ms": 211,
-   "last_checked_at": "2026-11-21T13:13:26Z",
+   "latency_ms": 75,
+   "last_checked_at": "2026-11-21T20:56:35Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -5511,7 +5511,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "T2TV.ir",
@@ -5523,16 +5523,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1257,
-   "last_checked_at": "2026-11-21T13:13:27Z",
-   "last_ok_at": "2026-11-21T13:13:27Z",
+   "latency_ms": 786,
+   "last_checked_at": "2026-11-21T20:56:36Z",
+   "last_ok_at": "2026-11-21T20:56:36Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "TBNNejatTV.ir",
@@ -5544,16 +5544,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1258,
-   "last_checked_at": "2026-11-21T13:13:28Z",
-   "last_ok_at": "2026-11-21T13:13:28Z",
+   "latency_ms": 1108,
+   "last_checked_at": "2026-11-21T20:56:36Z",
+   "last_ok_at": "2026-11-21T20:56:36Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "TMTV.us",
@@ -5565,16 +5565,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1936,
-   "last_checked_at": "2026-11-21T13:13:28Z",
-   "last_ok_at": "2026-11-21T13:13:28Z",
+   "latency_ms": 1546,
+   "last_checked_at": "2026-11-21T20:56:37Z",
+   "last_ok_at": "2026-11-21T20:56:37Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "TOLOnews.af",
@@ -5586,16 +5586,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 4908,
-   "last_checked_at": "2026-11-21T13:13:31Z",
-   "last_ok_at": "2026-11-21T13:13:31Z",
+   "latency_ms": 4416,
+   "last_checked_at": "2026-11-21T20:56:40Z",
+   "last_ok_at": "2026-11-21T20:56:40Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "TOLOnews.af",
@@ -5607,16 +5607,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1164,
-   "last_checked_at": "2026-11-21T13:13:28Z",
-   "last_ok_at": "2026-11-21T13:13:28Z",
+   "latency_ms": 350,
+   "last_checked_at": "2026-11-21T20:56:36Z",
+   "last_ok_at": "2026-11-21T20:56:36Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "TVANava.ir",
@@ -5628,8 +5628,8 @@
    "active": 1,
    "status": "unstable",
    "http_code": 200,
-   "latency_ms": 2097,
-   "last_checked_at": "2026-11-21T13:13:29Z",
+   "latency_ms": 1581,
+   "last_checked_at": "2026-11-21T20:56:37Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -5637,7 +5637,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "TVITN.ir",
@@ -5649,16 +5649,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1242,
-   "last_checked_at": "2026-11-21T13:13:28Z",
-   "last_ok_at": "2026-11-21T13:13:28Z",
+   "latency_ms": 808,
+   "last_checked_at": "2026-11-21T20:56:36Z",
+   "last_ok_at": "2026-11-21T20:56:36Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "TabarestanTV.ir",
@@ -5670,16 +5670,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3785,
-   "last_checked_at": "2026-11-21T13:13:31Z",
-   "last_ok_at": "2026-11-21T13:13:31Z",
+   "latency_ms": 2833,
+   "last_checked_at": "2026-11-21T20:56:38Z",
+   "last_ok_at": "2026-11-21T20:56:38Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "TamadonTV.af",
@@ -5691,16 +5691,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1287,
-   "last_checked_at": "2026-11-21T13:13:28Z",
-   "last_ok_at": "2026-11-21T13:13:28Z",
+   "latency_ms": 964,
+   "last_checked_at": "2026-11-21T20:56:37Z",
+   "last_ok_at": "2026-11-21T20:56:37Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "Tamasha.ir",
@@ -5712,16 +5712,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3893,
-   "last_checked_at": "2026-11-21T13:13:31Z",
-   "last_ok_at": "2026-11-21T13:13:31Z",
+   "latency_ms": 2901,
+   "last_checked_at": "2026-11-21T20:56:39Z",
+   "last_ok_at": "2026-11-21T20:56:39Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "TehranTV.ir",
@@ -5733,16 +5733,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3971,
-   "last_checked_at": "2026-11-21T13:13:31Z",
-   "last_ok_at": "2026-11-21T13:13:31Z",
+   "latency_ms": 2948,
+   "last_checked_at": "2026-11-21T20:56:39Z",
+   "last_ok_at": "2026-11-21T20:56:39Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "Tekyemadahi.ir",
@@ -5754,16 +5754,16 @@
    "active": 0,
    "status": "dead",
    "http_code": 404,
-   "latency_ms": 1405,
-   "last_checked_at": "2026-11-21T13:13:29Z",
+   "latency_ms": 1097,
+   "last_checked_at": "2026-11-21T20:56:38Z",
    "last_ok_at": null,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "browser_ok": null,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ToloTV.af",
@@ -5775,16 +5775,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 5421,
-   "last_checked_at": "2026-11-21T13:13:34Z",
-   "last_ok_at": "2026-11-21T13:13:34Z",
+   "latency_ms": 3441,
+   "last_checked_at": "2026-11-21T20:56:40Z",
+   "last_ok_at": "2026-11-21T20:56:40Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ToloTV.af",
@@ -5796,16 +5796,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 809,
-   "last_checked_at": "2026-11-21T13:13:29Z",
-   "last_ok_at": "2026-11-21T13:13:29Z",
+   "latency_ms": 291,
+   "last_checked_at": "2026-11-21T20:56:37Z",
+   "last_ok_at": "2026-11-21T20:56:37Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "VarzeshTV.ir",
@@ -5817,16 +5817,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1977,
-   "last_checked_at": "2026-11-21T13:13:31Z",
-   "last_ok_at": "2026-11-21T13:13:31Z",
+   "latency_ms": 1543,
+   "last_checked_at": "2026-11-21T20:56:38Z",
+   "last_ok_at": "2026-11-21T20:56:38Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "VarzeshTV.ir",
@@ -5836,18 +5836,18 @@
    "source": "iptv-org-ir",
    "priority": 0,
    "active": 1,
-   "status": "ok",
-   "http_code": 200,
-   "latency_ms": 3914,
-   "last_checked_at": "2026-11-21T13:13:33Z",
+   "status": "geo",
+   "http_code": 451,
+   "latency_ms": 2493,
+   "last_checked_at": "2026-11-21T20:56:39Z",
    "last_ok_at": "2026-11-21T13:13:33Z",
    "fail_streak": 0,
-   "browser_ok": 0,
+   "browser_ok": null,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "VelayatTV.ir",
@@ -5859,16 +5859,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3757,
-   "last_checked_at": "2026-11-21T13:13:33Z",
-   "last_ok_at": "2026-11-21T13:13:33Z",
+   "latency_ms": 2801,
+   "last_checked_at": "2026-11-21T20:56:40Z",
+   "last_ok_at": "2026-11-21T20:56:40Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "VelayatTV.ir",
@@ -5880,16 +5880,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1426,
-   "last_checked_at": "2026-11-21T13:13:31Z",
-   "last_ok_at": "2026-11-21T13:13:31Z",
+   "latency_ms": 1032,
+   "last_checked_at": "2026-11-21T20:56:38Z",
+   "last_ok_at": "2026-11-21T20:56:38Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "WestAzerbaijanTV.ir",
@@ -5901,16 +5901,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3777,
-   "last_checked_at": "2026-11-21T13:13:33Z",
-   "last_ok_at": "2026-11-21T13:13:33Z",
+   "latency_ms": 2804,
+   "last_checked_at": "2026-11-21T20:56:40Z",
+   "last_ok_at": "2026-11-21T20:56:40Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "WiseHumanTv.ir",
@@ -5922,16 +5922,16 @@
    "active": 0,
    "status": "dead",
    "http_code": 404,
-   "latency_ms": 396,
-   "last_checked_at": "2026-11-21T13:13:30Z",
+   "latency_ms": 262,
+   "last_checked_at": "2026-11-21T20:56:38Z",
    "last_ok_at": null,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "browser_ok": null,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "YazdTV.ir",
@@ -5943,16 +5943,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3793,
-   "last_checked_at": "2026-11-21T13:13:34Z",
-   "last_ok_at": "2026-11-21T13:13:34Z",
+   "latency_ms": 2859,
+   "last_checked_at": "2026-11-21T20:56:41Z",
+   "last_ok_at": "2026-11-21T20:56:41Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "YourTimeTV.ir",
@@ -5964,8 +5964,8 @@
    "active": 1,
    "status": "unstable",
    "http_code": null,
-   "latency_ms": 10253,
-   "last_checked_at": "2026-11-21T13:13:40Z",
+   "latency_ms": 10693,
+   "last_checked_at": "2026-11-21T20:56:48Z",
    "last_ok_at": null,
    "fail_streak": 0,
    "browser_ok": null,
@@ -5973,7 +5973,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "YourTimeTV.ir",
@@ -5985,16 +5985,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1536,
-   "last_checked_at": "2026-11-21T13:13:32Z",
-   "last_ok_at": "2026-11-21T13:13:32Z",
+   "latency_ms": 996,
+   "last_checked_at": "2026-11-21T20:56:39Z",
+   "last_ok_at": "2026-11-21T20:56:39Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "ZagrosTV.ir",
@@ -6006,16 +6006,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 200,
-   "latency_ms": 3713,
-   "last_checked_at": "2026-11-21T13:13:35Z",
-   "last_ok_at": "2026-11-21T13:13:35Z",
+   "latency_ms": 2858,
+   "last_checked_at": "2026-11-21T20:56:42Z",
+   "last_ok_at": "2026-11-21T20:56:42Z",
    "fail_streak": 0,
    "browser_ok": 0,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "iFilm2.ir",
@@ -6027,16 +6027,16 @@
    "active": 0,
    "status": "dead",
    "http_code": 404,
-   "latency_ms": 828,
-   "last_checked_at": "2026-11-21T13:13:32Z",
+   "latency_ms": 480,
+   "last_checked_at": "2026-11-21T20:56:39Z",
    "last_ok_at": null,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "browser_ok": null,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "iFilmArabic.ir",
@@ -6048,16 +6048,16 @@
    "active": 0,
    "status": "dead",
    "http_code": 404,
-   "latency_ms": 851,
-   "last_checked_at": "2026-11-21T13:13:32Z",
+   "latency_ms": 471,
+   "last_checked_at": "2026-11-21T20:56:39Z",
    "last_ok_at": null,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "browser_ok": null,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "iFilmEnglish.ir",
@@ -6069,16 +6069,16 @@
    "active": 0,
    "status": "dead",
    "http_code": 404,
-   "latency_ms": 514,
-   "last_checked_at": "2026-11-21T13:13:33Z",
+   "latency_ms": 131,
+   "last_checked_at": "2026-11-21T20:56:39Z",
    "last_ok_at": null,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "browser_ok": null,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "iFilmPersian.ir",
@@ -6090,16 +6090,16 @@
    "active": 0,
    "status": "dead",
    "http_code": 404,
-   "latency_ms": 660,
-   "last_checked_at": "2026-11-21T13:13:33Z",
+   "latency_ms": 389,
+   "last_checked_at": "2026-11-21T20:56:40Z",
    "last_ok_at": null,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "browser_ok": null,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   },
   {
    "channel_id": "icnet3.ca",
@@ -6111,16 +6111,16 @@
    "active": 1,
    "status": "ok",
    "http_code": 206,
-   "latency_ms": 1226,
-   "last_checked_at": "2026-11-21T13:13:33Z",
-   "last_ok_at": "2026-11-21T13:13:33Z",
+   "latency_ms": 778,
+   "last_checked_at": "2026-11-21T20:56:40Z",
+   "last_ok_at": "2026-11-21T20:56:40Z",
    "fail_streak": 0,
    "browser_ok": 1,
    "ir_ok": null,
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T13:12:58Z"
+   "added_at": "2026-11-21T20:56:14Z"
   }
  ]
 }

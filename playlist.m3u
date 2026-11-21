@@ -280,6 +280,8 @@ http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8
 https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fa/d/df/Quarntvlogo.png" tvg-id="QuranTV.ir" group-title="ایران • مذهبی",Quran TV (Iran)
 https://ncdn.telewebion.ir/quran/live/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Jh5ADee.png" tvg-id="RasoulallahTv.ir" group-title="ایران • مذهبی",RasoulallahTv
+https://avr.host247.net/live/rasoulallahtv/playlist.m3u8
 #EXTINF:-1 tvg-id="EPlanetTV.ir" group-title="ایران • مستند",EPlanet TV
 https://eplhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ENvOMDQ.png" tvg-id="GEMNature.tr" group-title="ایران • مستند",GEM Nature
@@ -376,6 +378,8 @@ https://g5nl6xx5lpq6-hls-live.5centscdn.com/live1234/2621b29e501b445fabf227b0861
 https://rta-tv.akamaized.net/live/SD/RTA-1/RTA/RTA-1.m3u8
 #EXTINF:-1 tvg-logo="https://rta.af/artmedia/2022/12/rta-logo-final-300x185.png" tvg-id="RTAEducation.af" group-title="افغانستان • عمومی",RTA Education
 https://rta-tv.akamaized.net/live/SD/RTA-4/RTA/RTA-4.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/dtzjKfT/Sohail-TV.png" tvg-id="SohailTV.ca" group-title="افغانستان • عمومی",Sohail TV
+https://iptv.sohailtv.com/sohail/playlist/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/edGyj5H.png" tvg-id="TamadonTV.af" group-title="افغانستان • عمومی",Tamadon TV
 https://hls.tamadon.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/ca/TOLO_TV_logo_2016.png" tvg-id="ToloTV.af" group-title="افغانستان • عمومی",Tolo TV
