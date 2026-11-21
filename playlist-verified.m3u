@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/GYfsHh9.png" tvg-id="PayamJavanTV.us" group-title="ایران • آموزش",Payam Javan TV
-https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="PersianaMedical.fr" group-title="ایران • آموزش",Persiana Medical
 https://phd2hls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/GW4cMfc/cafe-trade-tv.png" tvg-id="CafeTradeTV.ir" group-title="ایران • اقتصاد",Cafe Trade TV
@@ -241,6 +239,8 @@ https://4kuhls.persiana.live/hls/stream.m3u8
 https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3I1n7fO.png" tvg-id="AvangTV.us" group-title="ایران • موسیقی",Avang TV
 https://hls.avang.live/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zhCgoru.png" tvg-id="HighVisionTV.us" group-title="ایران • موسیقی",High Vision TV
+https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8
 #EXTINF:-1 tvg-id="PersianaFolk.fr" group-title="ایران • موسیقی",Persiana Folk
 https://sonhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaVibe.fr" group-title="ایران • موسیقی",Persiana Vibe
