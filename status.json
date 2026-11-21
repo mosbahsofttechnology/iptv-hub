@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-21T06:34:58Z",
+ "generated_at": "2026-11-21T06:43:31Z",
  "counts": {
   "channels": 208,
-  "playable_channels": 188,
+  "playable_channels": 190,
   "streams": 210,
-  "ok": 145,
+  "ok": 147,
   "geo": 31,
-  "dead": 20,
+  "dead": 18,
   "unstable": 14,
   "unknown": 0
  },
@@ -14,14 +14,14 @@
   {
    "id": "iptv-org-af",
    "url": "https://iptv-org.github.io/iptv/countries/af.m3u",
-   "last_fetch_at": "2026-11-21T06:34:58Z",
+   "last_fetch_at": "2026-11-21T06:43:02Z",
    "ok": 1,
    "note": "25 streams"
   },
   {
    "id": "iptv-org-ir",
    "url": "https://iptv-org.github.io/iptv/countries/ir.m3u",
-   "last_fetch_at": "2026-11-21T06:34:57Z",
+   "last_fetch_at": "2026-11-21T06:43:02Z",
    "ok": 1,
    "note": "183 streams"
   }
@@ -38,9 +38,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 3903,
+   "latency_ms": 224,
    "url": "https://ca-rt.onetv.app/gemfood/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -48,7 +48,7 @@
      "url": "https://ca-rt.onetv.app/gemfood/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 3903,
+     "latency_ms": 224,
      "priority": 0
     }
    ]
@@ -64,9 +64,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 4362,
+   "latency_ms": 1570,
    "url": "https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:25Z",
+   "last_checked_at": "2026-11-21T06:43:16Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -74,7 +74,7 @@
      "url": "https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 4362,
+     "latency_ms": 1570,
      "priority": 0
     }
    ]
@@ -90,9 +90,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2740,
+   "latency_ms": 1209,
    "url": "https://phd2hls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:25Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -100,7 +100,7 @@
      "url": "https://phd2hls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2740,
+     "latency_ms": 1209,
      "priority": 0
     }
    ]
@@ -116,9 +116,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2343,
+   "latency_ms": 1810,
    "url": "https://cafetradehls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:09Z",
+   "last_checked_at": "2026-11-21T06:43:06Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -126,7 +126,7 @@
      "url": "https://cafetradehls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2343,
+     "latency_ms": 1810,
      "priority": 0
     }
    ]
@@ -142,9 +142,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "1080p",
-   "latency_ms": 4482,
+   "latency_ms": 800,
    "url": "https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIONAL.m3u8",
-   "last_checked_at": "2026-11-21T06:32:18Z",
+   "last_checked_at": "2026-11-21T06:43:10Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -152,7 +152,7 @@
      "url": "https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIONAL.m3u8",
      "status": "ok",
      "quality": "1080p",
-     "latency_ms": 4482,
+     "latency_ms": 800,
      "priority": 0
     }
    ]
@@ -178,7 +178,7 @@
      "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8",
      "status": "dead",
      "quality": "",
-     "latency_ms": 28,
+     "latency_ms": 2680,
      "priority": 0
     }
    ]
@@ -194,9 +194,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1573,
+   "latency_ms": 1377,
    "url": "https://iranefardalive.com/stream/live.m3u8",
-   "last_checked_at": "2026-11-21T06:32:15Z",
+   "last_checked_at": "2026-11-21T06:43:11Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -204,7 +204,7 @@
      "url": "https://iranefardalive.com/stream/live.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1573,
+     "latency_ms": 1377,
      "priority": 0
     }
    ]
@@ -217,20 +217,20 @@
    "category": "News",
    "category_fa": "خبری",
    "logo": "https://i.imgur.com/8tzsC9h.png",
-   "status": "dead",
-   "status_fa": "قطع",
-   "quality": "",
-   "latency_ms": null,
-   "url": null,
-   "last_checked_at": null,
+   "status": "ok",
+   "status_fa": "سالم",
+   "quality": "576p",
+   "latency_ms": 1350,
+   "url": "http://185.9.2.18/chid_926/index.m3u8",
+   "last_checked_at": "2026-11-21T06:43:10Z",
    "streams_total": 1,
-   "streams_ok": 0,
+   "streams_ok": 1,
    "alternatives": [
     {
      "url": "http://185.9.2.18/chid_926/index.m3u8",
-     "status": "dead",
+     "status": "ok",
      "quality": "576p",
-     "latency_ms": 1330,
+     "latency_ms": 1350,
      "priority": 0
     }
    ]
@@ -246,9 +246,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5617,
+   "latency_ms": 3852,
    "url": "https://ncdn.telewebion.ir/irinn2/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:21Z",
+   "last_checked_at": "2026-11-21T06:43:12Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -256,7 +256,7 @@
      "url": "https://ncdn.telewebion.ir/irinn2/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5617,
+     "latency_ms": 3852,
      "priority": 0
     }
    ]
@@ -272,9 +272,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5132,
+   "latency_ms": 985,
    "url": "https://iptv.mihantv.com/mihantv/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:24Z",
+   "last_checked_at": "2026-11-21T06:43:13Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -282,7 +282,7 @@
      "url": "https://iptv.mihantv.com/mihantv/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5132,
+     "latency_ms": 985,
      "priority": 0
     }
    ]
@@ -298,9 +298,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1642,
+   "latency_ms": 2369,
    "url": "https://tv.iraniancongress.com/stream/tv.m3u8",
-   "last_checked_at": "2026-11-21T06:32:22Z",
+   "last_checked_at": "2026-11-21T06:43:15Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -308,7 +308,7 @@
      "url": "https://tv.iraniancongress.com/stream/tv.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1642,
+     "latency_ms": 2369,
      "priority": 0
     }
    ]
@@ -324,9 +324,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 4077,
+   "latency_ms": 360,
    "url": "https://cloud.odysee.live/content/26bcbcc342a5b143578f27dbfaf000201f06e417/master.m3u8",
-   "last_checked_at": "2026-11-21T06:32:28Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -334,7 +334,7 @@
      "url": "https://cloud.odysee.live/content/26bcbcc342a5b143578f27dbfaf000201f06e417/master.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 4077,
+     "latency_ms": 360,
      "priority": 0
     }
    ]
@@ -360,7 +360,7 @@
      "url": "https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8",
      "status": "dead",
      "quality": "1080p",
-     "latency_ms": 11,
+     "latency_ms": 926,
      "priority": 0
     }
    ]
@@ -386,7 +386,7 @@
      "url": "https://live2.snn.ir/hls/snn2_hd720/index.m3u8",
      "status": "dead",
      "quality": "",
-     "latency_ms": 1929,
+     "latency_ms": 1639,
      "priority": 0
     }
    ]
@@ -402,9 +402,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 4049,
+   "latency_ms": 198,
    "url": "https://ca-rt.onetv.app/gemlife/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -412,7 +412,7 @@
      "url": "https://ca-rt.onetv.app/gemlife/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 4049,
+     "latency_ms": 198,
      "priority": 0
     }
    ]
@@ -428,9 +428,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1748,
+   "latency_ms": 1371,
    "url": "https://hls.247box.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:07Z",
+   "last_checked_at": "2026-11-21T06:43:04Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -438,7 +438,7 @@
      "url": "https://hls.247box.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1748,
+     "latency_ms": 1371,
      "priority": 0
     }
    ]
@@ -454,9 +454,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 1839,
+   "latency_ms": 1269,
    "url": "https://hls.4utv.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:07Z",
+   "last_checked_at": "2026-11-21T06:43:04Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -464,7 +464,7 @@
      "url": "https://hls.4utv.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 1839,
+     "latency_ms": 1269,
      "priority": 0
     }
    ]
@@ -480,9 +480,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1406,
+   "latency_ms": 1241,
    "url": "https://fxtvhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:09Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -490,7 +490,7 @@
      "url": "https://fxtvhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1406,
+     "latency_ms": 1241,
      "priority": 0
     }
    ]
@@ -506,9 +506,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1403,
+   "latency_ms": 1213,
    "url": "https://toonixhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:09Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -516,7 +516,7 @@
      "url": "https://toonixhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1403,
+     "latency_ms": 1213,
      "priority": 0
     }
    ]
@@ -532,9 +532,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 3830,
+   "latency_ms": 259,
    "url": "https://ca-rt.onetv.app/gementertainment/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -542,7 +542,7 @@
      "url": "https://ca-rt.onetv.app/gementertainment/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 3830,
+     "latency_ms": 259,
      "priority": 0
     }
    ]
@@ -558,9 +558,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 3290,
+   "latency_ms": 205,
    "url": "https://ca-rt.onetv.app/gemriver/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -568,7 +568,7 @@
      "url": "https://ca-rt.onetv.app/gemriver/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 3290,
+     "latency_ms": 205,
      "priority": 0
     }
    ]
@@ -584,9 +584,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 3260,
+   "latency_ms": 197,
    "url": "https://ca-rt.onetv.app/gemriverplus/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -594,7 +594,7 @@
      "url": "https://ca-rt.onetv.app/gemriverplus/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 3260,
+     "latency_ms": 197,
      "priority": 0
     }
    ]
@@ -610,9 +610,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 1128,
+   "latency_ms": 198,
    "url": "https://ca-rt.onetv.app/manototv/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:20Z",
+   "last_checked_at": "2026-11-21T06:43:13Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -620,7 +620,7 @@
      "url": "https://ca-rt.onetv.app/manototv/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 1128,
+     "latency_ms": 198,
      "priority": 0
     }
    ]
@@ -636,9 +636,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5708,
+   "latency_ms": 3916,
    "url": "https://ncdn.telewebion.ir/namayesh/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:25Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -646,7 +646,7 @@
      "url": "https://ncdn.telewebion.ir/namayesh/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5708,
+     "latency_ms": 3916,
      "priority": 0
     }
    ]
@@ -662,9 +662,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5471,
+   "latency_ms": 3886,
    "url": "https://ncdn.telewebion.ir/nasim/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:25Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -672,7 +672,7 @@
      "url": "https://ncdn.telewebion.ir/nasim/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5471,
+     "latency_ms": 3886,
      "priority": 0
     }
    ]
@@ -688,9 +688,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1518,
+   "latency_ms": 1207,
    "url": "https://oitnhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:22Z",
+   "last_checked_at": "2026-11-21T06:43:15Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -698,7 +698,7 @@
      "url": "https://oitnhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1518,
+     "latency_ms": 1207,
      "priority": 0
     }
    ]
@@ -714,9 +714,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1361,
+   "latency_ms": 1223,
    "url": "https://hls.oxir.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:22Z",
+   "last_checked_at": "2026-11-21T06:43:14Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -724,7 +724,7 @@
      "url": "https://hls.oxir.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1361,
+     "latency_ms": 1223,
      "priority": 0
     }
    ]
@@ -740,9 +740,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2903,
+   "latency_ms": 1831,
    "url": "https://twohls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:26Z",
+   "last_checked_at": "2026-11-21T06:43:18Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -750,7 +750,7 @@
      "url": "https://twohls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2903,
+     "latency_ms": 1831,
      "priority": 0
     }
    ]
@@ -766,9 +766,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1758,
+   "latency_ms": 1214,
    "url": "https://turkhls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:25Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -776,7 +776,7 @@
      "url": "https://turkhls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1758,
+     "latency_ms": 1214,
      "priority": 0
     }
    ]
@@ -792,9 +792,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 3682,
+   "latency_ms": 1210,
    "url": "https://itnhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:32Z",
+   "last_checked_at": "2026-11-21T06:43:20Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -802,7 +802,7 @@
      "url": "https://itnhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 3682,
+     "latency_ms": 1210,
      "priority": 0
     }
    ]
@@ -818,9 +818,9 @@
    "status": "unstable",
    "status_fa": "ناپایدار",
    "quality": "",
-   "latency_ms": 1652,
+   "latency_ms": 10396,
    "url": "https://hls.yourtime.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:32Z",
+   "last_checked_at": "2026-11-21T06:43:31Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -828,7 +828,7 @@
      "url": "https://hls.yourtime.live/hls/stream.m3u8",
      "status": "unstable",
      "quality": "",
-     "latency_ms": 1652,
+     "latency_ms": 10396,
      "priority": 0
     }
    ]
@@ -854,7 +854,7 @@
      "url": "https://afrashls.wns.live/hls/stream.m3u8",
      "status": "dead",
      "quality": "",
-     "latency_ms": 1140,
+     "latency_ms": 766,
      "priority": 0
     }
    ]
@@ -870,9 +870,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1558,
+   "latency_ms": 1396,
    "url": "https://avaserieshls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:06Z",
+   "last_checked_at": "2026-11-21T06:43:04Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -880,7 +880,7 @@
      "url": "https://avaserieshls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1558,
+     "latency_ms": 1396,
      "priority": 0
     }
    ]
@@ -896,9 +896,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 1202,
+   "latency_ms": 247,
    "url": "https://ca-rt.onetv.app/gemseriesplus/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:14Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -906,7 +906,7 @@
      "url": "https://ca-rt.onetv.app/gemseriesplus/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 1202,
+     "latency_ms": 247,
      "priority": 0
     }
    ]
@@ -922,9 +922,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2034,
+   "latency_ms": 1214,
    "url": "https://onehls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:25Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -932,7 +932,7 @@
      "url": "https://onehls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2034,
+     "latency_ms": 1214,
      "priority": 0
     }
    ]
@@ -948,9 +948,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5244,
+   "latency_ms": 4787,
    "url": "https://ncdn.telewebion.ir/abadan/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:10Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -958,7 +958,7 @@
      "url": "https://ncdn.telewebion.ir/abadan/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5244,
+     "latency_ms": 4787,
      "priority": 0
     }
    ]
@@ -974,9 +974,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5262,
+   "latency_ms": 7007,
    "url": "https://ncdn.telewebion.ir/aflak/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:10Z",
+   "last_checked_at": "2026-11-21T06:43:09Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -984,7 +984,7 @@
      "url": "https://ncdn.telewebion.ir/aflak/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5262,
+     "latency_ms": 7007,
      "priority": 0
     }
    ]
@@ -1000,9 +1000,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5300,
+   "latency_ms": 6988,
    "url": "https://ncdn.telewebion.ir/aftab/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:10Z",
+   "last_checked_at": "2026-11-21T06:43:09Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1010,7 +1010,7 @@
      "url": "https://ncdn.telewebion.ir/aftab/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5300,
+     "latency_ms": 6988,
      "priority": 0
     }
    ]
@@ -1026,9 +1026,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5216,
+   "latency_ms": 6988,
    "url": "https://ncdn.telewebion.ir/alborz/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:10Z",
+   "last_checked_at": "2026-11-21T06:43:09Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1036,7 +1036,7 @@
      "url": "https://ncdn.telewebion.ir/alborz/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5216,
+     "latency_ms": 6988,
      "priority": 0
     }
    ]
@@ -1052,9 +1052,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5229,
+   "latency_ms": 4261,
    "url": "https://ncdn.telewebion.ir/amouzesh/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:10Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1062,7 +1062,7 @@
      "url": "https://ncdn.telewebion.ir/amouzesh/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5229,
+     "latency_ms": 4261,
      "priority": 0
     }
    ]
@@ -1078,9 +1078,9 @@
    "status": "unstable",
    "status_fa": "ناپایدار",
    "quality": "",
-   "latency_ms": 3363,
+   "latency_ms": 5336,
    "url": "https://ncdn.telewebion.ir/ara/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:08Z",
+   "last_checked_at": "2026-11-21T06:43:08Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -1088,7 +1088,7 @@
      "url": "https://ncdn.telewebion.ir/ara/live/playlist.m3u8",
      "status": "unstable",
      "quality": "",
-     "latency_ms": 3363,
+     "latency_ms": 5336,
      "priority": 0
     }
    ]
@@ -1104,9 +1104,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1707,
+   "latency_ms": 1386,
    "url": "https://araxhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:07Z",
+   "last_checked_at": "2026-11-21T06:43:04Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1114,7 +1114,7 @@
      "url": "https://araxhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1707,
+     "latency_ms": 1386,
      "priority": 0
     }
    ]
@@ -1130,9 +1130,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1565,
+   "latency_ms": 1236,
    "url": "https://arkhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:06Z",
+   "last_checked_at": "2026-11-21T06:43:04Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1140,7 +1140,7 @@
      "url": "https://arkhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1565,
+     "latency_ms": 1236,
      "priority": 0
     }
    ]
@@ -1156,9 +1156,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1597,
+   "latency_ms": 1206,
    "url": "https://arvhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:06Z",
+   "last_checked_at": "2026-11-21T06:43:04Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1166,7 +1166,7 @@
      "url": "https://arvhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1597,
+     "latency_ms": 1206,
      "priority": 0
     }
    ]
@@ -1182,9 +1182,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "576p",
-   "latency_ms": 2562,
+   "latency_ms": 3245,
    "url": "https://live.asil.tv/asiltv/index.m3u8",
-   "last_checked_at": "2026-11-21T06:32:07Z",
+   "last_checked_at": "2026-11-21T06:43:06Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1192,7 +1192,7 @@
      "url": "https://live.asil.tv/asiltv/index.m3u8",
      "status": "ok",
      "quality": "576p",
-     "latency_ms": 2562,
+     "latency_ms": 3245,
      "priority": 0
     }
    ]
@@ -1208,9 +1208,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7854,
+   "latency_ms": 4296,
    "url": "https://ncdn.telewebion.ir/atrak/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:08Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1218,7 +1218,7 @@
      "url": "https://ncdn.telewebion.ir/atrak/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7854,
+     "latency_ms": 4296,
      "priority": 0
     }
    ]
@@ -1234,9 +1234,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2271,
+   "latency_ms": 1791,
    "url": "https://atrihls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:07Z",
+   "last_checked_at": "2026-11-21T06:43:05Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1244,7 +1244,7 @@
      "url": "https://atrihls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2271,
+     "latency_ms": 1791,
      "priority": 0
     }
    ]
@@ -1260,9 +1260,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7177,
+   "latency_ms": 4725,
    "url": "https://ncdn.telewebion.ir/baran/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:14Z",
+   "last_checked_at": "2026-11-21T06:43:09Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1270,7 +1270,7 @@
      "url": "https://ncdn.telewebion.ir/baran/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7177,
+     "latency_ms": 4725,
      "priority": 0
     }
    ]
@@ -1286,9 +1286,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7221,
+   "latency_ms": 4449,
    "url": "https://ncdn.telewebion.ir/bushehr/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:14Z",
+   "last_checked_at": "2026-11-21T06:43:08Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1296,7 +1296,7 @@
      "url": "https://ncdn.telewebion.ir/bushehr/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7221,
+     "latency_ms": 4449,
      "priority": 0
     }
    ]
@@ -1312,9 +1312,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2216,
+   "latency_ms": 1811,
    "url": "https://ronhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:09Z",
+   "last_checked_at": "2026-11-21T06:43:06Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1322,7 +1322,7 @@
      "url": "https://ronhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2216,
+     "latency_ms": 1811,
      "priority": 0
     }
    ]
@@ -1338,9 +1338,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7005,
+   "latency_ms": 4531,
    "url": "https://ncdn.telewebion.ir/dena/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:14Z",
+   "last_checked_at": "2026-11-21T06:43:09Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1348,7 +1348,7 @@
      "url": "https://ncdn.telewebion.ir/dena/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7005,
+     "latency_ms": 4531,
      "priority": 0
     }
    ]
@@ -1364,9 +1364,9 @@
    "status": "unstable",
    "status_fa": "ناپایدار",
    "quality": "",
-   "latency_ms": 5958,
+   "latency_ms": 2361,
    "url": "https://ncdn.telewebion.ir/baenergy/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:08Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -1374,7 +1374,7 @@
      "url": "https://ncdn.telewebion.ir/baenergy/live/playlist.m3u8",
      "status": "unstable",
      "quality": "",
-     "latency_ms": 5958,
+     "latency_ms": 2361,
      "priority": 0
     }
    ]
@@ -1390,9 +1390,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7242,
+   "latency_ms": 4049,
    "url": "https://ncdn.telewebion.ir/eshragh/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:15Z",
+   "last_checked_at": "2026-11-21T06:43:09Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1400,7 +1400,7 @@
      "url": "https://ncdn.telewebion.ir/eshragh/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7242,
+     "latency_ms": 4049,
      "priority": 0
     }
    ]
@@ -1416,9 +1416,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7354,
+   "latency_ms": 3961,
    "url": "https://ncdn.telewebion.ir/fars/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:15Z",
+   "last_checked_at": "2026-11-21T06:43:10Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1426,7 +1426,7 @@
      "url": "https://ncdn.telewebion.ir/fars/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7354,
+     "latency_ms": 3961,
      "priority": 0
     }
    ]
@@ -1442,9 +1442,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 4795,
+   "latency_ms": 3734,
    "url": "https://ncdn.telewebion.ir/golkhane/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:18Z",
+   "last_checked_at": "2026-11-21T06:43:11Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1452,7 +1452,7 @@
      "url": "https://ncdn.telewebion.ir/golkhane/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 4795,
+     "latency_ms": 3734,
      "priority": 0
     }
    ]
@@ -1468,9 +1468,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5296,
+   "latency_ms": 3964,
    "url": "https://ncdn.telewebion.ir/sina/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:19Z",
+   "last_checked_at": "2026-11-21T06:43:11Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1478,7 +1478,7 @@
      "url": "https://ncdn.telewebion.ir/sina/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5296,
+     "latency_ms": 3964,
      "priority": 0
     }
    ]
@@ -1494,9 +1494,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5023,
+   "latency_ms": 3973,
    "url": "https://ncdn.telewebion.ir/hamoon/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:18Z",
+   "last_checked_at": "2026-11-21T06:43:11Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1504,7 +1504,7 @@
      "url": "https://ncdn.telewebion.ir/hamoon/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5023,
+     "latency_ms": 3973,
      "priority": 0
     }
    ]
@@ -1520,9 +1520,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5059,
+   "latency_ms": 3853,
    "url": "https://ncdn.telewebion.ir/ilam/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:19Z",
+   "last_checked_at": "2026-11-21T06:43:13Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1530,7 +1530,7 @@
      "url": "https://ncdn.telewebion.ir/ilam/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5059,
+     "latency_ms": 3853,
      "priority": 0
     }
    ]
@@ -1546,9 +1546,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2582,
+   "latency_ms": 1821,
    "url": "https://iran613hls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:16Z",
+   "last_checked_at": "2026-11-21T06:43:11Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1556,7 +1556,7 @@
      "url": "https://iran613hls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2582,
+     "latency_ms": 1821,
      "priority": 0
     }
    ]
@@ -1572,9 +1572,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1641,
+   "latency_ms": 1231,
    "url": "https://hls.irannrtv.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:15Z",
+   "last_checked_at": "2026-11-21T06:43:11Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1582,7 +1582,7 @@
      "url": "https://hls.irannrtv.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1641,
+     "latency_ms": 1231,
      "priority": 0
     }
    ]
@@ -1598,9 +1598,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5675,
+   "latency_ms": 4477,
    "url": "https://ncdn.telewebion.ir/tv1/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:20Z",
+   "last_checked_at": "2026-11-21T06:43:12Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1608,7 +1608,7 @@
      "url": "https://ncdn.telewebion.ir/tv1/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5675,
+     "latency_ms": 4477,
      "priority": 0
     }
    ]
@@ -1624,9 +1624,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5538,
+   "latency_ms": 4194,
    "url": "https://ncdn.telewebion.ir/tv2/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:20Z",
+   "last_checked_at": "2026-11-21T06:43:12Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1634,7 +1634,7 @@
      "url": "https://ncdn.telewebion.ir/tv2/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5538,
+     "latency_ms": 4194,
      "priority": 0
     }
    ]
@@ -1650,9 +1650,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5154,
+   "latency_ms": 4353,
    "url": "https://ncdn.telewebion.ir/mostanad/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:20Z",
+   "last_checked_at": "2026-11-21T06:43:12Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1660,7 +1660,7 @@
      "url": "https://ncdn.telewebion.ir/mostanad/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5154,
+     "latency_ms": 4353,
      "priority": 0
     }
    ]
@@ -1676,9 +1676,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "2160p",
-   "latency_ms": 5044,
+   "latency_ms": 4096,
    "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:20Z",
+   "last_checked_at": "2026-11-21T06:43:12Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1686,7 +1686,7 @@
      "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
      "status": "ok",
      "quality": "2160p",
-     "latency_ms": 5044,
+     "latency_ms": 4096,
      "priority": 0
     }
    ]
@@ -1702,9 +1702,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5246,
+   "latency_ms": 3762,
    "url": "https://ncdn.telewebion.ir/esfahan/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:21Z",
+   "last_checked_at": "2026-11-21T06:43:14Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1712,7 +1712,7 @@
      "url": "https://ncdn.telewebion.ir/esfahan/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5246,
+     "latency_ms": 3762,
      "priority": 0
     }
    ]
@@ -1728,9 +1728,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5223,
+   "latency_ms": 3677,
    "url": "https://ncdn.telewebion.ir/jahanbin/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:21Z",
+   "last_checked_at": "2026-11-21T06:43:14Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1738,7 +1738,7 @@
      "url": "https://ncdn.telewebion.ir/jahanbin/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5223,
+     "latency_ms": 3677,
      "priority": 0
     }
    ]
@@ -1754,9 +1754,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1712,
+   "latency_ms": 1233,
    "url": "https://kjhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:17Z",
+   "last_checked_at": "2026-11-21T06:43:12Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1764,7 +1764,7 @@
      "url": "https://kjhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1712,
+     "latency_ms": 1233,
      "priority": 0
     }
    ]
@@ -1780,9 +1780,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5099,
+   "latency_ms": 3814,
    "url": "https://ncdn.telewebion.ir/kerman/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:21Z",
+   "last_checked_at": "2026-11-21T06:43:15Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1790,7 +1790,7 @@
      "url": "https://ncdn.telewebion.ir/kerman/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5099,
+     "latency_ms": 3814,
      "priority": 0
     }
    ]
@@ -1806,9 +1806,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5293,
+   "latency_ms": 3766,
    "url": "https://ncdn.telewebion.ir/khalijefars/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:21Z",
+   "last_checked_at": "2026-11-21T06:43:15Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1816,7 +1816,7 @@
      "url": "https://ncdn.telewebion.ir/khalijefars/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5293,
+     "latency_ms": 3766,
      "priority": 0
     }
    ]
@@ -1832,9 +1832,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5043,
+   "latency_ms": 3797,
    "url": "https://ncdn.telewebion.ir/khavaran/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:21Z",
+   "last_checked_at": "2026-11-21T06:43:15Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1842,7 +1842,7 @@
      "url": "https://ncdn.telewebion.ir/khavaran/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5043,
+     "latency_ms": 3797,
      "priority": 0
     }
    ]
@@ -1858,9 +1858,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 4914,
+   "latency_ms": 3812,
    "url": "https://ncdn.telewebion.ir/khorasanrazavi/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:21Z",
+   "last_checked_at": "2026-11-21T06:43:15Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1868,7 +1868,7 @@
      "url": "https://ncdn.telewebion.ir/khorasanrazavi/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 4914,
+     "latency_ms": 3812,
      "priority": 0
     }
    ]
@@ -1884,9 +1884,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 4801,
+   "latency_ms": 3848,
    "url": "https://ncdn.telewebion.ir/khoozestan/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:22Z",
+   "last_checked_at": "2026-11-21T06:43:16Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1894,7 +1894,7 @@
      "url": "https://ncdn.telewebion.ir/khoozestan/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 4801,
+     "latency_ms": 3848,
      "priority": 0
     }
    ]
@@ -1910,9 +1910,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 4727,
+   "latency_ms": 3733,
    "url": "https://ncdn.telewebion.ir/kish/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:22Z",
+   "last_checked_at": "2026-11-21T06:43:16Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1920,7 +1920,7 @@
      "url": "https://ncdn.telewebion.ir/kish/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 4727,
+     "latency_ms": 3733,
      "priority": 0
     }
    ]
@@ -1936,9 +1936,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5573,
+   "latency_ms": 3866,
    "url": "https://ncdn.telewebion.ir/kordestan/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:23Z",
+   "last_checked_at": "2026-11-21T06:43:16Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1946,7 +1946,7 @@
      "url": "https://ncdn.telewebion.ir/kordestan/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5573,
+     "latency_ms": 3866,
      "priority": 0
     }
    ]
@@ -1962,9 +1962,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5323,
+   "latency_ms": 4005,
    "url": "https://ncdn.telewebion.ir/labbayk/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:23Z",
+   "last_checked_at": "2026-11-21T06:43:16Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1972,7 +1972,7 @@
      "url": "https://ncdn.telewebion.ir/labbayk/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5323,
+     "latency_ms": 4005,
      "priority": 0
     }
    ]
@@ -1988,9 +1988,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5466,
+   "latency_ms": 3763,
    "url": "https://ncdn.telewebion.ir/mahabad/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:24Z",
+   "last_checked_at": "2026-11-21T06:43:16Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -1998,7 +1998,7 @@
      "url": "https://ncdn.telewebion.ir/mahabad/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5466,
+     "latency_ms": 3763,
      "priority": 0
     }
    ]
@@ -2014,9 +2014,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5947,
+   "latency_ms": 3657,
    "url": "https://ncdn.telewebion.ir/noor/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:26Z",
+   "last_checked_at": "2026-11-21T06:43:16Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2024,7 +2024,7 @@
      "url": "https://ncdn.telewebion.ir/noor/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5947,
+     "latency_ms": 3657,
      "priority": 0
     }
    ]
@@ -2050,7 +2050,7 @@
      "url": "https://ncdn.telewebion.ir/palestine/live/playlist.m3u8",
      "status": "dead",
      "quality": "",
-     "latency_ms": 10066,
+     "latency_ms": 8336,
      "priority": 0
     }
    ]
@@ -2066,9 +2066,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1309,
+   "latency_ms": 1217,
    "url": "https://parshls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:22Z",
+   "last_checked_at": "2026-11-21T06:43:16Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2076,7 +2076,7 @@
      "url": "https://parshls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1309,
+     "latency_ms": 1217,
      "priority": 0
     }
    ]
@@ -2092,9 +2092,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 4847,
+   "latency_ms": 868,
    "url": "https://iptv.tapesh.tv/tapesh/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:25Z",
+   "last_checked_at": "2026-11-21T06:43:15Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2102,7 +2102,7 @@
      "url": "https://iptv.tapesh.tv/tapesh/playlist.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 4847,
+     "latency_ms": 868,
      "priority": 0
     }
    ]
@@ -2118,9 +2118,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7016,
+   "latency_ms": 3777,
    "url": "https://ncdn.telewebion.ir/qazvin/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:31Z",
+   "last_checked_at": "2026-11-21T06:43:20Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2128,7 +2128,7 @@
      "url": "https://ncdn.telewebion.ir/qazvin/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7016,
+     "latency_ms": 3777,
      "priority": 0
     }
    ]
@@ -2144,9 +2144,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 8055,
+   "latency_ms": 3976,
    "url": "https://ncdn.telewebion.ir/razavi/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:33Z",
+   "last_checked_at": "2026-11-21T06:43:21Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2154,7 +2154,7 @@
      "url": "https://ncdn.telewebion.ir/razavi/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 8055,
+     "latency_ms": 3976,
      "priority": 0
     }
    ]
@@ -2167,20 +2167,20 @@
    "category": "General",
    "category_fa": "عمومی",
    "logo": "https://static.telewebion.com/channelsLogo/0e3d7425-1a1b-47c4-b020-2e09a5fc2598/default",
-   "status": "dead",
-   "status_fa": "قطع",
-   "quality": "",
-   "latency_ms": null,
-   "url": null,
-   "last_checked_at": null,
+   "status": "ok",
+   "status_fa": "سالم",
+   "quality": "720p",
+   "latency_ms": 3650,
+   "url": "https://ncdn.telewebion.ir/iribu/live/playlist.m3u8",
+   "last_checked_at": "2026-11-21T06:43:21Z",
    "streams_total": 1,
-   "streams_ok": 0,
+   "streams_ok": 1,
    "alternatives": [
     {
      "url": "https://ncdn.telewebion.ir/iribu/live/playlist.m3u8",
-     "status": "dead",
+     "status": "ok",
      "quality": "720p",
-     "latency_ms": 12348,
+     "latency_ms": 3650,
      "priority": 0
     }
    ]
@@ -2196,9 +2196,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7862,
+   "latency_ms": 3789,
    "url": "https://ncdn.telewebion.ir/sabalan/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:33Z",
+   "last_checked_at": "2026-11-21T06:43:21Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2206,7 +2206,7 @@
      "url": "https://ncdn.telewebion.ir/sabalan/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7862,
+     "latency_ms": 3789,
      "priority": 0
     }
    ]
@@ -2222,9 +2222,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7506,
+   "latency_ms": 3721,
    "url": "https://ncdn.telewebion.ir/sabz/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:33Z",
+   "last_checked_at": "2026-11-21T06:43:21Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2232,7 +2232,7 @@
      "url": "https://ncdn.telewebion.ir/sabz/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7506,
+     "latency_ms": 3721,
      "priority": 0
     }
    ]
@@ -2248,9 +2248,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7720,
+   "latency_ms": 3756,
    "url": "https://ncdn.telewebion.ir/sahand/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:33Z",
+   "last_checked_at": "2026-11-21T06:43:21Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2258,7 +2258,7 @@
      "url": "https://ncdn.telewebion.ir/sahand/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7720,
+     "latency_ms": 3756,
      "priority": 0
     }
    ]
@@ -2274,9 +2274,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7720,
+   "latency_ms": 3798,
    "url": "https://ncdn.telewebion.ir/salamat/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:33Z",
+   "last_checked_at": "2026-11-21T06:43:21Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2284,7 +2284,7 @@
      "url": "https://ncdn.telewebion.ir/salamat/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7720,
+     "latency_ms": 3798,
      "priority": 0
     }
    ]
@@ -2300,9 +2300,9 @@
    "status": "unstable",
    "status_fa": "ناپایدار",
    "quality": "",
-   "latency_ms": 5547,
+   "latency_ms": 2100,
    "url": "https://ncdn.telewebion.ir/sarbedaran/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:31Z",
+   "last_checked_at": "2026-11-21T06:43:20Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -2310,7 +2310,7 @@
      "url": "https://ncdn.telewebion.ir/sarbedaran/live/playlist.m3u8",
      "status": "unstable",
      "quality": "",
-     "latency_ms": 5547,
+     "latency_ms": 2100,
      "priority": 0
     }
    ]
@@ -2326,9 +2326,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "576p",
-   "latency_ms": 7637,
+   "latency_ms": 3727,
    "url": "https://ncdn.telewebion.ir/semnan/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:33Z",
+   "last_checked_at": "2026-11-21T06:43:21Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2336,7 +2336,7 @@
      "url": "https://ncdn.telewebion.ir/semnan/live/playlist.m3u8",
      "status": "ok",
      "quality": "576p",
-     "latency_ms": 7637,
+     "latency_ms": 3727,
      "priority": 0
     }
    ]
@@ -2352,9 +2352,9 @@
    "status": "unstable",
    "status_fa": "ناپایدار",
    "quality": "",
-   "latency_ms": 5666,
+   "latency_ms": 3119,
    "url": "https://ncdn.telewebion.ir/sepehr/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:31Z",
+   "last_checked_at": "2026-11-21T06:43:21Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -2362,7 +2362,7 @@
      "url": "https://ncdn.telewebion.ir/sepehr/live/playlist.m3u8",
      "status": "unstable",
      "quality": "",
-     "latency_ms": 5666,
+     "latency_ms": 3119,
      "priority": 0
     }
    ]
@@ -2378,9 +2378,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "1080p",
-   "latency_ms": 1802,
+   "latency_ms": 381,
    "url": "https://simaytv.akamaized.net/hls/live/2043550/simayhls/index.m3u8",
-   "last_checked_at": "2026-11-21T06:32:27Z",
+   "last_checked_at": "2026-11-21T06:43:18Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -2388,7 +2388,7 @@
      "url": "https://simaytv.akamaized.net/hls/live/2043550/simayhls/index.m3u8",
      "status": "geo",
      "quality": "1080p",
-     "latency_ms": 1802,
+     "latency_ms": 381,
      "priority": 0
     }
    ]
@@ -2404,9 +2404,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 8136,
+   "latency_ms": 3592,
    "url": "https://ncdn.telewebion.ir/tabarestan/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:34Z",
+   "last_checked_at": "2026-11-21T06:43:23Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2414,7 +2414,7 @@
      "url": "https://ncdn.telewebion.ir/tabarestan/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 8136,
+     "latency_ms": 3592,
      "priority": 0
     }
    ]
@@ -2430,9 +2430,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 3201,
+   "latency_ms": 1526,
    "url": "https://hls.nejat.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:30Z",
+   "last_checked_at": "2026-11-21T06:43:20Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2440,7 +2440,7 @@
      "url": "https://hls.nejat.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 3201,
+     "latency_ms": 1526,
      "priority": 0
     }
    ]
@@ -2456,9 +2456,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7399,
+   "latency_ms": 3741,
    "url": "https://ncdn.telewebion.ir/tehran/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:35Z",
+   "last_checked_at": "2026-11-21T06:43:23Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2466,7 +2466,7 @@
      "url": "https://ncdn.telewebion.ir/tehran/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7399,
+     "latency_ms": 3741,
      "priority": 0
     }
    ]
@@ -2492,7 +2492,7 @@
      "url": "https://ncdn.telewebion.ir/tekyemadahi/live/playlist.m3u8",
      "status": "dead",
      "quality": "",
-     "latency_ms": 4189,
+     "latency_ms": 1423,
      "priority": 0
     }
    ]
@@ -2508,9 +2508,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 4476,
+   "latency_ms": 1834,
    "url": "https://hls.tmtv.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:32Z",
+   "last_checked_at": "2026-11-21T06:43:20Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2518,7 +2518,7 @@
      "url": "https://hls.tmtv.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 4476,
+     "latency_ms": 1834,
      "priority": 0
     }
    ]
@@ -2534,9 +2534,9 @@
    "status": "unstable",
    "status_fa": "ناپایدار",
    "quality": "",
-   "latency_ms": 5399,
+   "latency_ms": 2201,
    "url": "https://ncdn.telewebion.ir/nava/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:33Z",
+   "last_checked_at": "2026-11-21T06:43:21Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -2544,7 +2544,7 @@
      "url": "https://ncdn.telewebion.ir/nava/live/playlist.m3u8",
      "status": "unstable",
      "quality": "",
-     "latency_ms": 5399,
+     "latency_ms": 2201,
      "priority": 0
     }
    ]
@@ -2560,9 +2560,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 8244,
+   "latency_ms": 3907,
    "url": "https://ncdn.telewebion.ir/velayat/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:37Z",
+   "last_checked_at": "2026-11-21T06:43:24Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2570,7 +2570,7 @@
      "url": "https://ncdn.telewebion.ir/velayat/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 8244,
+     "latency_ms": 3907,
      "priority": 0
     }
    ]
@@ -2586,9 +2586,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7778,
+   "latency_ms": 3784,
    "url": "https://ncdn.telewebion.ir/azarbayjangharbi/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:36Z",
+   "last_checked_at": "2026-11-21T06:43:24Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2596,7 +2596,7 @@
      "url": "https://ncdn.telewebion.ir/azarbayjangharbi/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7778,
+     "latency_ms": 3784,
      "priority": 0
     }
    ]
@@ -2612,9 +2612,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7427,
+   "latency_ms": 3975,
    "url": "https://ncdn.telewebion.ir/taban/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:38Z",
+   "last_checked_at": "2026-11-21T06:43:24Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2622,7 +2622,7 @@
      "url": "https://ncdn.telewebion.ir/taban/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7427,
+     "latency_ms": 3975,
      "priority": 0
     }
    ]
@@ -2638,9 +2638,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "576p",
-   "latency_ms": 7154,
+   "latency_ms": 3700,
    "url": "https://ncdn.telewebion.ir/zagros/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:38Z",
+   "last_checked_at": "2026-11-21T06:43:24Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2648,7 +2648,7 @@
      "url": "https://ncdn.telewebion.ir/zagros/live/playlist.m3u8",
      "status": "ok",
      "quality": "576p",
-     "latency_ms": 7154,
+     "latency_ms": 3700,
      "priority": 0
     }
    ]
@@ -2664,9 +2664,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5598,
+   "latency_ms": 4148,
    "url": "https://ncdn.telewebion.ir/tv4/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:20Z",
+   "last_checked_at": "2026-11-21T06:43:12Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2674,7 +2674,7 @@
      "url": "https://ncdn.telewebion.ir/tv4/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5598,
+     "latency_ms": 4148,
      "priority": 0
     }
    ]
@@ -2690,9 +2690,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5822,
+   "latency_ms": 3822,
    "url": "https://ncdn.telewebion.ir/ofogh/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:26Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2700,7 +2700,7 @@
      "url": "https://ncdn.telewebion.ir/ofogh/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5822,
+     "latency_ms": 3822,
      "priority": 0
     }
    ]
@@ -2716,9 +2716,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1585,
+   "latency_ms": 1226,
    "url": "https://afrafhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:06Z",
+   "last_checked_at": "2026-11-21T06:43:04Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2726,7 +2726,7 @@
      "url": "https://afrafhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1585,
+     "latency_ms": 1226,
      "priority": 0
     }
    ]
@@ -2742,9 +2742,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "360p",
-   "latency_ms": 2251,
+   "latency_ms": 1827,
    "url": "https://bravoohls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:09Z",
+   "last_checked_at": "2026-11-21T06:43:06Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2752,7 +2752,7 @@
      "url": "https://bravoohls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "360p",
-     "latency_ms": 2251,
+     "latency_ms": 1827,
      "priority": 0
     }
    ]
@@ -2768,9 +2768,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1376,
+   "latency_ms": 1201,
    "url": "https://cafefhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:08Z",
+   "last_checked_at": "2026-11-21T06:43:05Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -2778,7 +2778,7 @@
      "url": "https://cafefhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1376,
+     "latency_ms": 1201,
      "priority": 0
     }
    ]
@@ -2794,9 +2794,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 935,
+   "latency_ms": 264,
    "url": "https://ca-rt.onetv.app/EkranMovies/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:08Z",
+   "last_checked_at": "2026-11-21T06:43:05Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -2804,7 +2804,7 @@
      "url": "https://ca-rt.onetv.app/EkranMovies/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 935,
+     "latency_ms": 264,
      "priority": 0
     }
    ]
@@ -2820,9 +2820,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 989,
+   "latency_ms": 248,
    "url": "https://ca-rt.onetv.app/gembollywood/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:09Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -2830,7 +2830,7 @@
      "url": "https://ca-rt.onetv.app/gembollywood/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 989,
+     "latency_ms": 248,
      "priority": 0
     }
    ]
@@ -2846,9 +2846,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 3892,
+   "latency_ms": 224,
    "url": "https://ca-rt.onetv.app/gemdrama/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -2856,7 +2856,7 @@
      "url": "https://ca-rt.onetv.app/gemdrama/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 3892,
+     "latency_ms": 224,
      "priority": 0
     }
    ]
@@ -2872,9 +2872,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 3866,
+   "latency_ms": 243,
    "url": "https://ca-rt.onetv.app/gemdramaplus/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -2882,7 +2882,7 @@
      "url": "https://ca-rt.onetv.app/gemdramaplus/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 3866,
+     "latency_ms": 243,
      "priority": 0
     }
    ]
@@ -2898,9 +2898,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 3823,
+   "latency_ms": 233,
    "url": "https://ca-rt.onetv.app/gemfilm/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -2908,7 +2908,7 @@
      "url": "https://ca-rt.onetv.app/gemfilm/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 3823,
+     "latency_ms": 233,
      "priority": 0
     }
    ]
@@ -2924,9 +2924,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 3305,
+   "latency_ms": 208,
    "url": "https://ca-rt.onetv.app/gemonyx/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -2934,7 +2934,7 @@
      "url": "https://ca-rt.onetv.app/gemonyx/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 3305,
+     "latency_ms": 208,
      "priority": 0
     }
    ]
@@ -2950,9 +2950,9 @@
    "status": "unstable",
    "status_fa": "ناپایدار",
    "quality": "",
-   "latency_ms": 12806,
+   "latency_ms": 10090,
    "url": "https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8",
-   "last_checked_at": "2026-11-21T06:32:23Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -2960,7 +2960,7 @@
      "url": "https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8",
      "status": "unstable",
      "quality": "",
-     "latency_ms": 12806,
+     "latency_ms": 10090,
      "priority": 0
     }
    ]
@@ -2976,9 +2976,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 1209,
+   "latency_ms": 196,
    "url": "https://ca-rt.onetv.app/gemrubix/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:14Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -2986,7 +2986,7 @@
      "url": "https://ca-rt.onetv.app/gemrubix/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 1209,
+     "latency_ms": 196,
      "priority": 0
     }
    ]
@@ -3002,9 +3002,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 1208,
+   "latency_ms": 199,
    "url": "https://ca-rt.onetv.app/gemrubixplus/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:14Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -3012,7 +3012,7 @@
      "url": "https://ca-rt.onetv.app/gemrubixplus/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 1208,
+     "latency_ms": 199,
      "priority": 0
     }
    ]
@@ -3028,9 +3028,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 1065,
+   "latency_ms": 242,
    "url": "https://ca-rt.onetv.app/gem/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:14Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -3038,7 +3038,7 @@
      "url": "https://ca-rt.onetv.app/gem/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 1065,
+     "latency_ms": 242,
      "priority": 0
     }
    ]
@@ -3054,9 +3054,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 1179,
+   "latency_ms": 228,
    "url": "https://ca-rt.onetv.app/gemtvplus/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:14Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -3064,7 +3064,7 @@
      "url": "https://ca-rt.onetv.app/gemtvplus/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 1179,
+     "latency_ms": 228,
      "priority": 0
     }
    ]
@@ -3080,9 +3080,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1594,
+   "latency_ms": 1202,
    "url": "https://moviethls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:14Z",
+   "last_checked_at": "2026-11-21T06:43:08Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3090,7 +3090,7 @@
      "url": "https://moviethls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1594,
+     "latency_ms": 1202,
      "priority": 0
     }
    ]
@@ -3106,9 +3106,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2093,
+   "latency_ms": 1201,
    "url": "https://gcinemahls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:15Z",
+   "last_checked_at": "2026-11-21T06:43:08Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3116,7 +3116,7 @@
      "url": "https://gcinemahls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2093,
+     "latency_ms": 1201,
      "priority": 0
     }
    ]
@@ -3142,7 +3142,7 @@
      "url": "https://icchls.wns.live/hls/stream.m3u8",
      "status": "dead",
      "quality": "1080p",
-     "latency_ms": 808,
+     "latency_ms": 447,
      "priority": 0
     }
    ]
@@ -3168,7 +3168,7 @@
      "url": "https://live.presstv.co.uk/hls/ifilm2.m3u8",
      "status": "dead",
      "quality": "",
-     "latency_ms": 2049,
+     "latency_ms": 1035,
      "priority": 0
     }
    ]
@@ -3194,7 +3194,7 @@
      "url": "https://live.presstv.co.uk/hls/ifilmar.m3u8",
      "status": "dead",
      "quality": "",
-     "latency_ms": 1976,
+     "latency_ms": 1006,
      "priority": 0
     }
    ]
@@ -3220,7 +3220,7 @@
      "url": "https://live.presstv.co.uk/hls/ifilmen.m3u8",
      "status": "dead",
      "quality": "",
-     "latency_ms": 1949,
+     "latency_ms": 622,
      "priority": 0
     }
    ]
@@ -3246,7 +3246,7 @@
      "url": "https://live.presstv.co.uk/hls/ifilmfa.m3u8",
      "status": "dead",
      "quality": "",
-     "latency_ms": 1919,
+     "latency_ms": 720,
      "priority": 0
     }
    ]
@@ -3262,9 +3262,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1881,
+   "latency_ms": 1198,
    "url": "https://metafilmhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:20Z",
+   "last_checked_at": "2026-11-21T06:43:14Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3272,7 +3272,7 @@
      "url": "https://metafilmhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1881,
+     "latency_ms": 1198,
      "priority": 0
     }
    ]
@@ -3288,9 +3288,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 3023,
+   "latency_ms": 1816,
    "url": "https://newfhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:23Z",
+   "last_checked_at": "2026-11-21T06:43:14Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3298,7 +3298,7 @@
      "url": "https://newfhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 3023,
+     "latency_ms": 1816,
      "priority": 0
     }
    ]
@@ -3314,9 +3314,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1315,
+   "latency_ms": 1208,
    "url": "https://cinehls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:22Z",
+   "last_checked_at": "2026-11-21T06:43:16Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3324,7 +3324,7 @@
      "url": "https://cinehls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1315,
+     "latency_ms": 1208,
      "priority": 0
     }
    ]
@@ -3340,9 +3340,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2021,
+   "latency_ms": 1203,
    "url": "https://familyhls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:23Z",
+   "last_checked_at": "2026-11-21T06:43:16Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3350,7 +3350,7 @@
      "url": "https://familyhls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2021,
+     "latency_ms": 1203,
      "priority": 0
     }
    ]
@@ -3366,9 +3366,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2511,
+   "latency_ms": 1197,
    "url": "https://irhls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:24Z",
+   "last_checked_at": "2026-11-21T06:43:16Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3376,7 +3376,7 @@
      "url": "https://irhls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2511,
+     "latency_ms": 1197,
      "priority": 0
     }
    ]
@@ -3392,9 +3392,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2400,
+   "latency_ms": 1202,
    "url": "https://korhls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:24Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3402,7 +3402,7 @@
      "url": "https://korhls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2400,
+     "latency_ms": 1202,
      "priority": 0
     }
    ]
@@ -3418,9 +3418,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 3461,
+   "latency_ms": 1989,
    "url": "https://latinohls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:25Z",
+   "last_checked_at": "2026-11-21T06:43:18Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3428,7 +3428,7 @@
      "url": "https://latinohls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 3461,
+     "latency_ms": 1989,
      "priority": 0
     }
    ]
@@ -3444,9 +3444,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1774,
+   "latency_ms": 1210,
    "url": "https://euhls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:25Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3454,7 +3454,7 @@
      "url": "https://euhls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1774,
+     "latency_ms": 1210,
      "priority": 0
     }
    ]
@@ -3470,9 +3470,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2391,
+   "latency_ms": 1195,
    "url": "https://slonehls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:28Z",
+   "last_checked_at": "2026-11-21T06:43:18Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3480,7 +3480,7 @@
      "url": "https://slonehls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2391,
+     "latency_ms": 1195,
      "priority": 0
     }
    ]
@@ -3496,9 +3496,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2862,
+   "latency_ms": 1197,
    "url": "https://sltwohls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:28Z",
+   "last_checked_at": "2026-11-21T06:43:18Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3506,7 +3506,7 @@
      "url": "https://sltwohls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2862,
+     "latency_ms": 1197,
      "priority": 0
     }
    ]
@@ -3522,9 +3522,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 1821,
+   "latency_ms": 197,
    "url": "https://ca-rt.onetv.app/T2Movies/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:28Z",
+   "last_checked_at": "2026-11-21T06:43:18Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -3532,7 +3532,7 @@
      "url": "https://ca-rt.onetv.app/T2Movies/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 1821,
+     "latency_ms": 197,
      "priority": 0
     }
    ]
@@ -3548,9 +3548,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7128,
+   "latency_ms": 3746,
    "url": "https://ncdn.telewebion.ir/hdtest/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:34Z",
+   "last_checked_at": "2026-11-21T06:43:23Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3558,7 +3558,7 @@
      "url": "https://ncdn.telewebion.ir/hdtest/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7128,
+     "latency_ms": 3746,
      "priority": 0
     }
    ]
@@ -3574,9 +3574,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 1632,
+   "latency_ms": 1695,
    "url": "https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8",
-   "last_checked_at": "2026-11-21T06:32:06Z",
+   "last_checked_at": "2026-11-21T06:43:04Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3584,7 +3584,7 @@
      "url": "https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 1632,
+     "latency_ms": 1695,
      "priority": 0
     }
    ]
@@ -3600,9 +3600,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 1295,
+   "latency_ms": 1423,
    "url": "https://hls.erfanhalgheh.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:09Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3610,7 +3610,7 @@
      "url": "https://hls.erfanhalgheh.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 1295,
+     "latency_ms": 1423,
      "priority": 0
     }
    ]
@@ -3626,9 +3626,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5278,
+   "latency_ms": 3979,
    "url": "https://ncdn.telewebion.ir/habib/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:18Z",
+   "last_checked_at": "2026-11-21T06:43:11Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3636,7 +3636,7 @@
      "url": "https://ncdn.telewebion.ir/habib/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5278,
+     "latency_ms": 3979,
      "priority": 0
     }
    ]
@@ -3652,9 +3652,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1642,
+   "latency_ms": 1199,
    "url": "https://icnet2hls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:15Z",
+   "last_checked_at": "2026-11-21T06:43:09Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3662,7 +3662,7 @@
      "url": "https://icnet2hls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1642,
+     "latency_ms": 1199,
      "priority": 0
     }
    ]
@@ -3678,9 +3678,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1603,
+   "latency_ms": 1225,
    "url": "https://ic3hls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:15Z",
+   "last_checked_at": "2026-11-21T06:43:22Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3688,7 +3688,7 @@
      "url": "https://ic3hls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1603,
+     "latency_ms": 1225,
      "priority": 0
     }
    ]
@@ -3704,9 +3704,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 1328,
+   "latency_ms": 2301,
    "url": "http://iran620.com:1935/live/IranJewishTv/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:15Z",
+   "last_checked_at": "2026-11-21T06:43:12Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3714,7 +3714,7 @@
      "url": "http://iran620.com:1935/live/IranJewishTv/playlist.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 1328,
+     "latency_ms": 2301,
      "priority": 0
     }
    ]
@@ -3730,9 +3730,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 1275,
+   "latency_ms": 249,
    "url": "https://kalemeh.tv/live/hls/gate.php?p=/live/ngrp:kalemeh_all/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:17Z",
+   "last_checked_at": "2026-11-21T06:43:11Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -3740,7 +3740,7 @@
      "url": "https://kalemeh.tv/live/hls/gate.php?p=/live/ngrp:kalemeh_all/playlist.m3u8",
      "status": "geo",
      "quality": "",
-     "latency_ms": 1275,
+     "latency_ms": 249,
      "priority": 0
     }
    ]
@@ -3756,9 +3756,9 @@
    "status": "unstable",
    "status_fa": "ناپایدار",
    "quality": "540p",
-   "latency_ms": 819,
+   "latency_ms": 212,
    "url": "http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:20Z",
+   "last_checked_at": "2026-11-21T06:43:13Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -3766,7 +3766,7 @@
      "url": "http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8",
      "status": "unstable",
      "quality": "540p",
-     "latency_ms": 819,
+     "latency_ms": 212,
      "priority": 0
     }
    ]
@@ -3792,7 +3792,7 @@
      "url": "https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8",
      "status": "dead",
      "quality": "720p",
-     "latency_ms": 4071,
+     "latency_ms": 1351,
      "priority": 0
     }
    ]
@@ -3808,9 +3808,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7858,
+   "latency_ms": 3979,
    "url": "https://ncdn.telewebion.ir/quran/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:32Z",
+   "last_checked_at": "2026-11-21T06:43:21Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3818,7 +3818,7 @@
      "url": "https://ncdn.telewebion.ir/quran/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7858,
+     "latency_ms": 3979,
      "priority": 0
     }
    ]
@@ -3844,7 +3844,7 @@
      "url": "https://avr.host247.net/live/rasoulallahtv/playlist.m3u8",
      "status": "dead",
      "quality": "1080p",
-     "latency_ms": 946,
+     "latency_ms": 459,
      "priority": 0
     }
    ]
@@ -3870,7 +3870,7 @@
      "url": "https://avr.host247.net/live/WiseHumanTv/playlist.m3u8",
      "status": "dead",
      "quality": "1080p",
-     "latency_ms": 1175,
+     "latency_ms": 354,
      "priority": 0
     }
    ]
@@ -3886,9 +3886,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2085,
+   "latency_ms": 1817,
    "url": "https://eplhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:09Z",
+   "last_checked_at": "2026-11-21T06:43:06Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3896,7 +3896,7 @@
      "url": "https://eplhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2085,
+     "latency_ms": 1817,
      "priority": 0
     }
    ]
@@ -3912,9 +3912,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 3316,
+   "latency_ms": 231,
    "url": "https://ca-rt.onetv.app/gemnature/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -3922,7 +3922,7 @@
      "url": "https://ca-rt.onetv.app/gemnature/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 3316,
+     "latency_ms": 231,
      "priority": 0
     }
    ]
@@ -3938,9 +3938,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1923,
+   "latency_ms": 1250,
    "url": "https://scihls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:23Z",
+   "last_checked_at": "2026-11-21T06:43:16Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3948,7 +3948,7 @@
      "url": "https://scihls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1923,
+     "latency_ms": 1250,
      "priority": 0
     }
    ]
@@ -3964,9 +3964,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1911,
+   "latency_ms": 1205,
    "url": "https://ptravelhls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:25Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -3974,7 +3974,7 @@
      "url": "https://ptravelhls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1911,
+     "latency_ms": 1205,
      "priority": 0
     }
    ]
@@ -3990,9 +3990,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1676,
+   "latency_ms": 1209,
    "url": "https://musichls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:06Z",
+   "last_checked_at": "2026-11-21T06:43:04Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4000,7 +4000,7 @@
      "url": "https://musichls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1676,
+     "latency_ms": 1209,
      "priority": 0
     }
    ]
@@ -4016,9 +4016,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1677,
+   "latency_ms": 1551,
    "url": "https://4kuhls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:06Z",
+   "last_checked_at": "2026-11-21T06:43:04Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4026,7 +4026,7 @@
      "url": "https://4kuhls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1677,
+     "latency_ms": 1551,
      "priority": 0
     }
    ]
@@ -4042,9 +4042,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 3484,
+   "latency_ms": 710,
    "url": "https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:08Z",
+   "last_checked_at": "2026-11-21T06:43:03Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4052,7 +4052,7 @@
      "url": "https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 3484,
+     "latency_ms": 710,
      "priority": 0
     }
    ]
@@ -4068,9 +4068,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "1080p",
-   "latency_ms": 1604,
+   "latency_ms": 1206,
    "url": "https://hls.avang.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:08Z",
+   "last_checked_at": "2026-11-21T06:43:05Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4078,7 +4078,7 @@
      "url": "https://hls.avang.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "1080p",
-     "latency_ms": 1604,
+     "latency_ms": 1206,
      "priority": 0
     }
    ]
@@ -4094,9 +4094,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 981,
+   "latency_ms": 200,
    "url": "https://ca-rt.onetv.app/gem24b/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:09Z",
+   "last_checked_at": "2026-11-21T06:43:06Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -4104,7 +4104,7 @@
      "url": "https://ca-rt.onetv.app/gem24b/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 981,
+     "latency_ms": 200,
      "priority": 0
     }
    ]
@@ -4120,9 +4120,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 4088,
+   "latency_ms": 247,
    "url": "https://ca-rt.onetv.app/gemmifa/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -4130,7 +4130,7 @@
      "url": "https://ca-rt.onetv.app/gemmifa/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 4088,
+     "latency_ms": 247,
      "priority": 0
     }
    ]
@@ -4146,9 +4146,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 3315,
+   "latency_ms": 243,
    "url": "https://ca-rt.onetv.app/gemmifaplus/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -4156,7 +4156,7 @@
      "url": "https://ca-rt.onetv.app/gemmifaplus/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 3315,
+     "latency_ms": 243,
      "priority": 0
     }
    ]
@@ -4172,9 +4172,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "1080p",
-   "latency_ms": 4273,
+   "latency_ms": 533,
    "url": "https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8",
-   "last_checked_at": "2026-11-21T06:32:18Z",
+   "last_checked_at": "2026-11-21T06:43:08Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4182,7 +4182,7 @@
      "url": "https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8",
      "status": "ok",
      "quality": "1080p",
-     "latency_ms": 4273,
+     "latency_ms": 533,
      "priority": 0
     }
    ]
@@ -4198,9 +4198,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2282,
+   "latency_ms": 1228,
    "url": "https://sonhls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:24Z",
+   "last_checked_at": "2026-11-21T06:43:16Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4208,7 +4208,7 @@
      "url": "https://sonhls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2282,
+     "latency_ms": 1228,
      "priority": 0
     }
    ]
@@ -4224,9 +4224,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2101,
+   "latency_ms": 1270,
    "url": "https://raphls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:26Z",
+   "last_checked_at": "2026-11-21T06:43:18Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4234,7 +4234,7 @@
      "url": "https://raphls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2101,
+     "latency_ms": 1270,
      "priority": 0
     }
    ]
@@ -4250,9 +4250,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "1080p",
-   "latency_ms": 2522,
+   "latency_ms": 1210,
    "url": "https://rjtvhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:27Z",
+   "last_checked_at": "2026-11-21T06:43:18Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4260,7 +4260,7 @@
      "url": "https://rjtvhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "1080p",
-     "latency_ms": 2522,
+     "latency_ms": 1210,
      "priority": 0
     }
    ]
@@ -4276,9 +4276,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2564,
+   "latency_ms": 1251,
    "url": "https://t2hls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:28Z",
+   "last_checked_at": "2026-11-21T06:43:20Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4286,7 +4286,7 @@
      "url": "https://t2hls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2564,
+     "latency_ms": 1251,
      "priority": 0
     }
    ]
@@ -4302,9 +4302,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 3759,
+   "latency_ms": 252,
    "url": "https://ca-rt.onetv.app/gemfit/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -4312,7 +4312,7 @@
      "url": "https://ca-rt.onetv.app/gemfit/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 3759,
+     "latency_ms": 252,
      "priority": 0
     }
    ]
@@ -4328,9 +4328,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 852,
+   "latency_ms": 792,
    "url": "https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:08Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -4338,7 +4338,7 @@
      "url": "https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8",
      "status": "geo",
      "quality": "",
-     "latency_ms": 852,
+     "latency_ms": 792,
      "priority": 0
     }
    ]
@@ -4354,9 +4354,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5009,
+   "latency_ms": 4263,
    "url": "https://ncdn.telewebion.ir/tv3/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:20Z",
+   "last_checked_at": "2026-11-21T06:43:12Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4364,7 +4364,7 @@
      "url": "https://ncdn.telewebion.ir/tv3/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5009,
+     "latency_ms": 4263,
      "priority": 0
     }
    ]
@@ -4380,9 +4380,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2303,
+   "latency_ms": 1211,
    "url": "https://fighthls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:24Z",
+   "last_checked_at": "2026-11-21T06:43:16Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4390,7 +4390,7 @@
      "url": "https://fighthls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2303,
+     "latency_ms": 1211,
      "priority": 0
     }
    ]
@@ -4406,9 +4406,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 7972,
+   "latency_ms": 3854,
    "url": "https://ncdn.telewebion.ir/varzesh/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:36Z",
+   "last_checked_at": "2026-11-21T06:43:24Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4416,7 +4416,7 @@
      "url": "https://ncdn.telewebion.ir/varzesh/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 7972,
+     "latency_ms": 3854,
      "priority": 0
     }
    ]
@@ -4432,9 +4432,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1366,
+   "latency_ms": 1199,
    "url": "https://clshls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:08Z",
+   "last_checked_at": "2026-11-21T06:43:05Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4442,7 +4442,7 @@
      "url": "https://clshls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1366,
+     "latency_ms": 1199,
      "priority": 0
     }
    ]
@@ -4458,9 +4458,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 1411,
+   "latency_ms": 238,
    "url": "https://ca-rt.onetv.app/gemclassic/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:10Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -4468,7 +4468,7 @@
      "url": "https://ca-rt.onetv.app/gemclassic/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 1411,
+     "latency_ms": 238,
      "priority": 0
     }
    ]
@@ -4484,9 +4484,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2948,
+   "latency_ms": 1210,
    "url": "https://noshls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:25Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4494,7 +4494,7 @@
      "url": "https://noshls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2948,
+     "latency_ms": 1210,
      "priority": 0
     }
    ]
@@ -4510,9 +4510,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 3866,
+   "latency_ms": 277,
    "url": "https://ca-rt.onetv.app/gemcomedy/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -4520,7 +4520,7 @@
      "url": "https://ca-rt.onetv.app/gemcomedy/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 3866,
+     "latency_ms": 277,
      "priority": 0
     }
    ]
@@ -4536,9 +4536,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 1352,
+   "latency_ms": 1202,
    "url": "https://comedyhls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:22Z",
+   "last_checked_at": "2026-11-21T06:43:16Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4546,7 +4546,7 @@
      "url": "https://comedyhls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 1352,
+     "latency_ms": 1202,
      "priority": 0
     }
    ]
@@ -4562,9 +4562,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 3859,
+   "latency_ms": 226,
    "url": "https://ca-rt.onetv.app/gemjunior/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:13Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -4572,7 +4572,7 @@
      "url": "https://ca-rt.onetv.app/gemjunior/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 3859,
+     "latency_ms": 226,
      "priority": 0
     }
    ]
@@ -4588,9 +4588,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "",
-   "latency_ms": 4301,
+   "latency_ms": 200,
    "url": "https://ca-rt.onetv.app/gemkids/index-0.m3u8?token=onetv202",
-   "last_checked_at": "2026-11-21T06:32:14Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -4598,7 +4598,7 @@
      "url": "https://ca-rt.onetv.app/gemkids/index-0.m3u8?token=onetv202",
      "status": "geo",
      "quality": "",
-     "latency_ms": 4301,
+     "latency_ms": 200,
      "priority": 0
     }
    ]
@@ -4614,9 +4614,9 @@
    "status": "geo",
    "status_fa": "محدودیت جغرافیایی",
    "quality": "1080p",
-   "latency_ms": 1123,
+   "latency_ms": 138,
    "url": "https://northtelecom.b-cdn.net/hodhodtv.m3u8",
-   "last_checked_at": "2026-11-21T06:32:14Z",
+   "last_checked_at": "2026-11-21T06:43:08Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -4624,7 +4624,7 @@
      "url": "https://northtelecom.b-cdn.net/hodhodtv.m3u8",
      "status": "geo",
      "quality": "1080p",
-     "latency_ms": 1123,
+     "latency_ms": 138,
      "priority": 0
     }
    ]
@@ -4640,9 +4640,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5084,
+   "latency_ms": 4011,
    "url": "https://ncdn.telewebion.ir/omid/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:20Z",
+   "last_checked_at": "2026-11-21T06:43:12Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4650,7 +4650,7 @@
      "url": "https://ncdn.telewebion.ir/omid/live/playlist.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5084,
+     "latency_ms": 4011,
      "priority": 0
     }
    ]
@@ -4666,9 +4666,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2297,
+   "latency_ms": 1214,
    "url": "https://junhls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:24Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4676,7 +4676,7 @@
      "url": "https://junhls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2297,
+     "latency_ms": 1214,
      "priority": 0
     }
    ]
@@ -4692,9 +4692,9 @@
    "status": "unstable",
    "status_fa": "ناپایدار",
    "quality": "",
-   "latency_ms": 10008,
+   "latency_ms": 10181,
    "url": "https://kphls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:33Z",
+   "last_checked_at": "2026-11-21T06:43:26Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -4702,7 +4702,7 @@
      "url": "https://kphls.persiana.live/hls/stream.m3u8",
      "status": "unstable",
      "quality": "",
-     "latency_ms": 10008,
+     "latency_ms": 10181,
      "priority": 0
     }
    ]
@@ -4718,9 +4718,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 4069,
+   "latency_ms": 850,
    "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-iribpooya/tracks-v1a1/mono.m3u8",
-   "last_checked_at": "2026-11-21T06:32:28Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4728,7 +4728,7 @@
      "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-iribpooya/tracks-v1a1/mono.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 4069,
+     "latency_ms": 850,
      "priority": 0
     }
    ]
@@ -4744,9 +4744,9 @@
    "status": "unstable",
    "status_fa": "ناپایدار",
    "quality": "",
-   "latency_ms": 4571,
+   "latency_ms": 2157,
    "url": "https://ncdn.telewebion.ir/javaneh/live/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:28Z",
+   "last_checked_at": "2026-11-21T06:43:18Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -4754,7 +4754,7 @@
      "url": "https://ncdn.telewebion.ir/javaneh/live/playlist.m3u8",
      "status": "unstable",
      "quality": "",
-     "latency_ms": 4571,
+     "latency_ms": 2157,
      "priority": 0
     }
    ]
@@ -4770,9 +4770,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "1080p",
-   "latency_ms": 5925,
+   "latency_ms": 2060,
    "url": "https://fflive-darya-educationtv.b-cdn.net/master.m3u8",
-   "last_checked_at": "2026-11-21T06:32:40Z",
+   "last_checked_at": "2026-11-21T06:43:20Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4780,7 +4780,7 @@
      "url": "https://fflive-darya-educationtv.b-cdn.net/master.m3u8",
      "status": "ok",
      "quality": "1080p",
-     "latency_ms": 5925,
+     "latency_ms": 2060,
      "priority": 0
     }
    ]
@@ -4796,9 +4796,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 2009,
+   "latency_ms": 1576,
    "url": "https://hls.afintl.com/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:34Z",
+   "last_checked_at": "2026-11-21T06:43:04Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4806,7 +4806,7 @@
      "url": "https://hls.afintl.com/hls/stream.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 2009,
+     "latency_ms": 1576,
      "priority": 0
     }
    ]
@@ -4822,9 +4822,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 5138,
+   "latency_ms": 4473,
    "url": "https://jmc-live.ercdn.net/amutv/amutv.m3u8",
-   "last_checked_at": "2026-11-21T06:32:38Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4832,7 +4832,7 @@
      "url": "https://jmc-live.ercdn.net/amutv/amutv.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 5138,
+     "latency_ms": 4473,
      "priority": 0
     }
    ]
@@ -4848,9 +4848,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 3934,
+   "latency_ms": 5360,
    "url": "https://hrt-stream.movie.af/live/smil:tolonewstv.smil/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:09Z",
+   "last_checked_at": "2026-11-21T06:43:24Z",
    "streams_total": 2,
    "streams_ok": 2,
    "alternatives": [
@@ -4858,14 +4858,14 @@
      "url": "https://hrt-stream.movie.af/live/smil:tolonewstv.smil/playlist.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 3934,
+     "latency_ms": 5360,
      "priority": 80
     },
     {
      "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-tolonews/index.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 4736,
+     "latency_ms": 1068,
      "priority": 0
     }
    ]
@@ -4881,9 +4881,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 5411,
+   "latency_ms": 2176,
    "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-lemar/index.m3u8",
-   "last_checked_at": "2026-11-21T06:32:39Z",
+   "last_checked_at": "2026-11-21T06:43:14Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4891,7 +4891,7 @@
      "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-lemar/index.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 5411,
+     "latency_ms": 2176,
      "priority": 0
     }
    ]
@@ -4917,7 +4917,7 @@
      "url": "https://5a1178b42cc03.streamlock.net/shamshadtelevision/shamshadtelevision/playlist.m3u8",
      "status": "dead",
      "quality": "",
-     "latency_ms": 2085,
+     "latency_ms": 885,
      "priority": 0
     }
    ]
@@ -4933,9 +4933,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "1080p",
-   "latency_ms": 3926,
+   "latency_ms": 4890,
    "url": "https://hrt-stream.movie.af/live/smil:1tv.smil/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:09Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4943,7 +4943,7 @@
      "url": "https://hrt-stream.movie.af/live/smil:1tv.smil/playlist.m3u8",
      "status": "ok",
      "quality": "1080p",
-     "latency_ms": 3926,
+     "latency_ms": 4890,
      "priority": 100
     }
    ]
@@ -4959,9 +4959,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "",
-   "latency_ms": 2968,
+   "latency_ms": 2004,
    "url": "https://4afghls.persiana.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:34Z",
+   "last_checked_at": "2026-11-21T06:43:04Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -4969,7 +4969,7 @@
      "url": "https://4afghls.persiana.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 2968,
+     "latency_ms": 2004,
      "priority": 0
     }
    ]
@@ -4985,9 +4985,9 @@
    "status": "unstable",
    "status_fa": "ناپایدار",
    "quality": "720p",
-   "latency_ms": 10018,
+   "latency_ms": 10170,
    "url": "https://live.relentlessinnovations.net:1936/afghannobeltv/afghannobeltv/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:42Z",
+   "last_checked_at": "2026-11-21T06:43:13Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -4995,7 +4995,7 @@
      "url": "https://live.relentlessinnovations.net:1936/afghannobeltv/afghannobeltv/playlist.m3u8",
      "status": "unstable",
      "quality": "720p",
-     "latency_ms": 10018,
+     "latency_ms": 10170,
      "priority": 0
     }
    ]
@@ -5021,7 +5021,7 @@
      "url": "https://59d39900ebfb8.streamlock.net/bahartv/bahartv/playlist.m3u8",
      "status": "dead",
      "quality": "720p",
-     "latency_ms": 1218,
+     "latency_ms": 391,
      "priority": 0
     }
    ]
@@ -5037,9 +5037,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "576p",
-   "latency_ms": 2414,
+   "latency_ms": 1210,
    "url": "https://dunyanhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:35Z",
+   "last_checked_at": "2026-11-21T06:43:06Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -5047,7 +5047,7 @@
      "url": "https://dunyanhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "576p",
-     "latency_ms": 2414,
+     "latency_ms": 1210,
      "priority": 0
     }
    ]
@@ -5063,9 +5063,9 @@
    "status": "unstable",
    "status_fa": "ناپایدار",
    "quality": "720p",
-   "latency_ms": 10019,
+   "latency_ms": 10001,
    "url": "http://51.210.199.58/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:43Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -5073,7 +5073,7 @@
      "url": "http://51.210.199.58/hls/stream.m3u8",
      "status": "unstable",
      "quality": "720p",
-     "latency_ms": 10019,
+     "latency_ms": 10001,
      "priority": 0
     }
    ]
@@ -5089,9 +5089,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "480p",
-   "latency_ms": 5556,
+   "latency_ms": 2459,
    "url": "https://g5nl6xx5lpq6-hls-live.5centscdn.com/live1234/2621b29e501b445fabf227b086123b70.sdp/mono.m3u8",
-   "last_checked_at": "2026-11-21T06:32:39Z",
+   "last_checked_at": "2026-11-21T06:43:17Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -5099,7 +5099,7 @@
      "url": "https://g5nl6xx5lpq6-hls-live.5centscdn.com/live1234/2621b29e501b445fabf227b086123b70.sdp/mono.m3u8",
      "status": "ok",
      "quality": "480p",
-     "latency_ms": 5556,
+     "latency_ms": 2459,
      "priority": 0
     }
    ]
@@ -5115,9 +5115,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "1080p",
-   "latency_ms": 6640,
+   "latency_ms": 3027,
    "url": "https://rta-tv.akamaized.net/live/SD/RTA-1/RTA/RTA-1.m3u8",
-   "last_checked_at": "2026-11-21T06:32:40Z",
+   "last_checked_at": "2026-11-21T06:43:20Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -5125,7 +5125,7 @@
      "url": "https://rta-tv.akamaized.net/live/SD/RTA-1/RTA/RTA-1.m3u8",
      "status": "ok",
      "quality": "1080p",
-     "latency_ms": 6640,
+     "latency_ms": 3027,
      "priority": 0
     }
    ]
@@ -5141,9 +5141,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "1080p",
-   "latency_ms": 6533,
+   "latency_ms": 2786,
    "url": "https://rta-tv.akamaized.net/live/SD/RTA-4/RTA/RTA-4.m3u8",
-   "last_checked_at": "2026-11-21T06:32:41Z",
+   "last_checked_at": "2026-11-21T06:43:20Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -5151,7 +5151,7 @@
      "url": "https://rta-tv.akamaized.net/live/SD/RTA-4/RTA/RTA-4.m3u8",
      "status": "ok",
      "quality": "1080p",
-     "latency_ms": 6533,
+     "latency_ms": 2786,
      "priority": 0
     }
    ]
@@ -5177,7 +5177,7 @@
      "url": "https://59nyqa5elwap-hls-live.5centscdn.com/Sharq/eec89088ee408b80387155272b113256.sdp/playlist.m3u8",
      "status": "dead",
      "quality": "1080p",
-     "latency_ms": 3497,
+     "latency_ms": 1330,
      "priority": 0
     }
    ]
@@ -5203,7 +5203,7 @@
      "url": "https://iptv.sohailtv.com/sohail/playlist/index.m3u8",
      "status": "dead",
      "quality": "1080p",
-     "latency_ms": 3694,
+     "latency_ms": 582,
      "priority": 0
     }
    ]
@@ -5219,9 +5219,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 2708,
+   "latency_ms": 1230,
    "url": "https://hls.tamadon.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:38Z",
+   "last_checked_at": "2026-11-21T06:43:21Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -5229,7 +5229,7 @@
      "url": "https://hls.tamadon.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 2708,
+     "latency_ms": 1230,
      "priority": 0
     }
    ]
@@ -5245,9 +5245,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "1080p",
-   "latency_ms": 3837,
+   "latency_ms": 5333,
    "url": "https://hrt-stream.movie.af/live/smil:tolotv.smil/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:09Z",
+   "last_checked_at": "2026-11-21T06:43:25Z",
    "streams_total": 2,
    "streams_ok": 2,
    "alternatives": [
@@ -5255,14 +5255,14 @@
      "url": "https://hrt-stream.movie.af/live/smil:tolotv.smil/playlist.m3u8",
      "status": "ok",
      "quality": "1080p",
-     "latency_ms": 3837,
+     "latency_ms": 5333,
      "priority": 80
     },
     {
      "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-tolohd/tracks-v1a1/mono.m3u8",
      "status": "ok",
      "quality": "",
-     "latency_ms": 3627,
+     "latency_ms": 788,
      "priority": 0
     }
    ]
@@ -5278,9 +5278,9 @@
    "status": "unstable",
    "status_fa": "ناپایدار",
    "quality": "720p",
-   "latency_ms": 10022,
+   "latency_ms": 10170,
    "url": "https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:42Z",
+   "last_checked_at": "2026-11-21T06:43:13Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -5288,7 +5288,7 @@
      "url": "https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8",
      "status": "unstable",
      "quality": "720p",
-     "latency_ms": 10022,
+     "latency_ms": 10170,
      "priority": 0
     }
    ]
@@ -5304,9 +5304,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 1948,
+   "latency_ms": 1412,
    "url": "https://hls.maahtv.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:20Z",
+   "last_checked_at": "2026-11-21T06:43:14Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -5314,7 +5314,7 @@
      "url": "https://hls.maahtv.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 1948,
+     "latency_ms": 1412,
      "priority": 0
     }
    ]
@@ -5330,9 +5330,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "540p",
-   "latency_ms": 3550,
+   "latency_ms": 656,
    "url": "https://mediaserver.abnvideos.com/streams/abnafghanistan.m3u8",
-   "last_checked_at": "2026-11-21T06:32:35Z",
+   "last_checked_at": "2026-11-21T06:43:03Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -5340,7 +5340,7 @@
      "url": "https://mediaserver.abnvideos.com/streams/abnafghanistan.m3u8",
      "status": "ok",
      "quality": "540p",
-     "latency_ms": 3550,
+     "latency_ms": 656,
      "priority": 0
     }
    ]
@@ -5356,9 +5356,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 2268,
+   "latency_ms": 1209,
    "url": "https://eslahtvhls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:35Z",
+   "last_checked_at": "2026-11-21T06:43:07Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -5366,7 +5366,7 @@
      "url": "https://eslahtvhls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 2268,
+     "latency_ms": 1209,
      "priority": 0
     }
    ]
@@ -5382,9 +5382,9 @@
    "status": "unstable",
    "status_fa": "ناپایدار",
    "quality": "480p",
-   "latency_ms": 10023,
+   "latency_ms": 10178,
    "url": "https://live.relentlessinnovations.net:1936/imantv/imantv/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:43Z",
+   "last_checked_at": "2026-11-21T06:43:19Z",
    "streams_total": 1,
    "streams_ok": 0,
    "alternatives": [
@@ -5392,7 +5392,7 @@
      "url": "https://live.relentlessinnovations.net:1936/imantv/imantv/playlist.m3u8",
      "status": "unstable",
      "quality": "480p",
-     "latency_ms": 10023,
+     "latency_ms": 10178,
      "priority": 0
     }
    ]
@@ -5408,9 +5408,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "1080p",
-   "latency_ms": 4849,
+   "latency_ms": 1991,
    "url": "https://amchls.wns.live/hls/stream.m3u8",
-   "last_checked_at": "2026-11-21T06:32:37Z",
+   "last_checked_at": "2026-11-21T06:43:04Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -5418,7 +5418,7 @@
      "url": "https://amchls.wns.live/hls/stream.m3u8",
      "status": "ok",
      "quality": "1080p",
-     "latency_ms": 4849,
+     "latency_ms": 1991,
      "priority": 0
     }
    ]
@@ -5434,9 +5434,9 @@
    "status": "ok",
    "status_fa": "سالم",
    "quality": "720p",
-   "latency_ms": 5684,
+   "latency_ms": 1863,
    "url": "https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8",
-   "last_checked_at": "2026-11-21T06:32:39Z",
+   "last_checked_at": "2026-11-21T06:43:13Z",
    "streams_total": 1,
    "streams_ok": 1,
    "alternatives": [
@@ -5444,7 +5444,7 @@
      "url": "https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8",
      "status": "ok",
      "quality": "720p",
-     "latency_ms": 5684,
+     "latency_ms": 1863,
      "priority": 0
     }
    ]
