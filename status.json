@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T07:57:51Z",
+ "generated_at": "2026-11-21T08:09:36Z",
  "counts": {
   "channels": 208,
   "playable_channels": 189,
@@ -15,14 +15,14 @@
   {
    "id": "iptv-org-af",
    "url": "https://iptv-org.github.io/iptv/countries/af.m3u",
-   "last_fetch_at": "2026-11-21T07:57:51Z",
+   "last_fetch_at": "2026-11-21T08:09:36Z",
    "ok": 0,
    "note": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   {
    "id": "iptv-org-ir",
    "url": "https://iptv-org.github.io/iptv/countries/ir.m3u",
-   "last_fetch_at": "2026-11-21T07:57:51Z",
+   "last_fetch_at": "2026-11-21T08:09:36Z",
    "ok": 0,
    "note": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
   }
@@ -46,12 +46,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1mb29kL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.aU36Zc8Th9xFzZzNzjs6eeCccBuqpyTBzQp5mJDHVWM",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1mb29kL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.aU36Zc8Th9xFzZzNzjs6eeCccBuqpyTBzQp5mJDHVWM"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1mb29kL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.mZpb0wEyp2QFj-z00VLvLBz_DrEJgSu1xdcrX0Pvt1c",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1mb29kL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.mZpb0wEyp2QFj-z00VLvLBz_DrEJgSu1xdcrX0Pvt1c"
    },
    "alternatives": [
     {
@@ -85,8 +85,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3VuaTAxcnRtcC50dWxpeC50di9rZW5zZWN1cmUvcGp0di5zdHJlYW0vcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.ZBFos7L6wVPrJXMVCtP5Hp76lNmGCby8rmeiHI-c4zI",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3VuaTAxcnRtcC50dWxpeC50di9rZW5zZWN1cmUvcGp0di5zdHJlYW0vcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.ZBFos7L6wVPrJXMVCtP5Hp76lNmGCby8rmeiHI-c4zI"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3VuaTAxcnRtcC50dWxpeC50di9rZW5zZWN1cmUvcGp0di5zdHJlYW0vcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.2Aqtb3nOn9MfEijjetDjSP5DrzwgD7jXK2YdgwWHwPA",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3VuaTAxcnRtcC50dWxpeC50di9rZW5zZWN1cmUvcGp0di5zdHJlYW0vcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.2Aqtb3nOn9MfEijjetDjSP5DrzwgD7jXK2YdgwWHwPA"
    },
    "alternatives": [
     {
@@ -120,8 +120,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3BoZDJobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.iRvuAbAb5RKFnMBQ8lIeMpt61uQKPcFXFJB2secBbLc",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3BoZDJobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.iRvuAbAb5RKFnMBQ8lIeMpt61uQKPcFXFJB2secBbLc"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3BoZDJobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.8Zwfw5WwHxhyYTvDm8OgaPSdS8N4p6V7d9gCYA1aCzs",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3BoZDJobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.8Zwfw5WwHxhyYTvDm8OgaPSdS8N4p6V7d9gCYA1aCzs"
    },
    "alternatives": [
     {
@@ -155,8 +155,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhZmV0cmFkZWhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.FL5zrzbLgftOWjKEnH4xgqcrgpWWa3Y_S_hbaAiUJUU",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhZmV0cmFkZWhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.FL5zrzbLgftOWjKEnH4xgqcrgpWWa3Y_S_hbaAiUJUU"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhZmV0cmFkZWhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.KnH7dz5WxnvF7d4l6kI3QaK0LTfClh9W4zVs4cQXgV0",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhZmV0cmFkZWhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.KnH7dz5WxnvF7d4l6kI3QaK0LTfClh9W4zVs4cQXgV0"
    },
    "alternatives": [
     {
@@ -190,8 +190,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hsc3BhY2thZ2VyLmFrYW1haXplZC5uZXQvbGl2ZS9EQi9JUkFOX0lOVEVSTkFUSU9OQUwvSExTL0lSQU5fSU5URVJOQVRJT05BTC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.niQ_Kq1koImGEDLCkq3yOeqFrUsyNfwLzr_4pqYPuUg",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hsc3BhY2thZ2VyLmFrYW1haXplZC5uZXQvbGl2ZS9EQi9JUkFOX0lOVEVSTkFUSU9OQUwvSExTL0lSQU5fSU5URVJOQVRJT05BTC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.niQ_Kq1koImGEDLCkq3yOeqFrUsyNfwLzr_4pqYPuUg"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hsc3BhY2thZ2VyLmFrYW1haXplZC5uZXQvbGl2ZS9EQi9JUkFOX0lOVEVSTkFUSU9OQUwvSExTL0lSQU5fSU5URVJOQVRJT05BTC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.k7acZS8SItNWNnw6zkF8gVN3mj_IJho26B-DVh3rHC8",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hsc3BhY2thZ2VyLmFrYW1haXplZC5uZXQvbGl2ZS9EQi9JUkFOX0lOVEVSTkFUSU9OQUwvSExTL0lSQU5fSU5URVJOQVRJT05BTC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.k7acZS8SItNWNnw6zkF8gVN3mj_IJho26B-DVh3rHC8"
    },
    "alternatives": [
     {
@@ -257,8 +257,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lyYW5lZmFyZGFsaXZlLmNvbS9zdHJlYW0vbGl2ZS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.hIVIoxr_aYbwtRFIynAHX-kpOzf0Ox7pUgsPPz2vJeA",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lyYW5lZmFyZGFsaXZlLmNvbS9zdHJlYW0vbGl2ZS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.hIVIoxr_aYbwtRFIynAHX-kpOzf0Ox7pUgsPPz2vJeA"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lyYW5lZmFyZGFsaXZlLmNvbS9zdHJlYW0vbGl2ZS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.XZZkMjAtzsNMI9E9RqBGa3tI0TI2zlZ_TkxwG2ZRD6U",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lyYW5lZmFyZGFsaXZlLmNvbS9zdHJlYW0vbGl2ZS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.XZZkMjAtzsNMI9E9RqBGa3tI0TI2zlZ_TkxwG2ZRD6U"
    },
    "alternatives": [
     {
@@ -292,8 +292,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vMTg1LjkuMi4xOC9jaGlkXzkyNi9pbmRleC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.B9xC4iH_ve8qRAy7w6pAcmWzVlYokKmCzSMTUId-K90",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vMTg1LjkuMi4xOC9jaGlkXzkyNi9pbmRleC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.B9xC4iH_ve8qRAy7w6pAcmWzVlYokKmCzSMTUId-K90"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vMTg1LjkuMi4xOC9jaGlkXzkyNi9pbmRleC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.9i3Nlm6uHEFwSrMZM95X5uoZgGuC1FL6QiaW59I0WQc",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vMTg1LjkuMi4xOC9jaGlkXzkyNi9pbmRleC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.9i3Nlm6uHEFwSrMZM95X5uoZgGuC1FL6QiaW59I0WQc"
    },
    "alternatives": [
     {
@@ -327,8 +327,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9pcmlubjIvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.7esNVjzjih8dCCq57TrJ7gTeecyscSKArXqmvoA3RkA",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9pcmlubjIvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.7esNVjzjih8dCCq57TrJ7gTeecyscSKArXqmvoA3RkA"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9pcmlubjIvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.0KNLdACMPiZOvF70jDgE_qrMWRdisTIk2ZiMhD9WJbE",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9pcmlubjIvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.0KNLdACMPiZOvF70jDgE_qrMWRdisTIk2ZiMhD9WJbE"
    },
    "alternatives": [
     {
@@ -362,8 +362,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lwdHYubWloYW50di5jb20vbWloYW50di9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.scVRAbKFKCZuE5HncroPk3rS6TWm6x1b2rPjsME-4xU",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lwdHYubWloYW50di5jb20vbWloYW50di9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.scVRAbKFKCZuE5HncroPk3rS6TWm6x1b2rPjsME-4xU"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lwdHYubWloYW50di5jb20vbWloYW50di9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.j2nBIM92LFDmIvBdRCTJ_albls0Q7qKWT3xpK_sIpcM",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lwdHYubWloYW50di5jb20vbWloYW50di9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.j2nBIM92LFDmIvBdRCTJ_albls0Q7qKWT3xpK_sIpcM"
    },
    "alternatives": [
     {
@@ -397,8 +397,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3R2LmlyYW5pYW5jb25ncmVzcy5jb20vc3RyZWFtL3R2Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.rLbNwdkRLphfTXshtG_O6zwC6ekZs0yjgW2bRzSKAaU",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3R2LmlyYW5pYW5jb25ncmVzcy5jb20vc3RyZWFtL3R2Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.rLbNwdkRLphfTXshtG_O6zwC6ekZs0yjgW2bRzSKAaU"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3R2LmlyYW5pYW5jb25ncmVzcy5jb20vc3RyZWFtL3R2Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.AeToKtL_bnSagcLajCJDDNPArc3-GZZbRvpUesVzrvw",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3R2LmlyYW5pYW5jb25ncmVzcy5jb20vc3RyZWFtL3R2Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.AeToKtL_bnSagcLajCJDDNPArc3-GZZbRvpUesVzrvw"
    },
    "alternatives": [
     {
@@ -524,12 +524,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1saWZlL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.yyCS3lPzsMVUKCwjAWdy-o0wuioTExJhPnuLBsHQQ4A",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1saWZlL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.yyCS3lPzsMVUKCwjAWdy-o0wuioTExJhPnuLBsHQQ4A"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1saWZlL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.HzM5zlvCaQz1aFnwR0JlN66UMF2TJDscdYunlOmOfP0",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1saWZlL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.HzM5zlvCaQz1aFnwR0JlN66UMF2TJDscdYunlOmOfP0"
    },
    "alternatives": [
     {
@@ -563,8 +563,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy4yNDdib3gubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.HY_6Bf_D5PIzl5EmqgfuxQ_ojLthOhi4Tk_thNfvph8",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy4yNDdib3gubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.HY_6Bf_D5PIzl5EmqgfuxQ_ojLthOhi4Tk_thNfvph8"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy4yNDdib3gubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.XKnkH-gQnxxXf0hcHZh1SUd15XSMzE8M0ddtWTD-14o",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy4yNDdib3gubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.XKnkH-gQnxxXf0hcHZh1SUd15XSMzE8M0ddtWTD-14o"
    },
    "alternatives": [
     {
@@ -598,8 +598,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy40dXR2LmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.ekHN_JLock-z9VG95ZbXJSd9GF43agcLMF_4v8VM0VU",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy40dXR2LmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.ekHN_JLock-z9VG95ZbXJSd9GF43agcLMF_4v8VM0VU"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy40dXR2LmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.OJkH4zDRABNApOGX8omhKT7lcoUItg37KXVemCXW-Bs",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy40dXR2LmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.OJkH4zDRABNApOGX8omhKT7lcoUItg37KXVemCXW-Bs"
    },
    "alternatives": [
     {
@@ -633,8 +633,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Z4dHZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.Gthb-0O1P7FJ35Udwtp8_q4GRq0OxZsibuPmVWt27E4",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Z4dHZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.Gthb-0O1P7FJ35Udwtp8_q4GRq0OxZsibuPmVWt27E4"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Z4dHZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.n_KmfCIhT4fc5yl7gH9QRgpzoczAZAgGBGqS4k8vZXg",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Z4dHZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.n_KmfCIhT4fc5yl7gH9QRgpzoczAZAgGBGqS4k8vZXg"
    },
    "alternatives": [
     {
@@ -668,8 +668,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Rvb25peGhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.rsq4fOJLHlMyMpq-IG40Dshuzv_D-lW5lK2lDsadwTw",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Rvb25peGhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.rsq4fOJLHlMyMpq-IG40Dshuzv_D-lW5lK2lDsadwTw"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Rvb25peGhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.MbZGSDOpUFFlin_l0zT7MGpJlwUGK4svCAKj6whXGck",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Rvb25peGhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.MbZGSDOpUFFlin_l0zT7MGpJlwUGK4svCAKj6whXGck"
    },
    "alternatives": [
     {
@@ -699,12 +699,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1lbnRlcnRhaW5tZW50L2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.xLFLKb0Z4NX2AQqs0otJdIgQkwGNoRtQ3SC6QAH04d0",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1lbnRlcnRhaW5tZW50L2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.xLFLKb0Z4NX2AQqs0otJdIgQkwGNoRtQ3SC6QAH04d0"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1lbnRlcnRhaW5tZW50L2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.ZH5VXsAkxpU2iIRinkhSkl3FC9YJklEzNrEqBx9JdKM",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1lbnRlcnRhaW5tZW50L2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.ZH5VXsAkxpU2iIRinkhSkl3FC9YJklEzNrEqBx9JdKM"
    },
    "alternatives": [
     {
@@ -734,12 +734,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1yaXZlci9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIwNjcxfQ.WhfwFtcwL8jMMmwzsNg7iHQEgu5nO93-KNKR7zPXT6s",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1yaXZlci9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIwNjcxfQ.WhfwFtcwL8jMMmwzsNg7iHQEgu5nO93-KNKR7zPXT6s"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1yaXZlci9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIxMjc4fQ.pfTxzr1vXhUDnxZ13Ho_OswM3Gq30XLmY-mnQCEkbec",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1yaXZlci9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIxMjc4fQ.pfTxzr1vXhUDnxZ13Ho_OswM3Gq30XLmY-mnQCEkbec"
    },
    "alternatives": [
     {
@@ -769,12 +769,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1yaXZlcnBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.uHHBmaILQQUKnZanf7k5526Otry0sbGmswdST0VUSa0",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1yaXZlcnBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.uHHBmaILQQUKnZanf7k5526Otry0sbGmswdST0VUSa0"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1yaXZlcnBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.TAiY945WAt2HSmHJ_3pmm-O2vlp1X6YnsCkqWQQTyl0",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1yaXZlcnBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.TAiY945WAt2HSmHJ_3pmm-O2vlp1X6YnsCkqWQQTyl0"
    },
    "alternatives": [
     {
@@ -804,12 +804,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9tYW5vdG90di9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIwNjcxfQ.fgcymdYBP6a9eBG-OeBrDHzmeQAVAcc3GWCDPiOo6jA",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9tYW5vdG90di9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIwNjcxfQ.fgcymdYBP6a9eBG-OeBrDHzmeQAVAcc3GWCDPiOo6jA"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9tYW5vdG90di9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIxMjc4fQ._csJ0ZW3ULBQ2iOxywuJwNhMw_YovyzYIOJePhdyTpE",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9tYW5vdG90di9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIxMjc4fQ._csJ0ZW3ULBQ2iOxywuJwNhMw_YovyzYIOJePhdyTpE"
    },
    "alternatives": [
     {
@@ -843,8 +843,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9uYW1heWVzaC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.Xzg6qDR7PUXQQZ9CnoT9MwWXnLRByLxi2OZmQFQyPMA",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9uYW1heWVzaC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.Xzg6qDR7PUXQQZ9CnoT9MwWXnLRByLxi2OZmQFQyPMA"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9uYW1heWVzaC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.g6Vre9F8X5l6uNQb-Cmj5MfOPbrG6cMUB1_hDGsxPQ4",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9uYW1heWVzaC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.g6Vre9F8X5l6uNQb-Cmj5MfOPbrG6cMUB1_hDGsxPQ4"
    },
    "alternatives": [
     {
@@ -878,8 +878,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9uYXNpbS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.t5TxeeKGozRcCAfMJLY3dWFW1K2V6DMksVrFMAPWnA8",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9uYXNpbS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.t5TxeeKGozRcCAfMJLY3dWFW1K2V6DMksVrFMAPWnA8"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9uYXNpbS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.BNHcKYpe3JLTw--Gn09aTUIZn8WTJhfGqYYM8wCSykw",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9uYXNpbS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.BNHcKYpe3JLTw--Gn09aTUIZn8WTJhfGqYYM8wCSykw"
    },
    "alternatives": [
     {
@@ -913,8 +913,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL29pdG5obHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.wsRe9H3q05IuMwHNjIX3s0oalU0KkUULdAQvCXRx-vM",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL29pdG5obHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.wsRe9H3q05IuMwHNjIX3s0oalU0KkUULdAQvCXRx-vM"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL29pdG5obHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.qxCE0EXdcp_OxLnzLovWxLUEOnt9qXZoVgoVx-tr4yI",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL29pdG5obHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.qxCE0EXdcp_OxLnzLovWxLUEOnt9qXZoVgoVx-tr4yI"
    },
    "alternatives": [
     {
@@ -948,8 +948,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5veGlyLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.LOqaK11ZOqKs8JK5X8BqDoC916isAJBrI-2kTLXWNjg",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5veGlyLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.LOqaK11ZOqKs8JK5X8BqDoC916isAJBrI-2kTLXWNjg"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5veGlyLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.P9NDl-Da9SD5l3zWi3iffiH0d9Nov2mfh_hAj6RgS1Y",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5veGlyLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.P9NDl-Da9SD5l3zWi3iffiH0d9Nov2mfh_hAj6RgS1Y"
    },
    "alternatives": [
     {
@@ -983,8 +983,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3R3b2hscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.C6j557X5iA1M9kbf98cb9DD2TGuPLRxeedetZeOa7Yc",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3R3b2hscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.C6j557X5iA1M9kbf98cb9DD2TGuPLRxeedetZeOa7Yc"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3R3b2hscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.assu6xCMD5GSB-5MT5w8GSGBozITnXJI7uj1xItuV9Q",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3R3b2hscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.assu6xCMD5GSB-5MT5w8GSGBozITnXJI7uj1xItuV9Q"
    },
    "alternatives": [
     {
@@ -1018,8 +1018,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3R1cmtobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.wFBSJswpHy3DD8wf7NflnFM2MDvlyruUlOvYD86Vm0s",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3R1cmtobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.wFBSJswpHy3DD8wf7NflnFM2MDvlyruUlOvYD86Vm0s"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3R1cmtobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.vo4_y-k3NG-0aD0R-EuRpEsNPy_JxFpY8FlRMnfZCDU",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3R1cmtobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.vo4_y-k3NG-0aD0R-EuRpEsNPy_JxFpY8FlRMnfZCDU"
    },
    "alternatives": [
     {
@@ -1053,8 +1053,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2l0bmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.Ojh8Zgd7Tszm3MdZlPKbSA_a23Uu3Hz_v2CXBFqtCtk",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2l0bmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.Ojh8Zgd7Tszm3MdZlPKbSA_a23Uu3Hz_v2CXBFqtCtk"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2l0bmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.fJWhc_E8sLgiXrjStTEH--O0NecgmMFa80UYAUWA4Hg",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2l0bmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.fJWhc_E8sLgiXrjStTEH--O0NecgmMFa80UYAUWA4Hg"
    },
    "alternatives": [
     {
@@ -1088,8 +1088,8 @@
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy55b3VydGltZS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.FDNgIUICphaLcdcEERM-PgaIEvcljQNkqOe7LIeMFfU",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy55b3VydGltZS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.FDNgIUICphaLcdcEERM-PgaIEvcljQNkqOe7LIeMFfU"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy55b3VydGltZS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.R3sPAdkRzaqq8naejeuOMS36QmdHE2Y1n5AijQgL3wY",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy55b3VydGltZS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.R3sPAdkRzaqq8naejeuOMS36QmdHE2Y1n5AijQgL3wY"
    },
    "alternatives": [
     {
@@ -1155,8 +1155,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2F2YXNlcmllc2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.pslNm2-3UfHFMvwzTENvphV2kXR7imSDACKSoH7jMjI",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2F2YXNlcmllc2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.pslNm2-3UfHFMvwzTENvphV2kXR7imSDACKSoH7jMjI"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2F2YXNlcmllc2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.NEeDYE58vIkm5-cMEsi2nfafw3WXKbR50OglE3JbkHo",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2F2YXNlcmllc2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.NEeDYE58vIkm5-cMEsi2nfafw3WXKbR50OglE3JbkHo"
    },
    "alternatives": [
     {
@@ -1186,12 +1186,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1zZXJpZXNwbHVzL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.-7MJ4enYl2dLjjY-9pusObK8AgCohefS2Yo777TFVAw",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1zZXJpZXNwbHVzL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.-7MJ4enYl2dLjjY-9pusObK8AgCohefS2Yo777TFVAw"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1zZXJpZXNwbHVzL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.LBoEHskTrNH1PCc7-i7j17T_Ur6OmOHMReEg2eDo-Gk",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1zZXJpZXNwbHVzL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.LBoEHskTrNH1PCc7-i7j17T_Ur6OmOHMReEg2eDo-Gk"
    },
    "alternatives": [
     {
@@ -1225,8 +1225,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL29uZWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.Uu3IZDq4fBl14ddDNpcJo8fPJKzlNRrfEOh1WS91yK4",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL29uZWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.Uu3IZDq4fBl14ddDNpcJo8fPJKzlNRrfEOh1WS91yK4"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL29uZWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.4t8389A_L9OZlJaWWv1L_mFjU5Lwh1BtBDgA1K7oZEY",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL29uZWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.4t8389A_L9OZlJaWWv1L_mFjU5Lwh1BtBDgA1K7oZEY"
    },
    "alternatives": [
     {
@@ -1260,8 +1260,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hYmFkYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.p6Dppjnk0YVNCjDErjJVQLXkvhrdPmiUUl86IDNSMRs",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hYmFkYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.p6Dppjnk0YVNCjDErjJVQLXkvhrdPmiUUl86IDNSMRs"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hYmFkYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.7BIewjR0uANCvUI1uIGg0GqM9bMZO7LiO-GCmYwH4lQ",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hYmFkYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.7BIewjR0uANCvUI1uIGg0GqM9bMZO7LiO-GCmYwH4lQ"
    },
    "alternatives": [
     {
@@ -1295,8 +1295,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hZmxhay9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.y-TUY-1tLsHaYQSYjSNtrv5xwVq83ea7pUncKz8P0EU",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hZmxhay9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.y-TUY-1tLsHaYQSYjSNtrv5xwVq83ea7pUncKz8P0EU"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hZmxhay9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.en5D7gATWqscntKR71seTUViFblT9_vBKZmxV9aDeko",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hZmxhay9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.en5D7gATWqscntKR71seTUViFblT9_vBKZmxV9aDeko"
    },
    "alternatives": [
     {
@@ -1330,8 +1330,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hZnRhYi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.kwQP4FVjw7RFJWJ1jTUmDfxtxJTP-Hx26WeUHIlwDdQ",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hZnRhYi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.kwQP4FVjw7RFJWJ1jTUmDfxtxJTP-Hx26WeUHIlwDdQ"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hZnRhYi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.cTFjWGu4gc_OT0djmj73cNnicI0z4NUPgf9lGcHFpwI",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hZnRhYi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.cTFjWGu4gc_OT0djmj73cNnicI0z4NUPgf9lGcHFpwI"
    },
    "alternatives": [
     {
@@ -1365,8 +1365,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hbGJvcnovbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.TD3C3m63TGl4BMygh5zoDOxAzv_MONc6-r6QrBSePs4",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hbGJvcnovbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.TD3C3m63TGl4BMygh5zoDOxAzv_MONc6-r6QrBSePs4"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hbGJvcnovbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.FBXr30upO7Zn0LPNJCZseu_B1ajX158l-40k6A3R47w",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hbGJvcnovbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.FBXr30upO7Zn0LPNJCZseu_B1ajX158l-40k6A3R47w"
    },
    "alternatives": [
     {
@@ -1400,8 +1400,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hbW91emVzaC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.DYfXypR4vBq3sZaf2Q0PQbwnPA6U8HPyZDQAEB87G5Y",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hbW91emVzaC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.DYfXypR4vBq3sZaf2Q0PQbwnPA6U8HPyZDQAEB87G5Y"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hbW91emVzaC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.EA5e52MfLwlDPTXUFz_uk1D8zXGoB015Hn6RTnfLqx4",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hbW91emVzaC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.EA5e52MfLwlDPTXUFz_uk1D8zXGoB015Hn6RTnfLqx4"
    },
    "alternatives": [
     {
@@ -1435,8 +1435,8 @@
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hcmEvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.T2YBRe_HzZ6MCtcVRv50xJhOY6Fp7gcGhr74pUAAe9Y",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hcmEvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.T2YBRe_HzZ6MCtcVRv50xJhOY6Fp7gcGhr74pUAAe9Y"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hcmEvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.sJNZCo9IvExOnUWSlaFxOj7h9jJP1mU0ZJotSk6yG3A",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hcmEvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.sJNZCo9IvExOnUWSlaFxOj7h9jJP1mU0ZJotSk6yG3A"
    },
    "alternatives": [
     {
@@ -1470,8 +1470,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2FyYXhobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.b3Hi9HxxeXjp4jZXP9p9rMG1SoV_lo5E_Z5J8mx2J-0",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2FyYXhobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.b3Hi9HxxeXjp4jZXP9p9rMG1SoV_lo5E_Z5J8mx2J-0"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2FyYXhobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.dk0Qy-vZU7OU3FePz1W5TnqMKL6vJJSuohLB4BN-z74",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2FyYXhobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.dk0Qy-vZU7OU3FePz1W5TnqMKL6vJJSuohLB4BN-z74"
    },
    "alternatives": [
     {
@@ -1505,8 +1505,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Fya2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.hlsy8hGva1J9Zq4jhGM-gGsM4fl68xK4KktLBU2USJ4",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Fya2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.hlsy8hGva1J9Zq4jhGM-gGsM4fl68xK4KktLBU2USJ4"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Fya2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.INjG6c5qkEkVBzep8PAuC-vIBhIzH17dMn8i8nRHN-8",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Fya2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.INjG6c5qkEkVBzep8PAuC-vIBhIzH17dMn8i8nRHN-8"
    },
    "alternatives": [
     {
@@ -1540,8 +1540,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Fydmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.-ZiUMEduTH4iANcTgi5n6fsyevgut-gy5hIaSyVYXIM",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Fydmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.-ZiUMEduTH4iANcTgi5n6fsyevgut-gy5hIaSyVYXIM"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Fydmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.J5MYYjsDpcb_LKaLopOFNAuB-wVNlygaxa4de2jbxNs",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Fydmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.J5MYYjsDpcb_LKaLopOFNAuB-wVNlygaxa4de2jbxNs"
    },
    "alternatives": [
     {
@@ -1575,8 +1575,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUuYXNpbC50di9hc2lsdHYvaW5kZXgubTN1OCIsIngiOjE3OTU0MjA2NzF9.XlABYDHfim2tgH4WL0IXCN3MCFtHVzimuK0bIFy0LMY",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUuYXNpbC50di9hc2lsdHYvaW5kZXgubTN1OCIsIngiOjE3OTU0MjA2NzF9.XlABYDHfim2tgH4WL0IXCN3MCFtHVzimuK0bIFy0LMY"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUuYXNpbC50di9hc2lsdHYvaW5kZXgubTN1OCIsIngiOjE3OTU0MjEyNzh9.6H-5OkN2LrFWopkpYFGmVz7FFK-mGbyMGrZrkoTc1Rc",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUuYXNpbC50di9hc2lsdHYvaW5kZXgubTN1OCIsIngiOjE3OTU0MjEyNzh9.6H-5OkN2LrFWopkpYFGmVz7FFK-mGbyMGrZrkoTc1Rc"
    },
    "alternatives": [
     {
@@ -1610,8 +1610,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hdHJhay9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.kny8t8q4pl0HRrNaCbDIWrgNKET5KAi23-w79Ow8VL0",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hdHJhay9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.kny8t8q4pl0HRrNaCbDIWrgNKET5KAi23-w79Ow8VL0"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hdHJhay9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.gvI4YyR33msbGNONY3anLhTZKlQmla5bFQ9o6b1ZT0Q",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hdHJhay9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.gvI4YyR33msbGNONY3anLhTZKlQmla5bFQ9o6b1ZT0Q"
    },
    "alternatives": [
     {
@@ -1645,8 +1645,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2F0cmlobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0._7Eo20WmLu-V5w31CFwTofB7Y-dk_CxjRUQdmn31pgE",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2F0cmlobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0._7Eo20WmLu-V5w31CFwTofB7Y-dk_CxjRUQdmn31pgE"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2F0cmlobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.MRJranp1jTVDVlqvIOmyBAXT4HqdJBSpHJmhssJBjN8",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2F0cmlobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.MRJranp1jTVDVlqvIOmyBAXT4HqdJBSpHJmhssJBjN8"
    },
    "alternatives": [
     {
@@ -1680,8 +1680,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9iYXJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.jXe9bQy_dVBXg-OC665YODASQPv2o4JsxrNaBT0-EyY",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9iYXJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.jXe9bQy_dVBXg-OC665YODASQPv2o4JsxrNaBT0-EyY"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9iYXJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.dniw5ETU4PKpYtcmz48QjAoCmEg3l1bUxuUl_y8p8k4",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9iYXJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.dniw5ETU4PKpYtcmz48QjAoCmEg3l1bUxuUl_y8p8k4"
    },
    "alternatives": [
     {
@@ -1715,8 +1715,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9idXNoZWhyL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.x5uUr1ZBRNBguE73FChhLqz5KjBVyaC2Us4i1uxc2j4",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9idXNoZWhyL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.x5uUr1ZBRNBguE73FChhLqz5KjBVyaC2Us4i1uxc2j4"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9idXNoZWhyL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.Yptahk5PugILO6aX60cCI-BSmYkix5ja8lFIkajYbH0",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9idXNoZWhyL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.Yptahk5PugILO6aX60cCI-BSmYkix5ja8lFIkajYbH0"
    },
    "alternatives": [
     {
@@ -1750,8 +1750,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Jvbmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.hShCktyxZL-kKqOXvA-L4jWPimkRFJzGUy1N66YDMQ8",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Jvbmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.hShCktyxZL-kKqOXvA-L4jWPimkRFJzGUy1N66YDMQ8"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Jvbmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.fZUBml3zUb_zYfzxAWPwVQyLWyirxej1aK6hfaRW-HU",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Jvbmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.fZUBml3zUb_zYfzxAWPwVQyLWyirxej1aK6hfaRW-HU"
    },
    "alternatives": [
     {
@@ -1785,8 +1785,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9kZW5hL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.kGjVbhszqdSzJS8y4RSIpMMMsL1Lg8-lybhvyzDU5K0",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9kZW5hL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.kGjVbhszqdSzJS8y4RSIpMMMsL1Lg8-lybhvyzDU5K0"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9kZW5hL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.5dBYWJZ0EFWmnU5QlTlLbluiwja4CkdvNyudZUymCRk",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9kZW5hL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.5dBYWJZ0EFWmnU5QlTlLbluiwja4CkdvNyudZUymCRk"
    },
    "alternatives": [
     {
@@ -1820,8 +1820,8 @@
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9iYWVuZXJneS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.gWWnzRauvwnzQsZOaNfi5eP-frV0h7nSm23t8mZ7Zu8",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9iYWVuZXJneS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.gWWnzRauvwnzQsZOaNfi5eP-frV0h7nSm23t8mZ7Zu8"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9iYWVuZXJneS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.14UWwWcIU7G26dNjHMSvaB7nX14thiqlUwgGvUe8Z14",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9iYWVuZXJneS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.14UWwWcIU7G26dNjHMSvaB7nX14thiqlUwgGvUe8Z14"
    },
    "alternatives": [
     {
@@ -1855,8 +1855,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9lc2hyYWdoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.Zt21cPYeTM0nkJ9haM2AsjouCuq3OOjB0Nwfxc76l1c",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9lc2hyYWdoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.Zt21cPYeTM0nkJ9haM2AsjouCuq3OOjB0Nwfxc76l1c"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9lc2hyYWdoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.DUzGNuL1HTTLOKWHdO-95EXFyWRlNVyQa40hHo9KmNU",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9lc2hyYWdoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.DUzGNuL1HTTLOKWHdO-95EXFyWRlNVyQa40hHo9KmNU"
    },
    "alternatives": [
     {
@@ -1890,8 +1890,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9mYXJzL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.qkIRaeqPvRjZwBNb-3PcZAkeADToIshjsjSClMNtFFI",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9mYXJzL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.qkIRaeqPvRjZwBNb-3PcZAkeADToIshjsjSClMNtFFI"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9mYXJzL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.sIpX9UCzn5srSFWdrxO_BJPTFheIVxLRZlqlgYPiwhU",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9mYXJzL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.sIpX9UCzn5srSFWdrxO_BJPTFheIVxLRZlqlgYPiwhU"
    },
    "alternatives": [
     {
@@ -1925,8 +1925,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9nb2xraGFuZS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.9jf1E49plQEkSgK9_58XA63taawuWT_fIVC3yWJa3DY",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9nb2xraGFuZS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.9jf1E49plQEkSgK9_58XA63taawuWT_fIVC3yWJa3DY"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9nb2xraGFuZS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.Sj13jCbjr_Mss8umQkva0wN6ayxB0A4uZA03HUmFqdg",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9nb2xraGFuZS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.Sj13jCbjr_Mss8umQkva0wN6ayxB0A4uZA03HUmFqdg"
    },
    "alternatives": [
     {
@@ -1960,8 +1960,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zaW5hL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.0t0axHwV7C4G2JM62QsLh74wmZ4U-4HXZtOTY3LV7nU",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zaW5hL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.0t0axHwV7C4G2JM62QsLh74wmZ4U-4HXZtOTY3LV7nU"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zaW5hL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.zc9BpzHDYCnWcWg7_92tlIs3QD2K65L1b9Vl9dHmMfM",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zaW5hL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.zc9BpzHDYCnWcWg7_92tlIs3QD2K65L1b9Vl9dHmMfM"
    },
    "alternatives": [
     {
@@ -1995,8 +1995,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9oYW1vb24vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.j-ZkBtWDp_6PXgHlE4VuGcSqPyNAbAteSrIhddujI8k",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9oYW1vb24vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.j-ZkBtWDp_6PXgHlE4VuGcSqPyNAbAteSrIhddujI8k"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9oYW1vb24vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.rFavjMs-Q-KgbmoXcTS11eUxcTpBJflGtrk_F3WAxrs",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9oYW1vb24vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.rFavjMs-Q-KgbmoXcTS11eUxcTpBJflGtrk_F3WAxrs"
    },
    "alternatives": [
     {
@@ -2030,8 +2030,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9pbGFtL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.HPBFHCc_0I8b15AaicFLB4XS1pJBSW7mv6-SqRg87fY",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9pbGFtL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.HPBFHCc_0I8b15AaicFLB4XS1pJBSW7mv6-SqRg87fY"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9pbGFtL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.JBJwTC47uW0n-Xf9ly2nfZxd4t3xbNHlzLAbzp2-P8E",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9pbGFtL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.JBJwTC47uW0n-Xf9ly2nfZxd4t3xbNHlzLAbzp2-P8E"
    },
    "alternatives": [
     {
@@ -2065,8 +2065,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lyYW42MTNobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.XoqqmnuCjd8dnEuI7r-5h49vO0sD3uAWnB4lZ5uU54s",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lyYW42MTNobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.XoqqmnuCjd8dnEuI7r-5h49vO0sD3uAWnB4lZ5uU54s"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lyYW42MTNobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.GPjrwXp6B9QoRwoVBmwDMXwpn5SbbNepol1rwF-lh08",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lyYW42MTNobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.GPjrwXp6B9QoRwoVBmwDMXwpn5SbbNepol1rwF-lh08"
    },
    "alternatives": [
     {
@@ -2100,8 +2100,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5pcmFubnJ0di5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.z3KLuUqvk56qNFMIgsZMLvcNGrvDKa9vpyRZkmTLmFw",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5pcmFubnJ0di5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.z3KLuUqvk56qNFMIgsZMLvcNGrvDKa9vpyRZkmTLmFw"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5pcmFubnJ0di5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.o5r6j24auk0eovGvVTrUfEd85oOIqIJzw6SLjWfHflQ",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5pcmFubnJ0di5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.o5r6j24auk0eovGvVTrUfEd85oOIqIJzw6SLjWfHflQ"
    },
    "alternatives": [
     {
@@ -2135,8 +2135,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djEvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.veEs6EEBrysiIFyEq3mLS3KhepJ-dAsS7b6zYvgvaEA",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djEvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.veEs6EEBrysiIFyEq3mLS3KhepJ-dAsS7b6zYvgvaEA"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djEvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.kTjmihKy9fH0dG46rITX5h5xwx8NpJKojKlMuqXbxxE",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djEvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.kTjmihKy9fH0dG46rITX5h5xwx8NpJKojKlMuqXbxxE"
    },
    "alternatives": [
     {
@@ -2170,8 +2170,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djIvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.QTr0UJCbbauc9_u_1Xs7lCW2Gkp0o4ILh_-88twPe1s",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djIvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.QTr0UJCbbauc9_u_1Xs7lCW2Gkp0o4ILh_-88twPe1s"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djIvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.7W__qU2Ud1enjTZy_-7IH79I-aa3PmqGzjXVHDqczkA",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djIvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.7W__qU2Ud1enjTZy_-7IH79I-aa3PmqGzjXVHDqczkA"
    },
    "alternatives": [
     {
@@ -2205,8 +2205,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9tb3N0YW5hZC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.TYg1Tj2Agk8LB902ubtsvlsaY9RoKg51cjduMfv6DcQ",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9tb3N0YW5hZC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.TYg1Tj2Agk8LB902ubtsvlsaY9RoKg51cjduMfv6DcQ"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9tb3N0YW5hZC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.yl3VPpAcsBKxdQBQvRZpetv2GK_KrvX69tTzFbR6UBI",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9tb3N0YW5hZC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.yl3VPpAcsBKxdQBQvRZpetv2GK_KrvX69tTzFbR6UBI"
    },
    "alternatives": [
     {
@@ -2240,8 +2240,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9mYXJhdGFyL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.8yTEwoTFwxV5kTmnsE4Dv19g-Ws5KQ8J7584pds5TWE",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9mYXJhdGFyL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.8yTEwoTFwxV5kTmnsE4Dv19g-Ws5KQ8J7584pds5TWE"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9mYXJhdGFyL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.lqhHm9_1ua3qYF8rS4mgeALQmrowTFD_AfrloPSR05g",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9mYXJhdGFyL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.lqhHm9_1ua3qYF8rS4mgeALQmrowTFD_AfrloPSR05g"
    },
    "alternatives": [
     {
@@ -2275,8 +2275,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9lc2ZhaGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.OuTTC-FcF8Kz8OkjnZKQ6TvRu0lEV4PYqrFhuy_mxwI",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9lc2ZhaGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.OuTTC-FcF8Kz8OkjnZKQ6TvRu0lEV4PYqrFhuy_mxwI"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9lc2ZhaGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.cXV_jIQaWY0xBbWIAa9xCvs7azyUtMnRU20BZQocE9s",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9lc2ZhaGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.cXV_jIQaWY0xBbWIAa9xCvs7azyUtMnRU20BZQocE9s"
    },
    "alternatives": [
     {
@@ -2310,8 +2310,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9qYWhhbmJpbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.CkXGUfHt5FdkhTjXZ-fVHSHq-xcEdTxii2cWUMzEYLU",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9qYWhhbmJpbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.CkXGUfHt5FdkhTjXZ-fVHSHq-xcEdTxii2cWUMzEYLU"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9qYWhhbmJpbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.ICl4frZX8DZDm_TeUiUvVjx-506ocgVZZeBXS1k4o5c",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9qYWhhbmJpbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.ICl4frZX8DZDm_TeUiUvVjx-506ocgVZZeBXS1k4o5c"
    },
    "alternatives": [
     {
@@ -2345,8 +2345,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2tqaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.FiwbjwpqYpY7nviwB0CrBIfq7e7XMQQxsFa6uXXwB08",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2tqaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.FiwbjwpqYpY7nviwB0CrBIfq7e7XMQQxsFa6uXXwB08"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2tqaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.3H6xhrYdfWJM5ukA83QNM9ZG2mSHRng8M9T2nEqpamg",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2tqaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.3H6xhrYdfWJM5ukA83QNM9ZG2mSHRng8M9T2nEqpamg"
    },
    "alternatives": [
     {
@@ -2380,8 +2380,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9rZXJtYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.hzrURw-72H_VpYt_VcebKzissXxgn74hmTCRGNwdAGA",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9rZXJtYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.hzrURw-72H_VpYt_VcebKzissXxgn74hmTCRGNwdAGA"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9rZXJtYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.0mV9Ulr1gk1x9cZ6WXh7vRgdODEgB4UMp7L5bazyhaI",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9rZXJtYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.0mV9Ulr1gk1x9cZ6WXh7vRgdODEgB4UMp7L5bazyhaI"
    },
    "alternatives": [
     {
@@ -2415,8 +2415,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raGFsaWplZmFycy9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.heN7mMjoLQkxu5LwsVqXSYUzZRRWedMdD1F1PUa2nq4",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raGFsaWplZmFycy9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.heN7mMjoLQkxu5LwsVqXSYUzZRRWedMdD1F1PUa2nq4"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raGFsaWplZmFycy9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.rLVDgYxP0opVSv6hGFDNB9XXxxPk1jA_q9bi7vbqUD0",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raGFsaWplZmFycy9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.rLVDgYxP0opVSv6hGFDNB9XXxxPk1jA_q9bi7vbqUD0"
    },
    "alternatives": [
     {
@@ -2450,8 +2450,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raGF2YXJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.jFmmkz6B65B3DkNtugTsXNVtu0DA6tCYFviQbneQf74",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raGF2YXJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.jFmmkz6B65B3DkNtugTsXNVtu0DA6tCYFviQbneQf74"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raGF2YXJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.ohYxfA4aXB-ldDhWG9e4755nkzcrsAAvJbSsyYF8Qfk",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raGF2YXJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.ohYxfA4aXB-ldDhWG9e4755nkzcrsAAvJbSsyYF8Qfk"
    },
    "alternatives": [
     {
@@ -2485,8 +2485,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raG9yYXNhbnJhemF2aS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.MFELeQo6Ic0sW5kqDGWcjelSFxUva0hN8v54sRaD3qI",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raG9yYXNhbnJhemF2aS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.MFELeQo6Ic0sW5kqDGWcjelSFxUva0hN8v54sRaD3qI"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raG9yYXNhbnJhemF2aS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.IoPam0reOgA9qgZJ4BqFLNCBDNK_jP0dusKVmDM4VD0",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raG9yYXNhbnJhemF2aS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.IoPam0reOgA9qgZJ4BqFLNCBDNK_jP0dusKVmDM4VD0"
    },
    "alternatives": [
     {
@@ -2520,8 +2520,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raG9vemVzdGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.SC0SXOT44mV355R8I70dIjHVN_309_3rmenKK8Pc_H0",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raG9vemVzdGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.SC0SXOT44mV355R8I70dIjHVN_309_3rmenKK8Pc_H0"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raG9vemVzdGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.SJ5K1ZDzJbDsqG3g5Mg-w90pu79O-Fc3GaW61R8hTrA",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raG9vemVzdGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.SJ5K1ZDzJbDsqG3g5Mg-w90pu79O-Fc3GaW61R8hTrA"
    },
    "alternatives": [
     {
@@ -2555,8 +2555,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raXNoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.3LQLFiezPeEZnWjBmh0rocWJK-gURZikjmr4MJaBueE",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raXNoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.3LQLFiezPeEZnWjBmh0rocWJK-gURZikjmr4MJaBueE"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raXNoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.2iS98pITXvLvrw-FF71dUOgghPdiMFqI8L83zIcO890",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9raXNoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.2iS98pITXvLvrw-FF71dUOgghPdiMFqI8L83zIcO890"
    },
    "alternatives": [
     {
@@ -2590,8 +2590,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9rb3JkZXN0YW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.zSfYMhA8aHqgFVX0lWXA19HLQRHpg-WEvW_eM8xMiAE",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9rb3JkZXN0YW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.zSfYMhA8aHqgFVX0lWXA19HLQRHpg-WEvW_eM8xMiAE"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9rb3JkZXN0YW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.Epqdyk02zULhpBxQIgSRZ1CLRc7ktMQlWoquUpCy5ww",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9rb3JkZXN0YW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.Epqdyk02zULhpBxQIgSRZ1CLRc7ktMQlWoquUpCy5ww"
    },
    "alternatives": [
     {
@@ -2625,8 +2625,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9sYWJiYXlrL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.4VJ0srtiR_6pGtuGXIkepBaCk0cYN9Euw6d07fEKdYI",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9sYWJiYXlrL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.4VJ0srtiR_6pGtuGXIkepBaCk0cYN9Euw6d07fEKdYI"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9sYWJiYXlrL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.WJDkbkNPyhzJwiUC1nUgYUZM_gOLSBaNThHmphvRjSQ",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9sYWJiYXlrL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.WJDkbkNPyhzJwiUC1nUgYUZM_gOLSBaNThHmphvRjSQ"
    },
    "alternatives": [
     {
@@ -2660,8 +2660,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9tYWhhYmFkL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.MKciF5a6WDg5SzkIsJ06YdSQQlryQUH9u5SyIncNPKw",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9tYWhhYmFkL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.MKciF5a6WDg5SzkIsJ06YdSQQlryQUH9u5SyIncNPKw"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9tYWhhYmFkL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.E_KLxDEpSubyeOmyHyi4CQCBjgQjAM9yNvup6MWTFHE",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9tYWhhYmFkL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.E_KLxDEpSubyeOmyHyi4CQCBjgQjAM9yNvup6MWTFHE"
    },
    "alternatives": [
     {
@@ -2695,8 +2695,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9ub29yL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.iW7UdPjdfw5fagVEb6iSp9rAJrm-CrP73MQrowGnlmo",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9ub29yL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.iW7UdPjdfw5fagVEb6iSp9rAJrm-CrP73MQrowGnlmo"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9ub29yL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.J14FlIMr2u4eVqHP25M8UCcoVPmAvpgtaP4ASmyl0WQ",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9ub29yL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.J14FlIMr2u4eVqHP25M8UCcoVPmAvpgtaP4ASmyl0WQ"
    },
    "alternatives": [
     {
@@ -2762,8 +2762,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3BhcnNobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.M_tKoZj9kIkAvOkQVG8__NMn26XumrfS2AUZixn-vd4",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3BhcnNobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.M_tKoZj9kIkAvOkQVG8__NMn26XumrfS2AUZixn-vd4"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3BhcnNobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.BaMTFqUEE8MtcMiwXoTU1Zc8SvSXE4sUXLbr8huLzf8",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3BhcnNobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.BaMTFqUEE8MtcMiwXoTU1Zc8SvSXE4sUXLbr8huLzf8"
    },
    "alternatives": [
     {
@@ -2797,8 +2797,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lwdHYudGFwZXNoLnR2L3RhcGVzaC9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.CtDeNokXaGOwniOKJUajqkKncEParKSJ0aBeTCZkVr0",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lwdHYudGFwZXNoLnR2L3RhcGVzaC9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.CtDeNokXaGOwniOKJUajqkKncEParKSJ0aBeTCZkVr0"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lwdHYudGFwZXNoLnR2L3RhcGVzaC9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.nEg-e4DuLML5JljRL91eu-XQTd-qlv5lAkWrwCscFYo",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lwdHYudGFwZXNoLnR2L3RhcGVzaC9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.nEg-e4DuLML5JljRL91eu-XQTd-qlv5lAkWrwCscFYo"
    },
    "alternatives": [
     {
@@ -2832,8 +2832,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9xYXp2aW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.yir0VVcH5Y23jSHWoo4r1jxkgAv8Dopi0weop2mUszo",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9xYXp2aW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.yir0VVcH5Y23jSHWoo4r1jxkgAv8Dopi0weop2mUszo"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9xYXp2aW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.TyurOsGLkxNQenFM-5NdGmkzdCAONRopkgq2Nv46LaY",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9xYXp2aW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.TyurOsGLkxNQenFM-5NdGmkzdCAONRopkgq2Nv46LaY"
    },
    "alternatives": [
     {
@@ -2867,8 +2867,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9yYXphdmkvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.qduBtAkf8KAbIXpdZSjMXN0mYZllNAYL-FiV99UkjUI",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9yYXphdmkvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.qduBtAkf8KAbIXpdZSjMXN0mYZllNAYL-FiV99UkjUI"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9yYXphdmkvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.c1Mu4zxo5ToqweWlFCsxFwqmHGK5cJeMlpry-DrMPZs",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9yYXphdmkvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.c1Mu4zxo5ToqweWlFCsxFwqmHGK5cJeMlpry-DrMPZs"
    },
    "alternatives": [
     {
@@ -2902,8 +2902,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9pcmlidS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.vm3DsdSeAhyh289PdGPnaWj2hYk0tr5JwOdkeglI-aI",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9pcmlidS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.vm3DsdSeAhyh289PdGPnaWj2hYk0tr5JwOdkeglI-aI"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9pcmlidS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.5McsMbAvyR-ju3C0ju5jj3seHKK9GfX1iqdpXobouic",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9pcmlidS9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.5McsMbAvyR-ju3C0ju5jj3seHKK9GfX1iqdpXobouic"
    },
    "alternatives": [
     {
@@ -2937,8 +2937,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWJhbGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.BK2z-V7olLISHHe5Q3EKO5cGaeQb1jqJR0LQDBPsCxM",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWJhbGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.BK2z-V7olLISHHe5Q3EKO5cGaeQb1jqJR0LQDBPsCxM"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWJhbGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.r2BXAN6Np6WdfZ9hV45teDHh_04iN4YbQDHjoVfDKCA",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWJhbGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.r2BXAN6Np6WdfZ9hV45teDHh_04iN4YbQDHjoVfDKCA"
    },
    "alternatives": [
     {
@@ -2972,8 +2972,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWJ6L2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.r8w2s5ToVJhae4y5yWfKV4jjyDjamEHt4LUBThwZbYg",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWJ6L2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.r8w2s5ToVJhae4y5yWfKV4jjyDjamEHt4LUBThwZbYg"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWJ6L2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.9jogvjPL_hf2stjF02NEafvA9Ynbf_Vw6MmCa-Gq3a0",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWJ6L2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.9jogvjPL_hf2stjF02NEafvA9Ynbf_Vw6MmCa-Gq3a0"
    },
    "alternatives": [
     {
@@ -3007,8 +3007,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWhhbmQvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.HO4PmqhSAv55QZrbfRdn8xYNKH3Xg57G_KlHoQQC0IU",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWhhbmQvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.HO4PmqhSAv55QZrbfRdn8xYNKH3Xg57G_KlHoQQC0IU"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWhhbmQvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.q3ukfBs6xKzniqC7aPNTAfVjNh9VgUo__xvzGg7RRrs",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWhhbmQvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.q3ukfBs6xKzniqC7aPNTAfVjNh9VgUo__xvzGg7RRrs"
    },
    "alternatives": [
     {
@@ -3042,8 +3042,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWxhbWF0L2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.-9qPAY7t3OcVjwu1PvNiec-vqH38Nrks4ndoK5EFXZs",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWxhbWF0L2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.-9qPAY7t3OcVjwu1PvNiec-vqH38Nrks4ndoK5EFXZs"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWxhbWF0L2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.z04NQGYimhXzkToiK8jbyDlpS2BLjMGOJwA80R93fU0",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYWxhbWF0L2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.z04NQGYimhXzkToiK8jbyDlpS2BLjMGOJwA80R93fU0"
    },
    "alternatives": [
     {
@@ -3077,8 +3077,8 @@
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYXJiZWRhcmFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.klMtr2kPdlg-GiJtncVLp3GLbHpbfe0RvjrZPXKWGQg",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYXJiZWRhcmFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.klMtr2kPdlg-GiJtncVLp3GLbHpbfe0RvjrZPXKWGQg"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYXJiZWRhcmFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.MOglgTWt3qOS0pWT-BsYEcyl-FxlIqz_sM5HmCUXaSg",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zYXJiZWRhcmFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.MOglgTWt3qOS0pWT-BsYEcyl-FxlIqz_sM5HmCUXaSg"
    },
    "alternatives": [
     {
@@ -3112,8 +3112,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zZW1uYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.-nudfkzD4_V5M6cUjCakxd4ehY9NOWR_Lu3HTBOH9pA",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zZW1uYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.-nudfkzD4_V5M6cUjCakxd4ehY9NOWR_Lu3HTBOH9pA"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zZW1uYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.gT4NCQNJdeBU3gaLVD6P8Lhdta1gla30Uppx5zRaNg4",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zZW1uYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.gT4NCQNJdeBU3gaLVD6P8Lhdta1gla30Uppx5zRaNg4"
    },
    "alternatives": [
     {
@@ -3147,8 +3147,8 @@
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zZXBlaHIvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.XxINchLO-d1b0vjI3Ca9NjFL8AHv3PSpSDLTvjDlESY",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zZXBlaHIvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.XxINchLO-d1b0vjI3Ca9NjFL8AHv3PSpSDLTvjDlESY"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zZXBlaHIvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.8ocdjtzC3brh1QKht49JmeRhurFAGjOiDNsmHEYrXxA",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9zZXBlaHIvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.8ocdjtzC3brh1QKht49JmeRhurFAGjOiDNsmHEYrXxA"
    },
    "alternatives": [
     {
@@ -3178,12 +3178,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3NpbWF5dHYuYWthbWFpemVkLm5ldC9obHMvbGl2ZS8yMDQzNTUwL3NpbWF5aGxzL2luZGV4Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.h2jguLeOhZYPXoUDpFt2MAVN2EUDnyIkmI0UFp_y0Qs",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3NpbWF5dHYuYWthbWFpemVkLm5ldC9obHMvbGl2ZS8yMDQzNTUwL3NpbWF5aGxzL2luZGV4Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.h2jguLeOhZYPXoUDpFt2MAVN2EUDnyIkmI0UFp_y0Qs"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3NpbWF5dHYuYWthbWFpemVkLm5ldC9obHMvbGl2ZS8yMDQzNTUwL3NpbWF5aGxzL2luZGV4Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.RY3iM6Qff5QIEbyKq5g0I5Mwj422sKOxTZOVHjK9WNs",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3NpbWF5dHYuYWthbWFpemVkLm5ldC9obHMvbGl2ZS8yMDQzNTUwL3NpbWF5aGxzL2luZGV4Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.RY3iM6Qff5QIEbyKq5g0I5Mwj422sKOxTZOVHjK9WNs"
    },
    "alternatives": [
     {
@@ -3217,8 +3217,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90YWJhcmVzdGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.jYaiNsuqIdkTYbtb7PYdn9BruXLtJOd2_yMC8MmD15Y",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90YWJhcmVzdGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.jYaiNsuqIdkTYbtb7PYdn9BruXLtJOd2_yMC8MmD15Y"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90YWJhcmVzdGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.7k6giznDrG1nWVU8bMl2jvYpdDVdrKpCIVogak_KtnA",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90YWJhcmVzdGFuL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.7k6giznDrG1nWVU8bMl2jvYpdDVdrKpCIVogak_KtnA"
    },
    "alternatives": [
     {
@@ -3252,8 +3252,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5uZWphdC5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.o90yNmtp-cYYSZwZDR7q1l-72ALfpO7DT0riJrSpGBs",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5uZWphdC5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.o90yNmtp-cYYSZwZDR7q1l-72ALfpO7DT0riJrSpGBs"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5uZWphdC5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.TmpspCJNwGc8bpzT4sej_z_s_8fzVE70Ty0tfzFjcaE",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5uZWphdC5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.TmpspCJNwGc8bpzT4sej_z_s_8fzVE70Ty0tfzFjcaE"
    },
    "alternatives": [
     {
@@ -3287,8 +3287,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90ZWhyYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.0kk5gpZrctnvaAq0ZitgW4ylUxhs-2PG1W_m_3rsXVQ",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90ZWhyYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.0kk5gpZrctnvaAq0ZitgW4ylUxhs-2PG1W_m_3rsXVQ"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90ZWhyYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.XPTRfaR6OGwi6Naj7epmXyBttYeztoQaSAR9KOzBfBo",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90ZWhyYW4vbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.XPTRfaR6OGwi6Naj7epmXyBttYeztoQaSAR9KOzBfBo"
    },
    "alternatives": [
     {
@@ -3354,8 +3354,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy50bXR2LmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.Y409r_4gjJ4ZD-o31Oueum9jFFl69Gtyml8HYB4U_WY",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy50bXR2LmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.Y409r_4gjJ4ZD-o31Oueum9jFFl69Gtyml8HYB4U_WY"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy50bXR2LmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.kK1Y9jkvnpGszmHIVQAWvgwV0DOaD0lFJZFnPUkSpHI",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy50bXR2LmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.kK1Y9jkvnpGszmHIVQAWvgwV0DOaD0lFJZFnPUkSpHI"
    },
    "alternatives": [
     {
@@ -3389,8 +3389,8 @@
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9uYXZhL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.oXmEx-0paWPVr457CmM435NM9cQzU0rPo3fs1h7uHGU",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9uYXZhL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.oXmEx-0paWPVr457CmM435NM9cQzU0rPo3fs1h7uHGU"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9uYXZhL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.APc6mt4d_vHQZe7xP-7pFKROX37TG-iWQ2nO-bPcyQw",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9uYXZhL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.APc6mt4d_vHQZe7xP-7pFKROX37TG-iWQ2nO-bPcyQw"
    },
    "alternatives": [
     {
@@ -3424,8 +3424,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci92ZWxheWF0L2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.BOv-LWftWkitFUe1qnqeJp8otVfWVVojpZQ0VPL9e2A",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci92ZWxheWF0L2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.BOv-LWftWkitFUe1qnqeJp8otVfWVVojpZQ0VPL9e2A"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci92ZWxheWF0L2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.I4ndw-HXCJSHVGdE_uRy9RMExG9WA4XLFKB6izYqjbM",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci92ZWxheWF0L2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.I4ndw-HXCJSHVGdE_uRy9RMExG9WA4XLFKB6izYqjbM"
    },
    "alternatives": [
     {
@@ -3459,8 +3459,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hemFyYmF5amFuZ2hhcmJpL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.EAwQiO1WLvakOKpSGwmiwU7cLwXtfvAnBCnEfis_T90",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hemFyYmF5amFuZ2hhcmJpL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.EAwQiO1WLvakOKpSGwmiwU7cLwXtfvAnBCnEfis_T90"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hemFyYmF5amFuZ2hhcmJpL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9._R2Fxt_19xlpS-WGQ6TJR--GBIPEDUcvRCZkp6kDPXU",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9hemFyYmF5amFuZ2hhcmJpL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9._R2Fxt_19xlpS-WGQ6TJR--GBIPEDUcvRCZkp6kDPXU"
    },
    "alternatives": [
     {
@@ -3494,8 +3494,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90YWJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.-UBPZmS7gOqJ4yR7wzFItbjoghKBsB0abxExXzzrtd4",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90YWJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.-UBPZmS7gOqJ4yR7wzFItbjoghKBsB0abxExXzzrtd4"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90YWJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.MFzCImHzB0EfZ21QHhJ1DAbf2RN5bLZtGyFUR0QOJJE",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90YWJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.MFzCImHzB0EfZ21QHhJ1DAbf2RN5bLZtGyFUR0QOJJE"
    },
    "alternatives": [
     {
@@ -3529,8 +3529,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci96YWdyb3MvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.D-nxI4A55WmAkxlSwAuLtUtbpmV-BzFWnZ-eqNgGw2Q",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci96YWdyb3MvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.D-nxI4A55WmAkxlSwAuLtUtbpmV-BzFWnZ-eqNgGw2Q"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci96YWdyb3MvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0._dKpAWJ5sjyQnVmhRdjmYLBtms6ggt9DUeoXGQgTKhY",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci96YWdyb3MvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0._dKpAWJ5sjyQnVmhRdjmYLBtms6ggt9DUeoXGQgTKhY"
    },
    "alternatives": [
     {
@@ -3564,8 +3564,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djQvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.uCV6B8hoklxYEhZZHvWxFtEjIxbZuwRE9PX0LIhe-PU",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djQvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.uCV6B8hoklxYEhZZHvWxFtEjIxbZuwRE9PX0LIhe-PU"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djQvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.JUaaLoxIV_iFHAlMTb1ehDAx1_U66axaRK-QNPTe2nE",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djQvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.JUaaLoxIV_iFHAlMTb1ehDAx1_U66axaRK-QNPTe2nE"
    },
    "alternatives": [
     {
@@ -3599,8 +3599,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9vZm9naC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.iuxIYhJ2vKqkJgKkftECwNnP4AjqZYm7eNnPj6DhjkE",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9vZm9naC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.iuxIYhJ2vKqkJgKkftECwNnP4AjqZYm7eNnPj6DhjkE"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9vZm9naC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.gXm3k3JS75O4q7P97rcVBSOT0d65bmnfGajDT3pZ3uo",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9vZm9naC9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.gXm3k3JS75O4q7P97rcVBSOT0d65bmnfGajDT3pZ3uo"
    },
    "alternatives": [
     {
@@ -3634,8 +3634,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2FmcmFmaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.omhJYkPFB5k5sUkTmeqW0foe9dD-jkU_K-tWu9iI400",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2FmcmFmaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.omhJYkPFB5k5sUkTmeqW0foe9dD-jkU_K-tWu9iI400"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2FmcmFmaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.0c5d_Z_DUub-q90O_4CzxEOJPhY9KJ2EV5FgC3zjTgo",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2FmcmFmaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.0c5d_Z_DUub-q90O_4CzxEOJPhY9KJ2EV5FgC3zjTgo"
    },
    "alternatives": [
     {
@@ -3669,8 +3669,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2JyYXZvb2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.XYdfB35Y10U2tY01UmMGdYOvaZZ4JHVgp-Fu4Djig-w",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2JyYXZvb2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.XYdfB35Y10U2tY01UmMGdYOvaZZ4JHVgp-Fu4Djig-w"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2JyYXZvb2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.b4wL-tEb4jDI89IQUicfRSXKhHBJBLsr-98h1bBsIQI",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2JyYXZvb2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.b4wL-tEb4jDI89IQUicfRSXKhHBJBLsr-98h1bBsIQI"
    },
    "alternatives": [
     {
@@ -3704,8 +3704,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhZmVmaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.YFFbmAUzOnjKhLxQn_jfBY0nuNQOOg8eZVPvq1wEvwU",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhZmVmaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.YFFbmAUzOnjKhLxQn_jfBY0nuNQOOg8eZVPvq1wEvwU"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhZmVmaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.88ZNBw4QYXS8NwWZhvjlAfP5xxPdnovTo-5LxSIhZMw",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhZmVmaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.88ZNBw4QYXS8NwWZhvjlAfP5xxPdnovTo-5LxSIhZMw"
    },
    "alternatives": [
     {
@@ -3735,12 +3735,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9Fa3Jhbk1vdmllcy9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIwNjcxfQ.RD3T6f7v3F8mG8BvVztZ_X5arE1P6io3G86K4OwVSGQ",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9Fa3Jhbk1vdmllcy9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIwNjcxfQ.RD3T6f7v3F8mG8BvVztZ_X5arE1P6io3G86K4OwVSGQ"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9Fa3Jhbk1vdmllcy9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIxMjc4fQ._eyRDfuuWDjYcLqNMrVcow3baTjPct6nbQjSwjEBDB8",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9Fa3Jhbk1vdmllcy9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIxMjc4fQ._eyRDfuuWDjYcLqNMrVcow3baTjPct6nbQjSwjEBDB8"
    },
    "alternatives": [
     {
@@ -3770,12 +3770,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1ib2xseXdvb2QvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.KOMkjFT8c_zZdgduTnbBjEtqs37B1LAOLECMbKHw6VU",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1ib2xseXdvb2QvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.KOMkjFT8c_zZdgduTnbBjEtqs37B1LAOLECMbKHw6VU"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1ib2xseXdvb2QvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.RtEa2SsdqvjTc286VTQLbRNVAg2k3fss8h9OxlMv6E8",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1ib2xseXdvb2QvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.RtEa2SsdqvjTc286VTQLbRNVAg2k3fss8h9OxlMv6E8"
    },
    "alternatives": [
     {
@@ -3805,12 +3805,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1kcmFtYS9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIwNjcxfQ.q6ypQLYCKzCHLeO0UC8x2RtKYU7uyMFN1CoAphCVgvg",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1kcmFtYS9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIwNjcxfQ.q6ypQLYCKzCHLeO0UC8x2RtKYU7uyMFN1CoAphCVgvg"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1kcmFtYS9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIxMjc4fQ.pxwSiP5IM_-yxHeof3F6oboJSg5taS5lCZ_OQimV9_E",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1kcmFtYS9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIxMjc4fQ.pxwSiP5IM_-yxHeof3F6oboJSg5taS5lCZ_OQimV9_E"
    },
    "alternatives": [
     {
@@ -3840,12 +3840,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1kcmFtYXBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.DdoOLvlVwnU0GYPQdrYiMbwAGJZ2BfxxymlIQm6TGPE",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1kcmFtYXBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.DdoOLvlVwnU0GYPQdrYiMbwAGJZ2BfxxymlIQm6TGPE"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1kcmFtYXBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.0MUK3QdlwUSWKJbSDLh-CO1pqHuAckfhapsUrRShZlw",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1kcmFtYXBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.0MUK3QdlwUSWKJbSDLh-CO1pqHuAckfhapsUrRShZlw"
    },
    "alternatives": [
     {
@@ -3875,12 +3875,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1maWxtL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.JPszON1G21IUpvRjiFWw9tvzuiUhDaqFq_wdXcVG-VM",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1maWxtL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.JPszON1G21IUpvRjiFWw9tvzuiUhDaqFq_wdXcVG-VM"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1maWxtL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.aQXV78k2FptOK_OJGvo5HCgm36En0OaeLOH2OlUsGF4",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1maWxtL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.aQXV78k2FptOK_OJGvo5HCgm36En0OaeLOH2OlUsGF4"
    },
    "alternatives": [
     {
@@ -3910,12 +3910,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1vbnl4L2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.CVjtgw3aeezXIChiRLVFW7-yimAsQQZwV1fi8zw0LDY",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1vbnl4L2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.CVjtgw3aeezXIChiRLVFW7-yimAsQQZwV1fi8zw0LDY"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1vbnl4L2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.bCuqfPyZUOonWRB2qCVGxH1JHd2sUJvFVYOyfZsLXtM",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1vbnl4L2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.bCuqfPyZUOonWRB2qCVGxH1JHd2sUJvFVYOyfZsLXtM"
    },
    "alternatives": [
     {
@@ -3949,8 +3949,8 @@
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2dsc2VydmVyMS50YW1hc2hhbGFuZC5jb20vbGl2ZS9hQkNIOTY4ODZZem5SYkdPaXFUbm5RX18vc3RyZWFtXzAubTN1OCIsIngiOjE3OTU0MjA2NzF9.Fereno2oNz1tOSiPUlb2qWOActkyEjQYHotsUhzzAZ4",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2dsc2VydmVyMS50YW1hc2hhbGFuZC5jb20vbGl2ZS9hQkNIOTY4ODZZem5SYkdPaXFUbm5RX18vc3RyZWFtXzAubTN1OCIsIngiOjE3OTU0MjA2NzF9.Fereno2oNz1tOSiPUlb2qWOActkyEjQYHotsUhzzAZ4"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2dsc2VydmVyMS50YW1hc2hhbGFuZC5jb20vbGl2ZS9hQkNIOTY4ODZZem5SYkdPaXFUbm5RX18vc3RyZWFtXzAubTN1OCIsIngiOjE3OTU0MjEyNzh9.6TnBnJKw0va0hcIpbWdhwl5h0qD0GLxtQ_lL_Z4OXjU",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2dsc2VydmVyMS50YW1hc2hhbGFuZC5jb20vbGl2ZS9hQkNIOTY4ODZZem5SYkdPaXFUbm5RX18vc3RyZWFtXzAubTN1OCIsIngiOjE3OTU0MjEyNzh9.6TnBnJKw0va0hcIpbWdhwl5h0qD0GLxtQ_lL_Z4OXjU"
    },
    "alternatives": [
     {
@@ -3980,12 +3980,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1ydWJpeC9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIwNjcxfQ.D2X-rhPCeESCEf9qCuEE-ov_3mRTZ29uHDnTTtjtCrM",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1ydWJpeC9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIwNjcxfQ.D2X-rhPCeESCEf9qCuEE-ov_3mRTZ29uHDnTTtjtCrM"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1ydWJpeC9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIxMjc4fQ.EIRiWw72d-dKb6rEw6w5xcwJC89aRD7LWlcq9DCS28o",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1ydWJpeC9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIxMjc4fQ.EIRiWw72d-dKb6rEw6w5xcwJC89aRD7LWlcq9DCS28o"
    },
    "alternatives": [
     {
@@ -4015,12 +4015,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1ydWJpeHBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.IYp6RSrevZ12wInAvRmHyDlRz2IykbAMBEy_ydpBtRI",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1ydWJpeHBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.IYp6RSrevZ12wInAvRmHyDlRz2IykbAMBEy_ydpBtRI"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1ydWJpeHBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.znDhKwtwdPy2fRrxudiFEqm4E5rTV4xq2bSNdMwtRno",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1ydWJpeHBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.znDhKwtwdPy2fRrxudiFEqm4E5rTV4xq2bSNdMwtRno"
    },
    "alternatives": [
     {
@@ -4050,12 +4050,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW0vaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.-k1NvokufDAb0rmV8SrokYpYeMJzU4Q6r7ssk9acTlA",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW0vaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.-k1NvokufDAb0rmV8SrokYpYeMJzU4Q6r7ssk9acTlA"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW0vaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.sfj7n-OnlUhuOSqlNnPBI34mnUQVIrnnXdmJMeKVzSg",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW0vaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.sfj7n-OnlUhuOSqlNnPBI34mnUQVIrnnXdmJMeKVzSg"
    },
    "alternatives": [
     {
@@ -4085,12 +4085,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW10dnBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.Ix-pyxGIvhrLNiPM8t4Vz1nWB2Gc_2m6rOa284NeFK4",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW10dnBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.Ix-pyxGIvhrLNiPM8t4Vz1nWB2Gc_2m6rOa284NeFK4"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW10dnBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.HD6nskiOx3sW-B18CPIeNTgvSFEptsGJoxrUQk7mKf4",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW10dnBsdXMvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.HD6nskiOx3sW-B18CPIeNTgvSFEptsGJoxrUQk7mKf4"
    },
    "alternatives": [
     {
@@ -4124,8 +4124,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL21vdmlldGhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.6wWWpMuAKTWYg0MKpyVCrYr_8cVmaQ2W-i_e-bTRyCs",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL21vdmlldGhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.6wWWpMuAKTWYg0MKpyVCrYr_8cVmaQ2W-i_e-bTRyCs"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL21vdmlldGhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.m7TG1_NuFe5C_MTwp32OAiX_F3FDRFnS-pFaKjaO9TA",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL21vdmlldGhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.m7TG1_NuFe5C_MTwp32OAiX_F3FDRFnS-pFaKjaO9TA"
    },
    "alternatives": [
     {
@@ -4159,8 +4159,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2djaW5lbWFobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.P3ibULA9K82WbMf19WwmuysIEX5XwQWYNjHmC8tXo-Q",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2djaW5lbWFobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.P3ibULA9K82WbMf19WwmuysIEX5XwQWYNjHmC8tXo-Q"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2djaW5lbWFobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.NFa9icJkLxdPnO2R8_EwY22itPXR6JfObcZX4teSpg8",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2djaW5lbWFobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.NFa9icJkLxdPnO2R8_EwY22itPXR6JfObcZX4teSpg8"
    },
    "alternatives": [
     {
@@ -4354,8 +4354,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL21ldGFmaWxtaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.q-IU5mmQpwbsVgRbOrM-wuqwwVaq1Tg8E3ynhXa56PI",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL21ldGFmaWxtaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.q-IU5mmQpwbsVgRbOrM-wuqwwVaq1Tg8E3ynhXa56PI"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL21ldGFmaWxtaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.Wt0vHYfYKy44lRh4LDrtZ4xYQ2amI0ETlNivJHAEQNk",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL21ldGFmaWxtaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.Wt0vHYfYKy44lRh4LDrtZ4xYQ2amI0ETlNivJHAEQNk"
    },
    "alternatives": [
     {
@@ -4389,8 +4389,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25ld2ZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.pf-Sv18ogrHUc8WrpHV-ToKjNswWhNmQlrO-aEIqWBI",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25ld2ZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.pf-Sv18ogrHUc8WrpHV-ToKjNswWhNmQlrO-aEIqWBI"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25ld2ZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.KFdkm54QfW5ro3oAp-eGLsgemE_psmHL9BaZ-OZgfJ4",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25ld2ZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.KFdkm54QfW5ro3oAp-eGLsgemE_psmHL9BaZ-OZgfJ4"
    },
    "alternatives": [
     {
@@ -4424,8 +4424,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NpbmVobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.S14taXTc9AqkbxpWVigLxwXGdy_sv0dZiufSS0ow4yg",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NpbmVobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.S14taXTc9AqkbxpWVigLxwXGdy_sv0dZiufSS0ow4yg"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NpbmVobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.2NhPSP16rxNTqDxMr8yQ9Q_WvIxo-Fqv7SKvIbISmDA",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NpbmVobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.2NhPSP16rxNTqDxMr8yQ9Q_WvIxo-Fqv7SKvIbISmDA"
    },
    "alternatives": [
     {
@@ -4459,8 +4459,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ZhbWlseWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.GEOQbQnDMxKf-QmCsngOImDvGOGCMDX9mnHknb4Y9H8",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ZhbWlseWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.GEOQbQnDMxKf-QmCsngOImDvGOGCMDX9mnHknb4Y9H8"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ZhbWlseWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.pT_hXQIODQv2pv-xDSllEjOPJp8sjm0hGvXoNbQFeIw",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ZhbWlseWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.pT_hXQIODQv2pv-xDSllEjOPJp8sjm0hGvXoNbQFeIw"
    },
    "alternatives": [
     {
@@ -4494,8 +4494,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lyaGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.q_yG7xc3nYqT3tY6A3ygZcDNPTrP61zfqZCxPC2JHdI",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lyaGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.q_yG7xc3nYqT3tY6A3ygZcDNPTrP61zfqZCxPC2JHdI"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lyaGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.XJpg9pvO5zDlXpyrnm4XULYF6rTejSj0TITiONvF6C0",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2lyaGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.XJpg9pvO5zDlXpyrnm4XULYF6rTejSj0TITiONvF6C0"
    },
    "alternatives": [
     {
@@ -4529,8 +4529,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2tvcmhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.JpZ7uxdh8qNr_tbfcsFiFgkcd_EF-_Upi9bPhoFvQaw",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2tvcmhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.JpZ7uxdh8qNr_tbfcsFiFgkcd_EF-_Upi9bPhoFvQaw"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2tvcmhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.tBxs3MSTAowN6Orhpd_GlnakWMkHBGVjfoqGLFtMtgQ",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2tvcmhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.tBxs3MSTAowN6Orhpd_GlnakWMkHBGVjfoqGLFtMtgQ"
    },
    "alternatives": [
     {
@@ -4564,8 +4564,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xhdGlub2hscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.RejCsempr9mUKGaWI5NWMas-KVewIfFPMugt-AhaaiM",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xhdGlub2hscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.RejCsempr9mUKGaWI5NWMas-KVewIfFPMugt-AhaaiM"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xhdGlub2hscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.8LyieK3-q6S_aXGQP5zr5o7wieN8BGyl2pOV0vqzcAU",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xhdGlub2hscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.8LyieK3-q6S_aXGQP5zr5o7wieN8BGyl2pOV0vqzcAU"
    },
    "alternatives": [
     {
@@ -4599,8 +4599,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2V1aGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.NZ_LzQHymU7MziX0D__-zNcqX2iHRfTtkZtCt9Mgt3w",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2V1aGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.NZ_LzQHymU7MziX0D__-zNcqX2iHRfTtkZtCt9Mgt3w"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2V1aGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.wt3oOCFFJh6EEe7z7CkWYmqyNuAE9yJvgRq2cwl3GKg",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2V1aGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.wt3oOCFFJh6EEe7z7CkWYmqyNuAE9yJvgRq2cwl3GKg"
    },
    "alternatives": [
     {
@@ -4634,8 +4634,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Nsb25laGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.gaPDNejYkH3HhVAopcDXB8Jtmn-Tx45ooNbkth4AaDs",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Nsb25laGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.gaPDNejYkH3HhVAopcDXB8Jtmn-Tx45ooNbkth4AaDs"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Nsb25laGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.dZLgWVucBVGMMfkuaITADXB0MAmtzQ9vQ3oSL5II3bY",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Nsb25laGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.dZLgWVucBVGMMfkuaITADXB0MAmtzQ9vQ3oSL5II3bY"
    },
    "alternatives": [
     {
@@ -4669,8 +4669,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3NsdHdvaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.Gu5w0lzLjz4KZCqUMO1VVDElpmUORjUU1D2NkIomGFM",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3NsdHdvaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.Gu5w0lzLjz4KZCqUMO1VVDElpmUORjUU1D2NkIomGFM"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3NsdHdvaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.kxrm-7qqqqjoG80SBQznTo2Q0v7Ld16JfDibhd_0pgo",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3NsdHdvaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.kxrm-7qqqqjoG80SBQznTo2Q0v7Ld16JfDibhd_0pgo"
    },
    "alternatives": [
     {
@@ -4700,12 +4700,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9UMk1vdmllcy9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIwNjcxfQ.hPIG_JIZBz7rnGvEy6lodAxN7sMMpywrvOOykLO57yM",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9UMk1vdmllcy9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIwNjcxfQ.hPIG_JIZBz7rnGvEy6lodAxN7sMMpywrvOOykLO57yM"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9UMk1vdmllcy9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIxMjc4fQ.dEhkkqqB_mr8ZM7gtt4e6Fb97x3MEbUbBsX8xXMYh2w",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9UMk1vdmllcy9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIxMjc4fQ.dEhkkqqB_mr8ZM7gtt4e6Fb97x3MEbUbBsX8xXMYh2w"
    },
    "alternatives": [
     {
@@ -4739,8 +4739,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9oZHRlc3QvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.SsJryBLuFf9zG-AU58DMnEnQZj0fkE6sGhlaxlrhu_g",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9oZHRlc3QvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.SsJryBLuFf9zG-AU58DMnEnQZj0fkE6sGhlaxlrhu_g"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9oZHRlc3QvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.RoOuYAxp_KuU5Kj5Tx8vWOVkqJNhJK5cxyh3zb7ev2k",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9oZHRlc3QvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.RoOuYAxp_KuU5Kj5Tx8vWOVkqJNhJK5cxyh3zb7ev2k"
    },
    "alternatives": [
     {
@@ -4774,8 +4774,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25sLmxpdmVrYWRlaC5jb20vaGxzMi9hbHdpbGF5YWhfdHYubTN1OCIsIngiOjE3OTU0MjA2NzF9.zYmT_sx5YnvrYYNhn9O64lTe9vixAIAwKSrhkdpuOkM",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25sLmxpdmVrYWRlaC5jb20vaGxzMi9hbHdpbGF5YWhfdHYubTN1OCIsIngiOjE3OTU0MjA2NzF9.zYmT_sx5YnvrYYNhn9O64lTe9vixAIAwKSrhkdpuOkM"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25sLmxpdmVrYWRlaC5jb20vaGxzMi9hbHdpbGF5YWhfdHYubTN1OCIsIngiOjE3OTU0MjEyNzh9.UCgm9T0Y9P5TV5roywXBbd8DOLNb_5WYpXPVMDdtdUM",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25sLmxpdmVrYWRlaC5jb20vaGxzMi9hbHdpbGF5YWhfdHYubTN1OCIsIngiOjE3OTU0MjEyNzh9.UCgm9T0Y9P5TV5roywXBbd8DOLNb_5WYpXPVMDdtdUM"
    },
    "alternatives": [
     {
@@ -4809,8 +4809,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5lcmZhbmhhbGdoZWgubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.89C6IclTinCMW5GW0Ubj1tUvWsFEcRDybqVh6o-EyLg",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5lcmZhbmhhbGdoZWgubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.89C6IclTinCMW5GW0Ubj1tUvWsFEcRDybqVh6o-EyLg"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5lcmZhbmhhbGdoZWgubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.YvK8XR5t9vVqqczAytXGuNu5rHpwVSdm4zsSHz6DrSk",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5lcmZhbmhhbGdoZWgubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.YvK8XR5t9vVqqczAytXGuNu5rHpwVSdm4zsSHz6DrSk"
    },
    "alternatives": [
     {
@@ -4844,8 +4844,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9oYWJpYi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.eAIGM9q8smullUjftF4vl1OsmHzW5haIWHrJkgVKCuk",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9oYWJpYi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.eAIGM9q8smullUjftF4vl1OsmHzW5haIWHrJkgVKCuk"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9oYWJpYi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.gcbTebzhErph0BfOTW1DIPXEbg0mW9wAOXEZKOLCDCQ",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9oYWJpYi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.gcbTebzhErph0BfOTW1DIPXEbg0mW9wAOXEZKOLCDCQ"
    },
    "alternatives": [
     {
@@ -4879,8 +4879,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ljbmV0Mmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.Lp_FutiapusBqA-7ZgmEbbKsmxPN_1LeUvEWkLu1SQI",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ljbmV0Mmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.Lp_FutiapusBqA-7ZgmEbbKsmxPN_1LeUvEWkLu1SQI"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ljbmV0Mmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.BrIRDOYZ1kfIKnhglD9_MHTN5CZbOGrvaGB0ChdaH_U",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ljbmV0Mmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.BrIRDOYZ1kfIKnhglD9_MHTN5CZbOGrvaGB0ChdaH_U"
    },
    "alternatives": [
     {
@@ -4914,8 +4914,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ljM2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.eiT1mQxD8qd9N3qg5Yx6uwZSpWO2WlO7sIZvWYzU_Sg",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ljM2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.eiT1mQxD8qd9N3qg5Yx6uwZSpWO2WlO7sIZvWYzU_Sg"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ljM2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.winYcFNJqd-5bpdXq3JjJX3zcD9fzQRrgkZWiujFVu8",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ljM2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.winYcFNJqd-5bpdXq3JjJX3zcD9fzQRrgkZWiujFVu8"
    },
    "alternatives": [
     {
@@ -4949,8 +4949,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vaXJhbjYyMC5jb206MTkzNS9saXZlL0lyYW5KZXdpc2hUdi9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.LZj-wZqsPDOWnCTDpa7NOKm5l_BNpQfYC8nuo9J9sZo",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vaXJhbjYyMC5jb206MTkzNS9saXZlL0lyYW5KZXdpc2hUdi9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.LZj-wZqsPDOWnCTDpa7NOKm5l_BNpQfYC8nuo9J9sZo"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vaXJhbjYyMC5jb206MTkzNS9saXZlL0lyYW5KZXdpc2hUdi9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.BoV-n3NGzGZWjlD1T-UL5dhip5xlNiivB_qN1AXDFWk",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vaXJhbjYyMC5jb206MTkzNS9saXZlL0lyYW5KZXdpc2hUdi9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.BoV-n3NGzGZWjlD1T-UL5dhip5xlNiivB_qN1AXDFWk"
    },
    "alternatives": [
     {
@@ -4980,12 +4980,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2thbGVtZWgudHYvbGl2ZS9obHMvZ2F0ZS5waHA_cD0vbGl2ZS9uZ3JwOmthbGVtZWhfYWxsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.NOUITfzBTs7ax-8txn0wasVPNxm8hH8ZvkiVQvHNBtY",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2thbGVtZWgudHYvbGl2ZS9obHMvZ2F0ZS5waHA_cD0vbGl2ZS9uZ3JwOmthbGVtZWhfYWxsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.NOUITfzBTs7ax-8txn0wasVPNxm8hH8ZvkiVQvHNBtY"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2thbGVtZWgudHYvbGl2ZS9obHMvZ2F0ZS5waHA_cD0vbGl2ZS9uZ3JwOmthbGVtZWhfYWxsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.wH1FrQyGu3N5z7daUttPj-YvWr9C4gV-d0YH3wtEVuQ",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2thbGVtZWgudHYvbGl2ZS9obHMvZ2F0ZS5waHA_cD0vbGl2ZS9uZ3JwOmthbGVtZWhfYWxsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.wH1FrQyGu3N5z7daUttPj-YvWr9C4gV-d0YH3wtEVuQ"
    },
    "alternatives": [
     {
@@ -5019,8 +5019,8 @@
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vMjA0LjExLjIzNS4yNTE6MTkzNS9saXZlX3RyYW5zY29kZXIvbmdycDptb2hhYmF0LnN0cmVhbV9hbGwvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.XRAxW8naoSurBIqKFsHOfQQZ0LTudcUYn5alQigeQgA",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vMjA0LjExLjIzNS4yNTE6MTkzNS9saXZlX3RyYW5zY29kZXIvbmdycDptb2hhYmF0LnN0cmVhbV9hbGwvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.XRAxW8naoSurBIqKFsHOfQQZ0LTudcUYn5alQigeQgA"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vMjA0LjExLjIzNS4yNTE6MTkzNS9saXZlX3RyYW5zY29kZXIvbmdycDptb2hhYmF0LnN0cmVhbV9hbGwvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.QnMLOCFRuH9-1jNJ6LCEm4ITehEGCUnSh0yeL1dSH4k",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vMjA0LjExLjIzNS4yNTE6MTkzNS9saXZlX3RyYW5zY29kZXIvbmdycDptb2hhYmF0LnN0cmVhbV9hbGwvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.QnMLOCFRuH9-1jNJ6LCEm4ITehEGCUnSh0yeL1dSH4k"
    },
    "alternatives": [
     {
@@ -5054,8 +5054,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3VuaTZydG1wLnR1bGl4LnR2L3VjdXIxL1BheXZhbmQvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.NcNT6w0Plhw7ealiDJpt62l6056lrZs4vAwB31BsoNY",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3VuaTZydG1wLnR1bGl4LnR2L3VjdXIxL1BheXZhbmQvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.NcNT6w0Plhw7ealiDJpt62l6056lrZs4vAwB31BsoNY"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3VuaTZydG1wLnR1bGl4LnR2L3VjdXIxL1BheXZhbmQvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.Bdw-U2zH69Hfmb0kaQLRgpPWQb9MC1gboNAifAk0tJ4",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3VuaTZydG1wLnR1bGl4LnR2L3VjdXIxL1BheXZhbmQvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.Bdw-U2zH69Hfmb0kaQLRgpPWQb9MC1gboNAifAk0tJ4"
    },
    "alternatives": [
     {
@@ -5089,8 +5089,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9xdXJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.8EogvlX0rLNMPPjtJD_D07nDJZaC1wNN9i3Iv2zaNkk",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9xdXJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.8EogvlX0rLNMPPjtJD_D07nDJZaC1wNN9i3Iv2zaNkk"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9xdXJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.BwlVlk9-QhcS0Gk-jRbX2yIh70dvXOUuZLkXAMD8aaQ",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9xdXJhbi9saXZlL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.BwlVlk9-QhcS0Gk-jRbX2yIh70dvXOUuZLkXAMD8aaQ"
    },
    "alternatives": [
     {
@@ -5188,8 +5188,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2VwbGhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ._dB5drrl930980MraYVvZPU17kBWtcGRa484tPQ0y4M",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2VwbGhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ._dB5drrl930980MraYVvZPU17kBWtcGRa484tPQ0y4M"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2VwbGhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.JMj_AQtTILt9PHPHikPaXpOVvPK_TQM_J_YlT78fqZQ",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2VwbGhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.JMj_AQtTILt9PHPHikPaXpOVvPK_TQM_J_YlT78fqZQ"
    },
    "alternatives": [
     {
@@ -5219,12 +5219,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1uYXR1cmUvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.KMRaptKO688U1OeNbVgK5akZ1Q5l9vN4aZFK0yX22ic",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1uYXR1cmUvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.KMRaptKO688U1OeNbVgK5akZ1Q5l9vN4aZFK0yX22ic"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1uYXR1cmUvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.IabnlZhBRbUBh1hrmZwtCJeJOkhm3RzzGOtHhUTL2p0",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1uYXR1cmUvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.IabnlZhBRbUBh1hrmZwtCJeJOkhm3RzzGOtHhUTL2p0"
    },
    "alternatives": [
     {
@@ -5258,8 +5258,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3NjaWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.A_jZfJDgep9ORapGvfcX9SMReaQooXcS1NxcVFuic0E",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3NjaWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.A_jZfJDgep9ORapGvfcX9SMReaQooXcS1NxcVFuic0E"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3NjaWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.PjiHBWrkQedHoFZ28NYGkF8166s9j522ZWVVWgzhOdA",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3NjaWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.PjiHBWrkQedHoFZ28NYGkF8166s9j522ZWVVWgzhOdA"
    },
    "alternatives": [
     {
@@ -5293,8 +5293,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3B0cmF2ZWxobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.iLyAgnms4UJb8SFQN6KvVDWCjm2Y6WELBjFKo3TkaKM",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3B0cmF2ZWxobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.iLyAgnms4UJb8SFQN6KvVDWCjm2Y6WELBjFKo3TkaKM"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3B0cmF2ZWxobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.0fq-vxZgE-Jmm8D38hG9bO7UIzdCPlvdHn75E7nlGek",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3B0cmF2ZWxobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.0fq-vxZgE-Jmm8D38hG9bO7UIzdCPlvdHn75E7nlGek"
    },
    "alternatives": [
     {
@@ -5328,8 +5328,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL211c2ljaGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.Y_fix7EWREms5Et3ZsqT3LQgyJYaQMpWXtp8fGibx9Q",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL211c2ljaGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.Y_fix7EWREms5Et3ZsqT3LQgyJYaQMpWXtp8fGibx9Q"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL211c2ljaGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.taCRQEZDKgf5811PcS50yR8HgmuVM12R9XFEdXlydCs",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL211c2ljaGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.taCRQEZDKgf5811PcS50yR8HgmuVM12R9XFEdXlydCs"
    },
    "alternatives": [
     {
@@ -5363,8 +5363,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovLzRrdWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.rTXalRxlE7MZG3tLNGIBkO14J7KWPsIHvkYscgR-vZc",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovLzRrdWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.rTXalRxlE7MZG3tLNGIBkO14J7KWPsIHvkYscgR-vZc"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovLzRrdWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.zbQj6OWPX73Fjx1FnsDYQF-2rupbYaiLEwfTEckUB5A",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovLzRrdWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.zbQj6OWPX73Fjx1FnsDYQF-2rupbYaiLEwfTEckUB5A"
    },
    "alternatives": [
     {
@@ -5398,8 +5398,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Jvenp0di5jb20vMWdidzUvdGludHYyL3RpbnR2Mi9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.maA1h4ILZ_hjdKkg2JxOsUdYPgAC0a7YgaMNutP0xso",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Jvenp0di5jb20vMWdidzUvdGludHYyL3RpbnR2Mi9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.maA1h4ILZ_hjdKkg2JxOsUdYPgAC0a7YgaMNutP0xso"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Jvenp0di5jb20vMWdidzUvdGludHYyL3RpbnR2Mi9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.bo8uTKbc5AlEfnEETGh3DiM5JzsRkhJNkxqfUbDNZoE",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Jvenp0di5jb20vMWdidzUvdGludHYyL3RpbnR2Mi9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.bo8uTKbc5AlEfnEETGh3DiM5JzsRkhJNkxqfUbDNZoE"
    },
    "alternatives": [
     {
@@ -5433,8 +5433,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5hdmFuZy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.aBrFlRuol-gfGi_uExQ1KQIaPNtZsrNhaFJ0kTwssF0",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5hdmFuZy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.aBrFlRuol-gfGi_uExQ1KQIaPNtZsrNhaFJ0kTwssF0"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5hdmFuZy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.ahER-iyGGw5jPNc8unCBtWjQvpT-srETUwInT6Llx6g",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5hdmFuZy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.ahER-iyGGw5jPNc8unCBtWjQvpT-srETUwInT6Llx6g"
    },
    "alternatives": [
     {
@@ -5464,12 +5464,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW0yNGIvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.W8TOzV5cWp4tChq2xNZ14Y4gi_hDOdYJAR-hD2XXtNQ",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW0yNGIvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.W8TOzV5cWp4tChq2xNZ14Y4gi_hDOdYJAR-hD2XXtNQ"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW0yNGIvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.AiLIz-V--WI2858LanlQ0AbF_s2ctzTZfuXBlqoHQUk",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW0yNGIvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.AiLIz-V--WI2858LanlQ0AbF_s2ctzTZfuXBlqoHQUk"
    },
    "alternatives": [
     {
@@ -5499,12 +5499,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1taWZhL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.cOAFfAz8FVd5E20ayBmZFYqv8lufNkhl0skvDxs3D38",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1taWZhL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.cOAFfAz8FVd5E20ayBmZFYqv8lufNkhl0skvDxs3D38"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1taWZhL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.Feqcg1Hol2VVVVgNfH2g8SThRr4R_pZ5aWq0stCgv-4",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1taWZhL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.Feqcg1Hol2VVVVgNfH2g8SThRr4R_pZ5aWq0stCgv-4"
    },
    "alternatives": [
     {
@@ -5534,12 +5534,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1taWZhcGx1cy9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIwNjcxfQ.LgahHE4_Q7zA5laHDANEyLGW76s-NYe9-PLJBgIDUqs",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1taWZhcGx1cy9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIwNjcxfQ.LgahHE4_Q7zA5laHDANEyLGW76s-NYe9-PLJBgIDUqs"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1taWZhcGx1cy9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIxMjc4fQ.8qffCi8_aZixR8rFihYKLxOklV9Xvm3jhHedsgUB39Y",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1taWZhcGx1cy9pbmRleC0wLm0zdTg_dG9rZW49b25ldHYyMDIiLCJ4IjoxNzk1NDIxMjc4fQ.8qffCi8_aZixR8rFihYKLxOklV9Xvm3jhHedsgUB39Y"
    },
    "alternatives": [
     {
@@ -5572,10 +5572,7 @@
     "ir": null,
     "intl": true
    },
-   "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3N0cmVhbWVyMS5jb25uZWN0dG8uY29tL0hJR0hWSVNJT05fV0VCXzEyMDUvaW5kZXgubTN1OCIsIngiOjE3OTU0MjA2NzF9.gGZ6WSMBY7QGNhFOv-Z0UYclfU2N8ZsgAEivDx1F2Ro",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3N0cmVhbWVyMS5jb25uZWN0dG8uY29tL0hJR0hWSVNJT05fV0VCXzEyMDUvaW5kZXgubTN1OCIsIngiOjE3OTU0MjA2NzF9.gGZ6WSMBY7QGNhFOv-Z0UYclfU2N8ZsgAEivDx1F2Ro"
-   },
+   "proxy": {},
    "alternatives": [
     {
      "url": "https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8",
@@ -5608,8 +5605,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Nvbmhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.h-hJVXOO-DItqj46y94SfnNxqP6-NZ3M-XxrPOAYZSQ",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Nvbmhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.h-hJVXOO-DItqj46y94SfnNxqP6-NZ3M-XxrPOAYZSQ"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Nvbmhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.Rv-qZpFhfYn2gNOeYcqbKedVANFscik3A0L_zp7zlls",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Nvbmhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.Rv-qZpFhfYn2gNOeYcqbKedVANFscik3A0L_zp7zlls"
    },
    "alternatives": [
     {
@@ -5643,8 +5640,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3JhcGhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.0_m4_4OayfKvNIjZP5aalYXVDT617qmzAy_DvJ6ydvg",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3JhcGhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.0_m4_4OayfKvNIjZP5aalYXVDT617qmzAy_DvJ6ydvg"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3JhcGhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.a2eS-l8OexNec8lhGewp3kiyiZzee4lpTwSxaRMseU4",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3JhcGhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.a2eS-l8OexNec8lhGewp3kiyiZzee4lpTwSxaRMseU4"
    },
    "alternatives": [
     {
@@ -5678,8 +5675,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3JqdHZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.xMsb716UacmxZ3IhU1BP35N9mGkPfwWJQA7mxuA0RtI",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3JqdHZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.xMsb716UacmxZ3IhU1BP35N9mGkPfwWJQA7mxuA0RtI"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3JqdHZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.xaXExOMRoe03wAj4ECUfiuTU14B5PISSVhfCcsNuaBU",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3JqdHZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.xaXExOMRoe03wAj4ECUfiuTU14B5PISSVhfCcsNuaBU"
    },
    "alternatives": [
     {
@@ -5713,8 +5710,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3QyaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.zLEwHQznakN8XpHIrONUxAVy_KpISocM9zEt4BBfdZc",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3QyaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.zLEwHQznakN8XpHIrONUxAVy_KpISocM9zEt4BBfdZc"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3QyaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.ZUUa3e2qNx7TXApu5tID8B2ycNvFFleJTQsweeLCCqw",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3QyaGxzLnducy5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.ZUUa3e2qNx7TXApu5tID8B2ycNvFFleJTQsweeLCCqw"
    },
    "alternatives": [
     {
@@ -5744,12 +5741,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1maXQvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.KyOpGGxniAOM38oF3MEFShNtPr_X7b694-x5lpxGZyg",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1maXQvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.KyOpGGxniAOM38oF3MEFShNtPr_X7b694-x5lpxGZyg"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1maXQvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.NNoVgJo1cXIhyWkn3sAXIha1qrHA6IH0aM3oBcwaYHI",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1maXQvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.NNoVgJo1cXIhyWkn3sAXIha1qrHA6IH0aM3oBcwaYHI"
    },
    "alternatives": [
     {
@@ -5779,12 +5776,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3N0ZWVwLXdpbGRmbG93ZXItMjg0ZC5uaGh3a2lzenp6dmN1b2p4ZG8ud29ya2Vycy5kZXYvP3VybD1odHRwczovL2dnLmhsczIueHl6L2xpdmUvSVIrLStHRU0rU3BvcnQvY2h1bmtzLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.yG2xkUpBv3ZkSVq4QW3xsWepggCmqGfwUD3zp_EGNDk",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3N0ZWVwLXdpbGRmbG93ZXItMjg0ZC5uaGh3a2lzenp6dmN1b2p4ZG8ud29ya2Vycy5kZXYvP3VybD1odHRwczovL2dnLmhsczIueHl6L2xpdmUvSVIrLStHRU0rU3BvcnQvY2h1bmtzLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.yG2xkUpBv3ZkSVq4QW3xsWepggCmqGfwUD3zp_EGNDk"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3N0ZWVwLXdpbGRmbG93ZXItMjg0ZC5uaGh3a2lzenp6dmN1b2p4ZG8ud29ya2Vycy5kZXYvP3VybD1odHRwczovL2dnLmhsczIueHl6L2xpdmUvSVIrLStHRU0rU3BvcnQvY2h1bmtzLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.hxea_vGEsefjaWWDUjCHZVi-HyO90uUrlxF0HJZNQnQ",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3N0ZWVwLXdpbGRmbG93ZXItMjg0ZC5uaGh3a2lzenp6dmN1b2p4ZG8ud29ya2Vycy5kZXYvP3VybD1odHRwczovL2dnLmhsczIueHl6L2xpdmUvSVIrLStHRU0rU3BvcnQvY2h1bmtzLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.hxea_vGEsefjaWWDUjCHZVi-HyO90uUrlxF0HJZNQnQ"
    },
    "alternatives": [
     {
@@ -5818,8 +5815,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djMvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.kpbnezqIEqvx7XTCExKuCE1O2fQjuF2oJYrs8CfhbR8",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djMvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.kpbnezqIEqvx7XTCExKuCE1O2fQjuF2oJYrs8CfhbR8"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djMvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.6-7DayPHU-kFjDfMUqWWfGVYIFoSHe58CGOGPkvxrCQ",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci90djMvbGl2ZS9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.6-7DayPHU-kFjDfMUqWWfGVYIFoSHe58CGOGPkvxrCQ"
    },
    "alternatives": [
     {
@@ -5853,8 +5850,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ZpZ2h0aGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.HmTC7eFGJu_ItZ2lXIseLQ1nhPz4SP9KNrLXSW7SevY",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ZpZ2h0aGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.HmTC7eFGJu_ItZ2lXIseLQ1nhPz4SP9KNrLXSW7SevY"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ZpZ2h0aGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.a8ID2qUtjgis0B-s8xfW851xRwfzf5S9LGHcbGBZTpw",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ZpZ2h0aGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.a8ID2qUtjgis0B-s8xfW851xRwfzf5S9LGHcbGBZTpw"
    },
    "alternatives": [
     {
@@ -5888,8 +5885,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci92YXJ6ZXNoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.MS0QP6OGqsthRx_M_zqcqiL1fw8_6dq7nJJkBgqeaKY",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci92YXJ6ZXNoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.MS0QP6OGqsthRx_M_zqcqiL1fw8_6dq7nJJkBgqeaKY"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci92YXJ6ZXNoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.hu1U35eDNXHMmyolzydtmMSmqcyWDYQVPTVHEZ9d2Fw",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci92YXJ6ZXNoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.hu1U35eDNXHMmyolzydtmMSmqcyWDYQVPTVHEZ9d2Fw"
    },
    "alternatives": [
     {
@@ -5923,8 +5920,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Nsc2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.mZf4qqHrKJ7KSlVgvN1HmVefnTiydHugCFGeqC2siXM",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Nsc2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.mZf4qqHrKJ7KSlVgvN1HmVefnTiydHugCFGeqC2siXM"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Nsc2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.qFdhvuzMkzWg0zI-kNYQcVoONbsKi6ni4uFaN4jEYzU",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2Nsc2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.qFdhvuzMkzWg0zI-kNYQcVoONbsKi6ni4uFaN4jEYzU"
    },
    "alternatives": [
     {
@@ -5954,12 +5951,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1jbGFzc2ljL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.egRpkabMyqv6gBbVO8hwh-_aeKjnF8hgXuFaywZT6Cw",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1jbGFzc2ljL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.egRpkabMyqv6gBbVO8hwh-_aeKjnF8hgXuFaywZT6Cw"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1jbGFzc2ljL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.gBwuRNrKgFJ_LN3c8t01L2GkqbF2o4qWX_8ZBdw4VIo",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1jbGFzc2ljL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.gBwuRNrKgFJ_LN3c8t01L2GkqbF2o4qWX_8ZBdw4VIo"
    },
    "alternatives": [
     {
@@ -5993,8 +5990,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25vc2hscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.g7eGAt1nv4cFjvoJWcfODWbRqOpmukiPx7M1oR_Obrg",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25vc2hscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.g7eGAt1nv4cFjvoJWcfODWbRqOpmukiPx7M1oR_Obrg"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25vc2hscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.vEvw3OtyZblvwWgJzHypJ_UbX60ZnTTBGBzWwpUq9to",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25vc2hscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.vEvw3OtyZblvwWgJzHypJ_UbX60ZnTTBGBzWwpUq9to"
    },
    "alternatives": [
     {
@@ -6024,12 +6021,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1jb21lZHkvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.-94ygEOAr8z-OtvJmQw55C5r3IZnnkwj0yydx5KZnGE",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1jb21lZHkvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.-94ygEOAr8z-OtvJmQw55C5r3IZnnkwj0yydx5KZnGE"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1jb21lZHkvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.uhuSXLb8-KvUS5g4jfYRWGmVSssfcIIm6cCumQhSO5g",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1jb21lZHkvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.uhuSXLb8-KvUS5g4jfYRWGmVSssfcIIm6cCumQhSO5g"
    },
    "alternatives": [
     {
@@ -6063,8 +6060,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NvbWVkeWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.y8cUkTq-ls5i-Dp-Zi2P1GX41eBSlceyoi-tXsDcIh8",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NvbWVkeWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.y8cUkTq-ls5i-Dp-Zi2P1GX41eBSlceyoi-tXsDcIh8"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NvbWVkeWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.kDAU-_YBbxU3reHKBFiXfBOjjIIfHQ4U-cbASmI-_nI",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NvbWVkeWhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.kDAU-_YBbxU3reHKBFiXfBOjjIIfHQ4U-cbASmI-_nI"
    },
    "alternatives": [
     {
@@ -6094,12 +6091,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1qdW5pb3IvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.tuxZHhRGqm-hj2QurBHPLyC46KDnQ0IkvNaWXWcAuU4",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1qdW5pb3IvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMDY3MX0.tuxZHhRGqm-hj2QurBHPLyC46KDnQ0IkvNaWXWcAuU4"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1qdW5pb3IvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.Tgj-29s8Q6orTcZOzly5L-o_IUzpz68qjWtGbVH2Ek4",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1qdW5pb3IvaW5kZXgtMC5tM3U4P3Rva2VuPW9uZXR2MjAyIiwieCI6MTc5NTQyMTI3OH0.Tgj-29s8Q6orTcZOzly5L-o_IUzpz68qjWtGbVH2Ek4"
    },
    "alternatives": [
     {
@@ -6129,12 +6126,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1raWRzL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.xnx0YpqABuotsWAkecs32wT09n248f7-rVLVwaJ8f0k",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1raWRzL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjA2NzF9.xnx0YpqABuotsWAkecs32wT09n248f7-rVLVwaJ8f0k"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1raWRzL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.nZ17M-Oq9Fs0vMMOpPkuVWUGiFlvVBtUe2TaU-g1DeQ",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2NhLXJ0Lm9uZXR2LmFwcC9nZW1raWRzL2luZGV4LTAubTN1OD90b2tlbj1vbmV0djIwMiIsIngiOjE3OTU0MjEyNzh9.nZ17M-Oq9Fs0vMMOpPkuVWUGiFlvVBtUe2TaU-g1DeQ"
    },
    "alternatives": [
     {
@@ -6164,12 +6161,12 @@
    "streams_ok": 0,
    "browser_ok": false,
    "reach": {
-    "ir": null,
+    "ir": false,
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25vcnRodGVsZWNvbS5iLWNkbi5uZXQvaG9kaG9kdHYubTN1OCIsIngiOjE3OTU0MjA2NzF9.Bq6X340zNugjvktRUM9drwPRgSvpQbJl8-heKEnwohY",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25vcnRodGVsZWNvbS5iLWNkbi5uZXQvaG9kaG9kdHYubTN1OCIsIngiOjE3OTU0MjA2NzF9.Bq6X340zNugjvktRUM9drwPRgSvpQbJl8-heKEnwohY"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25vcnRodGVsZWNvbS5iLWNkbi5uZXQvaG9kaG9kdHYubTN1OCIsIngiOjE3OTU0MjEyNzh9.eGOL2oKoDzqo0rVLDefFSV3psazjwaAlxZPRvmEF6ss",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25vcnRodGVsZWNvbS5iLWNkbi5uZXQvaG9kaG9kdHYubTN1OCIsIngiOjE3OTU0MjEyNzh9.eGOL2oKoDzqo0rVLDefFSV3psazjwaAlxZPRvmEF6ss"
    },
    "alternatives": [
     {
@@ -6203,8 +6200,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9vbWlkL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.eGeYTuB0olDKFCKgNWrpkRv3rbc0yYiEbdr5Kb17HII",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9vbWlkL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.eGeYTuB0olDKFCKgNWrpkRv3rbc0yYiEbdr5Kb17HII"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9vbWlkL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.Ff_sXDgYwS4Ikhqv--Lgd6shNGgvuNw-idj10DZKmX4",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9vbWlkL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.Ff_sXDgYwS4Ikhqv--Lgd6shNGgvuNw-idj10DZKmX4"
    },
    "alternatives": [
     {
@@ -6238,8 +6235,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2p1bmhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.Wjhr3kHpWpqVf8gcOO9U6oauAqQd7GAvoDzCdly8weI",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2p1bmhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.Wjhr3kHpWpqVf8gcOO9U6oauAqQd7GAvoDzCdly8weI"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2p1bmhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.B4MwfukHTgtloxsfXawj3NfiXo8-9_ewEqVCorTFjKQ",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2p1bmhscy5wZXJzaWFuYS5saXZlL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.B4MwfukHTgtloxsfXawj3NfiXo8-9_ewEqVCorTFjKQ"
    },
    "alternatives": [
     {
@@ -6273,8 +6270,8 @@
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2twaGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.dBbRAAofiifcKsCzbGLgt893nbAaV3m5IQzcY7gmcS8",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2twaGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.dBbRAAofiifcKsCzbGLgt893nbAaV3m5IQzcY7gmcS8"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2twaGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.D5_1lrbrf2ARzq5uSVonEziAiMvHEWD8MPwsjo6LQtA",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2twaGxzLnBlcnNpYW5hLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.D5_1lrbrf2ARzq5uSVonEziAiMvHEWD8MPwsjo6LQtA"
    },
    "alternatives": [
     {
@@ -6308,8 +6305,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Rnbi5ib3p6dHYuY29tL2VzaGd0di1kdnJmbDA1L2dpbi1pcmlicG9veWEvdHJhY2tzLXYxYTEvbW9uby5tM3U4IiwieCI6MTc5NTQyMDY3MX0.Et3U7wqQ1qCMD8HMdS8ZIpQeiwDzIxGB18_Zi8Jex68",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Rnbi5ib3p6dHYuY29tL2VzaGd0di1kdnJmbDA1L2dpbi1pcmlicG9veWEvdHJhY2tzLXYxYTEvbW9uby5tM3U4IiwieCI6MTc5NTQyMDY3MX0.Et3U7wqQ1qCMD8HMdS8ZIpQeiwDzIxGB18_Zi8Jex68"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Rnbi5ib3p6dHYuY29tL2VzaGd0di1kdnJmbDA1L2dpbi1pcmlicG9veWEvdHJhY2tzLXYxYTEvbW9uby5tM3U4IiwieCI6MTc5NTQyMTI3OH0.PjTGEi0QahdCXBrRWxn4llN46gTcC_HWuzZ3qJ-ihTI",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Rnbi5ib3p6dHYuY29tL2VzaGd0di1kdnJmbDA1L2dpbi1pcmlicG9veWEvdHJhY2tzLXYxYTEvbW9uby5tM3U4IiwieCI6MTc5NTQyMTI3OH0.PjTGEi0QahdCXBrRWxn4llN46gTcC_HWuzZ3qJ-ihTI"
    },
    "alternatives": [
     {
@@ -6343,8 +6340,8 @@
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9qYXZhbmVoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.OfPT2PfYMfbEOVbVwdifL5yv25uqdaRDCkNlYW8dlC0",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9qYXZhbmVoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.OfPT2PfYMfbEOVbVwdifL5yv25uqdaRDCkNlYW8dlC0"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9qYXZhbmVoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.apuc9aMY2AmRmjoAvDDPl_fgx9o0-AL4JGsUGSme-uI",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL25jZG4udGVsZXdlYmlvbi5pci9qYXZhbmVoL2xpdmUvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.apuc9aMY2AmRmjoAvDDPl_fgx9o0-AL4JGsUGSme-uI"
    },
    "alternatives": [
     {
@@ -6378,8 +6375,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ZmbGl2ZS1kYXJ5YS1lZHVjYXRpb250di5iLWNkbi5uZXQvbWFzdGVyLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.E6HiWIpvPJcvYG7-IOk5kGU7-G4SDuSf2_IF6qzoYmg",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ZmbGl2ZS1kYXJ5YS1lZHVjYXRpb250di5iLWNkbi5uZXQvbWFzdGVyLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.E6HiWIpvPJcvYG7-IOk5kGU7-G4SDuSf2_IF6qzoYmg"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ZmbGl2ZS1kYXJ5YS1lZHVjYXRpb250di5iLWNkbi5uZXQvbWFzdGVyLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.wgcsjXrvFcaM5qnHY2ABmtTljzwIkrZ6iI5ulxP456U",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ZmbGl2ZS1kYXJ5YS1lZHVjYXRpb250di5iLWNkbi5uZXQvbWFzdGVyLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.wgcsjXrvFcaM5qnHY2ABmtTljzwIkrZ6iI5ulxP456U"
    },
    "alternatives": [
     {
@@ -6413,8 +6410,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5hZmludGwuY29tL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.J8n-_SO05KgtoJD4Nd0JDK9mW1vXYNHjr-P07VKzPc8",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5hZmludGwuY29tL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjA2NzF9.J8n-_SO05KgtoJD4Nd0JDK9mW1vXYNHjr-P07VKzPc8"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5hZmludGwuY29tL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.LTZ8Vluoe_fOEq6rLp9WyncjNmm54oiqppk_ZfVdxcg",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5hZmludGwuY29tL2hscy9zdHJlYW0ubTN1OCIsIngiOjE3OTU0MjEyNzh9.LTZ8Vluoe_fOEq6rLp9WyncjNmm54oiqppk_ZfVdxcg"
    },
    "alternatives": [
     {
@@ -6448,8 +6445,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ptYy1saXZlLmVyY2RuLm5ldC9hbXV0di9hbXV0di5tM3U4IiwieCI6MTc5NTQyMDY3MX0.E-Da4sMzsNXUqJqDR_rKsUQw4ZdvFyfW-NitF041Pqc",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ptYy1saXZlLmVyY2RuLm5ldC9hbXV0di9hbXV0di5tM3U4IiwieCI6MTc5NTQyMDY3MX0.E-Da4sMzsNXUqJqDR_rKsUQw4ZdvFyfW-NitF041Pqc"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ptYy1saXZlLmVyY2RuLm5ldC9hbXV0di9hbXV0di5tM3U4IiwieCI6MTc5NTQyMTI3OH0.R1jpoJQFy3EkmZTkgf3xvJAgwBWyD9AesHWE3GwUD7Y",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2ptYy1saXZlLmVyY2RuLm5ldC9hbXV0di9hbXV0di5tM3U4IiwieCI6MTc5NTQyMTI3OH0.R1jpoJQFy3EkmZTkgf3xvJAgwBWyD9AesHWE3GwUD7Y"
    },
    "alternatives": [
     {
@@ -6483,8 +6480,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hydC1zdHJlYW0ubW92aWUuYWYvbGl2ZS9zbWlsOnRvbG9uZXdzdHYuc21pbC9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.qm4CFIYPSPzZlkhZhiMLwJzjUCj3dysmzvBgV-hB5Fk",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hydC1zdHJlYW0ubW92aWUuYWYvbGl2ZS9zbWlsOnRvbG9uZXdzdHYuc21pbC9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.qm4CFIYPSPzZlkhZhiMLwJzjUCj3dysmzvBgV-hB5Fk"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hydC1zdHJlYW0ubW92aWUuYWYvbGl2ZS9zbWlsOnRvbG9uZXdzdHYuc21pbC9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.ZG_M0H5EBh6_xoklzIETudAY5XR4BU-r92E5USQGcCE",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hydC1zdHJlYW0ubW92aWUuYWYvbGl2ZS9zbWlsOnRvbG9uZXdzdHYuc21pbC9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.ZG_M0H5EBh6_xoklzIETudAY5XR4BU-r92E5USQGcCE"
    },
    "alternatives": [
     {
@@ -6525,8 +6522,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Rnbi5ib3p6dHYuY29tL2VzaGd0di1kdnJmbDA1L2dpbi1sZW1hci9pbmRleC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.aDkjXM3y8ZOnMNDTIqKILku_9F93H31H_OcEZoyjBuQ",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Rnbi5ib3p6dHYuY29tL2VzaGd0di1kdnJmbDA1L2dpbi1sZW1hci9pbmRleC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.aDkjXM3y8ZOnMNDTIqKILku_9F93H31H_OcEZoyjBuQ"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Rnbi5ib3p6dHYuY29tL2VzaGd0di1kdnJmbDA1L2dpbi1sZW1hci9pbmRleC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.t41e71kRu5KHXZf9iInRCkbENamkH1VRWxlByGvjcbA",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3Rnbi5ib3p6dHYuY29tL2VzaGd0di1kdnJmbDA1L2dpbi1sZW1hci9pbmRleC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.t41e71kRu5KHXZf9iInRCkbENamkH1VRWxlByGvjcbA"
    },
    "alternatives": [
     {
@@ -6592,8 +6589,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hydC1zdHJlYW0ubW92aWUuYWYvbGl2ZS9zbWlsOjF0di5zbWlsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.OnhcEGKVBmGQJ7LOtHCf8SvpIAKXfAHkmmk-ADzV3S0",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hydC1zdHJlYW0ubW92aWUuYWYvbGl2ZS9zbWlsOjF0di5zbWlsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.OnhcEGKVBmGQJ7LOtHCf8SvpIAKXfAHkmmk-ADzV3S0"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hydC1zdHJlYW0ubW92aWUuYWYvbGl2ZS9zbWlsOjF0di5zbWlsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.mR4fiC6LRlxGi7kP9SHPoBAdMOfXfQREn5fn8ggDB1g",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hydC1zdHJlYW0ubW92aWUuYWYvbGl2ZS9zbWlsOjF0di5zbWlsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.mR4fiC6LRlxGi7kP9SHPoBAdMOfXfQREn5fn8ggDB1g"
    },
    "alternatives": [
     {
@@ -6627,8 +6624,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovLzRhZmdobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.NUzTYfF_0pw7Z4gje340UccU7_FmCT-eIrLz3XGzzPY",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovLzRhZmdobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.NUzTYfF_0pw7Z4gje340UccU7_FmCT-eIrLz3XGzzPY"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovLzRhZmdobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.rpQvWMzYFgFL7idfIN3ZIPY3Ul5uKRHNdJcsACZlMMs",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovLzRhZmdobHMucGVyc2lhbmEubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.rpQvWMzYFgFL7idfIN3ZIPY3Ul5uKRHNdJcsACZlMMs"
    },
    "alternatives": [
     {
@@ -6662,8 +6659,8 @@
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUucmVsZW50bGVzc2lubm92YXRpb25zLm5ldDoxOTM2L2FmZ2hhbm5vYmVsdHYvYWZnaGFubm9iZWx0di9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.bCMBIHcuhZsNVoYvdWj7zeuGxbazUazrvDUm5u1UEKE",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUucmVsZW50bGVzc2lubm92YXRpb25zLm5ldDoxOTM2L2FmZ2hhbm5vYmVsdHYvYWZnaGFubm9iZWx0di9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMDY3MX0.bCMBIHcuhZsNVoYvdWj7zeuGxbazUazrvDUm5u1UEKE"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUucmVsZW50bGVzc2lubm92YXRpb25zLm5ldDoxOTM2L2FmZ2hhbm5vYmVsdHYvYWZnaGFubm9iZWx0di9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.4lSgz0dwePuwrIHVjWAvKSxnb8erRf19-ABvFXJ-Fhc",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUucmVsZW50bGVzc2lubm92YXRpb25zLm5ldDoxOTM2L2FmZ2hhbm5vYmVsdHYvYWZnaGFubm9iZWx0di9wbGF5bGlzdC5tM3U4IiwieCI6MTc5NTQyMTI3OH0.4lSgz0dwePuwrIHVjWAvKSxnb8erRf19-ABvFXJ-Fhc"
    },
    "alternatives": [
     {
@@ -6729,8 +6726,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2R1bnlhbmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.IyN7n2YTrtM7SMeBDniYFPoGOX4c3187F2JHycpLf1k",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2R1bnlhbmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.IyN7n2YTrtM7SMeBDniYFPoGOX4c3187F2JHycpLf1k"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2R1bnlhbmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.Lk1aBzcYWR6h47vcAH2EsuhyGqLmvqtNmA_kJddGux8",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2R1bnlhbmhscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.Lk1aBzcYWR6h47vcAH2EsuhyGqLmvqtNmA_kJddGux8"
    },
    "alternatives": [
     {
@@ -6764,8 +6761,8 @@
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vNTEuMjEwLjE5OS41OC9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.BKDbYWgd1wC7K4oSZPxIQf5t7E1Vu3Lca6oiE6a23mo",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vNTEuMjEwLjE5OS41OC9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.BKDbYWgd1wC7K4oSZPxIQf5t7E1Vu3Lca6oiE6a23mo"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vNTEuMjEwLjE5OS41OC9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.se4UfH1X5nbVSdCWIfijJo372OdnSMVHgDPA3FZh-60",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwOi8vNTEuMjEwLjE5OS41OC9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.se4UfH1X5nbVSdCWIfijJo372OdnSMVHgDPA3FZh-60"
    },
    "alternatives": [
     {
@@ -6799,8 +6796,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2c1bmw2eHg1bHBxNi1obHMtbGl2ZS41Y2VudHNjZG4uY29tL2xpdmUxMjM0LzI2MjFiMjllNTAxYjQ0NWZhYmYyMjdiMDg2MTIzYjcwLnNkcC9tb25vLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.FdIIK_yxnZLjbJ_BWZJeY9PY1CFOADQPiwF2FT98hRc",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2c1bmw2eHg1bHBxNi1obHMtbGl2ZS41Y2VudHNjZG4uY29tL2xpdmUxMjM0LzI2MjFiMjllNTAxYjQ0NWZhYmYyMjdiMDg2MTIzYjcwLnNkcC9tb25vLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.FdIIK_yxnZLjbJ_BWZJeY9PY1CFOADQPiwF2FT98hRc"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2c1bmw2eHg1bHBxNi1obHMtbGl2ZS41Y2VudHNjZG4uY29tL2xpdmUxMjM0LzI2MjFiMjllNTAxYjQ0NWZhYmYyMjdiMDg2MTIzYjcwLnNkcC9tb25vLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.CINSVYTLfbRTeny5hPJj0WWmbNAjyeheeiK6hPq-DaE",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2c1bmw2eHg1bHBxNi1obHMtbGl2ZS41Y2VudHNjZG4uY29tL2xpdmUxMjM0LzI2MjFiMjllNTAxYjQ0NWZhYmYyMjdiMDg2MTIzYjcwLnNkcC9tb25vLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.CINSVYTLfbRTeny5hPJj0WWmbNAjyeheeiK6hPq-DaE"
    },
    "alternatives": [
     {
@@ -6834,8 +6831,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3J0YS10di5ha2FtYWl6ZWQubmV0L2xpdmUvU0QvUlRBLTEvUlRBL1JUQS0xLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.OGNPmYKrsT5ZtHgEl1BgUOK7yS-Sz3PSoRjEJFIuN0A",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3J0YS10di5ha2FtYWl6ZWQubmV0L2xpdmUvU0QvUlRBLTEvUlRBL1JUQS0xLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.OGNPmYKrsT5ZtHgEl1BgUOK7yS-Sz3PSoRjEJFIuN0A"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3J0YS10di5ha2FtYWl6ZWQubmV0L2xpdmUvU0QvUlRBLTEvUlRBL1JUQS0xLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.PsTqGsWQxa7GQsTZ2gagh47A62awUGElrp1SZxgYL64",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3J0YS10di5ha2FtYWl6ZWQubmV0L2xpdmUvU0QvUlRBLTEvUlRBL1JUQS0xLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.PsTqGsWQxa7GQsTZ2gagh47A62awUGElrp1SZxgYL64"
    },
    "alternatives": [
     {
@@ -6869,8 +6866,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3J0YS10di5ha2FtYWl6ZWQubmV0L2xpdmUvU0QvUlRBLTQvUlRBL1JUQS00Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.ma8APWhDkhcomLEJWD0xlfzIoVjeSWU4A4Voh6GuLsE",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3J0YS10di5ha2FtYWl6ZWQubmV0L2xpdmUvU0QvUlRBLTQvUlRBL1JUQS00Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.ma8APWhDkhcomLEJWD0xlfzIoVjeSWU4A4Voh6GuLsE"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3J0YS10di5ha2FtYWl6ZWQubmV0L2xpdmUvU0QvUlRBLTQvUlRBL1JUQS00Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.FV0APzDdaZ4QwRpDi8sVdBxgG3NQ3H9xTHvIOh6sZ9w",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL3J0YS10di5ha2FtYWl6ZWQubmV0L2xpdmUvU0QvUlRBLTQvUlRBL1JUQS00Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.FV0APzDdaZ4QwRpDi8sVdBxgG3NQ3H9xTHvIOh6sZ9w"
    },
    "alternatives": [
     {
@@ -6968,8 +6965,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy50YW1hZG9uLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.lPqezB0KoKuP-FH6c4GujfZgTsOB-Tap3ll1Jj4WddA",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy50YW1hZG9uLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.lPqezB0KoKuP-FH6c4GujfZgTsOB-Tap3ll1Jj4WddA"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy50YW1hZG9uLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.Lu9kL9lHAdU7IbsTY2GUIDGTbr9L7WdAcGypHj0gnj0",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy50YW1hZG9uLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.Lu9kL9lHAdU7IbsTY2GUIDGTbr9L7WdAcGypHj0gnj0"
    },
    "alternatives": [
     {
@@ -7003,8 +7000,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hydC1zdHJlYW0ubW92aWUuYWYvbGl2ZS9zbWlsOnRvbG90di5zbWlsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.MMuVLfGzYL2dF--Uf-g4Zng2W_vKGwYTQ8akQImOkZk",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hydC1zdHJlYW0ubW92aWUuYWYvbGl2ZS9zbWlsOnRvbG90di5zbWlsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.MMuVLfGzYL2dF--Uf-g4Zng2W_vKGwYTQ8akQImOkZk"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hydC1zdHJlYW0ubW92aWUuYWYvbGl2ZS9zbWlsOnRvbG90di5zbWlsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.63QY8yPHhxlDy0QKF6zPbSfF3gm9YyiRWkRiUWQqWDA",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hydC1zdHJlYW0ubW92aWUuYWYvbGl2ZS9zbWlsOnRvbG90di5zbWlsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.63QY8yPHhxlDy0QKF6zPbSfF3gm9YyiRWkRiUWQqWDA"
    },
    "alternatives": [
     {
@@ -7045,8 +7042,8 @@
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUucmVsZW50bGVzc2lubm92YXRpb25zLm5ldDoxOTM2L2FmZ2hhbm5vYmVsL2FmZ2hhbm5vYmVsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.GRvJEccm_hzbLVWBbXXf9rxQ9KyqX-JB0KFj7iA8zm8",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUucmVsZW50bGVzc2lubm92YXRpb25zLm5ldDoxOTM2L2FmZ2hhbm5vYmVsL2FmZ2hhbm5vYmVsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.GRvJEccm_hzbLVWBbXXf9rxQ9KyqX-JB0KFj7iA8zm8"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUucmVsZW50bGVzc2lubm92YXRpb25zLm5ldDoxOTM2L2FmZ2hhbm5vYmVsL2FmZ2hhbm5vYmVsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.OGbdEswmfI3tOS6Fsy1APNUw_4rFqGQ_bFiYYtdnWmg",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUucmVsZW50bGVzc2lubm92YXRpb25zLm5ldDoxOTM2L2FmZ2hhbm5vYmVsL2FmZ2hhbm5vYmVsL3BsYXlsaXN0Lm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.OGbdEswmfI3tOS6Fsy1APNUw_4rFqGQ_bFiYYtdnWmg"
    },
    "alternatives": [
     {
@@ -7080,8 +7077,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5tYWFodHYubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.TzxwiOs0zkBIvrgIx2fr2WhOP7vshgVugsgEhlICOOk",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5tYWFodHYubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.TzxwiOs0zkBIvrgIx2fr2WhOP7vshgVugsgEhlICOOk"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5tYWFodHYubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.TyE3-m9GXaCccV5YqtWJF8Q73GgxjZrej9seg-Q43xo",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2hscy5tYWFodHYubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.TyE3-m9GXaCccV5YqtWJF8Q73GgxjZrej9seg-Q43xo"
    },
    "alternatives": [
     {
@@ -7115,8 +7112,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL21lZGlhc2VydmVyLmFibnZpZGVvcy5jb20vc3RyZWFtcy9hYm5hZmdoYW5pc3Rhbi5tM3U4IiwieCI6MTc5NTQyMDY3MX0.M8nWI3cJM0hREYB0RVWNPEQsvKKzWvKSZ0d_GUUda0s",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL21lZGlhc2VydmVyLmFibnZpZGVvcy5jb20vc3RyZWFtcy9hYm5hZmdoYW5pc3Rhbi5tM3U4IiwieCI6MTc5NTQyMDY3MX0.M8nWI3cJM0hREYB0RVWNPEQsvKKzWvKSZ0d_GUUda0s"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL21lZGlhc2VydmVyLmFibnZpZGVvcy5jb20vc3RyZWFtcy9hYm5hZmdoYW5pc3Rhbi5tM3U4IiwieCI6MTc5NTQyMTI3OH0.3EolsllPcjqNAL_A6d24713D5COQfq7X7a-BGfQu-q0",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL21lZGlhc2VydmVyLmFibnZpZGVvcy5jb20vc3RyZWFtcy9hYm5hZmdoYW5pc3Rhbi5tM3U4IiwieCI6MTc5NTQyMTI3OH0.3EolsllPcjqNAL_A6d24713D5COQfq7X7a-BGfQu-q0"
    },
    "alternatives": [
     {
@@ -7150,8 +7147,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2VzbGFodHZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.fqgzR5wlnF52GedSeFjCyGp1H1DU6qj7maUk1VoSqfc",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2VzbGFodHZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMDY3MX0.fqgzR5wlnF52GedSeFjCyGp1H1DU6qj7maUk1VoSqfc"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2VzbGFodHZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.gSbH36Kra18wKjiIHWMiPf33ap8cXdHJ8BshjEu8vng",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2VzbGFodHZobHMud25zLmxpdmUvaGxzL3N0cmVhbS5tM3U4IiwieCI6MTc5NTQyMTI3OH0.gSbH36Kra18wKjiIHWMiPf33ap8cXdHJ8BshjEu8vng"
    },
    "alternatives": [
     {
@@ -7185,8 +7182,8 @@
     "intl": false
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUucmVsZW50bGVzc2lubm92YXRpb25zLm5ldDoxOTM2L2ltYW50di9pbWFudHYvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.dcB9kH_w_b4SkCL_-ScbMszhULOhaw996APcyS1823E",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUucmVsZW50bGVzc2lubm92YXRpb25zLm5ldDoxOTM2L2ltYW50di9pbWFudHYvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjA2NzF9.dcB9kH_w_b4SkCL_-ScbMszhULOhaw996APcyS1823E"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUucmVsZW50bGVzc2lubm92YXRpb25zLm5ldDoxOTM2L2ltYW50di9pbWFudHYvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.SjxUfhSqYcXeGvufCEqcz0bTJJdCJQk_hROiS8NZt0g",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2xpdmUucmVsZW50bGVzc2lubm92YXRpb25zLm5ldDoxOTM2L2ltYW50di9pbWFudHYvcGxheWxpc3QubTN1OCIsIngiOjE3OTU0MjEyNzh9.SjxUfhSqYcXeGvufCEqcz0bTJJdCJQk_hROiS8NZt0g"
    },
    "alternatives": [
     {
@@ -7220,8 +7217,8 @@
     "intl": true
    },
    "proxy": {
-    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2FtY2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.qIr_Zm2sA3SymQKLARQEDYtWoJFMUhoIeAd4F9upeuQ",
-    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2FtY2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIwNjcxfQ.qIr_Zm2sA3SymQKLARQEDYtWoJFMUhoIeAd4F9upeuQ"
+    "ir": "https://stream.cinimo.ir/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2FtY2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.hkZIQKXVttIyULomZbFKZbmg5UKTgb3QDH5xrRZ0fvM",
+    "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/eyJ2IjoxLCJrIjoicGxheSIsInUiOiJodHRwczovL2FtY2hscy53bnMubGl2ZS9obHMvc3RyZWFtLm0zdTgiLCJ4IjoxNzk1NDIxMjc4fQ.hkZIQKXVttIyULomZbFKZbmg5UKTgb3QDH5xrRZ0fvM"
    },
    "alternatives": [
     {

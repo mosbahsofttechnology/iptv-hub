@@ -8,6 +8,10 @@
 - وضعیت را در SQLite نگه می‌دارد و یک اسنپ‌شات JSON قابل‌کامیت می‌سازد
 - پلی‌لیست، `status.json` و داشبورد HTML تولید می‌کند
 - با GitHub Actions هر ۱۲ ساعت خودکار اجرا و به‌روز می‌شود
+- دو پروکسی (ایران/خارج) مسیر پخش هر کانال را بر اساس geo و CORS انتخاب می‌کنند
+
+**داشبورد اصلی:** `https://mosbahsofttechnology.github.io/iptv-hub/`
+**داشبورد آینه (روی سرور خارج):** `https://api.polpeisa.arianadevs.com/iptv-dashboard/`
 
 ```
 iptv-org (ir/af)  +  data/overrides.json
@@ -212,6 +216,22 @@ ORDER BY c.name LIMIT 20;
 
 نصب، امنیت و راه‌اندازی پروکسی در [`proxy/README.md`](proxy/README.md) است.
 اگر پروکسی تنظیم نشده باشد، داشبورد به همان پخش مستقیم/VLC برمی‌گردد.
+
+### داشبورد آینه و توکن‌ها
+
+روی سرور خارج یک آینه‌ی استاتیک از داشبورد هم سرو می‌شود:
+
+```
+https://api.polpeisa.arianadevs.com/iptv-dashboard/
+```
+
+یک cron روی همان سرور (ساعت ۰۳:۱۷ و ۱۵:۱۷ UTC) چک سلامت و توکن‌ها را
+به‌روز می‌کند و `docs/index.html` و `docs/status.json` را بازمی‌سازد.
+GitHub Actions هم اگر `IPTV_PROXY_SECRET` تنظیم نشده باشد، توکن‌ها و
+`reach` را از همین `status.json` عمومی می‌خواند (`IPTV_MIRROR_STATUS_URL`)
+و در نسخه Pages استفاده می‌کند. بنابراین حتی بدون Secret در GitHub هم
+داشبورد Pages لینک‌های پروکسی دارد. اگر آینه در دسترس نباشد، آخرین نسخه
+کش‌شده در `data/mirror-status.json` استفاده می‌شود.
 
 ## هزینه GitHub Actions
 

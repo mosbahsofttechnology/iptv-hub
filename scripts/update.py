@@ -86,6 +86,11 @@ PROXY_IR_URL = os.environ.get("IPTV_PROXY_IR_URL", "").strip().rstrip("/")
 PROXY_INTL_URL = os.environ.get("IPTV_PROXY_INTL_URL", "").strip().rstrip("/")
 PROXY_SECRET = os.environ.get("IPTV_PROXY_SECRET", "").strip()
 PROXY_TOKEN_TTL = int(os.environ.get("IPTV_PROXY_TOKEN_TTL", str(48 * 3600)))
+# Public status.json of the foreign-server dashboard mirror. When the GitHub
+# Action has no proxy secret, it reuses the signed proxy URLs and reachability
+# results that the mirror's updater already produced.
+MIRROR_STATUS_URL = os.environ.get("IPTV_MIRROR_STATUS_URL", "").strip()
+MIRROR_CACHE_PATH = DATA_DIR / "mirror-status.json"
 
 COUNTRY_FA = {"IR": "ایران", "AF": "افغانستان"}
 COUNTRY_ORDER = {"IR": 0, "AF": 1}
@@ -1105,7 +1110,51 @@ def probe_iran_reach(conn: sqlite3.Connection, results: list[dict]) -> None:
     )
 
 
+def load_mirror_status() -> dict:
+    if not MIRROR_STATUS_URL:
+        return {}
+    try:
+        code, _headers, data, _final = fetch(
+            MIRROR_STATUS_URL,
+            timeout=25,
+            use_range=False,
+            max_bytes=4_000_000,
+        )
+        if code == 200:
+            text = data.decode("utf-8", "ignore")
+            payload = json.loads(text)
+            if isinstance(payload, dict):
+                try:
+                    MIRROR_CACHE_PATH.write_text(text, encoding="utf-8")
+                except OSError:
+                    pass
+                return payload
+    except Exception:  # noqa: BLE001
+        pass
+    try:
+        payload = json.loads(MIRROR_CACHE_PATH.read_text(encoding="utf-8"))
+        return payload if isinstance(payload, dict) else {}
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
 def build_status(conn: sqlite3.Connection, channels: list[dict]) -> dict:
+    mirror = load_mirror_status()
+    mirror_proxy: dict[str, dict] = {}
+    mirror_reach: dict[str, dict] = {}
+    for channel in mirror.get("channels", []):
+        origin = channel.get("url")
+        if not origin:
+            continue
+        if isinstance(channel.get("proxy"), dict) and channel["proxy"]:
+            mirror_proxy[origin] = channel["proxy"]
+        if isinstance(channel.get("reach"), dict):
+            mirror_reach[origin] = channel["reach"]
+    if mirror:
+        log(
+            f"mirror: loaded {len(mirror_proxy)} proxy entries and "
+            f"{len(mirror_reach)} reach entries"
+        )
     stream_counts = {"ok": 0, "geo": 0, "dead": 0, "unstable": 0, "unknown": 0}
     for row in conn.execute("SELECT status, COUNT(*) AS n FROM streams GROUP BY status"):
         key = row["status"] or "unknown"
@@ -1119,22 +1168,29 @@ def build_status(conn: sqlite3.Connection, channels: list[dict]) -> dict:
         best = choose_stream(streams)
         status = best["status"] if best else "dead"
         browser_ok = bool(best.get("browser_ok")) if best else False
-        ir_flag = best.get("ir_ok") if (best and status == "geo") else None
-        reach = {
-            "ir": bool(ir_flag) if ir_flag is not None else None,
-            "intl": status == "ok",
-        }
         if best:
             playable += 1
             if browser_ok:
                 browser_playable += 1
         alternatives = sorted(streams, key=stream_key)
         proxy: dict[str, str] = {}
-        if best and best.get("status") in ("ok", "geo", "unstable") and PROXY_SECRET:
-            if PROXY_IR_URL:
-                proxy["ir"] = proxy_play_url(PROXY_IR_URL, best["url"])
-            if PROXY_INTL_URL:
-                proxy["intl"] = proxy_play_url(PROXY_INTL_URL, best["url"])
+        if best and best.get("status") in ("ok", "geo", "unstable"):
+            if PROXY_SECRET:
+                if PROXY_IR_URL:
+                    proxy["ir"] = proxy_play_url(PROXY_IR_URL, best["url"])
+                if PROXY_INTL_URL:
+                    proxy["intl"] = proxy_play_url(PROXY_INTL_URL, best["url"])
+            else:
+                proxy = mirror_proxy.get(best["url"], {})
+        if PROXY_SECRET and PROXY_IR_URL and best and status == "geo":
+            ir_flag = best.get("ir_ok")
+        else:
+            mirrored = mirror_reach.get(best["url"]) if best else None
+            ir_flag = mirrored.get("ir") if isinstance(mirrored, dict) else None
+        reach = {
+            "ir": (bool(ir_flag) if ir_flag is not None else None),
+            "intl": status == "ok",
+        }
         data.append(
             {
                 "id": channel["id"],
