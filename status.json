@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T09:17:50Z",
+ "generated_at": "2026-11-21T09:22:58Z",
  "counts": {
   "channels": 208,
   "playable_channels": 191,
@@ -15,16 +15,16 @@
   {
    "id": "iptv-org-af",
    "url": "https://iptv-org.github.io/iptv/countries/af.m3u",
-   "last_fetch_at": "2026-11-21T09:17:50Z",
-   "ok": 1,
-   "note": "25 streams"
+   "last_fetch_at": "2026-11-21T09:22:58Z",
+   "ok": 0,
+   "note": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   {
    "id": "iptv-org-ir",
    "url": "https://iptv-org.github.io/iptv/countries/ir.m3u",
-   "last_fetch_at": "2026-11-21T09:17:50Z",
-   "ok": 1,
-   "note": "183 streams"
+   "last_fetch_at": "2026-11-21T09:22:58Z",
+   "ok": 0,
+   "note": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
   }
  ],
  "channels": [

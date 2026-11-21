@@ -1372,6 +1372,17 @@ def render_dashboard(status: dict) -> None:
     html = template.replace("/*__DATA__*/", payload)
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     (DOCS_DIR / "index.html").write_text(html, encoding="utf-8")
+    for name in (
+        "playlist.m3u",
+        "playlist-verified.m3u",
+        "playlist-ir.m3u",
+        "playlist-intl.m3u",
+    ):
+        source = ROOT / name
+        if source.exists():
+            (DOCS_DIR / name).write_text(
+                source.read_text(encoding="utf-8"), encoding="utf-8"
+            )
     (ROOT / "status.json").write_text(
         json.dumps(status, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
     )

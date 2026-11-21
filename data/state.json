@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-21T09:17:50Z",
+ "updated_at": "2026-11-21T09:22:58Z",
  "channels": [
   {
    "id": "1TV.af",
@@ -1479,7 +1479,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "247BoxTV.ir",
@@ -1500,7 +1500,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "4Afghanistan.fr",
@@ -1521,7 +1521,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "4Kurd.fr",
@@ -1542,7 +1542,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "4Music.fr",
@@ -1563,7 +1563,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "4UTV.tr",
@@ -1584,7 +1584,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ABNAfghanistan.us",
@@ -1605,7 +1605,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AFNTV.ir",
@@ -1626,7 +1626,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AMC.af",
@@ -1647,7 +1647,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AVASeries.ir",
@@ -1668,7 +1668,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AbadanTV.ir",
@@ -1689,7 +1689,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AfghanNobelMovies.ca",
@@ -1710,7 +1710,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AfghanNobelTV.ca",
@@ -1731,7 +1731,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AfghanistanInternational.uk",
@@ -1752,7 +1752,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AflakTV.ir",
@@ -1773,7 +1773,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AfraFilm.ir",
@@ -1794,7 +1794,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AfraSeries.ir",
@@ -1815,7 +1815,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AftabTV.ir",
@@ -1836,7 +1836,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AlWilayah.ir",
@@ -1857,7 +1857,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AlborzTV.ir",
@@ -1878,7 +1878,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AmouzeshTV.ir",
@@ -1899,7 +1899,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AmuTV.us",
@@ -1920,7 +1920,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AraTV.ir",
@@ -1941,7 +1941,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AraxTV.ir",
@@ -1962,7 +1962,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ArkoTV.ir",
@@ -1983,7 +1983,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ArvanTV.ir",
@@ -2004,7 +2004,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AsilTV.ir",
@@ -2025,7 +2025,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AtrakTV.ir",
@@ -2046,7 +2046,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AtrinaTV.ir",
@@ -2067,7 +2067,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "AvangTV.us",
@@ -2088,7 +2088,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "BaharTV.af",
@@ -2109,7 +2109,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "BaranTV.ir",
@@ -2130,7 +2130,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "BoushehrTV.ir",
@@ -2151,7 +2151,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "BravoFarsiTV.ir",
@@ -2172,7 +2172,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "CafeFilm.ir",
@@ -2193,7 +2193,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "CafeTradeTV.ir",
@@ -2214,7 +2214,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ClassicTV.ir",
@@ -2235,7 +2235,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "DatisTV.ir",
@@ -2256,7 +2256,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:47:16Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "DatisTV.ir",
@@ -2277,7 +2277,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "DenaTV.ir",
@@ -2298,7 +2298,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "DunyaNawTV.af",
@@ -2319,7 +2319,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "EPlanetTV.ir",
@@ -2340,7 +2340,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "EkranMovies.ir",
@@ -2361,7 +2361,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "Energy.ir",
@@ -2382,7 +2382,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ErfanHalghehTV.ca",
@@ -2403,7 +2403,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "EshraghNetwork.ir",
@@ -2424,7 +2424,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "EslahTV.af",
@@ -2445,7 +2445,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "FX1.ir",
@@ -2466,7 +2466,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "FX2.ir",
@@ -2487,7 +2487,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "FarsTV.ir",
@@ -2508,7 +2508,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEM24B.tr",
@@ -2529,7 +2529,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMBollywood.tr",
@@ -2550,7 +2550,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMClassic.tr",
@@ -2571,7 +2571,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMComedy.tr",
@@ -2592,7 +2592,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMDrama.tr",
@@ -2613,7 +2613,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMDramaPlus.tr",
@@ -2634,7 +2634,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMEntertainment.tr",
@@ -2655,7 +2655,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMFilm.tr",
@@ -2676,7 +2676,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMFit.tr",
@@ -2697,7 +2697,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMFood.tr",
@@ -2718,7 +2718,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMFood.tr",
@@ -2739,7 +2739,7 @@
    "ir_status": "geo",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:49:52Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMJunior.tr",
@@ -2760,7 +2760,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMKids.tr",
@@ -2781,7 +2781,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMLife.tr",
@@ -2802,7 +2802,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMMifa.tr",
@@ -2823,7 +2823,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMMifaPlus.tr",
@@ -2844,7 +2844,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMNature.tr",
@@ -2865,7 +2865,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMOnyx.tr",
@@ -2886,7 +2886,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMPixel.tr",
@@ -2907,7 +2907,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMRiver.tr",
@@ -2928,7 +2928,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMRiverPlus.tr",
@@ -2949,7 +2949,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMRubix.tr",
@@ -2970,7 +2970,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMRubixPlus.tr",
@@ -2991,7 +2991,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMSeriesPlus.tr",
@@ -3012,7 +3012,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMSport.tr",
@@ -3033,7 +3033,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMTV.tr",
@@ -3054,7 +3054,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GEMTVPlus.tr",
@@ -3075,7 +3075,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GoldStar.ir",
@@ -3096,7 +3096,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GolkhaneTv.ir",
@@ -3117,7 +3117,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "GrandCinema.tr",
@@ -3138,7 +3138,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "HabibTV.ir",
@@ -3159,7 +3159,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "HamedanTV.ir",
@@ -3180,7 +3180,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "HamoonTV.ir",
@@ -3201,7 +3201,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "HewadTV.af",
@@ -3222,7 +3222,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "HighVisionTV.us",
@@ -3243,7 +3243,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "HodHodFarsiTV.ir",
@@ -3264,7 +3264,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ICCplus.us",
@@ -3285,7 +3285,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ICnet2.ca",
@@ -3306,7 +3306,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IRIB1.ir",
@@ -3327,7 +3327,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IRIB2.ir",
@@ -3348,7 +3348,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IRIB3.ir",
@@ -3369,7 +3369,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IRIB4.ir",
@@ -3390,7 +3390,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IRIBMostanad.ir",
@@ -3411,7 +3411,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IRIBOmid.ir",
@@ -3432,7 +3432,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IRIBUHD.ir",
@@ -3453,7 +3453,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IRINN.ir",
@@ -3474,7 +3474,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IRINN2.ir",
@@ -3495,7 +3495,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IlamTV.ir",
@@ -3516,7 +3516,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ImanTV.us",
@@ -3537,7 +3537,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:47:16Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ImanTV.us",
@@ -3558,7 +3558,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IranInternational.uk",
@@ -3579,7 +3579,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:47:16Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IranInternational.uk",
@@ -3600,7 +3600,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IranJewishTV.ir",
@@ -3621,7 +3621,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IranNama.fr",
@@ -3642,7 +3642,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IranNationalRevolutionTV.us",
@@ -3663,7 +3663,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IranPress.ir",
@@ -3684,7 +3684,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IraneFardaTV.uk",
@@ -3705,7 +3705,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "IsfahanTV.ir",
@@ -3726,7 +3726,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "JahanbinTV.ir",
@@ -3747,7 +3747,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "KalemehTV.uk",
@@ -3768,7 +3768,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "KalemehTV.uk",
@@ -3789,7 +3789,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:47:16Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "KanalJadid.uk",
@@ -3810,7 +3810,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "KayhanTV.af",
@@ -3831,7 +3831,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "KermanTV.ir",
@@ -3852,7 +3852,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "KhalijeFarsTV.ir",
@@ -3873,7 +3873,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "KhavaranTV.ir",
@@ -3894,7 +3894,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "KhorasanRazaviTV.ir",
@@ -3915,7 +3915,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "KhozestanTV.ir",
@@ -3936,7 +3936,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "KishTV.ir",
@@ -3957,7 +3957,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "KordestanTV.ir",
@@ -3978,7 +3978,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "LabbaykTV.ir",
@@ -3999,7 +3999,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "LemarTV.af",
@@ -4020,7 +4020,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "MaahTV.my",
@@ -4041,7 +4041,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "MahabadTV.ir",
@@ -4062,7 +4062,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "Manoto.uk",
@@ -4083,7 +4083,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "MetaFilmTV.ir",
@@ -4104,7 +4104,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "MihanTV.ir",
@@ -4125,7 +4125,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "MohabatTV.ir",
@@ -4146,7 +4146,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "NamayeshTV.ir",
@@ -4167,7 +4167,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "Nasim.ir",
@@ -4188,7 +4188,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "NationalIranianCongressTV.us",
@@ -4209,7 +4209,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "NewFlix.ir",
@@ -4230,7 +4230,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "NoorTV.ir",
@@ -4251,7 +4251,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "OXIRTV.ir",
@@ -4272,7 +4272,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "OfoghTV.ir",
@@ -4293,7 +4293,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "OmideIranTV.us",
@@ -4314,7 +4314,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PBCTapeshTV.us",
@@ -4335,7 +4335,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "Palestinetv.ir",
@@ -4356,7 +4356,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ParsTV.us",
@@ -4377,7 +4377,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:47:16Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ParsTV.us",
@@ -4398,7 +4398,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PayamJavanTV.us",
@@ -4419,7 +4419,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PayameAfghanTV.us",
@@ -4440,7 +4440,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PayameAfghanTV.us",
@@ -4461,7 +4461,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:47:16Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PayvandTV.ir",
@@ -4482,7 +4482,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaCinema.fr",
@@ -4503,7 +4503,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaComedy.fr",
@@ -4524,7 +4524,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaDocs.fr",
@@ -4545,7 +4545,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaFamily.fr",
@@ -4566,7 +4566,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaFight.fr",
@@ -4587,7 +4587,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaFolk.fr",
@@ -4608,7 +4608,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaIranian.fr",
@@ -4629,7 +4629,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaJunior.fr",
@@ -4650,7 +4650,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaKorea.fr",
@@ -4671,7 +4671,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaLatino.fr",
@@ -4692,7 +4692,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaMedical.fr",
@@ -4713,7 +4713,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaNostalgia.fr",
@@ -4734,7 +4734,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaPlus.fr",
@@ -4755,7 +4755,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaReality.fr",
@@ -4776,7 +4776,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:47:16Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaReality.fr",
@@ -4797,7 +4797,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaSeries.fr",
@@ -4818,7 +4818,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaTeen.fr",
@@ -4839,7 +4839,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaTravel.fr",
@@ -4860,7 +4860,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaTurkiye.fr",
@@ -4881,7 +4881,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PersianaVibe.fr",
@@ -4902,7 +4902,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PooyaTV.ir",
@@ -4923,7 +4923,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PooyaTVPlus.ir",
@@ -4944,7 +4944,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PressTV.ir",
@@ -4965,7 +4965,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PressTV.ir",
@@ -4986,7 +4986,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:47:16Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "PressTVFrench.ir",
@@ -5007,7 +5007,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "QazvinTV.ir",
@@ -5028,7 +5028,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "QuranTV.ir",
@@ -5049,7 +5049,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "RJTV.us",
@@ -5070,7 +5070,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "RTA.af",
@@ -5091,7 +5091,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "RTAEducation.af",
@@ -5112,7 +5112,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "RasoulallahTv.ir",
@@ -5133,7 +5133,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "RazaviTV.ir",
@@ -5154,7 +5154,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "RoyaTV.ir",
@@ -5175,7 +5175,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "SL1.ir",
@@ -5196,7 +5196,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "SL2.ir",
@@ -5217,7 +5217,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "SNNTV.ir",
@@ -5238,7 +5238,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "SabalanTV.ir",
@@ -5259,7 +5259,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "SabzTV.ir",
@@ -5280,7 +5280,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "SahandTV.ir",
@@ -5301,7 +5301,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "SalamatTV.ir",
@@ -5322,7 +5322,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "SarbedaranTV.ir",
@@ -5343,7 +5343,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "SemnanTV.ir",
@@ -5364,7 +5364,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "SepehrTV.ir",
@@ -5385,7 +5385,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ShamsTV.af",
@@ -5406,7 +5406,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ShamshadTV.af",
@@ -5427,7 +5427,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "SharqRadioTV.af",
@@ -5448,7 +5448,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "SimayeAzadi.uk",
@@ -5469,7 +5469,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "SohailTV.ca",
@@ -5490,7 +5490,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "T2Movies.ir",
@@ -5511,7 +5511,7 @@
    "ir_status": "unstable",
    "intl_ok": 0,
    "intl_status": "geo",
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "T2TV.ir",
@@ -5532,7 +5532,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "TBNNejatTV.ir",
@@ -5553,7 +5553,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "TMTV.us",
@@ -5574,7 +5574,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "TOLOnews.af",
@@ -5595,7 +5595,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "TOLOnews.af",
@@ -5616,7 +5616,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "TVANava.ir",
@@ -5637,7 +5637,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "TVITN.ir",
@@ -5658,7 +5658,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "TabarestanTV.ir",
@@ -5679,7 +5679,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "TamadonTV.af",
@@ -5700,7 +5700,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "Tamasha.ir",
@@ -5721,7 +5721,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "TehranTV.ir",
@@ -5742,7 +5742,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "Tekyemadahi.ir",
@@ -5763,7 +5763,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ToloTV.af",
@@ -5784,7 +5784,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ToloTV.af",
@@ -5805,7 +5805,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "VarzeshTV.ir",
@@ -5826,7 +5826,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:47:16Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "VarzeshTV.ir",
@@ -5847,7 +5847,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "VelayatTV.ir",
@@ -5868,7 +5868,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "VelayatTV.ir",
@@ -5889,7 +5889,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:47:16Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "WestAzerbaijanTV.ir",
@@ -5910,7 +5910,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "WiseHumanTv.ir",
@@ -5931,7 +5931,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "YazdTV.ir",
@@ -5952,7 +5952,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "YourTimeTV.ir",
@@ -5973,7 +5973,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "YourTimeTV.ir",
@@ -5994,7 +5994,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:47:16Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "ZagrosTV.ir",
@@ -6015,7 +6015,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "iFilm2.ir",
@@ -6036,7 +6036,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "iFilmArabic.ir",
@@ -6057,7 +6057,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "iFilmEnglish.ir",
@@ -6078,7 +6078,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "iFilmPersian.ir",
@@ -6099,7 +6099,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   },
   {
    "channel_id": "icnet3.ca",
@@ -6120,7 +6120,7 @@
    "ir_status": null,
    "intl_ok": null,
    "intl_status": null,
-   "added_at": "2026-11-21T08:04:44Z"
+   "added_at": "2026-11-21T09:22:58Z"
   }
  ]
 }
