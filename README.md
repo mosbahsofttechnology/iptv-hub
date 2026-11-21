@@ -36,7 +36,8 @@ playlist.m3u / playlist-verified.m3u / status.json / docs/index.html
 | `status.json` | وضعیت کامل همه کانال‌ها و لینک‌ها برای اپ/API |
 | `docs/index.html` | داشبورد استاتیک (GitHub Pages) |
 | `docs/hls.min.js` | پلیر HLS داخل داشبورد (hls.js، MIT) |
-| `worker/worker.js` | پروکسی اختیاری Cloudflare برای لینک‌های بدون CORS |
+| `proxy/server.py` | پروکسی HLS/CORS بدون وابستگی برای دو سرور |
+| `proxy/README.md` | معماری، نصب systemd/nginx و نگهداری پروکسی |
 
 ## راه‌اندازی روی GitHub
 
@@ -175,13 +176,42 @@ ORDER BY c.name LIMIT 20;
 
 برای شفافیت، هر لینک `ok` یک فیلد `browser_ok` هم دارد:
 
-- `browser_ok = true`: در داشبورد با دکمه «پخش» باز می‌شود.
-- `browser_ok = false`: در مرورگر CORS/HTTP مانع است؛ از VLC/IINA یا پروکسی استفاده کنید.
+- `browser_ok = true`: در داشبورد بدون پروکسی و با CORS باز می‌شود.
+- `browser_ok = false`: در مرورگر CORS/HTTP مانع است؛ از پروکسی یا VLC/IINA استفاده کنید.
 
-در داشبورد ستون «قابل پخش در مرورگر» و فیلتر «فقط پخش در مرورگر» هست.
-برای پخش همه‌ی لینک‌ها داخل مرورگر، یک پروکسی اختیاری در
-[`worker/README.md`](worker/README.md) آمده است (Cloudflare Worker رایگان، بدون نصب).
-آدرس پروکسی فقط در `localStorage` مرورگر ذخیره می‌شود.
+## مسیریابی دو سروره (ایران + خارج)
+
+دو سرویس پروکسی یکسان روی دو سرور اجرا می‌شوند:
+
+| مسیر | نقش |
+|---|---|
+| `https://stream.cinimo.ir/iptv-hls` | سرور ایران؛ کانال‌هایی که از خارج در دسترس نیستند و رفع CORS |
+| `https://api.polpeisa.arianadevs.com/iptv-hls` | سرور خارج؛ کانال‌های خارجی که داخل ایران فیلتر/محدودند |
+
+برای هر کانال، `status.json` یک آبجکت `proxy` دارد:
+
+```json
+"proxy": {
+  "ir": "https://stream.cinimo.ir/iptv-hls/p/<token>",
+  "intl": "https://api.polpeisa.arianadevs.com/iptv-hls/p/<token>"
+},
+"reach": { "ir": true, "intl": false }
+```
+
+داشبورد بر اساس `status`، `reach` و منطقه کاربر (ایران/خارج/خودکار) مسیر را
+انتخاب می‌کند:
+
+- کانال `geo` یا فقط قابل دسترس از ایران → پروکسی ایران.
+- کانال خارجی برای کاربر ایران → پروکسی خارج.
+- کانال خارجی برای کاربر خارج و دارای CORS → مستقیم.
+- اگر مسیر اول جواب نداد، مسیر بعدی امتحان می‌شود.
+
+`reach.ir` برای کانال‌های `geo` با یک probe واقعی از سرور ایران پر می‌شود؛
+اگر `false` باشد، یعنی از سرور ایران هم در دسترس نیست (مثلاً DNS آن به IP
+خصوصی غیرقابل‌دسترس می‌رسد) و داشبورد آن را «غیرقابل دسترس» نشان می‌دهد.
+
+نصب، امنیت و راه‌اندازی پروکسی در [`proxy/README.md`](proxy/README.md) است.
+اگر پروکسی تنظیم نشده باشد، داشبورد به همان پخش مستقیم/VLC برمی‌گردد.
 
 ## هزینه GitHub Actions
 

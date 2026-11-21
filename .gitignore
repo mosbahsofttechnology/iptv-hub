@@ -4,3 +4,4 @@ __pycache__/
 .DS_Store
 data/iptv.db
 data/iptv.db-*
+proxy/.env

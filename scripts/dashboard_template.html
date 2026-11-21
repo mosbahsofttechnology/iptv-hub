@@ -50,7 +50,7 @@
   .stat.dead b { color: var(--red); }
   .stat.browser b { color: var(--blue); }
   .controls {
-    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr auto; gap: 10px;
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr auto 1fr; gap: 10px;
     margin-bottom: 14px; align-items: center;
   }
   .toggle {
@@ -59,17 +59,16 @@
     background: var(--bg2); font-size: 13px; color: var(--text); cursor: pointer;
   }
   .toggle input { width: auto; accent-color: var(--blue); }
-  .settings {
-    margin: -4px 0 14px; border: 1px solid var(--border); border-radius: 12px;
-    background: var(--card); padding: 10px 14px; font-size: 13px;
-  }
-  .settings summary { cursor: pointer; color: var(--muted); }
-  .settings-body { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; align-items: center; }
-  .settings-body input { flex: 1 1 320px; direction: ltr; }
-  .settings-note { color: var(--muted); font-size: 12px; line-height: 1.9; margin: 8px 0 0; }
   .tag { display: inline-flex; padding: 3px 7px; border-radius: 999px; font-size: 10px; border: 1px solid transparent; white-space: nowrap; }
   .tag.yes { color: var(--green); background: rgba(43,214,123,.09); border-color: rgba(43,214,123,.22); }
   .tag.no { color: var(--amber); background: rgba(244,183,64,.09); border-color: rgba(244,183,64,.22); }
+  .tag.proxy { color: var(--blue); background: rgba(106,168,255,.09); border-color: rgba(106,168,255,.22); }
+  .tag.ir { color: var(--orange); background: rgba(255,138,76,.09); border-color: rgba(255,138,76,.22); }
+  .route {
+    display: none; padding: 4px 8px; border-radius: 999px; font-size: 11px;
+    color: var(--muted); border: 1px solid var(--border); background: rgba(255,255,255,.04);
+  }
+  .route.show { display: inline-flex; }
   input, select {
     width: 100%; padding: 11px 13px; border-radius: 12px;
     border: 1px solid var(--border); background: var(--bg2); color: var(--text);
@@ -172,7 +171,7 @@
     <div class="stat"><b id="s-channels">0</b><span>شبکه</span></div>
     <div class="stat"><b id="s-playable">0</b><span>شبکه قابل پخش</span></div>
     <div class="stat ok"><b id="s-ok">0</b><span>لینک سالم</span></div>
-    <div class="stat browser"><b id="s-browser">0</b><span>قابل پخش در مرورگر</span></div>
+    <div class="stat browser"><b id="s-browser">0</b><span>پخش مستقیم در مرورگر</span></div>
     <div class="stat geo"><b id="s-geo">0</b><span>محدودیت جغرافیایی</span></div>
     <div class="stat dead"><b id="s-dead">0</b><span>لینک قطع</span></div>
   </section>
@@ -189,22 +188,13 @@
       <option value="dead">قطع</option>
       <option value="unknown">نامشخص</option>
     </select>
-    <label class="toggle"><input type="checkbox" id="browser-only"> فقط پخش در مرورگر</label>
+    <label class="toggle"><input type="checkbox" id="browser-only"> فقط پخش مستقیم</label>
+    <select id="region" title="مسیر پخش بر اساس منطقه شما انتخاب می‌شود">
+      <option value="auto">منطقه: خودکار</option>
+      <option value="ir">منطقه: ایران</option>
+      <option value="intl">منطقه: خارج ایران</option>
+    </select>
   </section>
-
-  <details class="settings" id="proxy-settings">
-    <summary>پخش شبکه‌هایی که مرورگر مسدود می‌کند (پروکسی اختیاری)</summary>
-    <div class="settings-body">
-      <input id="proxy-url" type="url" placeholder="https://your-worker.workers.dev/" autocomplete="off" spellcheck="false">
-      <button class="btn primary" id="proxy-save" type="button">ذخیره</button>
-      <button class="btn" id="proxy-clear" type="button">حذف</button>
-    </div>
-    <p class="settings-note">
-      بعضی سرورها فقط برای سایت خودشان CORS می‌دهند و مرورگر اجازه پخش نمی‌دهد. با یک پروکسی ساده Cloudflare Worker
-      (کد و راهنمای راه‌اندازی در <code>worker/README.md</code> ریپو) همه لینک‌ها داخل همین صفحه پخش می‌شوند.
-      آدرس پروکسی فقط در همین مرورگر ذخیره می‌شود.
-    </p>
-  </details>
 
   <section class="table-card">
     <div class="table-scroll">
@@ -237,9 +227,9 @@
       لینک‌های قطع بعد از ۳ خطای پشت‌سرهم غیرفعال می‌شوند و در صورت بازگشت خودکار فعال می‌شوند.
     </div>
     <div>
-      «قابل پخش در مرورگر» یعنی سرور مراحل master/media/segment را با CORS به مرورگر می‌دهد.
-      بقیه لینک‌ها سالماند ولی فقط با VLC/IINA یا از طریق پروکسی اختیاری بالا پخش می‌شوند.
-      در Safari (و iOS) به‌خاطر پلیر بومی HLS ممکن است تعداد بیشتری از لینک‌ها بدون پروکسی پخش شوند.
+      مسیریابی خودکار: کانال‌های داخلی از <b>سرور ایران</b> و کانال‌های خارجی از <b>سرور خارج</b> رد می‌شوند.
+      اگر مسیر اول جواب نداد، مسیر دیگر امتحان می‌شود. «پخش مستقیم» یعنی لینک بدون پروکسی و با CORS در مرورگر باز می‌شود.
+      در Safari (و iOS) به‌خاطر پلیر بومی HLS ممکن است تعداد بیشتری از لینک‌ها مستقیم پخش شوند.
     </div>
   </footer>
 </div>
@@ -248,6 +238,7 @@
   <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="player-title">
     <div class="modal-head">
       <div class="modal-title" id="player-title">پخش</div>
+      <span class="route" id="player-route"></span>
       <button class="btn" id="player-close" type="button">بستن ✕</button>
     </div>
     <div class="modal-body">
@@ -265,8 +256,9 @@
 <script>
 const DATA = /*__DATA__*/;
 const STATUS_FA = { ok: "سالم", geo: "محدودیت جغرافیایی", dead: "قطع", unstable: "ناپایدار", unknown: "نامشخص" };
-const state = { q: "", country: "all", category: "all", status: "all", browserOnly: false };
+const state = { q: "", country: "all", category: "all", status: "all", browserOnly: false, region: "auto" };
 const $ = (id) => document.getElementById(id);
+const CHANNELS_BY_ID = new Map(DATA.channels.map((channel) => [channel.id, channel]));
 
 function esc(value) {
   return String(value ?? "").replace(/[&<>"']/g, (ch) => ({
@@ -292,23 +284,118 @@ function logoFallback(image) {
   image.replaceWith(fallback);
 }
 
-const PROXY_KEY = "iptv-hub-proxy";
+const ROUTE_FA = { direct: "مستقیم", ir: "ایران", intl: "خارج" };
+const REGION_KEY = "iptv-hub-region";
+const ROUTE_CACHE_KEY = "iptv-hub-routes";
 
-function getProxy() {
-  try { return (localStorage.getItem(PROXY_KEY) || "").trim(); } catch (error) { return ""; }
+function effectiveRegion() {
+  if (state.region === "ir" || state.region === "intl") return state.region;
+  try {
+    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone || "";
+    if (/tehran|iran/i.test(timezone)) return "ir";
+  } catch (error) {}
+  return "intl";
 }
 
-function setProxy(value) {
+function routeCache() {
+  try { return JSON.parse(localStorage.getItem(ROUTE_CACHE_KEY) || "{}") || {}; }
+  catch (error) { return {}; }
+}
+
+function routeCacheKey(url) {
+  return effectiveRegion() + "|" + url;
+}
+
+function rememberRoute(url, route) {
   try {
-    if (value) localStorage.setItem(PROXY_KEY, value.trim());
-    else localStorage.removeItem(PROXY_KEY);
+    const cache = routeCache();
+    cache[routeCacheKey(url)] = route;
+    localStorage.setItem(ROUTE_CACHE_KEY, JSON.stringify(cache));
   } catch (error) {}
 }
 
-function proxied(url) {
-  const proxy = getProxy();
-  if (!proxy) return url;
-  return proxy + (proxy.includes("?") ? "&" : "?") + "url=" + encodeURIComponent(url);
+function proxySource(channel, route) {
+  if (route === "direct") return channel.url || "";
+  return (channel.proxy && channel.proxy[route]) || "";
+}
+
+function routeCandidates(channel) {
+  const region = effectiveRegion();
+  const reach = channel.reach || {};
+  const irOnly = reach.ir === true && reach.intl === false;
+  const intlOnly = reach.intl === true && reach.ir === false;
+  const list = [];
+  const add = (route) => {
+    if (route && !list.includes(route) && proxySource(channel, route)) list.push(route);
+  };
+  const directAllowed = Boolean(channel.url) && Boolean(channel.browser_ok)
+    && !(location.protocol === "https:" && /^http:/i.test(channel.url));
+
+  if (irOnly) {
+    add("ir");
+    add("intl");
+    if (directAllowed) add("direct");
+  } else if (channel.status === "geo") {
+    if (reach.ir === false) {
+      add("intl");
+      add("ir");
+    } else {
+      add("ir");
+      add("intl");
+    }
+    if (directAllowed) add("direct");
+  } else if (channel.status === "unstable") {
+    add("intl");
+    add("ir");
+    if (directAllowed) add("direct");
+  } else if (channel.status === "ok") {
+    if (intlOnly) {
+      add("intl");
+      add("ir");
+    } else if (region === "ir") {
+      // An Iranian viewer needs the foreign egress for filtered/geo streams,
+      // then the Iranian egress for anything the foreign server cannot fetch.
+      add("intl");
+      add("ir");
+      if (directAllowed) add("direct");
+    } else {
+      if (directAllowed) add("direct");
+      add("intl");
+      add("ir");
+    }
+  } else {
+    if (directAllowed) add("direct");
+    add("intl");
+    add("ir");
+  }
+
+  const cached = routeCache()[routeCacheKey(channel.url)];
+  if (cached && list.includes(cached)) {
+    return [cached, ...list.filter((route) => route !== cached)];
+  }
+  return list;
+}
+
+function channelTag(channel) {
+  if (channel.status === "geo") {
+    if (channel.reach && channel.reach.ir === false) {
+      return `<span class="tag no" title="این لینک از سرور ایران هم در دسترس نیست؛ با VLC امتحان کنید">غیرقابل دسترس</span>`;
+    }
+    return `<span class="tag ir" title="این کانال از خارج ایران محدود است؛ از سرور ایران پخش می‌شود">مسیر ایران</span>`;
+  }
+  if (channel.status === "unstable") {
+    return `<span class="tag no" title="لینک ناپایدار است">ناپایدار</span>`;
+  }
+  if (channel.status === "ok") {
+    if (channel.browser_ok) {
+      return `<span class="tag yes" title="این لینک با CORS در مرورگر پخش می‌شود">پخش مستقیم</span>`;
+    }
+    if (channel.proxy && (channel.proxy.ir || channel.proxy.intl)) {
+      return `<span class="tag proxy" title="این لینک از یکی از دو سرور پروکسی پخش می‌شود">از طریق پروکسی</span>`;
+    }
+    return `<span class="tag no" title="برای پخش به VLC نیاز است">فقط VLC</span>`;
+  }
+  return "";
 }
 
 function fillFilters() {
@@ -355,14 +442,9 @@ function render() {
       : `<div class="logo-fallback">${initials}</div>`;
     const alternatives = channel.streams_total > 1
       ? `<div class="meta">${channel.streams_total} لینک • ${channel.streams_ok} سالم</div>` : "";
-    const browserTag = channel.status === "ok"
-      ? (channel.browser_ok
-          ? `<span class="tag yes" title="این لینک با hls.js داخل مرورگر پخش می‌شود">پخش مرورگر</span>`
-          : `<span class="tag no" title="سرور CORS نمی‌دهد؛ با VLC یا پروکسی پخش کنید">فقط VLC/پروکسی</span>`)
-      : "";
     const play = channel.url
-      ? `<button class="btn primary" data-play="${esc(channel.url)}" data-name="${esc(channel.name)}" data-browser="${channel.browser_ok ? "1" : "0"}">پخش</button>
-         <button class="btn" data-copy="${esc(channel.url)}">کپی</button>${browserTag}`
+      ? `<button class="btn primary" data-play-id="${esc(channel.id)}">پخش</button>
+         <button class="btn" data-copy="${esc(channel.url)}">کپی</button>${channelTag(channel)}`
       : `<span class="muted">—</span>`;
     return `<tr>
       <td><div class="channel">${logo}<div><div class="name">${esc(channel.name)}</div><div class="meta">${esc(channel.id)}</div>${alternatives}</div></div></td>
@@ -378,6 +460,7 @@ function render() {
 }
 
 let hlsPlayer = null;
+let playSession = 0;
 
 function setNote(text, isError) {
   const note = $("player-note");
@@ -386,6 +469,7 @@ function setNote(text, isError) {
 }
 
 function closePlayer() {
+  playSession += 1;
   const video = $("player-video");
   if (hlsPlayer) {
     hlsPlayer.destroy();
@@ -395,15 +479,14 @@ function closePlayer() {
   video.removeAttribute("src");
   video.load();
   setNote("");
+  $("player-route").textContent = "";
+  $("player-route").classList.remove("show");
   $("player").classList.remove("open");
   $("player").setAttribute("aria-hidden", "true");
 }
 
 function playbackErrorHint(url, detail) {
-  if (location.protocol === "https:" && /^http:/i.test(url)) {
-    return "این لینک HTTP است و مرورگر اجازه پخش آن را روی صفحه HTTPS نمی‌دهد. لینک را کپی کنید و در VLC باز کنید.";
-  }
-  return (detail ? detail + " — " : "") + "اگر پخش نشد، لینک را کپی کنید و در VLC یا پلیر دیگری باز کنید.";
+  return (detail ? detail + " — " : "") + "اگر پخش نشد، لینک را کپی کنید و در VLC یا IINA باز کنید.";
 }
 
 function startVideo() {
@@ -418,76 +501,129 @@ function startVideo() {
   }
 }
 
-function playChannel(name, url, browserOk) {
+function playChannel(channel) {
+  if (!channel) return;
   const video = $("player-video");
   const modal = $("player");
-  const source = proxied(url);
-  const proxyOn = source !== url;
-  $("player-title").textContent = name || "پخش";
-  $("player-open").href = url;
-  $("player-copy").setAttribute("data-copy", url);
+  const session = ++playSession;
+  const candidates = routeCandidates(channel);
+  $("player-title").textContent = channel.name || "پخش";
+  $("player-open").href = channel.url || "";
+  $("player-copy").setAttribute("data-copy", channel.url || "");
+  $("player-route").textContent = "";
+  $("player-route").classList.remove("show");
   modal.classList.add("open");
   modal.setAttribute("aria-hidden", "false");
   video.muted = false;
-  setNote(proxyOn ? "در حال اتصال از طریق پروکسی…" : "در حال اتصال…");
-
+  video.pause();
+  video.removeAttribute("src");
+  video.load();
   if (hlsPlayer) {
     hlsPlayer.destroy();
     hlsPlayer = null;
   }
-  video.pause();
-  video.removeAttribute("src");
-  video.load();
+  setNote("در حال انتخاب مسیر…");
 
-  if (!browserOk && !proxyOn) {
-    setNote("این سرور به مرورگر اجازه دسترسی (CORS) نمی‌دهد؛ پخش احتمالاً شکست می‌خورد. لینک را در VLC باز کنید یا در تنظیمات بالا یک پروکسی ذخیره کنید.", true);
+  if (!channel.url) {
+    setNote("لینکی برای این شبکه ثبت نشده است.", true);
+    return;
   }
-  if (location.protocol === "https:" && /^http:/i.test(url) && !proxyOn) {
-    setNote(playbackErrorHint(url), true);
+  if (!candidates.length) {
+    setNote("این لینک در مرورگر پخش نمی‌شود و پروکسی هم در دسترس نیست. لینک را کپی کنید و در VLC/IINA باز کنید.", true);
+    return;
   }
 
-  const isHls = /\.m3u8(\?|#|$)/i.test(url);
+  const isHlsUrl = /\.m3u8(\?|#|$)/i.test(channel.url);
   const nativeHls = video.canPlayType("application/vnd.apple.mpegurl");
   const ua = navigator.userAgent;
   const isSafari = /Safari/i.test(ua) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR/i.test(ua);
 
-  if (isHls && nativeHls && isSafari) {
-    // Safari's native HLS player does not require CORS for media elements,
-    // so it can play many streams that hls.js cannot.
-    video.src = source;
-    video.addEventListener("loadedmetadata", startVideo, { once: true });
-    video.addEventListener("error", () => setNote(playbackErrorHint(url), true), { once: true });
-  } else if (isHls && window.Hls && window.Hls.isSupported()) {
-    hlsPlayer = new Hls({
-      maxBufferLength: 30,
-      manifestLoadingTimeOut: 15000,
-      levelLoadingTimeOut: 15000,
-      fragLoadingTimeOut: 25000
-    });
-    hlsPlayer.on(Hls.Events.MANIFEST_PARSED, () => {
-      if (browserOk || proxyOn) setNote("");
-      startVideo();
-    });
-    hlsPlayer.on(Hls.Events.ERROR, (event, data) => {
-      if (!data || !data.fatal) return;
-      const detail = data.type === Hls.ErrorTypes.NETWORK_ERROR
-        ? "شبکه در دسترس نیست یا محدودیت جغرافیایی/CORS مانع شده"
-        : "خطا در پخش جریان";
-      setNote(playbackErrorHint(url, detail), true);
-      if (data.type === Hls.ErrorTypes.MEDIA_ERROR) {
-        hlsPlayer.recoverMediaError();
+  const tryRoute = (index) => {
+    if (session !== playSession) return;
+    if (index >= candidates.length) {
+      setNote("هیچ‌کدام از مسیرها جواب نداد. لینک را کپی کنید و در VLC/IINA باز کنید.", true);
+      return;
+    }
+    const route = candidates[index];
+    const source = proxySource(channel, route);
+    const isProxy = route !== "direct";
+    const isHls = isHlsUrl || isProxy;
+    $("player-route").textContent = "مسیر: " + (ROUTE_FA[route] || route);
+    $("player-route").classList.add("show");
+    setNote(`در حال اتصال از مسیر ${ROUTE_FA[route] || route}…`);
+
+    if (hlsPlayer) {
+      hlsPlayer.destroy();
+      hlsPlayer = null;
+    }
+    video.pause();
+    video.removeAttribute("src");
+    video.load();
+
+    let mediaRetried = false;
+    const fail = (detail) => {
+      if (session !== playSession) return;
+      if (hlsPlayer) {
+        hlsPlayer.destroy();
+        hlsPlayer = null;
       }
-    });
-    hlsPlayer.loadSource(source);
-    hlsPlayer.attachMedia(video);
-  } else if (isHls && nativeHls) {
-    video.src = source;
-    video.addEventListener("loadedmetadata", startVideo, { once: true });
-    video.addEventListener("error", () => setNote(playbackErrorHint(url), true), { once: true });
-  } else {
-    video.src = source;
-    startVideo();
-  }
+      video.pause();
+      video.removeAttribute("src");
+      video.load();
+      if (index + 1 < candidates.length) {
+        setNote(`مسیر ${ROUTE_FA[route] || route} جواب نداد؛ تلاش از مسیر بعدی…`, true);
+        setTimeout(() => tryRoute(index + 1), 250);
+      } else {
+        setNote(playbackErrorHint(channel.url, detail), true);
+      }
+    };
+    const success = () => {
+      if (session !== playSession) return;
+      setNote("");
+      rememberRoute(channel.url, route);
+      startVideo();
+    };
+
+    if (isHls && window.Hls && window.Hls.isSupported() && !(isSafari && nativeHls)) {
+      hlsPlayer = new Hls({
+        maxBufferLength: 30,
+        manifestLoadingTimeOut: 20000,
+        levelLoadingTimeOut: 20000,
+        fragLoadingTimeOut: 30000
+      });
+      hlsPlayer.on(Hls.Events.MANIFEST_PARSED, success);
+      hlsPlayer.on(Hls.Events.ERROR, (event, data) => {
+        if (session !== playSession || !data || !data.fatal) return;
+        if (data.type === Hls.ErrorTypes.MEDIA_ERROR && !mediaRetried) {
+          mediaRetried = true;
+          hlsPlayer.recoverMediaError();
+          return;
+        }
+        fail(data.type === Hls.ErrorTypes.NETWORK_ERROR ? "شبکه یا CORS" : "خطای پخش");
+      });
+      hlsPlayer.loadSource(source);
+      hlsPlayer.attachMedia(video);
+    } else if (isHls && nativeHls) {
+      const onLoaded = () => {
+        video.removeEventListener("error", onError);
+        success();
+      };
+      const onError = () => {
+        video.removeEventListener("loadedmetadata", onLoaded);
+        fail("خطای پلیر بومی");
+      };
+      video.addEventListener("loadedmetadata", onLoaded, { once: true });
+      video.addEventListener("error", onError, { once: true });
+      video.src = source;
+    } else {
+      const onError = () => fail("خطای پخش فایل");
+      video.addEventListener("error", onError, { once: true });
+      video.src = source;
+      startVideo();
+    }
+  };
+
+  tryRoute(0);
 }
 
 function init() {
@@ -500,6 +636,11 @@ function init() {
   $("total").textContent = DATA.counts.channels;
   $("generated").textContent = "آخرین اجرا: " + fmtTime(DATA.generated_at);
   $("generated2").textContent = fmtTime(DATA.generated_at);
+  try {
+    const savedRegion = localStorage.getItem(REGION_KEY);
+    if (savedRegion === "ir" || savedRegion === "intl" || savedRegion === "auto") state.region = savedRegion;
+  } catch (error) {}
+  $("region").value = state.region;
   fillFilters();
   render();
 
@@ -508,6 +649,10 @@ function init() {
   $("category").addEventListener("change", (event) => { state.category = event.target.value; render(); });
   $("status").addEventListener("change", (event) => { state.status = event.target.value; render(); });
   $("browser-only").addEventListener("change", (event) => { state.browserOnly = event.target.checked; render(); });
+  $("region").addEventListener("change", (event) => {
+    state.region = event.target.value;
+    try { localStorage.setItem(REGION_KEY, state.region); } catch (error) {}
+  });
 
   document.addEventListener("click", (event) => {
     if (event.target.closest("#player-close")) {
@@ -518,13 +663,10 @@ function init() {
       closePlayer();
       return;
     }
-    const playButton = event.target.closest("[data-play]");
+    const playButton = event.target.closest("[data-play-id]");
     if (playButton) {
-      playChannel(
-        playButton.getAttribute("data-name"),
-        playButton.getAttribute("data-play"),
-        playButton.getAttribute("data-browser") === "1"
-      );
+      const channel = CHANNELS_BY_ID.get(playButton.getAttribute("data-play-id"));
+      if (channel) playChannel(channel);
       return;
     }
     const button = event.target.closest("[data-copy]");
@@ -550,25 +692,6 @@ function init() {
 
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") closePlayer();
-  });
-
-  const proxyInput = $("proxy-url");
-  proxyInput.value = getProxy();
-  $("proxy-save").addEventListener("click", () => {
-    const value = proxyInput.value.trim();
-    if (value && !/^https?:\/\//i.test(value)) {
-      proxyInput.value = "";
-      proxyInput.placeholder = "آدرس باید با https:// شروع شود";
-      return;
-    }
-    setProxy(value);
-    const button = $("proxy-save");
-    button.textContent = value ? "ذخیره شد" : "پاک شد";
-    setTimeout(() => { button.textContent = "ذخیره"; }, 1400);
-  });
-  $("proxy-clear").addEventListener("click", () => {
-    setProxy("");
-    proxyInput.value = "";
   });
 }
 

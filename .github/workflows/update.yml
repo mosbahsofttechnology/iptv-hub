@@ -29,6 +29,9 @@ jobs:
       - name: Update database, playlists and dashboard
         env:
           PYTHONUNBUFFERED: "1"
+          IPTV_PROXY_IR_URL: ${{ vars.IPTV_PROXY_IR_URL }}
+          IPTV_PROXY_INTL_URL: ${{ vars.IPTV_PROXY_INTL_URL }}
+          IPTV_PROXY_SECRET: ${{ secrets.IPTV_PROXY_SECRET }}
         run: python scripts/update.py --workers 24 --timeout 10
 
       - name: Commit results

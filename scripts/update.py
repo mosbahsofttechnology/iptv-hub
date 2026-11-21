@@ -16,9 +16,11 @@ data/state.json is the durable, git-friendly snapshot.
 from __future__ import annotations
 
 import argparse
+import base64
 import concurrent.futures
 import datetime as dt
 import hashlib
+import hmac
 import json
 import os
 import re
@@ -75,6 +77,15 @@ BROWSER_ORIGIN = os.environ.get(
     if os.environ.get("GITHUB_REPOSITORY_OWNER")
     else "https://mosbahsofttechnology.github.io",
 )
+
+# Two HLS proxies: one inside Iran (domestic/geo-blocked channels) and one
+# outside (channels filtered or geo-blocked inside Iran). Tokens are signed
+# with a shared secret and are URL-scoped; only the resulting /p/<token> URL
+# is published in status.json.
+PROXY_IR_URL = os.environ.get("IPTV_PROXY_IR_URL", "").strip().rstrip("/")
+PROXY_INTL_URL = os.environ.get("IPTV_PROXY_INTL_URL", "").strip().rstrip("/")
+PROXY_SECRET = os.environ.get("IPTV_PROXY_SECRET", "").strip()
+PROXY_TOKEN_TTL = int(os.environ.get("IPTV_PROXY_TOKEN_TTL", str(48 * 3600)))
 
 COUNTRY_FA = {"IR": "ایران", "AF": "افغانستان"}
 COUNTRY_ORDER = {"IR": 0, "AF": 1}
@@ -156,6 +167,8 @@ CREATE TABLE IF NOT EXISTS streams (
     last_ok_at TEXT,
     fail_streak INTEGER DEFAULT 0,
     browser_ok INTEGER,
+    ir_ok INTEGER,
+    ir_status TEXT,
     added_at TEXT
 );
 CREATE TABLE IF NOT EXISTS checks (
@@ -411,6 +424,14 @@ def init_db() -> sqlite3.Connection:
         conn.execute("ALTER TABLE streams ADD COLUMN browser_ok INTEGER")
     except sqlite3.OperationalError:
         pass
+    try:
+        conn.execute("ALTER TABLE streams ADD COLUMN ir_ok INTEGER")
+    except sqlite3.OperationalError:
+        pass
+    try:
+        conn.execute("ALTER TABLE streams ADD COLUMN ir_status TEXT")
+    except sqlite3.OperationalError:
+        pass
     return conn
 
 
@@ -525,7 +546,9 @@ def import_state(conn: sqlite3.Connection) -> None:
                 last_checked_at = ?,
                 last_ok_at = ?,
                 fail_streak = ?,
-                browser_ok = ?
+                browser_ok = ?,
+                ir_ok = ?,
+                ir_status = ?
             WHERE url = ?
             """,
             (
@@ -537,6 +560,8 @@ def import_state(conn: sqlite3.Connection) -> None:
                 stream.get("last_ok_at"),
                 int(stream.get("fail_streak") or 0),
                 stream.get("browser_ok"),
+                stream.get("ir_ok"),
+                stream.get("ir_status"),
                 url,
             ),
         )
@@ -902,7 +927,7 @@ def export_state(conn: sqlite3.Connection) -> None:
         """
         SELECT channel_id, url, quality, referrer, source, priority, active, status,
                http_code, latency_ms, last_checked_at, last_ok_at, fail_streak,
-               browser_ok, added_at
+               browser_ok, ir_ok, ir_status, added_at
         FROM streams ORDER BY channel_id, url
         """
     ):
@@ -933,7 +958,7 @@ def load_channels_with_streams(conn: sqlite3.Connection) -> list[dict]:
         """
         SELECT id, channel_id, url, quality, referrer, source, priority, active,
                status, http_code, latency_ms, last_checked_at, last_ok_at,
-               fail_streak, browser_ok
+               fail_streak, browser_ok, ir_ok, ir_status
         FROM streams ORDER BY id
         """
     ):
@@ -1006,6 +1031,80 @@ def write_playlists(channels: list[dict]) -> None:
     log("playlists: wrote playlist.m3u, playlist-verified.m3u, iran.m3u, afghanistan.m3u")
 
 
+def sign_proxy_token(url: str, kind: str = "play", ttl: int | None = None) -> str:
+    if not PROXY_SECRET:
+        return ""
+    expires = int(time.time()) + int(ttl if ttl is not None else PROXY_TOKEN_TTL)
+    payload = {"v": 1, "k": kind, "u": url, "x": expires}
+    encoded = base64.urlsafe_b64encode(
+        json.dumps(payload, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
+    ).rstrip(b"=").decode("ascii")
+    signature = base64.urlsafe_b64encode(
+        hmac.new(
+            PROXY_SECRET.encode("utf-8"), encoded.encode("ascii"), hashlib.sha256
+        ).digest()
+    ).rstrip(b"=").decode("ascii")
+    return f"{encoded}.{signature}"
+
+
+def proxy_play_url(base: str, url: str) -> str:
+    token = sign_proxy_token(url, "play")
+    return f"{base.rstrip('/')}/p/{token}" if token else ""
+
+
+def proxy_probe(base: str, url: str, timeout: float = 45.0) -> dict | None:
+    token = sign_proxy_token(url, "probe", ttl=900)
+    if not token:
+        return None
+    probe_url = f"{base.rstrip('/')}/probe/{token}"
+    try:
+        code, _headers, data, _final = fetch(
+            probe_url, timeout=timeout, use_range=False, max_bytes=65_536
+        )
+        if code != 200:
+            return None
+        payload = json.loads(data.decode("utf-8", "ignore"))
+        return payload if isinstance(payload, dict) else None
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def probe_iran_reach(conn: sqlite3.Connection, results: list[dict]) -> None:
+    """Ask the Iranian proxy whether geo-blocked streams are reachable from Iran."""
+    if not (PROXY_IR_URL and PROXY_SECRET):
+        return
+    rows = [item for item in results if item.get("status") == "geo"]
+    if not rows:
+        return
+    log(f"reach: probing {len(rows)} geo streams through the Iran proxy ...")
+
+    def probe(item: dict) -> tuple[int, dict | None]:
+        return item["id"], proxy_probe(PROXY_IR_URL, item["url"])
+
+    updated = 0
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        for stream_id, payload in pool.map(probe, rows):
+            if not payload:
+                continue
+            conn.execute(
+                "UPDATE streams SET ir_ok = ?, ir_status = ? WHERE id = ?",
+                (
+                    1 if payload.get("ok") else 0,
+                    payload.get("status") or "unknown",
+                    stream_id,
+                ),
+            )
+            updated += 1
+    conn.commit()
+    ok_count = conn.execute(
+        "SELECT COUNT(*) AS n FROM streams WHERE ir_ok = 1"
+    ).fetchone()["n"]
+    log(
+        f"reach: updated {updated}/{len(rows)} geo streams "
+        f"({ok_count} streams reachable from Iran)"
+    )
+
+
 def build_status(conn: sqlite3.Connection, channels: list[dict]) -> dict:
     stream_counts = {"ok": 0, "geo": 0, "dead": 0, "unstable": 0, "unknown": 0}
     for row in conn.execute("SELECT status, COUNT(*) AS n FROM streams GROUP BY status"):
@@ -1020,11 +1119,22 @@ def build_status(conn: sqlite3.Connection, channels: list[dict]) -> dict:
         best = choose_stream(streams)
         status = best["status"] if best else "dead"
         browser_ok = bool(best.get("browser_ok")) if best else False
+        ir_flag = best.get("ir_ok") if (best and status == "geo") else None
+        reach = {
+            "ir": bool(ir_flag) if ir_flag is not None else None,
+            "intl": status == "ok",
+        }
         if best:
             playable += 1
             if browser_ok:
                 browser_playable += 1
         alternatives = sorted(streams, key=stream_key)
+        proxy: dict[str, str] = {}
+        if best and best.get("status") in ("ok", "geo", "unstable") and PROXY_SECRET:
+            if PROXY_IR_URL:
+                proxy["ir"] = proxy_play_url(PROXY_IR_URL, best["url"])
+            if PROXY_INTL_URL:
+                proxy["intl"] = proxy_play_url(PROXY_INTL_URL, best["url"])
         data.append(
             {
                 "id": channel["id"],
@@ -1046,6 +1156,8 @@ def build_status(conn: sqlite3.Connection, channels: list[dict]) -> dict:
                 "streams_total": len(streams),
                 "streams_ok": sum(1 for s in streams if s.get("status") == "ok"),
                 "browser_ok": browser_ok,
+                "reach": reach,
+                "proxy": proxy,
                 "alternatives": [
                     {
                         "url": stream["url"],
@@ -1121,6 +1233,12 @@ def main(argv: list[str] | None = None) -> int:
     started = time.monotonic()
     conn = init_db()
     import_state(conn)
+    if PROXY_SECRET and (PROXY_IR_URL or PROXY_INTL_URL):
+        log(
+            "proxy: signed URLs enabled "
+            f"(ir={'yes' if PROXY_IR_URL else 'no'}, "
+            f"intl={'yes' if PROXY_INTL_URL else 'no'}, ttl={PROXY_TOKEN_TTL}s)"
+        )
 
     if not args.no_sources:
         for source in SOURCES:
@@ -1129,11 +1247,20 @@ def main(argv: list[str] | None = None) -> int:
 
     if not args.no_check:
         results = check_all(conn, args.workers, args.timeout, args.limit)
+        dead_count = sum(1 for item in results if item.get("status") == "dead")
+        if len(results) >= 10 and dead_count / len(results) >= 0.85:
+            log(
+                f"check: {dead_count}/{len(results)} streams are dead — "
+                "this looks like a local network/DNS failure; keeping the previous state"
+            )
+            conn.close()
+            return 1
         apply_results(conn, results)
-        summary: dict[str, int] = {}
+        surface: dict[str, int] = {}
         for item in results:
-            summary[item["status"]] = summary.get(item["status"], 0) + 1
-        log("check summary: " + ", ".join(f"{k}={v}" for k, v in sorted(summary.items())))
+            surface[item["status"]] = surface.get(item["status"], 0) + 1
+        log("check summary: " + ", ".join(f"{k}={v}" for k, v in sorted(surface.items())))
+        probe_iran_reach(conn, results)
     else:
         log("check: skipped (--no-check)")
 
