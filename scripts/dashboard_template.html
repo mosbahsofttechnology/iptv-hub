@@ -239,6 +239,7 @@
     <div>
       «قابل پخش در مرورگر» یعنی سرور مراحل master/media/segment را با CORS به مرورگر می‌دهد.
       بقیه لینک‌ها سالماند ولی فقط با VLC/IINA یا از طریق پروکسی اختیاری بالا پخش می‌شوند.
+      در Safari (و iOS) به‌خاطر پلیر بومی HLS ممکن است تعداد بیشتری از لینک‌ها بدون پروکسی پخش شوند.
     </div>
   </footer>
 </div>
@@ -447,8 +448,16 @@ function playChannel(name, url, browserOk) {
 
   const isHls = /\.m3u8(\?|#|$)/i.test(url);
   const nativeHls = video.canPlayType("application/vnd.apple.mpegurl");
+  const ua = navigator.userAgent;
+  const isSafari = /Safari/i.test(ua) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR/i.test(ua);
 
-  if (isHls && window.Hls && window.Hls.isSupported()) {
+  if (isHls && nativeHls && isSafari) {
+    // Safari's native HLS player does not require CORS for media elements,
+    // so it can play many streams that hls.js cannot.
+    video.src = source;
+    video.addEventListener("loadedmetadata", startVideo, { once: true });
+    video.addEventListener("error", () => setNote(playbackErrorHint(url), true), { once: true });
+  } else if (isHls && window.Hls && window.Hls.isSupported()) {
     hlsPlayer = new Hls({
       maxBufferLength: 30,
       manifestLoadingTimeOut: 15000,
