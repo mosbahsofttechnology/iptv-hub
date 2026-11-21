@@ -37,6 +37,13 @@ jobs:
           IPTV_MIRROR_STATUS_URL: https://api.polpeisa.arianadevs.com/iptv-dashboard/status.json
         run: python scripts/update.py --workers 24 --timeout 10
 
+      - name: Publish catalog to Goshimi
+        continue-on-error: true
+        env:
+          GOSHIMI_API_URL: https://apps.goshimi.ir/admin/api.php
+          GOSHIMI_API_KEY: ${{ secrets.GOSHIMI_API_KEY }}
+        run: python scripts/publish_goshimi.py
+
       - name: Commit results
         run: |
           git config user.name "iptv-hub-bot"

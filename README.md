@@ -244,6 +244,55 @@ ORDER BY c.name LIMIT 20;
   (Akamai/CloudFront) دیگر DNS ندارند. لینک زندهٔ عمومی معتبری پیدا نشد.
   اگر لینک تازه‌ای دارید، در `data/overrides.json` اضافه کنید.
 
+### انتشار در اپ آسمان تی وی (Goshimi)
+
+اپ آسمان تی وی (`com.asemantv.app.aseman_tv`) کاتالوگش را در فیلدهای
+`apps.extra` نگه می‌دارد:
+
+`tvs_afghanistan`، `tvs_iran_internal`، `tvs_iran_satellite`،
+`radios_afghanistan`، `radios_iran`.
+
+برای آپدیت امن، روی همان بکند Goshimi دو اکشن به پنل API اضافه شده است:
+
+```text
+POST https://apps.goshimi.ir/admin/api.php
+Authorization: Bearer <GOSHIMI_API_KEY>
+
+{"action":"fields_get"}
+{"action":"fields_set","fields":{...}}
+```
+
+- `fields_get` فیلدهای فعلی را برمی‌گرداند.
+- `fields_set` فقط فیلدهای مجاز کاتالوگ را **merge** می‌کند
+  (health probe، auto-switch و بقیهٔ تنظیمات دست نمی‌خورند).
+- کلید API باید package-scoped برای همان اپ باشد.
+
+اسکریپت [`scripts/publish_goshimi.py`](scripts/publish_goshimi.py):
+
+1. `status.json` را می‌خواند.
+2. کانال‌های هر آیتم Goshimi را با `tvgId`/شناسهٔ کانال تطبیق می‌دهد.
+3. به منابع هر آیتم، لینک تمیز مسیر مناسب را اضافه می‌کند:
+   - داخلی: `/st` ایران
+   - ماهواره‌ای: `/st` خارج
+   - افغانستان: مستقیم + `/st`
+   - GEM/Manoto: منبع خصوصی OneTV (برای اپ بومی)
+4. عنوان/لوگو/دسته/رادیوها و سورس‌های قبلی را حفظ می‌کند.
+5. `catalog_version` را یک واحد بالا می‌برد تا اپ کاتالوگ تازه را بگیرد.
+
+اجرا:
+
+- **آینه خارج** بعد از هر آپدیت (`run.sh`) خودکار اجرا می‌کند؛ کلید در
+  `/opt/iptv-hub/.env` است (فقط root).
+- **GitHub Actions** یک استپ اختیاری دارد؛ کلید را در
+  Settings → Secrets and variables → Actions با نام `GOSHIMI_API_KEY`
+  بگذارید. اگر نباشد، استپ رد می‌شود و آینه کار را انجام می‌دهد.
+
+> پچ API و بکاپ‌ها روی سرور ایران در
+> `/www/wwwroot/apps.goshimi.ir/admin/api.php` و
+> `/root/goshimi-backups/` هستند. اگر پنل Goshimi را آپدیت کردید،
+> اکشن‌های `fields_get`/`fields_set` را دوباره اضافه کنید.
+> رادیوها چون در منبع ما نیستند دست‌نخورده می‌مانند.
+
 ### لینک تمیز `/st/<channel-id>`
 
 هر کانال در `status.json` سه لینک دارد:
