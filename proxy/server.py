@@ -131,12 +131,15 @@ def verify_token(token: str | None, kinds: tuple[str, ...] = ("play", "sub")) ->
     return payload
 
 
-def sub_url(absolute_url: str, play_expires: int | None = None) -> str:
+def sub_url(absolute_url: str, play_expires: int | None = None, referrer: str | None = None) -> str:
     now = int(time.time())
     expires = now + max(60, SUB_TOKEN_TTL)
     if play_expires:
         expires = min(expires, int(play_expires))
-    token = sign_token({"v": 1, "k": "sub", "u": absolute_url, "x": expires})
+    payload = {"v": 1, "k": "sub", "u": absolute_url, "x": expires}
+    if referrer:
+        payload["ref"] = referrer
+    token = sign_token(payload)
     return f"{PUBLIC_BASE_URL}/s/{token}"
 
 
@@ -174,7 +177,7 @@ def resolve_public(host: str, port: int) -> None:
             raise ValueError(f"private address refused: {host}")
 
 
-def open_upstream(url: str, *, method: str = "GET", range_header: str | None = None, if_range: str | None = None):
+def open_upstream(url: str, *, method: str = "GET", range_header: str | None = None, if_range: str | None = None, referrer: str | None = None):
     parsed = urllib.parse.urlparse(url)
     if parsed.scheme not in ("http", "https") or not parsed.hostname:
         raise ValueError("invalid upstream url")
@@ -190,8 +193,9 @@ def open_upstream(url: str, *, method: str = "GET", range_header: str | None = N
         headers["Range"] = range_header
     if if_range:
         headers["If-Range"] = if_range
-    # Many IPTV CDNs expect the origin as Referer.
-    headers["Referer"] = f"{parsed.scheme}://{parsed.netloc}/"
+    # Many IPTV CDNs expect the origin (or the site that embeds the player)
+    # as Referer. The signed token may carry a per-channel referrer.
+    headers["Referer"] = referrer or f"{parsed.scheme}://{parsed.netloc}/"
 
     request = urllib.request.Request(url, headers=headers, method=method)
     context = None
@@ -223,7 +227,7 @@ def is_manifest(response_headers, final_url: str, first_bytes: bytes) -> bool:
     return final_url.lower().split("?")[0].endswith(".m3u8")
 
 
-def rewrite_manifest(text: str, final_url: str, play_expires: int | None) -> str:
+def rewrite_manifest(text: str, final_url: str, play_expires: int | None, referrer: str | None = None) -> str:
     output: list[str] = []
     for raw_line in text.splitlines():
         line = raw_line.strip()
@@ -237,7 +241,7 @@ def rewrite_manifest(text: str, final_url: str, play_expires: int | None) -> str
                     absolute = urllib.parse.urljoin(final_url, uri)
                 except ValueError:
                     return match.group(0)
-                return f'URI="{sub_url(absolute, play_expires)}"'
+                return f'URI="{sub_url(absolute, play_expires, referrer)}"'
 
             output.append(URI_ATTR_RE.sub(replace, raw_line))
             continue
@@ -250,7 +254,7 @@ def rewrite_manifest(text: str, final_url: str, play_expires: int | None) -> str
         except ValueError:
             output.append(raw_line)
             continue
-        output.append(sub_url(absolute, play_expires))
+        output.append(sub_url(absolute, play_expires, referrer))
     return "\n".join(output) + "\n"
 
 
@@ -273,11 +277,11 @@ def looks_like_media(headers, first_bytes: bytes) -> bool:
     return len(first_bytes) > 188
 
 
-def probe_url(url: str) -> dict:
+def probe_url(url: str, referrer: str | None = None) -> dict:
     started = time.monotonic()
     result = {"ok": False, "status": "unstable", "http_code": None, "error": ""}
     try:
-        response, final_url = open_upstream(url)
+        response, final_url = open_upstream(url, referrer=referrer)
         code = response.status
         headers = response.headers
         first = response.read(256 * 1024)
@@ -292,7 +296,7 @@ def probe_url(url: str) -> dict:
             media_url = first_uri(text, final_url) or ""
             if not media_url:
                 return {"ok": False, "status": "unstable", "http_code": code, "latency_ms": int((time.monotonic() - started) * 1000), "error": "no variants"}
-            response, final_url = open_upstream(media_url)
+            response, final_url = open_upstream(media_url, referrer=referrer)
             code = response.status
             headers = response.headers
             first = response.read(256 * 1024)
@@ -303,7 +307,7 @@ def probe_url(url: str) -> dict:
         segment_url = first_uri(text, final_url)
         if not segment_url:
             return {"ok": False, "status": "unstable", "http_code": code, "latency_ms": int((time.monotonic() - started) * 1000), "error": "no segments"}
-        segment, _final = open_upstream(segment_url, range_header="bytes=0-65535")
+        segment, _final = open_upstream(segment_url, range_header="bytes=0-65535", referrer=referrer)
         seg_code = segment.status
         seg_headers = segment.headers
         seg_first = segment.read(65536)
@@ -385,7 +389,7 @@ class Handler(BaseHTTPRequestHandler):
             if not payload:
                 self.json_response({"ok": False, "error": "invalid_token"}, 403)
                 return
-            self.json_response(probe_url(payload["u"]))
+            self.json_response(probe_url(payload["u"], payload.get("ref")))
             return
         if not (path.startswith("/p/") or path.startswith("/s/")):
             self.json_response({"ok": False, "error": "not_found"}, 404)
@@ -417,6 +421,7 @@ class Handler(BaseHTTPRequestHandler):
                 method="HEAD" if head else "GET",
                 range_header=range_header,
                 if_range=if_range,
+                referrer=payload.get("ref"),
             )
         except urllib.error.HTTPError as exc:
             exc.close()
@@ -449,7 +454,9 @@ class Handler(BaseHTTPRequestHandler):
                     if not head:
                         self.wfile.write(data)
                     return
-                rewritten = rewrite_manifest(text, final_url, payload.get("x")).encode("utf-8")
+                rewritten = rewrite_manifest(
+                    text, final_url, payload.get("x"), payload.get("ref")
+                ).encode("utf-8")
                 self.send_response(200)
                 self.send_header("Content-Type", "application/vnd.apple.mpegurl; charset=utf-8")
                 self.send_header("Content-Length", str(len(rewritten)))

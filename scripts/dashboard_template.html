@@ -319,29 +319,52 @@ function proxySource(channel, route) {
   return (channel.proxy && channel.proxy[route]) || "";
 }
 
+function isPrivateSource(channel) {
+  try {
+    const host = new URL(channel.url || "").hostname.toLowerCase();
+    // OneTV and the Aparatchii restream block datacenter IPs; the user's
+    // browser may still play them from their own network, so try direct first.
+    return host.endsWith("onetv.app") || host.endsWith("hls2.xyz");
+  } catch (error) {
+    return false;
+  }
+}
+
 function routeCandidates(channel) {
   const region = effectiveRegion();
   const reach = channel.reach || {};
   const irOnly = reach.ir === true && reach.intl === false;
   const intlOnly = reach.intl === true && reach.ir === false;
+  const privateSource = isPrivateSource(channel);
   const list = [];
   const add = (route) => {
     if (route && !list.includes(route) && proxySource(channel, route)) list.push(route);
   };
-  const directAllowed = Boolean(channel.url) && Boolean(channel.browser_ok)
+  const directUsable = Boolean(channel.url)
     && !(location.protocol === "https:" && /^http:/i.test(channel.url));
+  const directAllowed = directUsable && (Boolean(channel.browser_ok) || privateSource);
+
+  if (privateSource && directUsable) {
+    add("direct");
+    add("intl");
+    add("ir");
+    return list;
+  }
 
   if (irOnly) {
     add("ir");
     add("intl");
     if (directAllowed) add("direct");
   } else if (channel.status === "geo") {
-    if (reach.ir === false) {
+    if (reach.ir === true) {
+      add("ir");
+      add("intl");
+    } else if (reach.intl === true) {
       add("intl");
       add("ir");
     } else {
-      add("ir");
       add("intl");
+      add("ir");
     }
     if (directAllowed) add("direct");
   } else if (channel.status === "unstable") {
@@ -377,11 +400,20 @@ function routeCandidates(channel) {
 }
 
 function channelTag(channel) {
+  if (isPrivateSource(channel)) {
+    return `<span class="tag no" title="این منبع معمولاً فقط از شبکه/اپ OneTV یا IP شما پخش می‌شود؛ پخش مستقیم اول امتحان می‌شود">منبع خصوصی</span>`;
+  }
   if (channel.status === "geo") {
-    if (channel.reach && channel.reach.ir === false) {
-      return `<span class="tag no" title="این لینک از سرور ایران هم در دسترس نیست؛ با VLC امتحان کنید">غیرقابل دسترس</span>`;
+    if (channel.reach && channel.reach.ir === true) {
+      return `<span class="tag ir" title="این کانال از خارج ایران محدود است؛ از سرور ایران پخش می‌شود">مسیر ایران</span>`;
     }
-    return `<span class="tag ir" title="این کانال از خارج ایران محدود است؛ از سرور ایران پخش می‌شود">مسیر ایران</span>`;
+    if (channel.reach && channel.reach.intl === true) {
+      return `<span class="tag proxy" title="این کانال از سرور ایران در دسترس نیست؛ از سرور خارج پخش می‌شود">مسیر خارج</span>`;
+    }
+    if (channel.reach && channel.reach.ir === false && channel.reach.intl === false) {
+      return `<span class="tag no" title="این لینک از هیچ‌کدام از دو سرور در دسترس نیست؛ با VLC امتحان کنید">غیرقابل دسترس</span>`;
+    }
+    return `<span class="tag proxy" title="مسیر پخش به‌صورت خودکار امتحان می‌شود">تلاش از دو مسیر</span>`;
   }
   if (channel.status === "unstable") {
     return `<span class="tag no" title="لینک ناپایدار است">ناپایدار</span>`;
@@ -550,7 +582,10 @@ function playChannel(channel) {
     const isHls = isHlsUrl || isProxy;
     $("player-route").textContent = "مسیر: " + (ROUTE_FA[route] || route);
     $("player-route").classList.add("show");
-    setNote(`در حال اتصال از مسیر ${ROUTE_FA[route] || route}…`);
+    const privateHint = isPrivateSource(channel) && route === "direct"
+      ? " (منبع خصوصی؛ اگر پخش نشد از اپ OneTV یا VLC استفاده کنید)"
+      : "";
+    setNote(`در حال اتصال از مسیر ${ROUTE_FA[route] || route}${privateHint}…`);
 
     if (hlsPlayer) {
       hlsPlayer.destroy();

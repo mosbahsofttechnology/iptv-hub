@@ -25,5 +25,113 @@
     "url": "https://hrt-stream.movie.af/live/smil:tolonewstv.smil/playlist.m3u8",
     "quality": "720p",
     "priority": 80
+  },
+  {
+    "channel_id": "DatisTV.ir",
+    "name": "Datis TV",
+    "country": "IR",
+    "category": "General",
+    "url": "https://dathls.wns.live/hls/stream.m3u8",
+    "referrer": "https://www.parsatv.com/",
+    "priority": 1
+  },
+  {
+    "channel_id": "ImanTV.us",
+    "name": "Iman TV",
+    "country": "AF",
+    "category": "Religious",
+    "url": "https://afghantv.app/hls4/imantv/index.m3u8",
+    "referrer": "https://www.parsatv.com/",
+    "priority": 1
+  },
+  {
+    "channel_id": "IranInternational.uk",
+    "name": "Iran International",
+    "country": "IR",
+    "category": "News",
+    "url": "https://d234zyvf3b6a4t.cloudfront.net/out/v1/abe3211a88b84dafa7a48b8fb2678895/index.m3u8",
+    "referrer": "https://www.parsatv.com/",
+    "priority": 1
+  },
+  {
+    "channel_id": "KalemehTV.uk",
+    "name": "Kalemeh TV",
+    "country": "IR",
+    "category": "Religious",
+    "url": "https://player.kalemeh.tv/live/ngrp:kalemeh_all/playlist.m3u8",
+    "referrer": "https://www.parsatv.com/",
+    "priority": 1
+  },
+  {
+    "channel_id": "ParsTV.us",
+    "name": "Pars TV",
+    "country": "IR",
+    "category": "General",
+    "url": "https://livestream.5centscdn.com/parstvtvweb1/e8ac8f595b3003ea3d22178c05c67593.sdp/playlist.m3u8",
+    "referrer": "https://www.parsatv.com/",
+    "priority": 1
+  },
+  {
+    "channel_id": "PersianaReality.fr",
+    "name": "Persiana Reality",
+    "country": "IR",
+    "category": "Entertainment",
+    "url": "https://realhls.persiana.live/hls/stream.m3u8",
+    "referrer": "https://www.parsatv.com/",
+    "priority": 1
+  },
+  {
+    "channel_id": "PressTV.ir",
+    "name": "Press TV",
+    "country": "IR",
+    "category": "News",
+    "url": "https://live.presstv.co.uk/hls/presstv.m3u8",
+    "referrer": "https://www.parsatv.com/",
+    "priority": 1
+  },
+  {
+    "channel_id": "VelayatTV.ir",
+    "name": "Velayat TV",
+    "country": "IR",
+    "category": "General",
+    "url": "https://nl.livekadeh.com/hls2/velayattv.m3u8",
+    "referrer": "https://www.parsatv.com/",
+    "priority": 1
+  },
+  {
+    "channel_id": "YourTimeTV.ir",
+    "name": "YourTime TV",
+    "country": "IR",
+    "category": "Entertainment",
+    "url": "https://live.yourtime.tv/hls/stream.m3u8",
+    "referrer": "https://www.parsatv.com/",
+    "priority": 1
+  },
+  {
+    "channel_id": "PayameAfghanTV.us",
+    "name": "Payam-e-Afghan TV",
+    "country": "AF",
+    "category": "General",
+    "url": "https://g5nl6xx5lpq6-hls-live.5centscdn.com/live1234/2621b29e501b445fabf227b086123b70.sdp/playlist.m3u8",
+    "referrer": "https://www.parsatv.com/",
+    "priority": 1
+  },
+  {
+    "channel_id": "VarzeshTV.ir",
+    "name": "Varzesh TV",
+    "country": "IR",
+    "category": "Sports",
+    "url": "https://cp11.adabmedia.com/hls2/varzeshtest.m3u8",
+    "referrer": "https://www.parsatv.com/",
+    "priority": 1
+  },
+  {
+    "channel_id": "GEMFood.tr",
+    "name": "GEM Food",
+    "country": "IR",
+    "category": "Cooking",
+    "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20FOOD2/playlist.m3u8",
+    "referrer": "https://aparatchii.com/",
+    "priority": 10
   }
 ]
