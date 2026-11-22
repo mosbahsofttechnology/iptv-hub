@@ -368,7 +368,7 @@ https://api.polpeisa.arianadevs.com/st/RTA.af
 #EXTINF:-1 tvg-logo="https://rta.af/artmedia/2022/12/rta-logo-final-300x185.png" tvg-id="RTAEducation.af" group-title="افغانستان • عمومی",RTA Education
 https://api.polpeisa.arianadevs.com/st/RTAEducation.af
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dtzjKfT/Sohail-TV.png" tvg-id="SohailTV.ca" group-title="افغانستان • عمومی",Sohail TV
-https://iptv.sohailtv.com/sohail/playlist/index.m3u8
+https://api.polpeisa.arianadevs.com/st/SohailTV.ca
 #EXTINF:-1 tvg-logo="https://i.imgur.com/edGyj5H.png" tvg-id="TamadonTV.af" group-title="افغانستان • عمومی",Tamadon TV
 https://api.polpeisa.arianadevs.com/st/TamadonTV.af
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/ca/TOLO_TV_logo_2016.png" tvg-id="ToloTV.af" group-title="افغانستان • عمومی",Tolo TV
