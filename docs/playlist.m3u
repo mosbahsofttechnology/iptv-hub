@@ -235,6 +235,8 @@ https://ca-rt.onetv.app/gemtvplus/index-0.m3u8?token=onetv202
 https://moviethls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="GrandCinema.tr" group-title="ایران • فیلم",Grand Cinema
 https://gcinemahls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" tvg-id="iFilmPersian.ir" group-title="ایران • فیلم",iFilm Persian
+https://ncdn.telewebion.ir/ifilm/live/playlist.m3u8
 #EXTINF:-1 tvg-id="MetaFilmTV.ir" group-title="ایران • فیلم",Meta Film TV
 https://metafilmhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="NewFlix.ir" group-title="ایران • فیلم",NewFlix
@@ -282,6 +284,8 @@ https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8
 https://ncdn.telewebion.ir/quran/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Jh5ADee.png" tvg-id="RasoulallahTv.ir" group-title="ایران • مذهبی",RasoulallahTv
 https://avr.host247.net/live/rasoulallahtv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BT7EtfB.png" tvg-id="WiseHumanTv.ir" group-title="ایران • مذهبی",WiseHumanTv
+https://avr.host247.net/live/WiseHumanTv/playlist.m3u8
 #EXTINF:-1 tvg-id="EPlanetTV.ir" group-title="ایران • مستند",EPlanet TV
 https://eplhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ENvOMDQ.png" tvg-id="GEMNature.tr" group-title="ایران • مستند",GEM Nature
@@ -318,7 +322,7 @@ https://t2hls.wns.live/hls/stream.m3u8
 https://ca-rt.onetv.app/gemfit/index-0.m3u8?token=onetv202
 #EXTINF:-1 tvg-logo="https://www.gemgroup.tv/assets/images/channels/icon_34.png" tvg-id="GEMSport.tr" group-title="ایران • ورزش",GEM Sport
 https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/IRIB_TV3_LOGO.svg/960px-IRIB_TV3_LOGO.svg.png" tvg-id="IRIB3.ir" group-title="ایران • ورزش",IRIB 3
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/IRIB_TV3_LOGO.svg/960px-IRIB_TV3_LOGO.svg.png" tvg-id="IRIB3.ir" group-title="ایران • ورزش",IRIB 3 (1082p)
 https://ncdn.telewebion.ir/tv3/live/playlist.m3u8
 #EXTINF:-1 tvg-id="PersianaFight.fr" group-title="ایران • ورزش",Persiana Fight
 https://fighthls.persiana.live/hls/stream.m3u8
