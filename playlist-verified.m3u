@@ -257,8 +257,6 @@ https://raphls.persiana.live/hls/stream.m3u8
 https://rjtvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Wu8MBb7.png" tvg-id="T2TV.ir" group-title="ایران • موسیقی",T2 TV
 https://t2hls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/IRIB_TV3_LOGO.svg/960px-IRIB_TV3_LOGO.svg.png" tvg-id="IRIB3.ir" group-title="ایران • ورزش",IRIB 3 (1082p)
-https://ncdn.telewebion.ir/tv3/live/playlist.m3u8
 #EXTINF:-1 tvg-id="PersianaFight.fr" group-title="ایران • ورزش",Persiana Fight
 https://fighthls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/f5/Iribvarzesh2022.png/960px-Iribvarzesh2022.png" tvg-id="VarzeshTV.ir" group-title="ایران • ورزش",Varzesh TV
