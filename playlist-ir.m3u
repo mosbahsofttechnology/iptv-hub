@@ -273,6 +273,10 @@ https://stream.cinimo.ir/st/MohabatTV.ir
 https://stream.cinimo.ir/st/PayvandTV.ir
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fa/d/df/Quarntvlogo.png" tvg-id="QuranTV.ir" group-title="ایران • مذهبی",Quran TV (Iran)
 https://stream.cinimo.ir/st/QuranTV.ir
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Jh5ADee.png" tvg-id="RasoulallahTv.ir" group-title="ایران • مذهبی",RasoulallahTv
+https://avr.host247.net/live/rasoulallahtv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BT7EtfB.png" tvg-id="WiseHumanTv.ir" group-title="ایران • مذهبی",WiseHumanTv
+https://stream.cinimo.ir/st/WiseHumanTv.ir
 #EXTINF:-1 tvg-id="EPlanetTV.ir" group-title="ایران • مستند",EPlanet TV
 https://stream.cinimo.ir/st/EPlanetTV.ir
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ENvOMDQ.png" tvg-id="GEMNature.tr" group-title="ایران • مستند",GEM Nature
