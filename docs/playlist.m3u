@@ -156,6 +156,8 @@ https://ncdn.telewebion.ir/noor/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RQ5DzEE.png" tvg-id="ParsTV.us" group-title="ایران • عمومی",Pars TV
 #EXTVLCOPT:http-referrer=https://www.parsatv.com/
 https://livestream.5centscdn.com/parstvtvweb1/e8ac8f595b3003ea3d22178c05c67593.sdp/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/50JzsmH.png" tvg-id="PBCTapeshTV.us" group-title="ایران • عمومی",PBC Tapesh TV
+https://iptv.tapesh.tv/tapesh/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/QazvinTV.svg/960px-QazvinTV.svg.png" tvg-id="QazvinTV.ir" group-title="ایران • عمومی",Qazvin TV
 https://ncdn.telewebion.ir/qazvin/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.telewebion.com/channelsLogo/85f466a7-7d17-4ce8-bee6-13da4ff5deb1/default" tvg-id="RazaviTV.ir" group-title="ایران • عمومی",Razavi TV
@@ -363,8 +365,6 @@ https://jmc-live.ercdn.net/amutv/amutv.m3u8
 https://hrt-stream.movie.af/live/smil:tolonewstv.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5b/Lemar_logo_2016.png" tvg-id="LemarTV.af" group-title="افغانستان • سرگرمی",Lemar TV
 https://tgn.bozztv.com/eshgtv-dvrfl05/gin-lemar/index.m3u8
-#EXTINF:-1 tvg-id="1TV.af" group-title="افغانستان • عمومی",1TV Afghanistan
-https://hrt-stream.movie.af/live/smil:1tv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="4Afghanistan.fr" group-title="افغانستان • عمومی",4 Afghanistan
 https://4afghls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/0Mb1ZQC/IMG-20230628-133738.jpg" tvg-id="AfghanNobelTV.ca" group-title="افغانستان • عمومی",Afghan Nobel TV
@@ -395,8 +395,7 @@ https://mediaserver.abnvideos.com/streams/abnafghanistan.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/To7VnsA.png" tvg-id="EslahTV.af" group-title="افغانستان • مذهبی",Eslah TV
 https://eslahtvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Vo6cEYi.png" tvg-id="ImanTV.us" group-title="افغانستان • مذهبی",Iman TV
-#EXTVLCOPT:http-referrer=https://www.parsatv.com/
-https://afghantv.app/hls4/imantv/index.m3u8
+https://live.relentlessinnovations.net:1936/imantv/imantv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/yj8RNnG.png" tvg-id="AMC.af" group-title="افغانستان • موسیقی",AMC (Afghanistan)
 https://amchls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/2MDjU7x.png" tvg-id="KayhanTV.af" group-title="افغانستان • موسیقی",Kayhan TV
