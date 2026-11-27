@@ -149,8 +149,6 @@ https://stream.cinimo.ir/st/MahabadTV.ir
 https://stream.cinimo.ir/st/NoorTV.ir
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RQ5DzEE.png" tvg-id="ParsTV.us" group-title="ایران • عمومی",Pars TV
 https://stream.cinimo.ir/st/ParsTV.us
-#EXTINF:-1 tvg-logo="https://i.imgur.com/50JzsmH.png" tvg-id="PBCTapeshTV.us" group-title="ایران • عمومی",PBC Tapesh TV
-https://stream.cinimo.ir/st/PBCTapeshTV.us
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/QazvinTV.svg/960px-QazvinTV.svg.png" tvg-id="QazvinTV.ir" group-title="ایران • عمومی",Qazvin TV
 https://stream.cinimo.ir/st/QazvinTV.ir
 #EXTINF:-1 tvg-logo="https://static.telewebion.com/channelsLogo/85f466a7-7d17-4ce8-bee6-13da4ff5deb1/default" tvg-id="RazaviTV.ir" group-title="ایران • عمومی",Razavi TV
@@ -274,9 +272,9 @@ https://stream.cinimo.ir/st/PayvandTV.ir
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fa/d/df/Quarntvlogo.png" tvg-id="QuranTV.ir" group-title="ایران • مذهبی",Quran TV (Iran)
 https://stream.cinimo.ir/st/QuranTV.ir
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Jh5ADee.png" tvg-id="RasoulallahTv.ir" group-title="ایران • مذهبی",RasoulallahTv
-https://stream.cinimo.ir/st/RasoulallahTv.ir
+https://avr.host247.net/live/rasoulallahtv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/BT7EtfB.png" tvg-id="WiseHumanTv.ir" group-title="ایران • مذهبی",WiseHumanTv
-https://stream.cinimo.ir/st/WiseHumanTv.ir
+https://avr.host247.net/live/WiseHumanTv/playlist.m3u8
 #EXTINF:-1 tvg-id="EPlanetTV.ir" group-title="ایران • مستند",EPlanet TV
 https://stream.cinimo.ir/st/EPlanetTV.ir
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ENvOMDQ.png" tvg-id="GEMNature.tr" group-title="ایران • مستند",GEM Nature
@@ -386,7 +384,8 @@ https://stream.cinimo.ir/st/ABNAfghanistan.us
 #EXTINF:-1 tvg-logo="https://i.imgur.com/To7VnsA.png" tvg-id="EslahTV.af" group-title="افغانستان • مذهبی",Eslah TV
 https://stream.cinimo.ir/st/EslahTV.af
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Vo6cEYi.png" tvg-id="ImanTV.us" group-title="افغانستان • مذهبی",Iman TV
-https://stream.cinimo.ir/st/ImanTV.us
+#EXTVLCOPT:http-referrer=https://www.parsatv.com/
+https://afghantv.app/hls4/imantv/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/yj8RNnG.png" tvg-id="AMC.af" group-title="افغانستان • موسیقی",AMC (Afghanistan)
 https://stream.cinimo.ir/st/AMC.af
 #EXTINF:-1 tvg-logo="https://i.imgur.com/2MDjU7x.png" tvg-id="KayhanTV.af" group-title="افغانستان • موسیقی",Kayhan TV
