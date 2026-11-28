@@ -150,7 +150,7 @@ https://stream.cinimo.ir/st/NoorTV.ir
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RQ5DzEE.png" tvg-id="ParsTV.us" group-title="ایران • عمومی",Pars TV
 https://stream.cinimo.ir/st/ParsTV.us
 #EXTINF:-1 tvg-logo="https://i.imgur.com/50JzsmH.png" tvg-id="PBCTapeshTV.us" group-title="ایران • عمومی",PBC Tapesh TV
-https://iptv.tapesh.tv/tapesh/playlist.m3u8
+https://stream.cinimo.ir/st/PBCTapeshTV.us
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/QazvinTV.svg/960px-QazvinTV.svg.png" tvg-id="QazvinTV.ir" group-title="ایران • عمومی",Qazvin TV
 https://stream.cinimo.ir/st/QazvinTV.ir
 #EXTINF:-1 tvg-logo="https://static.telewebion.com/channelsLogo/85f466a7-7d17-4ce8-bee6-13da4ff5deb1/default" tvg-id="RazaviTV.ir" group-title="ایران • عمومی",Razavi TV
@@ -270,7 +270,7 @@ https://stream.cinimo.ir/st/KalemehTV.uk
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Ig0SPev.png" tvg-id="MohabatTV.ir" group-title="ایران • مذهبی",Mohabat TV (Iran)
 https://stream.cinimo.ir/st/MohabatTV.ir
 #EXTINF:-1 tvg-logo="https://i.imgur.com/o2Ww77N.png" tvg-id="PayvandTV.ir" group-title="ایران • مذهبی",Payvand TV (Iran)
-https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8
+https://stream.cinimo.ir/st/PayvandTV.ir
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fa/d/df/Quarntvlogo.png" tvg-id="QuranTV.ir" group-title="ایران • مذهبی",Quran TV (Iran)
 https://stream.cinimo.ir/st/QuranTV.ir
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Jh5ADee.png" tvg-id="RasoulallahTv.ir" group-title="ایران • مذهبی",RasoulallahTv
@@ -318,7 +318,8 @@ https://stream.cinimo.ir/st/IRIB3.ir
 #EXTINF:-1 tvg-id="PersianaFight.fr" group-title="ایران • ورزش",Persiana Fight
 https://stream.cinimo.ir/st/PersianaFight.fr
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/f5/Iribvarzesh2022.png/960px-Iribvarzesh2022.png" tvg-id="VarzeshTV.ir" group-title="ایران • ورزش",Varzesh TV
-https://stream.cinimo.ir/st/VarzeshTV.ir
+#EXTVLCOPT:http-referrer=https://www.parsatv.com/
+https://cp11.adabmedia.com/hls2/varzeshtest.m3u8
 #EXTINF:-1 tvg-id="ClassicTV.ir" group-title="ایران • کلاسیک",Classic TV
 https://stream.cinimo.ir/st/ClassicTV.ir
 #EXTINF:-1 tvg-logo="https://i.imgur.com/25BhuOf.png" tvg-id="GEMClassic.tr" group-title="ایران • کلاسیک",GEM Classic
@@ -342,7 +343,7 @@ https://stream.cinimo.ir/st/PersianaJunior.fr
 #EXTINF:-1 tvg-id="PersianaTeen.fr" group-title="ایران • کودکان",Persiana Teen
 https://stream.cinimo.ir/st/PersianaTeen.fr
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fa/5/5a/POOYA_tv_2.png" tvg-id="PooyaTV.ir" group-title="ایران • کودکان",Pooya TV
-https://tgn.bozztv.com/eshgtv-dvrfl05/gin-iribpooya/tracks-v1a1/mono.m3u8
+https://stream.cinimo.ir/st/PooyaTV.ir
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fa/5/5a/POOYA_tv_2.png" tvg-id="PooyaTVPlus.ir" group-title="ایران • کودکان",Pooya TV Plus
 https://stream.cinimo.ir/st/PooyaTVPlus.ir
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Lsy31iZ.jpeg" tvg-id="ShamsTV.af" group-title="افغانستان • آموزش",Shams TV (Afghanistan)
@@ -355,6 +356,8 @@ https://stream.cinimo.ir/st/AmuTV.us
 https://stream.cinimo.ir/st/TOLOnews.af
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5b/Lemar_logo_2016.png" tvg-id="LemarTV.af" group-title="افغانستان • سرگرمی",Lemar TV
 https://stream.cinimo.ir/st/LemarTV.af
+#EXTINF:-1 tvg-id="1TV.af" group-title="افغانستان • عمومی",1TV Afghanistan
+https://stream.cinimo.ir/st/1TV.af
 #EXTINF:-1 tvg-id="4Afghanistan.fr" group-title="افغانستان • عمومی",4 Afghanistan
 https://stream.cinimo.ir/st/4Afghanistan.fr
 #EXTINF:-1 tvg-logo="https://i.ibb.co/0Mb1ZQC/IMG-20230628-133738.jpg" tvg-id="AfghanNobelTV.ca" group-title="افغانستان • عمومی",Afghan Nobel TV
@@ -384,7 +387,7 @@ https://stream.cinimo.ir/st/ABNAfghanistan.us
 #EXTINF:-1 tvg-logo="https://i.imgur.com/To7VnsA.png" tvg-id="EslahTV.af" group-title="افغانستان • مذهبی",Eslah TV
 https://stream.cinimo.ir/st/EslahTV.af
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Vo6cEYi.png" tvg-id="ImanTV.us" group-title="افغانستان • مذهبی",Iman TV
-https://live.relentlessinnovations.net:1936/imantv/imantv/playlist.m3u8
+https://stream.cinimo.ir/st/ImanTV.us
 #EXTINF:-1 tvg-logo="https://i.imgur.com/yj8RNnG.png" tvg-id="AMC.af" group-title="افغانستان • موسیقی",AMC (Afghanistan)
 https://stream.cinimo.ir/st/AMC.af
 #EXTINF:-1 tvg-logo="https://i.imgur.com/2MDjU7x.png" tvg-id="KayhanTV.af" group-title="افغانستان • موسیقی",Kayhan TV
